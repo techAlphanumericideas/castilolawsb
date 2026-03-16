@@ -119,9 +119,8 @@ const Navbar = () => {
     <>
       <nav
         ref={navbarRef}
-        className={`fixed top-0 left-0 w-full bg-white border-b border-gray-100 px-4 md:px-10 py-6 flex items-center shadow-sm transition-all duration-300 ${
-          isMenuOpen ? "z-[120]" : "z-50"
-        }`}
+        className={`fixed top-0 left-0 w-full bg-white border-b border-gray-100 px-4 md:px-10 py-6 flex items-center shadow-sm transition-all duration-300 ${isMenuOpen ? "z-[120]" : "z-50"
+          }`}
       >
         {/* Logo */}
         <div className="flex-none flex items-center pr-10 border-r border-gray-100">
@@ -152,21 +151,19 @@ const Navbar = () => {
             >
               <Link
                 href={link.name === "Attorneys" ? "/attorneys/osbelia-castillo" : link.href}
-                className={`px-5 py-3 flex items-center gap-2 text-[15px] font-bold tracking-[0.2em] uppercase transition-all whitespace-nowrap ${
-                  activeDropdown === link.name ? "text-black" : "text-gray-700 hover:text-[#C5A059]"
-                }`}
+                className={`px-5 py-3 flex items-center gap-2 text-[14px] font-bold tracking-widest uppercase transition-colors whitespace-nowrap ${activeDropdown === link.name ? "text-black" : "text-gray-700 hover:text-black"
+                  }`}
               >
                 {link.name}
                 {link.dropdownItems && link.name !== "Attorneys" && (
                   <ChevronDown
-                    className={`w-4 h-4 transition-transform duration-300 ${
-                      activeDropdown === link.name ? "rotate-180 text-[#C5A059]" : ""
-                    }`}
+                    className={`w-4 h-4 transition-transform duration-300 ${activeDropdown === link.name ? "rotate-180 text-[#C5A059]" : ""
+                      }`}
                   />
                 )}
-                <span className={`absolute bottom-1 left-5 right-5 h-0.5 bg-[#C5A059] transition-transform origin-left ${
-                  activeDropdown === link.name ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
-                }`}></span>
+                {(!link.dropdownItems || link.name === "Attorneys") && (
+                  <span className="absolute bottom-1 left-5 right-5 h-0.5 bg-[#C5A059] scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                )}
               </Link>
 
               {/* Mega Dropdown / Submenu */}
@@ -231,13 +228,13 @@ const Navbar = () => {
               <div key={link.name} className="border-b border-gray-50 pb-4">
                 {link.dropdownItems ? (
                   <div className="space-y-4">
-                     <div className="flex items-center justify-between">
-                      <Link 
+                    <div className="flex items-center justify-between">
+                      <Link
                         href={link.href}
                         onClick={() => setIsMenuOpen(false)}
                         className="flex items-center gap-4 text-2xl font-serif font-bold text-[#0A1128]"
                       >
-                         <span className="text-[#C5A059] text-[10px] font-sans tracking-[0.3em] uppercase opacity-70">
+                        <span className="text-[#C5A059] text-[10px] font-sans tracking-[0.3em] uppercase opacity-70">
                           0{idx + 1}
                         </span>
                         {link.name}
