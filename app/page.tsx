@@ -27,6 +27,23 @@ export default function LandingPage() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
+      // Inside your useEffect / gsap.context
+      const marquee = document.querySelector(".gsap-marquee");
+      if (marquee) {
+        // 1. Create the infinite loop
+        const loop = gsap.to(marquee, {
+          xPercent: -50,
+          repeat: -1,
+          duration: 25,
+          ease: "none",
+        });
+
+        // 2. Stop the loop on hover
+        marquee.addEventListener("mouseenter", () => loop.pause());
+
+        // 3. Start it again on leave
+        marquee.addEventListener("mouseleave", () => loop.play());
+      }
       // Hero Entrance
       const tl = gsap.timeline();
 
@@ -48,13 +65,6 @@ export default function LandingPage() {
         { opacity: 0, y: 30 },
         { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" },
         "-=0.5",
-      );
-
-      // Navbar Entrance
-      gsap.fromTo(
-        navbarRef.current,
-        { y: -100, opacity: 0 },
-        { y: 0, opacity: 1, duration: 1, ease: "power3.out", delay: 0.1 },
       );
 
       // Scroll Reveals
@@ -137,6 +147,55 @@ export default function LandingPage() {
           },
         },
       );
+
+      // Optimized About Section Timeline
+      const aboutTl = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#about",
+          start: "top 80%", // Starts a bit earlier so it's ready when you arrive
+          toggleActions: "play none none none",
+        },
+      });
+
+      aboutTl
+        .to(".about-bg-skew", {
+          opacity: 1,
+          x: 0,
+          duration: 0.4,
+          ease: "power2.out",
+        })
+        .to(
+          ".about-glow",
+          {
+            opacity: 1,
+            duration: 0.8,
+          },
+          "<",
+        ) // "<" means: start at the same time as the previous animation
+        .fromTo(
+          ".about-header",
+          { y: 20, opacity: 0 },
+          { y: 0, opacity: 1, duration: 0.4 },
+          "-=0.2", // Slight overlap
+        )
+        .fromTo(
+          ".about-card",
+          { y: 30, opacity: 0 },
+          { y: 0, opacity: 1, duration: 0.6, ease: "power2.out" },
+          "-=0.2",
+        )
+        .fromTo(
+          ".about-p",
+          { y: 15, opacity: 0 },
+          { y: 0, opacity: 1, duration: 0.4, stagger: 0.1 },
+          "-=0.3",
+        )
+        .fromTo(
+          ".about-button",
+          { scale: 0.95, opacity: 0 },
+          { scale: 1, opacity: 1, duration: 0.3, ease: "back.out(1.5)" },
+          "-=0.2",
+        );
       // Scroll Reveals for Bento Cards
       const bentoCards = document.querySelectorAll(".bento-card");
       gsap.fromTo(
@@ -155,17 +214,6 @@ export default function LandingPage() {
           },
         },
       );
-
-      // Interactive Marquee via GSAP for better control
-      const marquee = document.querySelector(".gsap-marquee");
-      if (marquee) {
-        gsap.to(marquee, {
-          xPercent: -50,
-          repeat: -1,
-          duration: 20,
-          ease: "none",
-        });
-      }
 
       // Micro-interactions: Magnetic Button Effect
       const buttons = document.querySelectorAll(".magnetic-btn");
@@ -509,8 +557,7 @@ export default function LandingPage() {
 
         {/* Settlement Ticker */}
         <div className="absolute bottom-0 left-0 w-full bg-[#0A1128] py-3 md:py-5 overflow-hidden whitespace-nowrap z-20 border-t border-[#C5A059]/20 shadow-[0_-10px_30px_rgba(0,0,0,0.1)]">
-          <div className="gsap-marquee inline-block will-change-transform">
-            {/* Use a larger multiplier for mobile to ensure no "gap" in the loop */}
+          <div className="gsap-marquee inline-block will-change-transform cursor-default">
             {[
               ...settlements,
               ...settlements,
@@ -519,9 +566,9 @@ export default function LandingPage() {
             ].map((item, i) => (
               <span
                 key={i}
-                className="inline-flex items-center mx-6 md:mx-10 text-white font-medium tracking-[0.1em] md:tracking-widest uppercase text-[9px] sm:text-xs md:text-sm"
+                className="inline-flex items-center mx-6 md:mx-10 text-white/90 font-medium tracking-[0.1em] md:tracking-widest uppercase text-[9px] sm:text-xs md:text-sm transition-all duration-300 hover:text-[#C5A059] hover:scale-105"
               >
-                <span className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-[#C5A059] mr-2 md:mr-3 shadow-[0_0_8px_rgba(197,160,89,0.5)]"></span>
+                <span className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-[#C5A059] mr-2 md:mr-3 shadow-[0_0_8px_rgba(197,160,89,0.5)] transition-transform duration-300 group-hover:scale-125"></span>
                 {item}
               </span>
             ))}
@@ -531,47 +578,59 @@ export default function LandingPage() {
       {/* About Osbelia Castillo Section */}
       <section
         id="about"
-        className="py-32 px-6 bg-[#FCFCFC] reveal relative overflow-hidden"
+        className="py-24 px-6 bg-[#FCFCFC] relative overflow-hidden"
       >
-        {/* Decorative elements */}
-        <div className="absolute top-0 right-0 w-1/3 h-full bg-[#0A1128]/5 transform skew-x-12 translate-x-32 hidden lg:block"></div>
-        <div className="absolute top-20 left-10 w-64 h-64 bg-[#C5A059]/10 rounded-full blur-3xl"></div>
+        {/* Animated Decorative elements */}
+        <div className="about-bg-skew absolute top-0 right-0 w-1/3 h-full bg-[#0A1128]/5 transform skew-x-12 translate-x-32 hidden lg:block opacity-0"></div>
+        <div className="about-glow absolute top-20 left-10 w-64 h-64 bg-[#C5A059]/10 rounded-full blur-3xl opacity-0"></div>
 
         <div className="max-w-4xl mx-auto relative z-10">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#0A1128] mb-8 leading-tight">
+          <div className="text-center mb-12 about-header opacity-0">
+            <p className="text-[#C5A059] font-bold tracking-[0.3em] uppercase text-[12px] mb-4">
+              Legal Leadership
+            </p>
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#0A1128] leading-tight">
               About Osbelia Castillo
             </h2>
           </div>
 
-          <div className="bg-white rounded-[2.5rem] p-10 md:p-14 shadow-[0_20px_60px_rgba(0,0,0,0.03)] border border-gray-100 relative">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#C5A059]/20 to-transparent rounded-bl-full rounded-tr-[2.5rem]"></div>
+          {/* The main card with a reveal animation */}
+          <div className="about-card bg-white rounded-[2rem] p-8 md:p-14 shadow-[0_20px_60px_rgba(0,0,0,0.03)] border border-gray-100 relative opacity-0">
+            {/* Accent corner that pulses on hover */}
+            <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#C5A059]/20 to-transparent rounded-bl-full rounded-tr-[2rem] transition-all duration-700 group-hover:scale-110"></div>
 
-            <div className="space-y-6 text-gray-800 font-normal leading-relaxed text-lg relative z-10 mb-10">
-              <p>
+            <div className="space-y-6 text-gray-800 font-normal leading-relaxed text-base md:text-lg relative z-10 mb-10">
+              <p className="about-p opacity-0">
                 For over five years, Osbelia has worked as an aggressive civil
                 litigator representing insurance companies in both state and
                 federal court. She has handled hundreds of personal injury cases
-                including catastrophic injuries, wrongful deaths, traumatic
-                brain injuries, spinal cord injuries, auto accident and premises
+                including catastrophic injuries, wrongful deaths, and complex
                 liability cases.
               </p>
-              <p>
+              <p className="about-p opacity-0">
                 Her experience representing insurance companies gives her an
-                edge when fighting for her injured clients. Her experience on
-                the defense side gives her a unique perspective and ability to
-                achieve favorable results at an early stage. She is fluent in
-                English and Spanish.
+                <span className="text-[#0A1128] font-bold">
+                  {" "}
+                  edge when fighting for her injured clients.
+                </span>{" "}
+                Her background on the defense side provides a unique perspective
+                to achieve favorable results at an early stage.
               </p>
+              <div className="about-p flex items-center gap-4 opacity-0">
+                <div className="h-[1px] w-12 bg-[#C5A059]"></div>
+                <span className="text-[#C5A059] font-bold tracking-widest text-xs uppercase">
+                  Fluent in English & Spanish
+                </span>
+              </div>
             </div>
 
-            <div className="text-center md:text-left">
+            <div className="about-button opacity-0">
               <a
                 href="#home"
-                className="inline-flex items-center gap-3 bg-[#0A1128] text-white px-10 py-4 rounded-full font-bold tracking-[0.2em] uppercase text-xs hover:bg-[#C5A059] transition-all shadow-xl hover:-translate-y-1 transform duration-300 group"
+                className="inline-flex items-center gap-3 bg-[#0A1128] text-white px-10 py-4 rounded-full font-bold tracking-[0.2em] uppercase text-[10px] md:text-[14px] hover:bg-[#C5A059] transition-all shadow-xl hover:-translate-y-1 transform duration-300 group"
               >
                 Read Full Profile
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="w-4 h-6 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
           </div>
