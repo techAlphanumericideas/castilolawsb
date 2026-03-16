@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "castilolawsb-92445"
+    "default": "castilolawsb"
   },
   "targets": {
     "castilolawsb": {
