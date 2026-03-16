@@ -11,6 +11,8 @@ const firebaseConfig = {
   measurementId: "G-YZ4RYQCLHH",
 };
 
+
+
 // Initialize Firebase securely avoiding multiple initializations in dev mode
 const app =
   getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
