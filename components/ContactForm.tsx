@@ -10,7 +10,7 @@ interface ContactFormProps {
 const ContactForm = ({ compact = false }: ContactFormProps) => {
   return (
     <div
-      className={`bg-white/70 backdrop-blur-xl border border-white/40 rounded-[1.25rem] shadow-[0_20px_60px_rgba(10,17,40,0.05)] relative overflow-hidden flex flex-col justify-center ${compact ? "p-6" : "p-8 md:p-10 md:h-[480px]"}`}
+      className={`bg-white/70 backdrop-blur-xl border border-white/40 rounded-[1.25rem] shadow-[0_20px_60px_rgba(10,17,40,0.05)] relative overflow-hidden flex flex-col justify-center ${compact ? "p-6" : "p-8 md:p-10"}`}
     >
       {/* Internal Accent */}
       <div className="absolute top-0 right-0 w-32 h-32 bg-[#C5A059]/10 rounded-full blur-3xl"></div>

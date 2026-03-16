@@ -15,25 +15,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#FCFCFC] border-t border-gray-100 relative pt-20 pb-10 px-6">
       <div className="max-w-7xl mx-auto overflow-hidden">
-        {/* Improved Settlement Ticker */}
-        <div className="absolute top-0 left-0 w-full bg-[#0A1128] py-4 overflow-hidden whitespace-nowrap z-20 border-b border-[#C5A059]/10">
-          <div className="gsap-marquee inline-block will-change-transform cursor-default">
-            {[
-              ...settlements,
-              ...settlements,
-              ...settlements,
-              ...settlements,
-            ].map((item, i) => (
-              <span
-                key={i}
-                className="inline-flex items-center mx-12 text-white/40 font-sans font-black tracking-[0.2em] uppercase text-[12px] transition-all duration-600 hover:text-[#C5A059]"
-              >
-                <span className="w-2 h-2 bg-[#C5A059] mr-8 rounded-full shadow-[0_0_10px_rgba(197,160,89,0.5)]"></span>
-                {item}
-              </span>
-            ))}
-          </div>
-        </div>
+        
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-16 mb-20 mt-12">
           {/* Column 1: Logo & About */}
