@@ -9,12 +9,14 @@ const navLinks = [
   { name: "Home", href: "/" },
   {
     name: "Attorneys",
+    href: "/attorneys",
     dropdownItems: [
       { name: "Osbelia Castillo", href: "/attorneys/osbelia-castillo" },
     ],
   },
   {
     name: "Personal Injury",
+    href: "/practice-areas/personal-injury",
     dropdownItems: [
       {
         name: "Slip and Fall",
@@ -41,6 +43,7 @@ const navLinks = [
   },
   {
     name: "Vehicle Accidents",
+    href: "/practice-areas/vehicle-accidents",
     dropdownItems: [
       {
         name: "Drunk Driving Accident",
@@ -114,12 +117,12 @@ const Navbar = () => {
     <>
       <nav
         ref={navbarRef}
-        className={`fixed top-0 left-0 w-full bg-white border-b border-gray-100 px-4 md:px-8 py-4 flex items-center shadow-sm transition-all duration-300 ${
+        className={`fixed top-0 left-0 w-full bg-white border-b border-gray-100 px-4 md:px-10 py-6 flex items-center shadow-sm transition-all duration-300 ${
           isMenuOpen ? "z-[120]" : "z-50"
         }`}
       >
         {/* Logo */}
-        <div className="flex-none flex items-center pr-8 border-r border-gray-100">
+        <div className="flex-none flex items-center pr-10 border-r border-gray-100">
           <a
             href="/"
             className="flex transition-all hover:brightness-110 active:scale-95"
@@ -127,9 +130,9 @@ const Navbar = () => {
             <Image
               src="/assets/logo.png"
               alt="Law Office of Osbelia Castillo"
-              width={200}
-              height={50}
-              className="w-32 md:w-44 h-auto object-contain antialiased"
+              width={300}
+              height={75}
+              className="w-48 md:w-64 h-auto object-contain antialiased"
               priority
               unoptimized
             />
@@ -137,44 +140,44 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden xl:flex flex-grow items-center justify-center space-x-1">
+        <div className="hidden xl:flex flex-grow items-center justify-center space-x-2 flex-nowrap overflow-hidden">
           {navLinks.map((link) => (
             <div
               key={link.name}
-              className="relative group"
+              className="relative group flex-shrink-0"
               onMouseEnter={() => setActiveDropdown(link.name)}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              {link.dropdownItems ? (
-                <button
-                  className={`px-4 py-2 flex items-center gap-1.5 text-[11px] font-bold tracking-widest uppercase transition-colors ${activeDropdown === link.name ? "text-black" : "text-gray-700 hover:text-black"}`}
-                >
-                  {link.name}
+              <a
+                href={link.name === "Attorneys" ? "/attorneys/osbelia-castillo" : link.href}
+                className={`px-5 py-3 flex items-center gap-2 text-[14px] font-bold tracking-widest uppercase transition-colors whitespace-nowrap ${
+                  activeDropdown === link.name ? "text-black" : "text-gray-700 hover:text-black"
+                }`}
+              >
+                {link.name}
+                {link.dropdownItems && link.name !== "Attorneys" && (
                   <ChevronDown
-                    className={`w-3.5 h-3.5 transition-transform duration-300 ${activeDropdown === link.name ? "rotate-180 text-[#C5A059]" : ""}`}
+                    className={`w-4 h-4 transition-transform duration-300 ${
+                      activeDropdown === link.name ? "rotate-180 text-[#C5A059]" : ""
+                    }`}
                   />
-                </button>
-              ) : (
-                <a
-                  href={link.href}
-                  className="px-4 py-2 block text-[11px] font-bold tracking-widest uppercase text-gray-700 hover:text-black transition-colors relative"
-                >
-                  {link.name}
-                  <span className="absolute bottom-0 left-4 right-4 h-0.5 bg-[#C5A059] scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
-                </a>
-              )}
+                )}
+                {(!link.dropdownItems || link.name === "Attorneys") && (
+                  <span className="absolute bottom-1 left-5 right-5 h-0.5 bg-[#C5A059] scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                )}
+              </a>
 
               {/* Mega Dropdown / Submenu */}
-              {link.dropdownItems && (
+              {link.dropdownItems && link.name !== "Attorneys" && (
                 <div
-                  className={`absolute top-full left-0 pt-4 w-64 opacity-0 invisible transition-all duration-300 transform translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 z-50`}
+                  className={`absolute top-full left-0 pt-4 w-72 opacity-0 invisible transition-all duration-300 transform translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 z-50`}
                 >
-                  <div className="bg-white border border-gray-100 shadow-2xl rounded-xl overflow-hidden py-2">
+                  <div className="bg-white border border-gray-100 shadow-2xl rounded-xl overflow-hidden py-3">
                     {link.dropdownItems.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
-                        className="block px-6 py-3 text-[12px] font-medium text-gray-600 hover:bg-gray-50 hover:text-[#C5A059] transition-all border-l-2 border-transparent hover:border-[#C5A059]"
+                        className="block px-8 py-4 text-[13px] font-medium text-gray-600 hover:bg-gray-50 hover:text-[#C5A059] transition-all border-l-4 border-transparent hover:border-[#C5A059]"
                       >
                         {item.name}
                       </a>
@@ -187,12 +190,12 @@ const Navbar = () => {
         </div>
 
         {/* CTA Button */}
-        <div className="hidden lg:flex flex-none items-center pl-8 border-l border-gray-100">
+        <div className="hidden lg:flex flex-none items-center pl-10 border-l border-gray-100">
           <a
             href="tel:8052837656"
-            className="flex items-center gap-2 px-6 py-2.5 bg-[#0A1128] text-white text-[10px] font-black tracking-widest uppercase rounded-full transition-all duration-300 hover:bg-[#C5A059] hover:shadow-lg hover:-translate-y-0.5"
+            className="flex items-center gap-3 px-10 py-4 bg-[#0A1128] text-white text-[15px] font-black tracking-widest uppercase rounded-full transition-all duration-300 hover:bg-[#C5A059] hover:shadow-[0_15px_30px_rgba(197,160,89,0.3)] hover:-translate-y-1"
           >
-            <Phone className="w-3.5 h-3.5" />
+            <Phone className="w-5 h-5 text-[#C5A059]" />
             805-283-7656
           </a>
         </div>
@@ -226,24 +229,30 @@ const Navbar = () => {
               <div key={link.name} className="border-b border-gray-50 pb-4">
                 {link.dropdownItems ? (
                   <div className="space-y-4">
-                    <button
-                      onClick={() =>
-                        setMobileExpanded(
-                          mobileExpanded === link.name ? null : link.name,
-                        )
-                      }
-                      className="w-full flex items-center justify-between text-2xl font-serif font-bold text-[#0A1128]"
-                    >
-                      <span className="flex items-center gap-4">
-                        <span className="text-[#C5A059] text-[10px] font-sans tracking-[0.3em] uppercase opacity-70">
+                     <div className="flex items-center justify-between">
+                      <a 
+                        href={link.href}
+                        onClick={() => setIsMenuOpen(false)}
+                        className="flex items-center gap-4 text-2xl font-serif font-bold text-[#0A1128]"
+                      >
+                         <span className="text-[#C5A059] text-[10px] font-sans tracking-[0.3em] uppercase opacity-70">
                           0{idx + 1}
                         </span>
                         {link.name}
-                      </span>
-                      <ChevronDown
-                        className={`w-5 h-5 text-[#C5A059] transition-transform duration-300 ${mobileExpanded === link.name ? "rotate-180" : ""}`}
-                      />
-                    </button>
+                      </a>
+                      <button
+                        onClick={() =>
+                          setMobileExpanded(
+                            mobileExpanded === link.name ? null : link.name,
+                          )
+                        }
+                        className="p-2 bg-gray-50 rounded-lg"
+                      >
+                        <ChevronDown
+                          className={`w-5 h-5 text-[#C5A059] transition-transform duration-300 ${mobileExpanded === link.name ? "rotate-180" : ""}`}
+                        />
+                      </button>
+                    </div>
 
                     <div
                       className={`space-y-2 pl-8 overflow-hidden transition-all duration-500 ${mobileExpanded === link.name ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
@@ -284,15 +293,6 @@ const Navbar = () => {
               <Phone className="w-4 h-4 text-[#C5A059]" />
               Call Now: 805-283-7656
             </a>
-
-            <div className="text-center space-y-2">
-              <p className="text-gray-400 text-[10px] font-black tracking-[0.4em] uppercase">
-                Free Consultation
-              </p>
-              <p className="text-[#0A1128] font-serif italic">
-                English & Spanish Available
-              </p>
-            </div>
           </div>
         </div>
       </div>

@@ -4,12 +4,12 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
-import { Briefcase, FileText, CheckCircle2, Scale } from "lucide-react";
+import { Scale, ShieldAlert, AlertTriangle, ArrowRight, Search } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const WorkersCompensationPage = () => {
+const HitAndRunContent = () => {
   const contentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -58,27 +58,26 @@ const WorkersCompensationPage = () => {
               <div className="inline-flex items-center gap-3 mb-6 hero-reveal">
                 <div className="h-[1px] w-10 bg-[#C5A059]"></div>
                 <span className="text-[#C5A059] font-sans font-black tracking-[0.4em] uppercase text-[12px]">
-                  Workers' Rights
+                  Vehicle Accidents
                 </span>
               </div>
               <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-8 leading-tight hero-reveal">
-                Workplace <br />
-                <span className="text-[#C5A059] italic">Injuries</span>
+                Hit and Run <br />
+                <span className="text-[#C5A059] italic">Claims</span>
               </h1>
               <p className="text-xl text-white/70 font-light leading-relaxed mb-10 hero-reveal max-w-2xl">
-                Protecting your rights and livelihood. We ensure you get the full
-                medical and financial benefits you deserve under California law.
+                When a driver flees the scene, they leave behind more than just damage. 
+                We use every resource to track down responsible parties and secure your recovery.
               </p>
             </div>
 
-            {/* Right Side: Replicated Homepage Portrait Style */}
+            {/* Right Side: Premium Portrait */}
             <div className="lg:col-span-5 relative w-full h-[280px] md:h-[300px] lg:h-[300px] hero-portrait flex items-start justify-center lg:justify-end">
               <div className="relative w-full max-w-[400px] h-full rounded-[2rem] overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.3)] border border-white/20 bg-white/5 backdrop-blur-sm">
-                 {/* Elegant Background Shape behind the Lawyer */}
                  <div className="absolute inset-0 bg-gradient-to-b from-[#C5A059]/10 to-transparent"></div>
                  <Image
                    src="/assets/osbelia-castillo.jpg"
-                   alt="Lawyer Osbelia Castillo"
+                   alt="Attorney Osbelia Castillo specializing in hit and run accident claims"
                    fill
                    className="object-cover object-top scale-105"
                    priority
@@ -95,77 +94,48 @@ const WorkersCompensationPage = () => {
           <div className="lg:col-span-8 space-y-16">
             <div className="reveal-up">
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#0A1128] mb-8">
-                Workers' Compensation Benefits
+                Your Path to Recovery After a Hit and Run
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-10">
-                The workers' comp system is complex and often skewed in favor of
-                employers. We rebalance the scales to ensure you receive full
-                coverage for your workplace injuries.
+                A hit and run accident can feel overwhelming and hopeless. However, there are 
+                multiple avenues for recovery, including uninsured motorist coverage and 
+                thorough investigations to locate the fleeing driver.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {[
                   {
-                    icon: <Briefcase />,
-                    title: "Lost Wages",
-                    desc: "Compensation for time off work during recovery.",
+                    icon: <Search className="w-6 h-6" />,
+                    title: "Investigation",
+                    desc: "Working with private investigators and surveillance footage to identify the vehicle and driver.",
                   },
                   {
-                    icon: <FileText />,
-                    title: "Medical Care",
-                    desc: "Full coverage for surgery, therapy, and medications.",
+                    icon: <ShieldAlert className="w-6 h-6" />,
+                    title: "UM/UIM Claims",
+                    desc: "Maximizing your own insurance policy's uninsured motorist benefits when the driver remains unknown.",
                   },
                   {
-                    icon: <Scale />,
-                    title: "Disability",
-                    desc: "Permanent or temporary disability payments.",
+                    icon: <AlertTriangle className="w-6 h-6" />,
+                    title: "Criminal Charges",
+                    desc: "Coordinating with law enforcement to support criminal hit and run prosecutions.",
                   },
                   {
-                    icon: <CheckCircle2 />,
-                    title: "Retraining",
-                    desc: "Vouchers for new skill training if you can't return to the same role.",
+                    icon: <Scale className="w-6 h-6" />,
+                    title: "Full Damages",
+                    desc: "Seeking compensation for medical bills, pain and suffering, and property damage.",
                   },
                 ].map((item, i) => (
                   <div
                     key={i}
-                    className="p-8 bg-[#FCFCFC] border border-gray-100 rounded-2xl hover:border-[#C5A059] transition-all"
+                    className="p-8 bg-[#FCFCFC] border border-gray-100 rounded-2xl hover:shadow-lg transition-all"
                   >
                     <div className="text-[#C5A059] mb-4">{item.icon}</div>
                     <h4 className="text-xl font-serif font-bold text-[#0A1128] mb-2">
                       {item.title}
                     </h4>
-                    <p className="text-gray-500 text-sm leading-relaxed">
-                      {item.desc}
-                    </p>
+                    <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
                   </div>
                 ))}
-              </div>
-            </div>
-
-            <div className="reveal-up">
-              <div className="bg-[#FCFCFC] p-10 rounded-[2rem] border border-[#0A1128]/5 relative overflow-hidden">
-                <h3 className="text-2xl font-serif font-bold text-[#0A1128] mb-6">
-                  Filing Your Claim
-                </h3>
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  Timing is critical in workers' compensation cases. Follow
-                  these steps to protect your claim:
-                </p>
-                <div className="space-y-4">
-                  {[
-                    "Report the injury to your employer immediately.",
-                    "Seek medical evaluation from a certified provider.",
-                    "Contact our office to file a formal DWC-1 form.",
-                    "Document all symptoms and treatment interactions.",
-                  ].map((step, i) => (
-                    <div key={i} className="flex gap-4 items-center">
-                      <span className="text-[#C5A059] font-serif font-bold text-2xl">
-                        0{i + 1}
-                      </span>
-                      <p className="text-gray-800 font-medium">{step}</p>
-                    </div>
-                  ))}
-                </div>
               </div>
             </div>
           </div>
@@ -181,4 +151,4 @@ const WorkersCompensationPage = () => {
   );
 };
 
-export default WorkersCompensationPage;
+export default HitAndRunContent;

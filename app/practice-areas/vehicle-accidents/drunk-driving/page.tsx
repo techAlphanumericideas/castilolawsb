@@ -1,10 +1,10 @@
 import { Metadata } from "next";
-import SlipAndFallContent from "./SlipAndFallContent";
+import DrunkDrivingContent from "./DrunkDrivingContent";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Slip and Fall Accident Attorneys | Osbelia Castillo",
-  description: "Injured on someone else's property? Our Santa Barbara slip and fall lawyers hold negligent property owners accountable. Free consultation.",
+  title: "Drunk Driving Accident Lawyers | The Law Office of Osbelia Castillo",
+  description: "Injured by a drunk driver? Get aggressive legal representation for your DUI accident claim in Santa Barbara and Ventura. Free consultation.",
 };
 
 const breadcrumbSchema = {
@@ -26,14 +26,14 @@ const breadcrumbSchema = {
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Personal Injury",
-      "item": "https://castillolawsb.com/practice-areas/personal-injury"
+      "name": "Vehicle Accidents",
+      "item": "https://castillolawsb.com/practice-areas/vehicle-accidents"
     },
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "Slip and Fall Accidents",
-      "item": "https://castillolawsb.com/practice-areas/personal-injury/slip-and-fall"
+      "name": "Drunk Driving Accidents",
+      "item": "https://castillolawsb.com/practice-areas/vehicle-accidents/drunk-driving"
     }
   ]
 };
@@ -41,8 +41,8 @@ const breadcrumbSchema = {
 const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Slip and Fall Accident Lawyers | Osbelia Castillo",
-  "description": "Legal representation for premises liability and slip and fall victims.",
+  "name": "Drunk Driving Accident Lawyers | Osbelia Castillo",
+  "description": "Legal representation for victims of drunk driving accidents.",
   "publisher": {
     "@id": "https://castillolawsb.com/#organization"
   }
@@ -53,7 +53,7 @@ export default function Page() {
     <>
       <JsonLd data={breadcrumbSchema} />
       <JsonLd data={webPageSchema} />
-      <SlipAndFallContent />
+      <DrunkDrivingContent />
     </>
   );
 }

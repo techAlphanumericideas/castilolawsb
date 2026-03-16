@@ -1,10 +1,10 @@
 import { Metadata } from "next";
-import SlipAndFallContent from "./SlipAndFallContent";
+import TruckAccidentsContent from "./TruckAccidentsContent";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Slip and Fall Accident Attorneys | Osbelia Castillo",
-  description: "Injured on someone else's property? Our Santa Barbara slip and fall lawyers hold negligent property owners accountable. Free consultation.",
+  title: "Commercial Truck Accident Lawyers | Osbelia Castillo",
+  description: "Involved in a collision with a semi-truck or commercial vehicle? Our Santa Barbara trucking accident lawyers handle complex commercial litigation.",
 };
 
 const breadcrumbSchema = {
@@ -26,14 +26,14 @@ const breadcrumbSchema = {
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Personal Injury",
-      "item": "https://castillolawsb.com/practice-areas/personal-injury"
+      "name": "Vehicle Accidents",
+      "item": "https://castillolawsb.com/practice-areas/vehicle-accidents"
     },
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "Slip and Fall Accidents",
-      "item": "https://castillolawsb.com/practice-areas/personal-injury/slip-and-fall"
+      "name": "Truck Accidents",
+      "item": "https://castillolawsb.com/practice-areas/vehicle-accidents/truck-accidents"
     }
   ]
 };
@@ -41,8 +41,8 @@ const breadcrumbSchema = {
 const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Slip and Fall Accident Lawyers | Osbelia Castillo",
-  "description": "Legal representation for premises liability and slip and fall victims.",
+  "name": "Truck Accident Lawyers | Osbelia Castillo",
+  "description": "Expert legal help for victims of semi-truck and commercial vehicle accidents.",
   "publisher": {
     "@id": "https://castillolawsb.com/#organization"
   }
@@ -53,7 +53,7 @@ export default function Page() {
     <>
       <JsonLd data={breadcrumbSchema} />
       <JsonLd data={webPageSchema} />
-      <SlipAndFallContent />
+      <TruckAccidentsContent />
     </>
   );
 }

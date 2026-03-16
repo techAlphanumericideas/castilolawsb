@@ -4,12 +4,12 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
-import { Briefcase, FileText, CheckCircle2, Scale } from "lucide-react";
+import { ShieldAlert, AlertTriangle, ArrowRight, Scale, Gavel } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const WorkersCompensationPage = () => {
+const SexualAbusePage = () => {
   const contentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -58,23 +58,22 @@ const WorkersCompensationPage = () => {
               <div className="inline-flex items-center gap-3 mb-6 hero-reveal">
                 <div className="h-[1px] w-10 bg-[#C5A059]"></div>
                 <span className="text-[#C5A059] font-sans font-black tracking-[0.4em] uppercase text-[12px]">
-                  Workers' Rights
+                   Sensitive Advocacy
                 </span>
               </div>
               <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-8 leading-tight hero-reveal">
-                Workplace <br />
-                <span className="text-[#C5A059] italic">Injuries</span>
+                Sexual Abuse & <br />
+                <span className="text-[#C5A059] italic">Molestation</span>
               </h1>
               <p className="text-xl text-white/70 font-light leading-relaxed mb-10 hero-reveal max-w-2xl">
-                Protecting your rights and livelihood. We ensure you get the full
-                medical and financial benefits you deserve under California law.
+                Gentle yet aggressive pursuit of justice. We provide a safe space 
+                and powerful legal protection for survivors of abuse and institutional neglect.
               </p>
             </div>
 
-            {/* Right Side: Replicated Homepage Portrait Style */}
+            {/* Right Side: Premium Portrait */}
             <div className="lg:col-span-5 relative w-full h-[280px] md:h-[300px] lg:h-[300px] hero-portrait flex items-start justify-center lg:justify-end">
               <div className="relative w-full max-w-[400px] h-full rounded-[2rem] overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.3)] border border-white/20 bg-white/5 backdrop-blur-sm">
-                 {/* Elegant Background Shape behind the Lawyer */}
                  <div className="absolute inset-0 bg-gradient-to-b from-[#C5A059]/10 to-transparent"></div>
                  <Image
                    src="/assets/osbelia-castillo.jpg"
@@ -95,77 +94,67 @@ const WorkersCompensationPage = () => {
           <div className="lg:col-span-8 space-y-16">
             <div className="reveal-up">
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#0A1128] mb-8">
-                Workers' Compensation Benefits
+                Holding Institutions Accountable
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-10">
-                The workers' comp system is complex and often skewed in favor of
-                employers. We rebalance the scales to ensure you receive full
-                coverage for your workplace injuries.
+                Beyond the abuser, institutions like schools, religious organizations, and workplaces 
+                often bear responsibility for failing to prevent harm. We are dedicated to holding 
+                these powerful entities accountable and securing the resources survivors need 
+                for healing and restoration.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {[
                   {
-                    icon: <Briefcase />,
-                    title: "Lost Wages",
-                    desc: "Compensation for time off work during recovery.",
+                    icon: <Gavel className="w-6 h-6" />,
+                    title: "Institutional Negligence",
+                    desc: "Holding organizations responsible for negligent hiring, supervision, and failures to act.",
                   },
                   {
-                    icon: <FileText />,
-                    title: "Medical Care",
-                    desc: "Full coverage for surgery, therapy, and medications.",
+                    icon: <Scale className="w-6 h-6" />,
+                    title: "Civil Justice Path",
+                    desc: "Leveraging the civil court system to achieve the financial restoration and closure the criminal system may lack.",
                   },
                   {
-                    icon: <Scale />,
-                    title: "Disability",
-                    desc: "Permanent or temporary disability payments.",
+                    icon: <AlertTriangle className="w-6 h-6" />,
+                    title: "Confidentiality First",
+                    desc: "Strict adherence to privacy and survivor-centered legal strategies to protect your identity.",
                   },
                   {
-                    icon: <CheckCircle2 />,
-                    title: "Retraining",
-                    desc: "Vouchers for new skill training if you can't return to the same role.",
+                    icon: <ShieldAlert className="w-6 h-6" />,
+                    title: "Powerful Protection",
+                    desc: "Aggressive litigation to ensure survivors are not silenced and their voices are heard.",
                   },
                 ].map((item, i) => (
                   <div
                     key={i}
-                    className="p-8 bg-[#FCFCFC] border border-gray-100 rounded-2xl hover:border-[#C5A059] transition-all"
+                    className="p-8 bg-[#FCFCFC] border border-gray-100 rounded-2xl hover:shadow-lg transition-all"
                   >
                     <div className="text-[#C5A059] mb-4">{item.icon}</div>
                     <h4 className="text-xl font-serif font-bold text-[#0A1128] mb-2">
-                      {item.title}
+                       {item.title}
                     </h4>
-                    <p className="text-gray-500 text-sm leading-relaxed">
-                      {item.desc}
-                    </p>
+                    <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="reveal-up">
-              <div className="bg-[#FCFCFC] p-10 rounded-[2rem] border border-[#0A1128]/5 relative overflow-hidden">
-                <h3 className="text-2xl font-serif font-bold text-[#0A1128] mb-6">
-                  Filing Your Claim
+              <div className="bg-[#0A1128] text-white p-10 rounded-[2rem] relative overflow-hidden">
+                <h3 className="text-2xl font-serif font-bold mb-4 relative z-10">
+                  Your Path to Restoration
                 </h3>
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  Timing is critical in workers' compensation cases. Follow
-                  these steps to protect your claim:
+                <p className="text-white/70 leading-relaxed mb-6 relative z-10">
+                   You don't have to face this alone. We provide the legal strength and 
+                   personal empathy required to navigate these difficult cases.
                 </p>
-                <div className="space-y-4">
-                  {[
-                    "Report the injury to your employer immediately.",
-                    "Seek medical evaluation from a certified provider.",
-                    "Contact our office to file a formal DWC-1 form.",
-                    "Document all symptoms and treatment interactions.",
-                  ].map((step, i) => (
-                    <div key={i} className="flex gap-4 items-center">
-                      <span className="text-[#C5A059] font-serif font-bold text-2xl">
-                        0{i + 1}
-                      </span>
-                      <p className="text-gray-800 font-medium">{step}</p>
-                    </div>
-                  ))}
-                </div>
+                <a
+                  href="tel:8052837656"
+                  className="inline-flex items-center gap-2 text-[#C5A059] font-bold uppercase tracking-widest text-sm relative z-10 hover:text-white transition-colors"
+                >
+                  Strictly Confidential Consultation <ArrowRight className="w-4 h-4" />
+                </a>
               </div>
             </div>
           </div>
@@ -181,4 +170,4 @@ const WorkersCompensationPage = () => {
   );
 };
 
-export default WorkersCompensationPage;
+export default SexualAbusePage;

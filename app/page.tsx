@@ -291,7 +291,7 @@ export default function LandingPage() {
         <div className="absolute inset-0 z-0 opacity-[0.05] lg:opacity-[0.1]">
           <img
             src="/assets/hero-background.png"
-            alt="Hero background"
+            alt="The Law Office of Osbelia Castillo - Architectural legal building background"
             className="w-full h-full object-cover scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-br from-white via-transparent to-white/50"></div>
@@ -335,6 +335,7 @@ export default function LandingPage() {
                 <div ref={ctaRef}>
                   <a
                     href="tel:8052837656"
+                    aria-label="Call Osbelia Castillo for a Free Consultation at 805-283-7656"
                     className="group relative bg-[#0A1128] text-white px-10 py-5 rounded-full font-sans font-black tracking-[0.2em] text-[15px] uppercase hover:bg-[#C5A059] transition-all flex items-center gap-2 shadow-[0_20px_40px_rgba(10,17,40,0.15)] hover:-translate-y-1 transform duration-500 magnetic-btn"
                   >
                     <Phone className="w-5 h-5 text-[#C5A059] group-hover:text-white transition-colors" />
@@ -354,7 +355,7 @@ export default function LandingPage() {
                 <div className="absolute inset-0 bg-gradient-to-b from-[#C5A059]/10 to-transparent"></div>
                 <Image
                   src="/assets/osbelia-castillo.jpg"
-                  alt="Lawyer Osbelia Castillo"
+                  alt="Principal Attorney Osbelia Castillo - Personal Injury and Vehicle Accident Specialist"
                   fill
                   className="object-cover object-top scale-105"
                   priority
@@ -410,6 +411,7 @@ export default function LandingPage() {
                       ></textarea>
                       <button
                         type="submit"
+                        aria-label="Submit your request for a free legal consultation"
                         className="md:w-64 bg-[#0A1128] text-white font-sans font-black tracking-[0.2em] uppercase text-[13px] py-4 rounded-xl hover:bg-[#C5A059] transition-all shadow-xl cursor-pointer"
                       >
                         Send Request
@@ -494,7 +496,8 @@ export default function LandingPage() {
 
             <div className="about-button opacity-0">
               <a
-                href="#home"
+                href="/attorneys/osbelia-castillo"
+                aria-label="View the full legal profile and biography of Osbelia Castillo"
                 className="inline-flex items-center gap-3 bg-[#0A1128] text-white px-10 py-4 rounded-full font-bold tracking-[0.2em] uppercase text-[10px] md:text-[14px] hover:bg-[#C5A059] transition-all shadow-xl hover:-translate-y-1 transform duration-300 group"
               >
                 Read Full Profile

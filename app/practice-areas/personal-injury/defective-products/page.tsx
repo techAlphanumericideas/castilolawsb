@@ -1,10 +1,10 @@
 import { Metadata } from "next";
-import SlipAndFallContent from "./SlipAndFallContent";
+import DefectiveProductsContent from "./DefectiveProductsContent";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Slip and Fall Accident Attorneys | Osbelia Castillo",
-  description: "Injured on someone else's property? Our Santa Barbara slip and fall lawyers hold negligent property owners accountable. Free consultation.",
+  title: "Defective Product Liability Lawyers | Osbelia Castillo",
+  description: "Injured by a dangerous or defective product? Our Santa Barbara product liability attorneys fight for your recovery against large manufacturers. Free consultation.",
 };
 
 const breadcrumbSchema = {
@@ -32,8 +32,8 @@ const breadcrumbSchema = {
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "Slip and Fall Accidents",
-      "item": "https://castillolawsb.com/practice-areas/personal-injury/slip-and-fall"
+      "name": "Defective Products",
+      "item": "https://castillolawsb.com/practice-areas/personal-injury/defective-products"
     }
   ]
 };
@@ -41,8 +41,8 @@ const breadcrumbSchema = {
 const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Slip and Fall Accident Lawyers | Osbelia Castillo",
-  "description": "Legal representation for premises liability and slip and fall victims.",
+  "name": "Defective Products & Liability Lawyers | Osbelia Castillo",
+  "description": "Legal representation for victims of unsafe consumer products and pharmaceuticals.",
   "publisher": {
     "@id": "https://castillolawsb.com/#organization"
   }
@@ -53,7 +53,7 @@ export default function Page() {
     <>
       <JsonLd data={breadcrumbSchema} />
       <JsonLd data={webPageSchema} />
-      <SlipAndFallContent />
+      <DefectiveProductsContent />
     </>
   );
 }
