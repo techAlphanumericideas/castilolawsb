@@ -215,6 +215,32 @@ export default function LandingPage() {
         },
       );
 
+      const contactTl = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#contact",
+          start: "top 75%",
+        },
+      });
+
+      contactTl
+        .fromTo(
+          ".contact-content",
+          { x: -50, opacity: 0 },
+          { x: 0, opacity: 1, duration: 1, ease: "power4.out" },
+        )
+        .fromTo(
+          ".contact-action",
+          { scale: 0.9, opacity: 0, x: 30 },
+          { scale: 1, opacity: 1, x: 0, duration: 1, ease: "power3.out" },
+          "-=0.7",
+        )
+        .fromTo(
+          ".contact-action .magnetic-btn",
+          { y: 20, opacity: 0 },
+          { y: 0, opacity: 1, duration: 0.5, ease: "back.out(2)" },
+          "-=0.4",
+        );
+
       // Micro-interactions: Magnetic Button Effect
       const buttons = document.querySelectorAll(".magnetic-btn");
       buttons.forEach((btn) => {
@@ -388,176 +414,204 @@ export default function LandingPage() {
       </div>
 
       {/* Hero Section */}
+
       <section
         id="home"
         ref={heroRef}
-        className="relative min-h-[100vh] lg:min-h-[100vh] flex flex-col justify-center pt-24 pb-16 bg-white overflow-hidden"
+        className="relative min-h-screen flex flex-col justify-center pt-20 pb-20 bg-white overflow-hidden"
       >
-        {/* Background Image - Slightly more subtle */}
-        <div className="absolute inset-0 z-0 opacity-5">
+        {/* Architectural Background with Parallax effect */}
+        <div className="absolute inset-0 z-0 opacity-[0.03] lg:opacity-[0.05]">
           <img
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070"
+            src="/assets/background.avif"
             alt="Architectural background"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover scale-110"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-white via-transparent to-white/50"></div>
         </div>
 
-        {/* Content Container - max-w-6xl adds that extra side-space you wanted */}
-        <div className="relative z-10 max-w-7xl mx-auto w-full px-8 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Left Text: More compact typography */}
-          <div className="text-left">
+        {/* Decorative Ambient Accents */}
+        <div className="absolute top-[20%] -left-[10%] w-[40%] h-[40%] bg-[#C5A059]/5 blur-[120px] rounded-full pointer-events-none"></div>
+        <div className="absolute bottom-[10%] -right-[5%] w-[30%] h-[30%] bg-[#0A1128]/5 blur-[120px] rounded-full pointer-events-none"></div>
+
+        <div className="relative z-10 max-w-7xl mx-auto w-full px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center">
+          {/* Left Text: High-Impact Typography */}
+          <div className="lg:col-span-7 text-left">
+            <div className="inline-flex items-center gap-3 mb-4 opacity-0 reveal">
+              <div className="h-[1px] w-10 bg-[#C5A059]"></div>
+              <span className="text-[#C5A059] font-sans font-black tracking-[0.4em] uppercase text-[12px]">
+                Prestige Legal Representation
+              </span>
+            </div>
+
             <h1
               ref={headlineRef}
-              className="text-4xl md:text-6xl font-serif font-bold leading-[1.1] mb-6 text-[#0A1128]"
+              className="text-4xl md:text-6xl lg:text-[4.5rem] font-serif font-black leading-[0.9] mb-4 text-[#0A1128] tracking-tighter"
             >
               <span className="hero-word block">Need</span>{" "}
-              <span className="hero-word text-[#C5A059] italic">
-                Litigation?
-              </span>
+              <span className="hero-word text-[#C5A059] pr-4">Litigation?</span>
             </h1>
 
-            <div className="h-1 w-16 bg-[#C5A059] mb-8"></div>
-
-            <p className="text-lg md:text-xl text-gray-800 mb-8 font-normal leading-relaxed max-w-md">
-              The Law Office of Osbelia Castillo is ready to examine the facts
-              of your case in English or Spanish.
+            <p className="text-base md:text-[24px] text-slate-700 mb-6 font-medium leading-[1.4] max-w-xl opacity-0 reveal">
+              The Law Office of Osbelia Castillo delivers elite defense
+              strategies with
+              <span className="text-[#0A1128] font-bold">
+                {" "}
+                surgical precision
+              </span>{" "}
+              and bilingual expertise.
             </p>
 
-            <h3 className="text-xl font-serif font-bold text-[#0A1128] mb-8">
-              Call us today for a free consultation!
-            </h3>
-
-            <div className="flex" ref={ctaRef}>
-              <a
-                href="tel:8052837656"
-                className="bg-[#0A1128] text-white px-8 py-4 rounded-full font-bold text-base hover:bg-[#C5A059] transition-all flex items-center gap-3 shadow-xl hover:-translate-y-1 transform duration-300 w-fit magnetic-btn"
-              >
-                <Phone className="w-4 h-4" /> 805-283-7656
-              </a>
+            <div className="flex flex-col sm:flex-row items-center gap-4 opacity-0 reveal">
+              <div ref={ctaRef}>
+                <a
+                  href="tel:8052837656"
+                  className="group relative bg-[#0A1128] text-white px-8 py-4 rounded-full font-sans font-black tracking-[0.2em] text-[13px] uppercase hover:bg-[#C5A059] transition-all flex items-center gap-2 shadow-[0_15px_30px_rgba(10,17,40,0.1)] hover:-translate-y-1 transform duration-500 magnetic-btn"
+                >
+                  <Phone className="w-4 h-4 text-[#C5A059] group-hover:text-white transition-colors" />
+                  805-283-7656
+                </a>
+              </div>
+              <p className="text-[#0A1128] font-serif italic text-sm border-b border-[#C5A059]/30 pb-0.5">
+                Consultation in English & Spanish
+              </p>
             </div>
           </div>
 
-          {/* Right Form: Scaled down for 100% view */}
-          <div className="bg-white rounded-[1.5rem] p-8 md:p-10 shadow-[0_20px_50px_rgba(0,0,0,0.06)] border border-gray-100 relative overflow-hidden reveal lg:scale-95 origin-right">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-[#C5A059]/5 rounded-full blur-3xl"></div>
+          {/* Right Form: Glassmorphism Luxury Container */}
+          <div className="lg:col-span-5 relative z-10 mb-2">
+            <div className="bg-white/70 backdrop-blur-xl border border-white/40 p-8 md:p-10 rounded-[1.25rem] shadow-[0_20px_60px_rgba(10,17,40,0.05)] relative md:h-[480px] overflow-hidden reveal flex flex-col justify-center">
+              {/* Internal Accent */}
+              <div className="absolute top-0 right-0 w-32 h-32 bg-[#C5A059]/10 rounded-full blur-3xl"></div>
 
-            <h2 className="text-xl md:text-2xl font-serif font-bold text-[#0A1128] mb-6 relative z-10 tracking-tight">
-              FREE CASE CONSULTATION
-            </h2>
+              <div className="relative z-10 w-full">
+                <div className="mb-6">
+                  <p className="text-[#C5A059] font-sans font-black tracking-[0.3em] uppercase text-[10px] mb-1">
+                    Case Submission
+                  </p>
+                  <h2 className="text-xl md:text-2xl font-serif font-bold text-[#0A1128] tracking-tight leading-none">
+                    Free Consultation
+                  </h2>
+                </div>
 
-            <form className="space-y-4 relative z-10">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <input
-                  type="text"
-                  placeholder="First Name"
-                  className="w-full bg-gray-50 border border-gray-100 rounded-lg px-4 py-3 text-sm outline-none focus:border-[#C5A059] transition-all text-black"
-                  required
-                />
-                <input
-                  type="text"
-                  placeholder="Last Name"
-                  className="w-full bg-gray-50 border border-gray-100 rounded-lg px-4 py-3 text-sm outline-none focus:border-[#C5A059] transition-all text-black"
-                  required
-                />
+                <form className="space-y-3.5">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <input
+                      type="text"
+                      placeholder="First Name"
+                      className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
+                      required
+                    />
+                    <input
+                      type="text"
+                      placeholder="Last Name"
+                      className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
+                      required
+                    />
+                  </div>
+
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
+                    required
+                  />
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div className="relative">
+                      <select
+                        className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs text-slate-500 appearance-none outline-none focus:border-[#C5A059]"
+                        defaultValue="Select State"
+                      >
+                        <option value="Select State">Select State</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option value="California">California</option>
+                        <option value="Colorado">Colorado</option>
+                        <option value="Connecticut">Connecticut</option>
+                        <option value="Delaware">Delaware</option>
+                        <option value="District of Columbia">
+                          District of Columbia
+                        </option>
+                        <option value="Florida">Florida</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Idaho">Idaho</option>
+                        <option value="Illinois">Illinois</option>
+                        <option value="Indiana">Indiana</option>
+                        <option value="Iowa">Iowa</option>
+                        <option value="Kansas">Kansas</option>
+                        <option value="Kentucky">Kentucky</option>
+                        <option value="Louisiana">Louisiana</option>
+                        <option value="Maine">Maine</option>
+                        <option value="Maryland">Maryland</option>
+                        <option value="Massachusetts">Massachusetts</option>
+                        <option value="Michigan">Michigan</option>
+                        <option value="Minnesota">Minnesota</option>
+                        <option value="Mississippi">Mississippi</option>
+                        <option value="Missouri">Missouri</option>
+                        <option value="Montana">Montana</option>
+                        <option value="Nebraska">Nebraska</option>
+                        <option value="Nevada">Nevada</option>
+                        <option value="New Hampshire">New Hampshire</option>
+                        <option value="New Jersey">New Jersey</option>
+                        <option value="New Mexico">New Mexico</option>
+                        <option value="New York">New York</option>
+                        <option value="North Carolina">North Carolina</option>
+                        <option value="North Dakota">North Dakota</option>
+                        <option value="Ohio">Ohio</option>
+                        <option value="Oklahoma">Oklahoma</option>
+                        <option value="Oregon">Oregon</option>
+                        <option value="Pennsylvania">Pennsylvania</option>
+                        <option value="Rhode Island">Rhode Island</option>
+                        <option value="South Carolina">South Carolina</option>
+                        <option value="South Dakota">South Dakota</option>
+                        <option value="Tennessee">Tennessee</option>
+                        <option value="Texas">Texas</option>
+                        <option value="Utah">Utah</option>
+                        <option value="Vermont">Vermont</option>
+                        <option value="Virginia">Virginia</option>
+                        <option value="Washington">Washington</option>
+                        <option value="West Virginia">West Virginia</option>
+                        <option value="Wisconsin">Wisconsin</option>
+                        <option value="Wyoming">Wyoming</option>
+                      </select>
+                      <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-[#C5A059]">
+                        <ArrowRight className="w-3.5 h-3.5 rotate-90" />
+                      </div>
+                    </div>
+
+                    <input
+                      type="tel"
+                      placeholder="Phone"
+                      className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
+                      required
+                    />
+                  </div>
+
+                  <textarea
+                    rows={3}
+                    placeholder="Briefly describe your case"
+                    className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black resize-none placeholder:text-slate-400"
+                    required
+                  ></textarea>
+
+                  <button
+                    type="submit"
+                    className="w-full bg-[#0A1128] text-white font-sans font-black tracking-[0.2em] uppercase text-[12px] py-4 rounded-lg hover:bg-[#C5A059] transition-all shadow-lg mt-2 cursor-pointer"
+                  >
+                    Send Request
+                  </button>
+                </form>
               </div>
-
-              <input
-                type="email"
-                placeholder="Email Address"
-                className="w-full bg-gray-50 border border-gray-100 rounded-lg px-4 py-3 text-sm outline-none focus:border-[#C5A059] transition-all text-black"
-                required
-              />
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <select
-                  className="w-full bg-gray-50 border border-gray-100 rounded-lg px-4 py-3 text-sm text-gray-500 appearance-none"
-                  defaultValue="Select State"
-                >
-                  <option disabled value="Select State">
-                    Select State
-                  </option>
-                  <option value="Alabama">Alabama</option>
-                  <option value="Alaska">Alaska</option>
-                  <option value="Arizona">Arizona</option>
-                  <option value="Arkansas">Arkansas</option>
-                  <option value="California">California</option>
-                  <option value="Colorado">Colorado</option>
-                  <option value="Connecticut">Connecticut</option>
-                  <option value="Delaware">Delaware</option>
-                  <option value="District of Columbia">
-                    District of Columbia
-                  </option>
-                  <option value="Florida">Florida</option>
-                  <option value="Georgia">Georgia</option>
-                  <option value="Hawaii">Hawaii</option>
-                  <option value="Idaho">Idaho</option>
-                  <option value="Illinois">Illinois</option>
-                  <option value="Indiana">Indiana</option>
-                  <option value="Iowa">Iowa</option>
-                  <option value="Kansas">Kansas</option>
-                  <option value="Kentucky">Kentucky</option>
-                  <option value="Louisiana">Louisiana</option>
-                  <option value="Maine">Maine</option>
-                  <option value="Maryland">Maryland</option>
-                  <option value="Massachusetts">Massachusetts</option>
-                  <option value="Michigan">Michigan</option>
-                  <option value="Minnesota">Minnesota</option>
-                  <option value="Mississippi">Mississippi</option>
-                  <option value="Missouri">Missouri</option>
-                  <option value="Montana">Montana</option>
-                  <option value="Nebraska">Nebraska</option>
-                  <option value="Nevada">Nevada</option>
-                  <option value="New Hampshire">New Hampshire</option>
-                  <option value="New Jersey">New Jersey</option>
-                  <option value="New Mexico">New Mexico</option>
-                  <option value="New York">New York</option>
-                  <option value="North Carolina">North Carolina</option>
-                  <option value="North Dakota">North Dakota</option>
-                  <option value="Ohio">Ohio</option>
-                  <option value="Oklahoma">Oklahoma</option>
-                  <option value="Oregon">Oregon</option>
-                  <option value="Pennsylvania">Pennsylvania</option>
-                  <option value="Rhode Island">Rhode Island</option>
-                  <option value="South Carolina">South Carolina</option>
-                  <option value="South Dakota">South Dakota</option>
-                  <option value="Tennessee">Tennessee</option>
-                  <option value="Texas">Texas</option>
-                  <option value="Utah">Utah</option>
-                  <option value="Vermont">Vermont</option>
-                  <option value="Virginia">Virginia</option>
-                  <option value="Washington">Washington</option>
-                  <option value="West Virginia">West Virginia</option>
-                  <option value="Wisconsin">Wisconsin</option>
-                  <option value="Wyoming">Wyoming</option>
-                </select>
-                <input
-                  type="tel"
-                  placeholder="Phone"
-                  className="w-full bg-gray-50 border border-gray-100 rounded-lg px-4 py-3 text-sm outline-none focus:border-[#C5A059] transition-all text-black"
-                  required
-                />
-              </div>
-
-              <textarea
-                rows={3}
-                placeholder="Briefly describe your case"
-                className="w-full bg-gray-50 border border-gray-100 rounded-lg px-4 py-3 text-sm outline-none focus:border-[#C5A059] transition-all text-black resize-none"
-                required
-              ></textarea>
-
-              <button
-                type="submit"
-                className="w-full bg-[#C5A059] text-white font-bold tracking-widest uppercase text-xs py-4 rounded-lg hover:bg-[#0A1128] transition-all shadow-lg mt-2"
-              >
-                Send Request
-              </button>
-            </form>
+            </div>
           </div>
         </div>
 
-        {/* Settlement Ticker */}
-        <div className="absolute bottom-0 left-0 w-full bg-[#0A1128] py-3 md:py-5 overflow-hidden whitespace-nowrap z-20 border-t border-[#C5A059]/20 shadow-[0_-10px_30px_rgba(0,0,0,0.1)]">
+        {/* Improved Settlement Ticker */}
+        <div className="absolute bottom-0 left-0 w-full bg-[#0A1128] py-4 overflow-hidden whitespace-nowrap z-20 border-t border-[#C5A059]/10">
           <div className="gsap-marquee inline-block will-change-transform cursor-default">
             {[
               ...settlements,
@@ -567,15 +621,16 @@ export default function LandingPage() {
             ].map((item, i) => (
               <span
                 key={i}
-                className="inline-flex items-center mx-6 md:mx-10 text-white/90 font-medium tracking-[0.1em] md:tracking-widest uppercase text-[9px] sm:text-xs md:text-sm transition-all duration-300 hover:text-[#C5A059] hover:scale-105"
+                className="inline-flex items-center mx-12 text-white/40 font-sans font-black tracking-[0.2em] uppercase text-[12px] transition-all duration-600 hover:text-[#C5A059]"
               >
-                <span className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-[#C5A059] mr-2 md:mr-3 shadow-[0_0_8px_rgba(197,160,89,0.5)] transition-transform duration-300 group-hover:scale-125"></span>
+                <span className="w-2 h-2 bg-[#C5A059] mr-8 rounded-full shadow-[0_0_10px_rgba(197,160,89,0.5)]"></span>
                 {item}
               </span>
             ))}
           </div>
         </div>
       </section>
+
       {/* About Osbelia Castillo Section */}
       <section
         id="about"
@@ -646,7 +701,7 @@ export default function LandingPage() {
           {/* Section Header - More Minimal */}
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div className="max-w-xl">
-              <p className="text-[#C5A059] font-bold tracking-[0.3em] uppercase text-[10px] mb-3">
+              <p className="text-[#C5A059] font-bold tracking-[0.3em] uppercase text-[12px] mb-3">
                 Expertise & Focus
               </p>
               <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#0A1128] leading-tight">
@@ -713,7 +768,7 @@ export default function LandingPage() {
 
                   <a
                     href="#home"
-                    className="inline-flex items-center gap-2 text-[#0A1128] font-bold text-[10px] tracking-[0.15em] uppercase border-b border-gray-200 pb-1 group-hover:border-[#C5A059] transition-all"
+                    className="inline-flex items-center gap-2 text-[#0A1128] font-bold text-[12px] tracking-[0.15em] uppercase border-b border-gray-200 pb-1 group-hover:border-[#C5A059] transition-all"
                   >
                     Explore Area
                     <ArrowRight className="w-3 h-3 transition-transform group-hover:translate-x-1" />
@@ -728,39 +783,73 @@ export default function LandingPage() {
       {/* Call Us Section */}
       <section
         id="contact"
-        className="py-24 lg:py-32 px-6 bg-white reveal overflow-hidden relative"
+        className="py-24 lg:py-32 px-6 bg-white overflow-hidden relative"
       >
-        <div className="absolute inset-0 z-0 flex items-center justify-center opacity-[0.03]">
-          <div className="text-[20vw] font-serif font-black text-[#0A1128] select-none tracking-tighter">
+        {/* The "Justice" watermark remains but is shifted to the side for a more editorial feel */}
+        <div className="absolute top-1/2 left-0 -translate-y-1/2 opacity-[0.03] pointer-events-none z-0">
+          <div className="text-[30vw] font-serif font-black text-[#0A1128] select-none tracking-tighter leading-none -rotate-90 origin-left">
             JUSTICE
           </div>
         </div>
 
-        <div className="max-w-4xl mx-auto relative z-10 text-center">
-          <div className="inline-block px-4 py-1.5 bg-[#C5A059]/10 border border-[#C5A059]/20 rounded-full mb-8">
-            <p className="text-[#C5A059] font-bold tracking-[0.2em] uppercase text-[10px]">
-              Expert Legal Counsel
-            </p>
-          </div>
+        <div className="max-w-6xl mx-auto relative z-10">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-16 border-t border-gray-100 pt-20">
+            {/* Left: Content Side */}
+            <div className="lg:w-3/5 text-left contact-content opacity-0">
+              <div className="inline-flex items-center gap-3 mb-8">
+                <div className="h-[1px] w-12 bg-[#C5A059]"></div>
+                <p className="text-[#C5A059] font-bold tracking-[0.4em] uppercase text-[10px] md:text-[12px]">
+                  Consultation Offereed in English & Spanish
+                </p>
+              </div>
 
-          <p className="text-xl md:text-2xl text-gray-800 font-normal leading-relaxed mb-10 max-w-2xl mx-auto">
-            We are ready to examine the facts of your case, and we will explain
-            your options in English or Spanish.
-          </p>
+              <h2 className="text-5xl md:text-7xl font-serif font-bold text-[#0A1128] mb-8 tracking-tight leading-[1.05]">
+                Ready to <span className="text-[#C5A059]">Defend</span> <br />
+                Your Future.
+              </h2>
 
-          <h2 className="text-4xl md:text-6xl font-serif font-bold text-[#0A1128] mb-12 tracking-tight leading-tight">
-            Call us today for a <span className="italic">free</span>{" "}
-            consultation!
-          </h2>
+              <p className="text-lg md:text-xl text-gray-500 font-light leading-relaxed max-w-xl">
+                We take the time to examine every detail of your case. Let us
+                guide you through your legal options with clarity and
+                dedication.
+              </p>
+            </div>
 
-          <div className="flex justify-center">
-            <a
-              href="tel:8052837656"
-              className="bg-[#0A1128] text-white px-10 md:px-16 py-5 md:py-6 rounded-full font-bold text-lg md:text-xl hover:bg-[#C5A059] transition-all flex items-center gap-4 shadow-[0_20px_40px_rgba(10,17,40,0.2)] hover:shadow-[0_25px_50px_rgba(197,160,89,0.3)] hover:-translate-y-1 transform duration-300 w-fit group magnetic-btn"
-            >
-              <Phone className="w-5 h-5 md:w-6 md:h-6 group-hover:rotate-12 transition-transform" />
-              805-283-7656
-            </a>
+            {/* Right: Interactive Phone Side */}
+            <div className="lg:w-2/5 w-full contact-action opacity-0">
+              <div className="relative group p-1 bg-gradient-to-br from-gray-100 to-transparent rounded-[2.5rem]">
+                <div className="bg-white border border-gray-100 rounded-[2.4rem] p-10 md:p-14 shadow-[0_30px_70px_-20px_rgba(0,0,0,0.08)] flex flex-col items-center text-center">
+                  <p className="text-gray-400 font-serif italic text-sm mb-8">
+                    Speak directly with our team
+                  </p>
+
+                  <a
+                    href="tel:8052837656"
+                    className="group relative flex flex-col items-center gap-6 magnetic-btn"
+                  >
+                    {/* Animated Phone Icon */}
+                    <div className="w-20 h-20 bg-[#0A1128] rounded-full flex items-center justify-center text-[#C5A059] transition-transform duration-500 group-hover:scale-110 shadow-xl">
+                      <Phone className="w-8 h-8 group-hover:rotate-12 transition-transform" />
+                    </div>
+
+                    <div className="space-y-2">
+                      <span className="block text-3xl md:text-4xl font-serif font-bold text-[#0A1128] tracking-tight">
+                        805-283-7656
+                      </span>
+                      <span className="block text-[#C5A059] font-bold tracking-[0.2em] uppercase text-[10px] border-b border-[#C5A059]/30 pb-1">
+                        Click to Call
+                      </span>
+                    </div>
+                  </a>
+
+                  <div className="mt-12 pt-8 border-t border-gray-50 w-full text-center">
+                    <p className="text-gray-400 text-[11px] uppercase tracking-widest font-bold">
+                      Initial Consultation — No Charge
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -779,6 +868,7 @@ export default function LandingPage() {
                   alt="The Law Office of Osbelia Castillo"
                   width={500}
                   height={500}
+                  unoptimized
                   className="object-contain object-left"
                 />
               </div>
