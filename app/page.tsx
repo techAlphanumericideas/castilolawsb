@@ -47,6 +47,10 @@ export default function LandingPage() {
       const heroWords = document.querySelectorAll(".hero-word");
 
       tl.fromTo(
+        ".hero-portrait",
+        { opacity: 0, y: -50, scale: 0.9 },
+        { opacity: 1, y: 0, scale: 1, duration: 1.2, ease: "power4.out" }
+      ).fromTo(
         heroWords,
         { opacity: 0, y: 30 },
         {
@@ -55,8 +59,8 @@ export default function LandingPage() {
           duration: 1,
           stagger: 0.15,
           ease: "power3.out",
-          delay: 0.2,
         },
+        "-=0.5"
       ).fromTo(
         ctaRef.current,
         { opacity: 0, y: 30 },
@@ -284,7 +288,7 @@ export default function LandingPage() {
         className="relative min-h-screen flex flex-col justify-center pt-32 pb-32 bg-white overflow-hidden"
       >
         {/* Architectural Background with Parallax effect */}
-        <div className="absolute inset-0 z-0 opacity-[0.03] lg:opacity-[0.05]">
+        <div className="absolute inset-0 z-0 opacity-[0.05] lg:opacity-[0.1]">
           <img
             src="/assets/hero-background.png"
             alt="Hero background"
@@ -297,177 +301,122 @@ export default function LandingPage() {
         <div className="absolute top-[20%] -left-[10%] w-[40%] h-[40%] bg-[#C5A059]/5 blur-[120px] rounded-full pointer-events-none"></div>
         <div className="absolute bottom-[10%] -right-[5%] w-[30%] h-[30%] bg-[#0A1128]/5 blur-[120px] rounded-full pointer-events-none"></div>
 
-        <div className="relative z-10 max-w-7xl mx-auto w-full px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center">
-          {/* Left Text: High-Impact Typography */}
-          <div className="lg:col-span-7 text-left">
-            <div className="inline-flex items-center gap-3 mb-4 opacity-0 reveal">
-              <div className="h-[1px] w-10 bg-[#C5A059]"></div>
-              <span className="text-[#C5A059] font-sans font-black tracking-[0.4em] uppercase text-[12px]">
-                Prestige Legal Representation
-              </span>
+        <div className="relative z-10 max-w-7xl mx-auto w-full px-6 md:px-12 flex flex-col items-center">
+
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start w-full mb-16">
+            {/* Left Column: Text */}
+            <div className="lg:col-span-7 flex flex-col items-start text-left pt-8">
+              <div className="inline-flex items-center gap-3 mb-6 opacity-0 reveal">
+                <div className="h-[1px] w-10 bg-[#C5A059]"></div>
+                <span className="text-[#C5A059] font-sans font-black tracking-[0.4em] uppercase text-[12px]">
+                  Prestige Legal Representation
+                </span>
+              </div>
+
+              <h1
+                ref={headlineRef}
+                className="text-5xl md:text-7xl lg:text-[5.5rem] font-serif font-black leading-[0.9] mb-8 text-[#0A1128] tracking-tighter"
+              >
+                <span className="hero-word block">Need</span>{" "}
+                <span className="hero-word text-[#C5A059]">Litigation?</span>
+              </h1>
+
+              <p className="text-xl md:text-[26px] text-slate-700 mb-10 font-medium leading-[1.3] max-w-2xl opacity-0 reveal">
+                The Law Office of Osbelia Castillo delivers elite defense
+                strategies with
+                <span className="text-[#0A1128] font-bold">
+                  {" "}
+                  surgical precision
+                </span>{" "}
+                and bilingual expertise.
+              </p>
+
+              <div className="flex flex-col sm:flex-row items-center gap-8 opacity-0 reveal">
+                <div ref={ctaRef}>
+                  <a
+                    href="tel:8052837656"
+                    className="group relative bg-[#0A1128] text-white px-10 py-5 rounded-full font-sans font-black tracking-[0.2em] text-[15px] uppercase hover:bg-[#C5A059] transition-all flex items-center gap-2 shadow-[0_20px_40px_rgba(10,17,40,0.15)] hover:-translate-y-1 transform duration-500 magnetic-btn"
+                  >
+                    <Phone className="w-5 h-5 text-[#C5A059] group-hover:text-white transition-colors" />
+                    805-283-7656
+                  </a>
+                </div>
+                <p className="text-[#0A1128] font-serif italic text-lg border-b border-[#C5A059]/30 pb-1">
+                  Consultation in English & Spanish
+                </p>
+              </div>
             </div>
 
-            <h1
-              ref={headlineRef}
-              className="text-4xl md:text-6xl lg:text-[4.5rem] font-serif font-black leading-[0.9] mb-4 text-[#0A1128] tracking-tighter"
-            >
-              <span className="hero-word block">Need</span>{" "}
-              <span className="hero-word text-[#C5A059] pr-4">Litigation?</span>
-            </h1>
-
-            <p className="text-base md:text-[24px] text-slate-700 mb-6 font-medium leading-[1.4] max-w-xl opacity-0 reveal">
-              The Law Office of Osbelia Castillo delivers elite defense
-              strategies with
-              <span className="text-[#0A1128] font-bold">
-                {" "}
-                surgical precision
-              </span>{" "}
-              and bilingual expertise.
-            </p>
-
-            <div className="flex flex-col sm:flex-row items-center gap-4 opacity-0 reveal">
-              <div ref={ctaRef}>
-                <a
-                  href="tel:8052837656"
-                  className="group relative bg-[#0A1128] text-white px-8 py-4 rounded-full font-sans font-black tracking-[0.2em] text-[13px] uppercase hover:bg-[#C5A059] transition-all flex items-center gap-2 shadow-[0_15px_30px_rgba(10,17,40,0.1)] hover:-translate-y-1 transform duration-500 magnetic-btn"
-                >
-                  <Phone className="w-4 h-4 text-[#C5A059] group-hover:text-white transition-colors" />
-                  805-283-7656
-                </a>
+            {/* Right Column: Premium Portrait - 400x300 Rounded Rect */}
+            <div className="lg:col-span-5 relative w-full h-[400px] md:h-[300px] lg:h-[300px] hero-portrait flex items-start justify-center lg:translate-y-4">
+              <div className="relative w-full max-w-[400px] h-full rounded-[2rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.08)] border border-white/40 bg-white/30 backdrop-blur-sm">
+                {/* Elegant Background Shape behind the Lawyer */}
+                <div className="absolute inset-0 bg-gradient-to-b from-[#C5A059]/10 to-transparent"></div>
+                <Image
+                  src="/assets/osbelia-castillo.jpg"
+                  alt="Lawyer Osbelia Castillo"
+                  fill
+                  className="object-cover object-top scale-105"
+                  priority
+                />
               </div>
-              <p className="text-[#0A1128] font-serif italic text-sm border-b border-[#C5A059]/30 pb-0.5">
-                Consultation in English & Spanish
-              </p>
             </div>
           </div>
 
-          {/* Right Form: Glassmorphism Luxury Container */}
-          <div className="lg:col-span-5 relative z-10 mb-2">
-            <div className="bg-white/70 backdrop-blur-xl border border-white/40 p-8 md:p-10 rounded-[1.25rem] shadow-[0_20px_60px_rgba(10,17,40,0.05)] relative md:h-[480px] overflow-hidden reveal flex flex-col justify-center">
-              {/* Internal Accent */}
-              <div className="absolute top-0 right-0 w-32 h-32 bg-[#C5A059]/10 rounded-full blur-3xl"></div>
-
-              <div className="relative z-10 w-full">
-                <div className="mb-6">
-                  <p className="text-[#C5A059] font-sans font-black tracking-[0.3em] uppercase text-[10px] mb-1">
-                    Case Submission
-                  </p>
-                  <h2 className="text-xl md:text-2xl font-serif font-bold text-[#0A1128] tracking-tight leading-none">
-                    Free Consultation
-                  </h2>
-                </div>
-
-                <form className="space-y-3.5">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    <input
-                      type="text"
-                      placeholder="First Name"
-                      className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
-                      required
-                    />
-                    <input
-                      type="text"
-                      placeholder="Last Name"
-                      className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
-                      required
-                    />
+          {/* Bottom: Modern Horizontal Form Bar */}
+          <div className="w-full relative z-10 -mt-8">
+            <div className="bg-white/80 backdrop-blur-2xl border border-white/40 p-1 md:p-2 rounded-[2.5rem] shadow-[0_30px_90px_rgba(10,17,40,0.08)] reveal">
+              <div className="bg-[#FCFCFC]/80 rounded-[2.25rem] p-6 md:p-8 lg:px-12">
+                <div className="flex flex-col lg:flex-row lg:items-center gap-8">
+                  {/* Form Label */}
+                  <div className="lg:w-1/4">
+                    <p className="text-[#C5A059] font-sans font-black tracking-[0.3em] uppercase text-[10px] mb-2">
+                      Get Started
+                    </p>
+                    <h2 className="text-2xl md:text-3xl font-serif font-bold text-[#0A1128] tracking-tight leading-none italic">
+                      Free Consultation
+                    </h2>
                   </div>
 
-                  <input
-                    type="email"
-                    placeholder="Email Address"
-                    className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
-                    required
-                  />
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    <div className="relative">
-                      <select
-                        className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs text-slate-500 appearance-none outline-none focus:border-[#C5A059]"
-                        defaultValue="Select State"
-                      >
-                        <option value="Select State">Select State</option>
-                        <option value="Alabama">Alabama</option>
-                        <option value="Alaska">Alaska</option>
-                        <option value="Arizona">Arizona</option>
-                        <option value="Arkansas">Arkansas</option>
-                        <option value="California">California</option>
-                        <option value="Colorado">Colorado</option>
-                        <option value="Connecticut">Connecticut</option>
-                        <option value="Delaware">Delaware</option>
-                        <option value="District of Columbia">
-                          District of Columbia
-                        </option>
-                        <option value="Florida">Florida</option>
-                        <option value="Georgia">Georgia</option>
-                        <option value="Hawaii">Hawaii</option>
-                        <option value="Idaho">Idaho</option>
-                        <option value="Illinois">Illinois</option>
-                        <option value="Indiana">Indiana</option>
-                        <option value="Iowa">Iowa</option>
-                        <option value="Kansas">Kansas</option>
-                        <option value="Kentucky">Kentucky</option>
-                        <option value="Louisiana">Louisiana</option>
-                        <option value="Maine">Maine</option>
-                        <option value="Maryland">Maryland</option>
-                        <option value="Massachusetts">Massachusetts</option>
-                        <option value="Michigan">Michigan</option>
-                        <option value="Minnesota">Minnesota</option>
-                        <option value="Mississippi">Mississippi</option>
-                        <option value="Missouri">Missouri</option>
-                        <option value="Montana">Montana</option>
-                        <option value="Nebraska">Nebraska</option>
-                        <option value="Nevada">Nevada</option>
-                        <option value="New Hampshire">New Hampshire</option>
-                        <option value="New Jersey">New Jersey</option>
-                        <option value="New Mexico">New Mexico</option>
-                        <option value="New York">New York</option>
-                        <option value="North Carolina">North Carolina</option>
-                        <option value="North Dakota">North Dakota</option>
-                        <option value="Ohio">Ohio</option>
-                        <option value="Oklahoma">Oklahoma</option>
-                        <option value="Oregon">Oregon</option>
-                        <option value="Pennsylvania">Pennsylvania</option>
-                        <option value="Rhode Island">Rhode Island</option>
-                        <option value="South Carolina">South Carolina</option>
-                        <option value="South Dakota">South Dakota</option>
-                        <option value="Tennessee">Tennessee</option>
-                        <option value="Texas">Texas</option>
-                        <option value="Utah">Utah</option>
-                        <option value="Vermont">Vermont</option>
-                        <option value="Virginia">Virginia</option>
-                        <option value="Washington">Washington</option>
-                        <option value="West Virginia">West Virginia</option>
-                        <option value="Wisconsin">Wisconsin</option>
-                        <option value="Wyoming">Wyoming</option>
-                      </select>
-                      <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-[#C5A059]">
-                        <ArrowRight className="w-3.5 h-3.5 rotate-90" />
-                      </div>
+                  {/* Horizontal Form Fields */}
+                  <form className="lg:w-3/4 flex flex-col gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+                      <input
+                        type="text"
+                        placeholder="First Name"
+                        className="bg-white border border-slate-200 rounded-xl px-5 py-4 text-sm outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
+                        required
+                      />
+                      <input
+                        type="text"
+                        placeholder="Last Name"
+                        className="bg-white border border-slate-200 rounded-xl px-5 py-4 text-sm outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
+                        required
+                      />
+                      <input
+                        type="email"
+                        placeholder="Email Address"
+                        className="bg-white border border-slate-200 rounded-xl px-5 py-4 text-sm outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400 lg:col-span-2"
+                        required
+                      />
                     </div>
 
-                    <input
-                      type="tel"
-                      placeholder="Phone"
-                      className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
-                      required
-                    />
-                  </div>
-
-                  <textarea
-                    rows={3}
-                    placeholder="Briefly describe your case"
-                    className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black resize-none placeholder:text-slate-400"
-                    required
-                  ></textarea>
-
-                  <button
-                    type="submit"
-                    className="w-full bg-[#0A1128] text-white font-sans font-black tracking-[0.2em] uppercase text-[12px] py-4 rounded-lg hover:bg-[#C5A059] transition-all shadow-lg mt-2 cursor-pointer"
-                  >
-                    Send Request
-                  </button>
-                </form>
+                    <div className="flex flex-col md:flex-row gap-3">
+                      <textarea
+                        rows={1}
+                        placeholder="Briefly describe your case"
+                        className="flex-grow bg-white border border-slate-200 rounded-xl px-5 py-4 text-sm outline-none focus:border-[#C5A059] transition-all text-black resize-none placeholder:text-slate-400 min-h-[56px]"
+                        required
+                      ></textarea>
+                      <button
+                        type="submit"
+                        className="md:w-64 bg-[#0A1128] text-white font-sans font-black tracking-[0.2em] uppercase text-[13px] py-4 rounded-xl hover:bg-[#C5A059] transition-all shadow-xl cursor-pointer"
+                      >
+                        Send Request
+                      </button>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
