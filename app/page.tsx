@@ -346,18 +346,15 @@ export default function LandingPage() {
               </div>
             </div>
 
-            {/* Right Column: Premium Portrait - 400x300 Rounded Rect */}
-            <div className="lg:col-span-5 relative w-full h-[400px] md:h-[300px] lg:h-[300px] hero-portrait flex items-start justify-center lg:translate-y-4">
-              <div className="relative w-full max-w-[400px] h-full rounded-[2rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.08)] border border-white/40 bg-white/30 backdrop-blur-sm">
+            {/* Right Column: Premium Portrait - 450x550 Rounded Rect */}
+            <div className="lg:col-span-5 relative w-full h-[450px] md:h-[500px] lg:h-[550px] hero-portrait flex items-start justify-center lg:translate-y-4">
+              <div className="relative w-full max-w-[450px] h-full rounded-[2.5rem] overflow-hidden shadow-[0_30px_70px_rgba(0,0,0,0.15)] border border-white/40 bg-white/40 backdrop-blur-lg">
                 {/* Elegant Background Shape behind the Lawyer */}
-                <div className="absolute inset-0 bg-gradient-to-b from-[#C5A059]/10 to-transparent"></div>
-                <Image
+                <div className="absolute inset-0 bg-gradient-to-b from-[#C5A059]/20 to-transparent"></div>
+                <img
                   src="/assets/osbelia-castillo.jpg"
                   alt="Principal Attorney Osbelia Castillo - Personal Injury and Vehicle Accident Specialist"
-                  fill
-                  className="object-cover object-top scale-105"
-                  priority
-                  unoptimized
+                  className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
                 />
               </div>
             </div>

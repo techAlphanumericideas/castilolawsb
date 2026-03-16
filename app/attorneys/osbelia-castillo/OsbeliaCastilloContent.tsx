@@ -82,16 +82,13 @@ const OsbeliaCastilloContent = () => {
             </div>
 
             {/* Right Side: Replicated Homepage Portrait Style */}
-            <div className="lg:col-span-5 relative w-full h-[280px] md:h-[300px] lg:h-[300px] hero-portrait flex items-start justify-center lg:justify-end">
-              <div className="relative w-full max-w-[400px] h-full rounded-[2rem] overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.3)] border border-white/20 bg-white/5 backdrop-blur-sm">
-                 <div className="absolute inset-0 bg-gradient-to-b from-[#C5A059]/10 to-transparent"></div>
-                 <Image
+            <div className="lg:col-span-5 relative w-full h-[450px] md:h-[500px] lg:h-[550px] hero-portrait flex items-start justify-center lg:justify-end">
+              <div className="relative w-full max-w-[450px] h-full rounded-[2.5rem] overflow-hidden shadow-[0_40px_80px_rgba(0,0,0,0.4)] border border-white/20 bg-white/10 backdrop-blur-md">
+                 <div className="absolute inset-0 bg-gradient-to-b from-[#C5A059]/20 to-transparent"></div>
+                 <img
                    src="/assets/osbelia-castillo.jpg"
                    alt="Attorney Osbelia Castillo - Founding Lawyer of The Law Office of Osbelia Castillo"
-                   fill
-                   className="object-cover object-top scale-105"
-                   priority
-                   unoptimized
+                   className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
                  />
               </div>
             </div>

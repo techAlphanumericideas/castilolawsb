@@ -152,8 +152,8 @@ const Navbar = () => {
             >
               <Link
                 href={link.name === "Attorneys" ? "/attorneys/osbelia-castillo" : link.href}
-                className={`px-5 py-3 flex items-center gap-2 text-[14px] font-bold tracking-widest uppercase transition-colors whitespace-nowrap ${
-                  activeDropdown === link.name ? "text-black" : "text-gray-700 hover:text-black"
+                className={`px-5 py-3 flex items-center gap-2 text-[15px] font-bold tracking-[0.2em] uppercase transition-all whitespace-nowrap ${
+                  activeDropdown === link.name ? "text-black" : "text-gray-700 hover:text-[#C5A059]"
                 }`}
               >
                 {link.name}
@@ -164,9 +164,9 @@ const Navbar = () => {
                     }`}
                   />
                 )}
-                {(!link.dropdownItems || link.name === "Attorneys") && (
-                  <span className="absolute bottom-1 left-5 right-5 h-0.5 bg-[#C5A059] scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
-                )}
+                <span className={`absolute bottom-1 left-5 right-5 h-0.5 bg-[#C5A059] transition-transform origin-left ${
+                  activeDropdown === link.name ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
+                }`}></span>
               </Link>
 
               {/* Mega Dropdown / Submenu */}
