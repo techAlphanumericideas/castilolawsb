@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
 import {
   Scale,
   CheckCircle2,
@@ -38,6 +39,15 @@ const OsbeliaCastilloPage = () => {
         duration: 1,
         ease: "power3.out",
         delay: 0.2,
+        stagger: 0.1
+      });
+
+      gsap.from(".hero-portrait", {
+        x: 30,
+        opacity: 0,
+        duration: 1.2,
+        ease: "power4.out",
+        delay: 0.5
       });
     }, contentRef);
 
@@ -52,8 +62,8 @@ const OsbeliaCastilloPage = () => {
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#C5A059]/10 rounded-full blur-[120px] -translate-x-1/2 translate-y-1/2"></div>
 
         <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
-          <div className="flex flex-col lg:flex-row items-center gap-16">
-            <div className="lg:w-2/3">
+          <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-12 lg:gap-16">
+            <div className="lg:col-span-7">
               <div className="inline-flex items-center gap-3 mb-6 hero-reveal">
                 <div className="h-[1px] w-10 bg-[#C5A059]"></div>
                 <span className="text-[#C5A059] font-sans font-black tracking-[0.4em] uppercase text-[12px]">
@@ -70,6 +80,21 @@ const OsbeliaCastilloPage = () => {
                   inside, I now use that knowledge to fight for the maximum
                   recovery for my clients."
                 </p>
+              </div>
+            </div>
+
+            {/* Right Side: Replicated Homepage Portrait Style */}
+            <div className="lg:col-span-5 relative w-full h-[280px] md:h-[300px] lg:h-[300px] hero-portrait flex items-start justify-center lg:justify-end">
+              <div className="relative w-full max-w-[400px] h-full rounded-[2rem] overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.3)] border border-white/20 bg-white/5 backdrop-blur-sm">
+                 {/* Elegant Background Shape behind the Lawyer */}
+                 <div className="absolute inset-0 bg-gradient-to-b from-[#C5A059]/10 to-transparent"></div>
+                 <Image
+                   src="/assets/osbelia-castillo.jpg"
+                   alt="Lawyer Osbelia Castillo"
+                   fill
+                   className="object-cover object-top scale-105"
+                   priority
+                 />
               </div>
             </div>
           </div>
