@@ -2,6 +2,14 @@
   "projects": {
     "default": "castilolawsb"
   },
-  "targets": {},
+  "targets": {
+    "castilolawsb": {
+      "hosting": {
+        "castillolawsb": [
+          "castillolawsb"
+        ]
+      }
+    }
+  },
   "etags": {}
 }
