@@ -3,9 +3,9 @@ import { getAnalytics, isSupported } from "firebase/analytics";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBjOaaSIF5BtByh8kB4Un2ZIgnE2o3-fdg",
-  authDomain: "castilolawsb.firebaseapp.com",
-  projectId: "castilolawsb",
-  storageBucket: "castilolawsb.firebasestorage.app",
+  authDomain: "castilolawsb-92445.firebaseapp.com",
+  projectId: "castilolawsb-92445",
+  storageBucket: "castilolawsb-92445.firebasestorage.app",
   messagingSenderId: "176376467148",
   appId: "1:176376467148:web:e0f99bc8e854bba7fbbc69",
   measurementId: "G-YZ4RYQCLHH",
