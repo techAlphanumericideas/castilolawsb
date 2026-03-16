@@ -286,8 +286,8 @@ export default function LandingPage() {
         {/* Architectural Background with Parallax effect */}
         <div className="absolute inset-0 z-0 opacity-[0.03] lg:opacity-[0.05]">
           <img
-            src="/assets/background.avif"
-            alt="Architectural background"
+            src="/assets/hero-background.png"
+            alt="Hero background"
             className="w-full h-full object-cover scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-br from-white via-transparent to-white/50"></div>
