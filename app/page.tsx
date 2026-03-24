@@ -286,7 +286,7 @@ export default function LandingPage() {
         className="relative min-h-screen flex flex-col justify-center pt-32 pb-32 bg-white overflow-hidden"
       >
         {/* Architectural Background with Parallax effect */}
-        <div className="absolute inset-0 z-0 opacity-[0.05] lg:opacity-[0.1]">
+        <div className="absolute inset-0 z-0 opacity-[0.35] lg:opacity-[0.35]">
           <img
             src="/assets/hero-background.png"
             alt="The Law Office of Osbelia Castillo - Architectural legal building background"
@@ -347,7 +347,7 @@ export default function LandingPage() {
             </div>
 
             {/* Right Column: Premium Portrait - 400x300 Rounded Rect */}
-            <div className="lg:col-span-5 relative w-full h-[400px] md:h-[300px] lg:h-[300px] hero-portrait flex items-start justify-center lg:translate-y-4">
+            <div className="lg:col-span-5 relative w-full h-[400px] md:h-[300px] lg:h-[300px] hero-portrait flex items-start justify-center lg:translate-y-4 lg:mt-10">
               <div className="relative w-full max-w-[400px] h-full rounded-[2rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.08)] border border-white/40 bg-white/30 backdrop-blur-sm">
                 {/* Elegant Background Shape behind the Lawyer */}
                 <div className="absolute inset-0 bg-gradient-to-b from-[#C5A059]/10 to-transparent"></div>
@@ -581,7 +581,7 @@ export default function LandingPage() {
                   </p>
 
                   <a
-                    href="#home"
+                    href={practice.link}
                     className="inline-flex items-center gap-2 text-[#0A1128] font-bold text-[12px] tracking-[0.15em] uppercase border-b border-gray-200 pb-1 group-hover:border-[#C5A059] transition-all"
                   >
                     Explore Area
