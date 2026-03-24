@@ -1,12 +1,14 @@
 "use client";
 
 import { ArrowRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 interface ContactFormProps {
   compact?: boolean;
 }
 
 const ContactForm = ({ compact = false }: ContactFormProps) => {
+  const t = useTranslations("ContactForm");
   return (
     <div
       className={`bg-white/70 backdrop-blur-xl border border-white/40 rounded-[1.25rem] shadow-[0_20px_60px_rgba(10,17,40,0.05)] relative overflow-hidden flex flex-col justify-center ${compact ? "p-6" : "p-8 md:p-10"}`}
@@ -17,12 +19,12 @@ const ContactForm = ({ compact = false }: ContactFormProps) => {
       <div className="relative z-10 w-full">
         <div className="mb-6">
           <p className="text-[#C5A059] font-sans font-black tracking-[0.3em] uppercase text-[10px] mb-1">
-            Case Submission
+            {t("caseSubmission")}
           </p>
           <h2
             className={`${compact ? "text-lg" : "text-xl md:text-2xl"} font-serif font-bold text-[#0A1128] tracking-tight leading-none`}
           >
-            Free Consultation
+            {t("freeConsultation")}
           </h2>
         </div>
 
@@ -30,13 +32,13 @@ const ContactForm = ({ compact = false }: ContactFormProps) => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <input
               type="text"
-              placeholder="First Name"
+              placeholder={t("firstName")}
               className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
               required
             />
             <input
               type="text"
-              placeholder="Last Name"
+              placeholder={t("lastName")}
               className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
               required
             />
@@ -44,7 +46,7 @@ const ContactForm = ({ compact = false }: ContactFormProps) => {
 
           <input
             type="email"
-            placeholder="Email Address"
+            placeholder={t("email")}
             className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
             required
           />
@@ -113,7 +115,7 @@ const ContactForm = ({ compact = false }: ContactFormProps) => {
 
             <input
               type="tel"
-              placeholder="Phone"
+              placeholder={t("phone")}
               className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black placeholder:text-slate-400"
               required
             />
@@ -121,7 +123,7 @@ const ContactForm = ({ compact = false }: ContactFormProps) => {
 
           <textarea
             rows={compact ? 2 : 3}
-            placeholder="Briefly describe your case"
+            placeholder={t("describeCase")}
             className="w-full bg-white/50 border border-slate-200 rounded-lg px-4 py-3 text-xs outline-none focus:border-[#C5A059] transition-all text-black resize-none placeholder:text-slate-400"
             required
           ></textarea>
@@ -130,7 +132,7 @@ const ContactForm = ({ compact = false }: ContactFormProps) => {
             type="submit"
             className="w-full bg-[#0A1128] text-white font-sans font-black tracking-[0.2em] uppercase text-[12px] py-4 rounded-lg hover:bg-[#C5A059] transition-all shadow-lg mt-2 cursor-pointer"
           >
-            Send Request
+            {t("sendRequest")}
           </button>
         </form>
       </div>

@@ -1,0 +1,622 @@
+{
+  "Index": {
+    "title": "Welcome"
+  },
+  "Metadata": {
+    "title": "The Law Office of Osbelia Castillo",
+    "description": "Aggressive Personal Injury & Vehicle Accident Representation in Santa Barbara, Oxnard, and Ventura.",
+    "organizationName": "The Law Office of Osbelia Castillo"
+  },
+  "Navbar": {
+    "home": "Home",
+    "attorneys": "Attorneys",
+    "osbelia": "Osbelia Castillo",
+    "personalInjury": "Personal Injury",
+    "slipAndFall": "Slip and Fall",
+    "defectiveProducts": "Defective Products & Drugs",
+    "brainSpinal": "Brain & Spinal Injury",
+    "dogBites": "Dog Bites",
+    "asbestos": "Asbestos & Mesothelioma",
+    "sexualAbuse": "Sexual Molestation & Abuse",
+    "vehicleAccidents": "Vehicle Accidents",
+    "drunkDriving": "Drunk Driving Accident",
+    "hitAndRun": "Hit and Run",
+    "cellPhone": "Accidents Due to Cell Phone Use",
+    "truckAccidents": "Truck Accidents",
+    "motorcycleAccidents": "Motorcycle Accidents",
+    "bicycleAccidents": "Bicycle Accidents",
+    "pedestrianAccidents": "Pedestrian Accidents",
+    "wrongfulDeath": "Wrongful Death",
+    "workersComp": "Worker's Compensation",
+    "callNow": "Call Now: 805-283-7656"
+  },
+  "Footer": {
+    "aboutText": "A Santa Barbara, Oxnard & Ventura professional group of lawyers specializing in Personal injury, Vehicular Accidents, Wrongful Death and Workers’ Compensation cases.",
+    "quickLinks": "Quick Links",
+    "aboutUs": "About Us",
+    "practiceAreas": "Practice Areas",
+    "contact": "Contact",
+    "contactInfo": "Contact Info",
+    "callAnytime": "Call Anytime",
+    "emailUs": "Email Us",
+    "location": "Our Location",
+    "rightsReserved": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use"
+  },
+  "ContactForm": {
+    "caseSubmission": "Case Submission",
+    "freeConsultation": "Free Consultation",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "phone": "Phone",
+    "describeCase": "Briefly describe your case",
+    "sendRequest": "Send Request"
+  },
+  "Hero": {
+    "prestige": "Prestige Legal Representation",
+    "need": "Need",
+    "litigation": "Litigation?",
+    "description": "The Law Office of Osbelia Castillo delivers elite defense strategies with {precision} and bilingual expertise.",
+    "precision": "surgical precision",
+    "consultation": "Consultation in English & Spanish",
+    "getStarted": "Get Started",
+    "freeConsultation": "Free Consultation",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "describeCase": "Briefly describe your case",
+    "sendRequest": "Send Request",
+    "ariaCall": "Call Osbelia Castillo for a Free Consultation at 805-283-7656",
+    "ariaSubmit": "Submit your request for a free legal consultation"
+  },
+  "Settlements": {
+    "carAccident": "Car Accident",
+    "spinalInjury": "Spinal Injury",
+    "motorVehicle": "Motor Vehicle Accident",
+    "pedestrian": "Pedestrian Accident"
+  },
+  "About": {
+    "leadership": "Legal Leadership",
+    "title": "About Osbelia Castillo",
+    "p1": "For over five years, Osbelia has worked as an aggressive civil litigator representing insurance companies in both state and federal court. She has handled hundreds of personal injury cases including catastrophic injuries, wrongful deaths, and complex liability cases.",
+    "p2": "Her experience representing insurance companies gives her an {edge} when fighting for her injured clients. Her background on the defense side provides a unique perspective to achieve favorable results at an early stage.",
+    "edge": "edge",
+    "fluent": "Fluent in English & Spanish",
+    "readProfile": "Read Full Profile",
+    "ariaProfile": "View the full legal profile and biography of Osbelia Castillo"
+  },
+  "PracticeAreas": {
+    "expertise": "Expertise & Focus",
+    "title": "Practice Areas",
+    "subtitle": "Dedicated to your recovery.",
+    "explore": "Explore Area",
+    "piTitle": "Personal Injury",
+    "piDesc": "Handling catastrophic injuries with an aggressive approach to secure the compensation you deserve.",
+    "vaTitle": "Vehicle Accidents",
+    "vaDesc": "Expert representation for highway collisions, side-street accidents, and complex parking lot cases.",
+    "wdTitle": "Wrongful Death",
+    "wdDesc": "Compassionate legal support for families seeking justice after the loss of a loved one due to negligence.",
+    "wcTitle": "Workers' Comp",
+    "wcDesc": "Protecting your right to a safe workplace and ensuring full benefits for on-the-job injuries."
+  },
+  "Contact": {
+    "fluent": "Consultation Offered in English & Spanish",
+    "ready": "Ready to {defend} Your Future.",
+    "defend": "Defend",
+    "description": "We take the time to examine every detail of your case. Let us guide you through your legal options with clarity and dedication.",
+    "speakWithTeam": "Speak directly with our team",
+    "clickToCall": "Click to Call",
+    "initialConsultation": "Initial Consultation — No Charge"
+  },
+  "Process": {
+    "whatWeDo": "What We Do",
+    "title": "Defining Goals, Method & Success Together",
+    "p1": "By conducting various internal investigation activities and implementing risk management assessments, our approach saves our clients time and money over the long term.",
+    "p2": "Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+    "step1": "Get Your Legal Advice",
+    "step2": "Work With Expert Lawyers",
+    "step3": "Have Great Discounted Rates",
+    "step4": "Review Your Case Documents"
+  },
+  "OsbeliaCastillo": {
+    "metadata": {
+      "title": "Osbelia Castillo | Founding Attorney | Personal Injury Specialist",
+      "description": "Meet Osbelia Castillo, founding attorney of The Law Office of Osbelia Castillo. With over 5 years of experience in civil litigation and insurance defense, she fights for maximum recovery for personal injury victims. Bilingual advocacy in English and Spanish."
+    },
+    "hero": {
+      "role": "Founding Attorney",
+      "quote": "Having seen how insurance companies defend claims from the inside, I now use that knowledge to fight for the maximum recovery for my clients."
+    },
+    "profile": {
+      "title": "Professional Profile",
+      "p1": "For over five years, Osbelia has worked as an aggressive civil litigator representing insurance companies in both state and federal court. She has handled hundreds of personal injury cases including catastrophic injuries, wrongful deaths, and complex liability cases.",
+      "p2": "Her experience representing insurance companies gives her an {edge} when fighting for her injured clients. Her background on the defense side provides a unique perspective to achieve favorable results at an early stage.",
+      "edge": "edge"
+    },
+    "competencies": {
+      "title": "Core Competencies",
+      "skill1": "Catastrophic Injury Litigation",
+      "skill2": "Insurance Defense Strategy",
+      "skill3": "Complex Liability Analysis",
+      "skill4": "Wrongful Death Representation",
+      "skill5": "Bilingual Legal Advocacy",
+      "skill6": "Pre-Trial Settlement Negotiation"
+    },
+    "sidebar": {
+      "directContact": "Direct Contact",
+      "fluent": "English & Spanish"
+    }
+  },
+  "PracticeAreasPage": {
+    "common": {
+      "heroPrestige": "Practice Areas",
+      "defenseAdvantage": "The Defense Advantage",
+      "insuranceExpertise": "Insurance Expertise",
+      "insuranceExpertiseDesc": "We anticipate insurance company tactics to prevent common claim denial strategies.",
+      "maximumRecovery": "Maximum Recovery",
+      "maximumRecoveryDesc": "Meticulous case preparation designed to secure the highest possible settlements.",
+      "getHelpNow": "Get Help Now"
+    },
+    "personalInjury": {
+      "metadata": {
+        "title": "Personal Injury Law Specialists | Santa Barbara | Osbelia Castillo",
+        "description": "Injured due to someone else's negligence? We specialize in personal injury law, representing victims in slip and fall, dog bites, and catastrophic injury cases. defense-side insights to every plaintiff's case. Free consultation."
+      },
+      "hero": {
+        "title": "Personal Injury",
+        "subtitle": "Law Specialists",
+        "description": "Recovering compensation for those injured by negligence. We bring defense-side insights to every plaintiff's case.",
+        "alt": "Attorney Osbelia Castillo - Leading Personal Injury Law Specialist in Santa Barbara"
+      },
+      "focus": {
+        "title": "Personal Injury Focus Areas",
+        "slipAndFall": "Slip and Fall",
+        "defectiveProducts": "Defective Products & Drugs",
+        "brainSpinal": "Brain & Spinal Injury",
+        "dogBites": "Dog Bites",
+        "asbestos": "Asbestos & Mesothelioma",
+        "sexualAbuse": "Sexual Molestation & Abuse"
+      }
+    },
+    "vehicleAccidents": {
+      "metadata": {
+        "title": "Vehicle Accident Lawyers | Santa Barbara & Ventura | Castillo Law",
+        "description": "Specialized legal representation for car, truck, motorcycle, and pedestrian accidents. We investigate thoroughly to secure maximum compensation for your injuries."
+      },
+      "hero": {
+        "title": "Vehicle",
+        "subtitle": "Accidents",
+        "description": "Aggressive litigation for car, truck, motorcycle, and pedestrian accidents. We secure the compensation you need to move forward.",
+        "alt": "Attorney Osbelia Castillo - Expert Vehicle Accident Representation"
+      },
+      "categories": {
+        "title": "Specialized Accident Categories",
+        "drunkDriving": "Drunk Driving Accident",
+        "hitAndRun": "Hit and Run",
+        "cellPhone": "Accidents Due to Cell Phone Use",
+        "truck": "Truck Accidents",
+        "motorcycle": "Motorcycle Accidents",
+        "bicycle": "Bicycle Accidents",
+        "pedestrian": "Pedestrian Accidents"
+      },
+      "investigation": {
+        "title": "Meticulous Investigation",
+        "desc": "We go beyond the police report, using accident reconstruction experts and digital forensics to establish liability in complex vehicle collision cases."
+      }
+    },
+    "wrongfulDeath": {
+      "metadata": {
+        "title": "Wrongful Death Attorneys | Santa Barbara | Osbelia Castillo",
+        "description": "Navigating the loss of a loved one is devastating. Our wrongful death lawyers provide compassionate advocacy and aggressive legal representation to secure your family's future. Free consultation."
+      },
+      "hero": {
+        "prestige": "Compassionate Justice",
+        "title": "Wrongful",
+        "subtitle": "Death Claims",
+        "description": "Seeking justice for families navigating unimaginable loss. We fight for your future while you focus on healing.",
+        "alt": "Attorney Osbelia Castillo - Compassionate Representative for Wrongful Death Claims"
+      },
+      "future": {
+        "title": "Securing Your Family's Future",
+        "description": "While no amount of money can replace a loved one, a wrongful death claim can provide the financial security your family needs to survive and thrive following a tragic loss.",
+        "survival": "Survival Actions",
+        "survivalDesc": "Claims for the victim's pre-death suffering.",
+        "consortium": "Loss of Consortium",
+        "consortiumDesc": "Justice for the loss of companionship and care.",
+        "earnings": "Lost Earnings",
+        "earningsDesc": "Recovering future income lost due to the death.",
+        "funeral": "Funeral Costs",
+        "funeralDesc": "Coverage for final medical and burial expenses."
+      },
+      "litigation": {
+        "title": "Aggressive Litigation",
+        "desc": "We use our insurance industry knowledge to hold negligent parties accountable, ensuring they pay the full value for the life they've affected.",
+        "ariaCall": "Contact Osbelia Castillo for support with a wrongful death claim"
+      }
+    },
+    "workersComp": {
+      "metadata": {
+        "title": "Workers' Compensation Lawyers | Santa Barbara | Osbelia Castillo",
+        "description": "Injured at work? Our California workers' compensation attorneys protect your rights and ensure you receive maximum medical and financial benefits. Free consultation."
+      },
+      "hero": {
+        "prestige": "Workers' Rights",
+        "title": "Workplace",
+        "subtitle": "Injuries",
+        "description": "Protecting your rights and livelihood. We ensure you get the full medical and financial benefits you deserve under California law.",
+        "alt": "Attorney Osbelia Castillo - Expert in California Workers' Compensation Law"
+      },
+      "benefits": {
+        "title": "Workers' Compensation Benefits",
+        "description": "The workers' comp system is complex and often skewed in favor of employers. We rebalance the scales to ensure you receive full coverage for your workplace injuries.",
+        "lostWages": "Lost Wages",
+        "lostWagesDesc": "Compensation for time off work during recovery.",
+        "medicalCare": "Medical Care",
+        "medicalCareDesc": "Full coverage for surgery, therapy, and medications.",
+        "disability": "Disability",
+        "disabilityDesc": "Permanent or temporary disability payments.",
+        "retraining": "Retraining",
+        "retrainingDesc": "Vouchers for new skill training if you can't return to the same role."
+      },
+      "filing": {
+        "title": "Filing Your Claim",
+        "description": "Timing is critical in workers' compensation cases. Follow these steps to protect your claim:",
+        "step1": "Report the injury to your employer immediately.",
+        "step2": "Seek medical evaluation from a certified provider.",
+        "step3": "Contact our office to file a formal DWC-1 form.",
+        "step4": "Document all symptoms and treatment interactions."
+      }
+    },
+    "subPages": {
+      "asbestos": {
+        "metadata": {
+          "title": "Asbestos & Mesothelioma Litigation | Osbelia Castillo",
+          "description": "Expert legal advocacy for victims of asbestos exposure. We hold corporations accountable for occupational health failures. Free consultation."
+        },
+        "hero": {
+          "prestige": "Toxic Tort & Exposure",
+          "title": "Asbestos &",
+          "subtitle": "Mesothelioma",
+          "description": "Maximum advocacy for victims of environmental toxins. We hold industrial and corporate entities accountable for failures to protect workers and families.",
+          "alt": "Attorney Osbelia Castillo - Asbestos & Mesothelioma Litigation Expert"
+        },
+        "content": {
+          "title": "Justice for Occupational Exposure",
+          "description": "Exposure to asbestos can lead to devastating health conditions, often appearing decades after the truth was hidden by employers and manufacturers. We understand the specialized nature of mesothelioma claims and fight for the resources your family needs.",
+          "trustClaims": "Asbestos Trust Claims",
+          "trustClaimsDesc": "Expediting recovery through established bankruptcy trusts of responsible corporations.",
+          "specialistAccess": "Medical Specialist Access",
+          "specialistAccessDesc": "Connecting victims with leading oncologists and pulmonary experts for diagnosis and care.",
+          "industrialNegligence": "Industrial Negligence",
+          "industrialNegligenceDesc": "Holding construction and manufacturing companies responsible for unsafe working conditions.",
+          "lifetimeAdvocacy": "Lifetime Advocacy",
+          "lifetimeAdvocacyDesc": "Ensuring long-term settlements that cover extensive medical needs and loss of consortium.",
+          "corporateLitigation": "Aggressive Corporate Litigation",
+          "corporateLitigationDesc": "Mesothelioma cases are highly technical. We have the experience and expert network required to handle the complex evidentiary standards of toxic tort law.",
+          "freeCaseReview": "Free Case Review"
+        }
+      },
+      "brainSpinal": {
+        "metadata": {
+          "title": "Brain & Spinal Injury Lawyers | Osbelia Castillo",
+          "description": "Catastrophic injuries require expert legal representation. We fight for the long-term care and financial security your family deserves. Free consultation."
+        },
+        "hero": {
+          "prestige": "Catastrophic Injuries",
+          "title": "Brain &",
+          "subtitle": "Spinal Injury",
+          "description": "Life-altering injuries require dedicated advocacy. We fight to secure the long-term care and financial resources your family needs for the road ahead.",
+          "alt": "Attorney Osbelia Castillo - Catastrophic Brain & Spinal Injury Specialist"
+        },
+        "content": {
+          "title": "Compassionate Advocacy for Serious Trauma",
+          "description": "Brain and spinal cord injuries often involve permanent changes to one's quality of life. Our firm understands the medical complexities and the lifelong costs associated with these catastrophic events.",
+          "tbi": "Traumatic Brain Injury (TBI)",
+          "tbiDesc": "Representation for concussions, cognitive impairment, and severe cranial trauma.",
+          "spinalDamage": "Spinal Cord Damage",
+          "spinalDamageDesc": "Fighting for victims of paralysis, nerve damage, and chronic spinal conditions.",
+          "longTermCare": "Long-term Care Planning",
+          "longTermCareDesc": "Ensuring settlements cover future rehabilitation, nursing, and medical equipment.",
+          "maximumRecovery": "Maximum Recovery",
+          "maximumRecoveryDesc": "Relentless pursuit of compensation for pain, suffering, and lost earning capacity.",
+          "pursuitOfJustice": "Relentless Pursuit of Justice",
+          "pursuitOfJusticeDesc": "We leverage medical experts and life-care planners to build a case that accurately reflects the true cost of your injury.",
+          "consultExpert": "Consult an Expert"
+        }
+      },
+      "defectiveProducts": {
+        "metadata": {
+          "title": "Defective Product Liability Attorneys | Osbelia Castillo",
+          "description": "Injured by a dangerous product? We take on major corporations to recover damages for manufacturing and design defects. Free consultation."
+        },
+        "hero": {
+          "prestige": "Product Liability",
+          "title": "Defective",
+          "subtitle": "Products",
+          "description": "When corporations put profits over people, we hold them accountable. Our firm handles complex product liability cases to recover damages for injuries caused by unsafe consumer goods.",
+          "alt": "Attorney Osbelia Castillo - Defective Products & Liability Specialist"
+        },
+        "content": {
+          "title": "Justice for Unsafe Products",
+          "description": "When you buy a product, you have the right to expect it is safe for its intended use. Whether it's a defective auto part, a dangerous household appliance, or unsafe medication, we take on the large corporations responsible for your harm.",
+          "strictLiability": "Strict Liability Claims",
+          "strictLiabilityDesc": "Holding manufacturers responsible for design and manufacturing defects.",
+          "consumerSafety": "Consumer Safety",
+          "consumerSafetyDesc": "Fighting against dangerous products that lack proper safety warnings.",
+          "autoPartFailure": "Auto Part Failure",
+          "autoPartFailureDesc": "Cases involving defective airbags, tires, and mechanical failures.",
+          "corporateAccountability": "Corporate Accountability",
+          "corporateAccountabilityDesc": "Proving that a company knew of defects but failed to issue a recall.",
+          "commitment": "Osbelia Castillo's Commitment",
+          "commitmentDesc": "Pharmaceutical companies and manufacturers have a duty to ensure their products don't harm consumers. We hold them accountable when they prioritize profits over patient safety.",
+          "requestConsultation": "Request Consultation"
+        }
+      },
+      "dogBites": {
+        "metadata": {
+          "title": "Dog Bite Injury Lawyers | Osbelia Castillo",
+          "description": "California strict liability laws protect victims of dog bites. We secure compensation for medical care and emotional trauma. Free consultation."
+        },
+        "hero": {
+          "prestige": "Animal Liability",
+          "title": "Dog Bite",
+          "subtitle": "Injuries",
+          "description": "Holding owners accountable for animal attacks. We specialize in securing compensation for the physical and emotional trauma caused by dog bites.",
+          "alt": "Attorney Osbelia Castillo - Dog Bite Injury Law Specialist"
+        },
+        "content": {
+          "title": "Strict Liability for Dog Bites",
+          "description": "California law follows a strict liability rule for dog bites. This means owners are responsible for the injuries their pets cause, regardless of whether the dog has bitten before. We help you navigate the claims process against homeowners' insurance to cover your recovery.",
+          "scarring": "Scarring & Disfigurement",
+          "scarringDesc": "Advocating for victims who require plastic surgery or long-term wound care.",
+          "statewideLiability": "Statewide Strict Liability",
+          "statewideLiabilityDesc": "Leveraging California's clear laws to hold animal owners fully accountable.",
+          "emotionalTrauma": "Emotional Trauma",
+          "emotionalTraumaDesc": "Fighting for compensation for the psychological impact and fear often caused by attacks.",
+          "infection": "Infection & Long-term Care",
+          "infectionDesc": "Ensuring your settlement covers all medical treatments, including specialized therapy.",
+          "protectRecovery": "Protect Your Recovery",
+          "protectRecoveryDesc": "Animal attacks are frightening and can lead to permanent damage. We are here to manage the insurance companies so you can focus on healing.",
+          "startClaim": "Start Claim"
+        }
+      },
+      "sexualAbuse": {
+        "metadata": {
+          "title": "Sexual Abuse & Molestation Attorneys | Osbelia Castillo",
+          "description": "Compassionate and confidential legal advocacy for survivors of abuse and institutional neglect. We fight for your restoration and justice."
+        },
+        "hero": {
+          "prestige": "Sensitive Advocacy",
+          "title": "Sexual Abuse &",
+          "subtitle": "Molestation",
+          "description": "Gentle yet aggressive pursuit of justice. We provide a safe space and powerful legal protection for survivors of abuse and institutional neglect.",
+          "alt": "Attorney Osbelia Castillo - Compassionate Advocate for Abuse Survivors"
+        },
+        "content": {
+          "title": "Holding Institutions Accountable",
+          "description": "Beyond the abuser, institutions like schools, religious organizations, and workplaces often bear responsibility for failing to prevent harm. We are dedicated to holding these powerful entities accountable and securing the resources survivors need for healing and restoration.",
+          "institutionalNegligence": "Institutional Negligence",
+          "institutionalNegligenceDesc": "Holding organizations responsible for negligent hiring, supervision, and failures to act.",
+          "civilJustice": "Civil Justice Path",
+          "civilJusticeDesc": "Leveraging the civil court system to achieve the financial restoration and closure the criminal system may lack.",
+          "confidentialityFirst": "Confidentiality First",
+          "confidentialityFirstDesc": "Strict adherence to privacy and survivor-centered legal strategies to protect your identity.",
+          "powerfulProtection": "Powerful Protection",
+          "powerfulProtectionDesc": "Aggressive litigation to ensure survivors are not silenced and their voices are heard.",
+          "pathRestoration": "Your Path to Restoration",
+          "pathRestorationDesc": "You don't have to face this alone. We provide the legal strength and personal empathy required to navigate these difficult cases.",
+          "confidentialConsult": "Strictly Confidential Consultation",
+          "ariaCall": "Confidential contact for sexual abuse and molestation survivors"
+        }
+      },
+      "slipAndFall": {
+        "metadata": {
+          "title": "Slip and Fall Accident Attorneys | Osbelia Castillo",
+          "description": "Injured on someone else's property? Our Santa Barbara slip and fall lawyers hold negligent property owners accountable. Free consultation."
+        },
+        "hero": {
+          "prestige": "Personal Injury Specialists",
+          "title": "Slip and Fall",
+          "subtitle": "Accident Attorneys",
+          "description": "Recovering justice for premises liability victims in Santa Barbara, Oxnard, and Ventura.",
+          "alt": "Attorney Osbelia Castillo - Slip and Fall & Premises Liability Law Expert"
+        },
+        "content": {
+          "title": "Premises Liability",
+          "description": "Premises liability arises when an injury is caused by an unsafe or defective condition on someone's property. Owners have the legal duty to keep their property safe for visitors.",
+          "wetFloors": "Wet or greasy floors",
+          "tornCarpeting": "Torn carpeting",
+          "unevenStairs": "Narrow or uneven stairs",
+          "sidewalks": "Broken or cracked public sidewalks",
+          "poorLighting": "Poor lighting",
+          "unevenPavement": "Uneven pavement",
+          "provingNegligence": "Proving Negligence",
+          "provingNegligenceDesc": "To win a compensation claim, we must demonstrate that the property owner knew or should have known about the dangerous condition and failed to address it.",
+          "establishOwner": "Establishing the property owner created the condition.",
+          "proveKnowledge": "Proving actual knowledge of the defect.",
+          "demonstrateKnowledge": "Demonstrating constructive knowledge (failure to inspect)."
+        }
+      },
+      "bicycleAccidents": {
+        "metadata": {
+          "title": "Bicycle Accident Lawyers | Osbelia Castillo",
+          "description": "Injured while cycling? Our Santa Barbara bicycle accident attorneys protect your rights and fight for full settlement from negligent drivers."
+        },
+        "hero": {
+          "prestige": "Vehicle Accidents",
+          "title": "Bicycle",
+          "subtitle": "Accidents",
+          "description": "Cyclists deserve safety on every road. We represent riders injured by negligent drivers, securing the resources needed for your recovery.",
+          "alt": "Attorney Osbelia Castillo - Advocate for Bicycle Accident Victims"
+        },
+        "content": {
+          "title": "Standing Up for Cyclists",
+          "description": "Bicycle accidents often involve unique legal considerations, including roadway design, helmet laws, and driver visibility. We have the expertise to prove driver negligence in complex cyclist injury cases.",
+          "roadwayAdvocacy": "Roadway Advocacy",
+          "roadwayAdvocacyDesc": "Holding drivers accountable for failing to share the road or violating bike lane laws.",
+          "medicalSupport": "Medical Support",
+          "medicalSupportDesc": "Ensuring you receive top-tier medical care for fractures, head trauma, or road rash.",
+          "liabilityFocus": "Liability Focus",
+          "liabilityFocusDesc": "Proving driver distraction or failure to yield as the primary cause of the collision.",
+          "maximumRecovery": "Maximum Recovery",
+          "maximumRecoveryDesc": "Seeking compensation for lost wages, medical equipment, and rehabilitation."
+        }
+      },
+      "cellPhone": {
+        "metadata": {
+          "title": "Distracted Driving Accident Lawyers | Osbelia Castillo",
+          "description": "Cell phone use causes devastating accidents. We hold distracted drivers accountable and secure compensation for your injuries. Free consultation."
+        },
+        "hero": {
+          "prestige": "Vehicle Accidents",
+          "title": "Cell Phone Use",
+          "subtitle": "Negligence",
+          "description": "Distracted driving is a choice that leads to tragedy. We hold drivers accountable for endangering others by prioritizing their screens over the road.",
+          "alt": "Attorney Osbelia Castillo - Distracted Driving Negligence Specialist"
+        },
+        "content": {
+          "title": "Combating Distracted Driving",
+          "description": "Cell phone use including texting, calling without hands-free devices, or using apps while driving is a primary cause of serious accidents today. We specialize in uncovering the evidence needed to prove digital distraction.",
+          "forensics": "Digital Forensics",
+          "forensicsDesc": "Subpoenaing phone records and analyzing data timestamps to prove phone use during the collision.",
+          "highImpact": "High-Impact Liability",
+          "highImpactDesc": "Proving gross negligence when drivers intentionally violate distracted driving laws.",
+          "victimRights": "Victim Rights",
+          "victimRightsDesc": "Ensuring you receive full compensation for medical treatment, property damage, and trauma.",
+          "handsFree": "Hands-Free Violations",
+          "handsFreeDesc": "Identifying when drivers failed to use legally required safety equipment."
+        }
+      },
+      "drunkDriving": {
+        "metadata": {
+          "title": "Drunk Driving Accident Lawyers | Osbelia Castillo",
+          "description": "Victim of a DUI crash? We hold intoxicated drivers accountable for their reckless choices and fight for your maximum recovery. Free consultation."
+        },
+        "hero": {
+          "prestige": "Vehicle Accidents",
+          "title": "Drunk Driving",
+          "subtitle": "Accidents",
+          "description": "Holding negligent drivers accountable for reckless choices. We fight for justice and maximum recovery for victims of DUI collisions.",
+          "alt": "Attorney Osbelia Castillo - DUI Accident & Reckless Negligence Specialist"
+        },
+        "content": {
+          "title": "Justice for DUI Victims",
+          "description": "When a driver chooses to operate a vehicle under the influence, they are making a choice that endangers everyone on the road. We are committed to securing the compensation you deserve for your injuries and losses.",
+          "punitive": "Punitive Damages",
+          "punitiveDesc": "Seeking additional compensation to punish reckless behavior and deter future incidents.",
+          "criminalCivil": "Criminal vs. Civil",
+          "criminalCivilDesc": "Understanding how a DUI criminal case impacts your personal injury claim.",
+          "fullLiability": "Full Liability",
+          "fullLiabilityDesc": "Holding the intoxicated driver fully responsible for all medical costs and lost wages.",
+          "proof": "Rigorous Proof",
+          "proofDesc": "Using police reports, blood alcohol tests, and eyewitness accounts to build a solid case.",
+          "whyHire": "Why Hire Us?",
+          "whyHireDesc": "Drunk driving cases require a specific legal strategy to maximize recovery. We have the experience to navigate both the civil and criminal implications of your accident.",
+          "startClaim": "Start Your Claim"
+        }
+      },
+      "hitAndRun": {
+        "metadata": {
+          "title": "Hit and Run Accident Lawyers | Osbelia Castillo",
+          "description": "Driver fled the scene? We use every resource to track down responsible parties and maximize your uninsured motorist recovery. Free consultation."
+        },
+        "hero": {
+          "prestige": "Vehicle Accidents",
+          "title": "Hit and Run",
+          "subtitle": "Claims",
+          "description": "When a driver flees the scene, they leave behind more than just damage. We use every resource to track down responsible parties and secure your recovery.",
+          "alt": "Attorney Osbelia Castillo - Hit and Run Claims Specialist"
+        },
+        "content": {
+          "title": "Your Path to Recovery After a Hit and Run",
+          "description": "A hit and run accident can feel overwhelming and hopeless. However, there are multiple avenues for recovery, including uninsured motorist coverage and thorough investigations to locate the fleeing driver.",
+          "investigation": "Investigation",
+          "investigationDesc": "Working with private investigators and surveillance footage to identify the vehicle and driver.",
+          "umClaims": "UM/UIM Claims",
+          "umClaimsDesc": "Maximizing your own insurance policy's uninsured motorist benefits when the driver remains unknown.",
+          "criminalCharges": "Criminal Charges",
+          "criminalChargesDesc": "Coordinating with law enforcement to support criminal hit and run prosecutions.",
+          "fullDamages": "Full Damages",
+          "fullDamagesDesc": "Seeking compensation for medical bills, pain and suffering, and property damage."
+        }
+      },
+      "motorcycle": {
+        "metadata": {
+          "title": "Motorcycle Accident Lawyers | Osbelia Castillo",
+          "description": "Injured on a motorcycle? We provide aggressive representation to overcome bias and recover the full compensation riders deserve. Free consultation."
+        },
+        "hero": {
+          "prestige": "Vehicle Accidents",
+          "title": "Motorcycle",
+          "subtitle": "Accidents",
+          "description": "Riders face unique risks on the road. We provide aggressive representation to protect your rights and recover compensation for serious motorcycle injuries.",
+          "alt": "Attorney Osbelia Castillo - Motorcycle Accident Specialist"
+        },
+        "content": {
+          "title": "Protecting the Rights of Motorcyclists",
+          "description": "Motorcycle accidents often result in severe, life-altering injuries due to the lack of protection for the rider. We understand the bias riders often face and fight to ensure you are treated fairly by insurance companies.",
+          "advocacy": "Rider Advocacy",
+          "advocacyDesc": "Combating the negative stereotypes associated with motorcyclists to prove driver error.",
+          "expertise": "Injury Expertise",
+          "expertiseDesc": "Specializing in cases involving road rash, broken bones, and head injuries.",
+          "defense": "Liability Defense",
+          "defenseDesc": "Proving that the other driver's failure to see or respect your lane caused the accident.",
+          "futureCosts": "Future Costs",
+          "futureCostsDesc": "Calculating long-term rehabilitation and medical expenses for severe bike accidents."
+        }
+      },
+      "pedestrian": {
+        "metadata": {
+          "title": "Pedestrian Accident Lawyers | Osbelia Castillo",
+          "description": "Protecting those on foot. We hold negligent drivers accountable for failing to yield and violating pedestrian right-of-way. Free consultation."
+        },
+        "hero": {
+          "prestige": "Vehicle Accidents",
+          "title": "Pedestrian",
+          "subtitle": "Accidents",
+          "description": "Protecting those on foot. We hold negligent drivers accountable for failing to yield and violating a pedestrian's right of way.",
+          "alt": "Attorney Osbelia Castillo - Pedestrian Accident Specialist"
+        },
+        "content": {
+          "title": "Justice for Injured Pedestrians",
+          "description": "Pedestrians are the most vulnerable group on the road. When a driver fails to yield the right-of-way or drives distracted, the results are often catastrophic. We are here to help you navigate the legal system and recover.",
+          "duty": "Duty of Care",
+          "dutyDesc": "Proving that the driver violated their elevated duty of care toward pedestrians.",
+          "advocacy": "Medical Advocacy",
+          "advocacyDesc": "Helping you secure immediate expert care for severe orthopedic and head injuries.",
+          "violations": "Yield Violations",
+          "violationsDesc": "Investigating intersection and crosswalk collisions where drivers failed to yield.",
+          "settlement": "Maximum Settlement",
+          "settlementDesc": "Aggressively pursuing the highest possible recovery for your pain and losses."
+        }
+      },
+      "truck": {
+        "metadata": {
+          "title": "Truck Accident & Commercial Crash Lawyers | Osbelia Castillo",
+          "description": "Commercial trucking accidents involve complex federal regulations. We hold trucking companies accountable for negligence and safety violations. Free consultation."
+        },
+        "hero": {
+          "prestige": "Vehicle Accidents",
+          "title": "Truck",
+          "subtitle": "Accidents",
+          "description": "Commercial crashes involve complex regulations and powerful insurance companies. We level the playing field for victims of trucking company negligence.",
+          "alt": "Attorney Osbelia Castillo - Commercial Truck Accident & FMCSA Regulation Specialist"
+        },
+        "content": {
+          "title": "Holding Commercial Trucking Accountable",
+          "description": "18-wheelers and commercial vehicles are subject to strict state and federal safety regulations. We investigate driver logs, maintenance records, and company hiring practices to prove liability.",
+          "compliance": "FMCSA Compliance",
+          "complianceDesc": "Checking violations of Federal Motor Carrier Safety Administration hours-of-service rules.",
+          "liability": "Vicarious Liability",
+          "liabilityDesc": "Holding the entire trucking company responsible for their driver's actions and oversights.",
+          "audits": "Logbook Audits",
+          "auditsDesc": "Exposing falsified logs used to cover up driver fatigue and excessive driving hours.",
+          "recovery": "Catastrophic Recovery",
+          "recoveryDesc": "Securing resources for long-term care required after high-impact commercial collisions."
+        }
+      }
+    }
+  }
+}

@@ -1,10 +1,12 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import { Phone, Mail, MapPin, Facebook, Instagram, MoveRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations("Footer");
   const currentYear = new Date().getFullYear();
 
   return (
@@ -22,9 +24,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-gray-300 text-sm leading-relaxed max-w-sm font-normal">
-              A Santa Barbara, Oxnard & Ventura professional group of lawyers
-              specializing in Personal injury, Vehicular Accidents, Wrongful
-              Death and Workers’ Compensation cases.
+              {t("aboutText")}
             </p>
             <div className="flex gap-5 pt-2">
               <a href="https://www.facebook.com/castillolawSB/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#C5A059] transition-all group">
@@ -38,12 +38,12 @@ export default function Footer() {
 
           {/* Column 2: Quick Links */}
           <div className="lg:col-span-3 space-y-8">
-            <h4 className="text-lg font-serif font-bold tracking-wider">Quick Links</h4>
+            <h4 className="text-lg font-serif font-bold tracking-wider">{t("quickLinks")}</h4>
             <ul className="space-y-4">
               {[
-                { name: "About Us", href: "/#about" },
-                { name: "Practice Areas", href: "/practice-areas/personal-injury" },
-                { name: "Contact", href: "/#contact" }
+                { name: t("aboutUs"), href: "/#about" },
+                { name: t("practiceAreas"), href: "/practice-areas/personal-injury" },
+                { name: t("contact"), href: "/#contact" }
               ].map((link, i) => (
                 <li key={i}>
                   <Link href={link.href} className="text-gray-400 hover:text-[#C5A059] transition-colors flex items-center gap-2 group">
@@ -57,14 +57,14 @@ export default function Footer() {
 
           {/* Column 3: Contact Info */}
           <div className="lg:col-span-4 space-y-8">
-            <h4 className="text-lg font-serif font-bold tracking-wider">Contact Info</h4>
+            <h4 className="text-lg font-serif font-bold tracking-wider">{t("contactInfo")}</h4>
             <div className="space-y-6">
               <a href="tel:8052837656" className="flex items-start gap-4 group">
                 <div className="w-10 h-10 rounded-full bg-[#C5A059]/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[#C5A059] transition-all">
                   <Phone className="w-5 h-5 text-[#C5A059] group-hover:text-white" />
                 </div>
                 <div>
-                  <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">Call Anytime</p>
+                  <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">{t("callAnytime")}</p>
                   <p className="text-lg font-bold">805-283-7656</p>
                 </div>
               </a>
@@ -73,7 +73,7 @@ export default function Footer() {
                   <Mail className="w-5 h-5 text-[#C5A059]" />
                 </div>
                 <div>
-                  <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">Email Us</p>
+                  <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">{t("emailUs")}</p>
                   <p className="text-gray-300">osbelia@castillolawsb.com</p>
                 </div>
               </div>
@@ -82,7 +82,7 @@ export default function Footer() {
                   <MapPin className="w-5 h-5 text-[#C5A059]" />
                 </div>
                 <div>
-                  <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">Our Location</p>
+                  <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">{t("location")}</p>
                   <p className="text-gray-300 leading-relaxed">
                     1111 Garden St #100<br />
                     Santa Barbara, CA 93101
@@ -96,11 +96,11 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-500 text-sm italic">
-            &copy; {currentYear} The Law Office of Osbelia Castillo. All rights reserved.
+            &copy; {currentYear} The Law Office of Osbelia Castillo. {t("rightsReserved")}
           </p>
           <div className="flex gap-8 text-xs font-bold uppercase tracking-widest text-gray-600">
-            <Link href="/" className="hover:text-[#C5A059] transition-colors">Privacy Policy</Link>
-            <Link href="/" className="hover:text-[#C5A059] transition-colors">Terms of Use</Link>
+            <Link href="/" className="hover:text-[#C5A059] transition-colors">{t("privacyPolicy")}</Link>
+            <Link href="/" className="hover:text-[#C5A059] transition-colors">{t("termsOfUse")}</Link>
           </div>
         </div>
       </div>

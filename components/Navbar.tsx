@@ -1,89 +1,92 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { Menu, X, ChevronDown, Phone } from "lucide-react";
 import { gsap } from "gsap";
+import { useTranslations } from "next-intl";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const navLinks = [
-  { name: "Home", href: "/" },
+  { nameKey: "home", href: "/" },
   {
-    name: "Attorneys",
+    nameKey: "attorneys",
     href: "/attorneys/osbelia-castillo",
     dropdownItems: [
-      { name: "Osbelia Castillo", href: "/attorneys/osbelia-castillo" },
+      { nameKey: "osbelia", href: "/attorneys/osbelia-castillo" },
     ],
   },
   {
-    name: "Personal Injury",
+    nameKey: "personalInjury",
     href: "/practice-areas/personal-injury",
     dropdownItems: [
       {
-        name: "Slip and Fall",
+        nameKey: "slipAndFall",
         href: "/practice-areas/personal-injury/slip-and-fall",
       },
       {
-        name: "Defective Products & Drugs",
+        nameKey: "defectiveProducts",
         href: "/practice-areas/personal-injury/defective-products",
       },
       {
-        name: "Brain & Spinal Injury",
+        nameKey: "brainSpinal",
         href: "/practice-areas/personal-injury/brain-spinal-injury",
       },
-      { name: "Dog Bites", href: "/practice-areas/personal-injury/dog-bites" },
+      { nameKey: "dogBites", href: "/practice-areas/personal-injury/dog-bites" },
       {
-        name: "Asbestos & Mesothelioma",
+        nameKey: "asbestos",
         href: "/practice-areas/personal-injury/asbestos-mesothelioma",
       },
       {
-        name: "Sexual Molestation & Abuse",
+        nameKey: "sexualAbuse",
         href: "/practice-areas/personal-injury/sexual-abuse",
       },
     ],
   },
   {
-    name: "Vehicle Accidents",
+    nameKey: "vehicleAccidents",
     href: "/practice-areas/vehicle-accidents",
     dropdownItems: [
       {
-        name: "Drunk Driving Accident",
+        nameKey: "drunkDriving",
         href: "/practice-areas/vehicle-accidents/drunk-driving",
       },
       {
-        name: "Hit and Run",
+        nameKey: "hitAndRun",
         href: "/practice-areas/vehicle-accidents/hit-and-run",
       },
       {
-        name: "Accidents Due to Cell Phone Use",
+        nameKey: "cellPhone",
         href: "/practice-areas/vehicle-accidents/cell-phone-use",
       },
       {
-        name: "Truck Accidents",
+        nameKey: "truckAccidents",
         href: "/practice-areas/vehicle-accidents/truck-accidents",
       },
       {
-        name: "Motorcycle Accidents",
+        nameKey: "motorcycleAccidents",
         href: "/practice-areas/vehicle-accidents/motorcycle-accidents",
       },
       {
-        name: "Bicycle Accidents",
+        nameKey: "bicycleAccidents",
         href: "/practice-areas/vehicle-accidents/bicycle-accidents",
       },
       {
-        name: "Pedestrian Accidents",
+        nameKey: "pedestrianAccidents",
         href: "/practice-areas/vehicle-accidents/pedestrian-accidents",
       },
     ],
   },
-  { name: "Wrongful Death", href: "/practice-areas/wrongful-death" },
+  { nameKey: "wrongfulDeath", href: "/practice-areas/wrongful-death" },
   {
-    name: "Worker's Compensation",
+    nameKey: "workersComp",
     href: "/practice-areas/workers-compensation",
   },
 ];
 
 const Navbar = () => {
+  const t = useTranslations("Navbar");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [mobileExpanded, setMobileExpanded] = useState<string | null>(null);
@@ -143,72 +146,71 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden xl:flex flex-grow items-center justify-center">
-            {navLinks.map((link) => (
+            {navLinks.map((link) => {
+              const linkName = t(link.nameKey as any);
+              return (
               <div
-                key={link.name}
+                key={link.nameKey}
                 className="relative group flex-shrink-0"
-                onMouseEnter={() => setActiveDropdown(link.name)}
+                onMouseEnter={() => setActiveDropdown(link.nameKey)}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
                 <Link
-                  href={
-                    link.name === "Attorneys"
-                      ? "/attorneys/osbelia-castillo"
-                      : link.href
-                  }
+                  href={link.href}
                   className={`px-1 py-1 flex items-center gap-1 text-[12px] font-bold tracking-widest uppercase transition-colors whitespace-nowrap ${
-                    activeDropdown === link.name
+                    activeDropdown === link.nameKey
                       ? "text-black"
                       : "text-gray-700 hover:text-black"
                   }`}
                 >
-                  {link.name}
-                  {link.dropdownItems && link.name !== "Attorneys" && (
+                  {linkName}
+                  {link.dropdownItems && link.nameKey !== "attorneys" && (
                     <ChevronDown
                       className={`w-4 h-4 transition-transform duration-300 ${
-                        activeDropdown === link.name
+                        activeDropdown === link.nameKey
                           ? "rotate-180 text-[#C5A059]"
                           : ""
                       }`}
                     />
                   )}
-                  {(!link.dropdownItems || link.name === "Attorneys") && (
+                  {(!link.dropdownItems || link.nameKey === "attorneys") && (
                     <span className="absolute bottom-1 left-5 right-5 h-0.5 bg-[#C5A059] scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
                   )}
                 </Link>
 
                 {/* Mega Dropdown / Submenu */}
-                {link.dropdownItems && link.name !== "Attorneys" && (
+                {link.dropdownItems && link.nameKey !== "attorneys" && (
                   <div
                     className={`absolute top-full left-0 pt-4 w-72 opacity-0 invisible transition-all duration-300 transform translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 z-50`}
                   >
                     <div className="bg-white border border-gray-100 shadow-2xl rounded-xl overflow-hidden py-3">
                       {link.dropdownItems.map((item) => (
                         <Link
-                          key={item.name}
+                          key={item.nameKey}
                           href={item.href}
                           className="block px-8 py-4 text-[13px] font-medium text-gray-600 hover:bg-gray-50 hover:text-[#C5A059] transition-all border-l-4 border-transparent hover:border-[#C5A059]"
                         >
-                          {item.name}
+                          {t(item.nameKey as any)}
                         </Link>
                       ))}
                     </div>
                   </div>
                 )}
               </div>
-            ))}
+            )})}
           </div>
         
 
         {/* CTA Button */}
         <div className="hidden lg:flex flex-none items-center pl-1 border-l border-gray-100 mr-2">
-          <Link
+          <LanguageSwitcher />
+          <a
             href="tel:8052837656"
-            className="flex items-center gap-2 px-3 py-3 bg-[#0A1128] text-white text-[11px] font-black tracking-widest uppercase rounded-full transition-all duration-300 hover:bg-[#C5A059] hover:shadow-[0_15px_30px_rgba(197,160,89,0.3)] hover:-translate-y-1"
+            className="flex items-center gap-2 px-3 py-3 bg-[#0A1128] text-white text-[11px] font-black tracking-widest uppercase rounded-full transition-all duration-300 hover:bg-[#C5A059] hover:shadow-[0_15px_30px_rgba(197,160,89,0.3)] hover:-translate-y-1 ml-2"
           >
             <Phone className="w-5 h-5 text-[#C5A059]" />
             805-283-7656
-          </Link>
+          </a>
         </div>
         </div>
 
@@ -237,8 +239,10 @@ const Navbar = () => {
       >
         <div className="flex flex-col min-h-full pt-32 pb-12 px-8">
           <div className="space-y-4">
-            {navLinks.map((link, idx) => (
-              <div key={link.name} className="border-b border-gray-50 pb-4">
+            {navLinks.map((link, idx) => {
+              const linkName = t(link.nameKey as any);
+              return (
+              <div key={link.nameKey} className="border-b border-gray-50 pb-4">
                 {link.dropdownItems ? (
                   <div className="space-y-4">
                     <div className="flex items-center justify-between">
@@ -250,33 +254,33 @@ const Navbar = () => {
                         <span className="text-[#C5A059] text-[10px] font-sans tracking-[0.3em] uppercase opacity-70">
                           0{idx + 1}
                         </span>
-                        {link.name}
+                        {linkName}
                       </Link>
                       <button
                         onClick={() =>
                           setMobileExpanded(
-                            mobileExpanded === link.name ? null : link.name,
+                            mobileExpanded === link.nameKey ? null : link.nameKey,
                           )
                         }
                         className="p-2 bg-gray-50 rounded-lg"
                       >
                         <ChevronDown
-                          className={`w-5 h-5 text-[#C5A059] transition-transform duration-300 ${mobileExpanded === link.name ? "rotate-180" : ""}`}
+                          className={`w-5 h-5 text-[#C5A059] transition-transform duration-300 ${mobileExpanded === link.nameKey ? "rotate-180" : ""}`}
                         />
                       </button>
                     </div>
 
                     <div
-                      className={`space-y-2 pl-8 overflow-hidden transition-all duration-500 ${mobileExpanded === link.name ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
+                      className={`space-y-2 pl-8 overflow-hidden transition-all duration-500 ${mobileExpanded === link.nameKey ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
                     >
                       {link.dropdownItems.map((subItem) => (
                         <Link
-                          key={subItem.name}
+                          key={subItem.nameKey}
                           href={subItem.href}
                           onClick={() => setIsMenuOpen(false)}
                           className="block text-lg text-gray-600 hover:text-[#C5A059] transition-colors py-1"
                         >
-                          {subItem.name}
+                          {t(subItem.nameKey as any)}
                         </Link>
                       ))}
                     </div>
@@ -290,11 +294,11 @@ const Navbar = () => {
                     <span className="text-[#C5A059] text-[10px] font-sans tracking-[0.3em] uppercase opacity-70">
                       0{idx + 1}
                     </span>
-                    {link.name}
+                    {linkName}
                   </Link>
                 )}
               </div>
-            ))}
+            )})}
           </div>
 
           <div className="mt-12 space-y-8">
