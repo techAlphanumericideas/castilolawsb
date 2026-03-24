@@ -58,7 +58,7 @@
     "prestige": "Representación Legal de Prestigio",
     "need": "Busca",
     "litigation": "¿Litigios?",
-    "description": "La Oficina Legal de Osbelia Castillo ofrece estrategias de defensa de élite con {precision} y experiencia bilingüe.",
+    "description": "La Oficina Legal de Osbelia Castillo ofrece estrategias de defensa de élite con <precision>precisión quirúrgica</precision> y experiencia bilingüe.",
     "precision": "precisión quirúrgica",
     "consultation": "Consulta en Inglés y Español",
     "getStarted": "Comenzar",
@@ -81,7 +81,7 @@
     "leadership": "Liderazgo Legal",
     "title": "Sobre Osbelia Castillo",
     "p1": "Durante más de cinco años, Osbelia ha trabajado como una agresiva litigante civil representando a compañías de seguros tanto en tribunales estatales como federales. Ha manejado cientos de casos de lesiones personales, incluyendo lesiones catastróficas, muertes injustas y casos de responsabilidad complejos.",
-    "p2": "Su experiencia representando a compañías de seguros le da una {edge} al luchar por sus clientes lesionados. Su experiencia en el lado de la defensa proporciona una perspectiva única para lograr resultados favorables en una etapa temprana.",
+    "p2": "Su experiencia representando a compañías de seguros le da una <edge>ventaja</edge> al luchar por sus clientes lesionados. Su experiencia en el lado de la defensa proporciona una perspectiva única para lograr resultados favorables en una etapa temprana.",
     "edge": "ventaja",
     "fluent": "Bilingüe en Inglés y Español",
     "readProfile": "Leer Perfil Completo",
@@ -103,7 +103,7 @@
   },
   "Contact": {
     "fluent": "Consulta Ofrecida en Inglés y Español",
-    "ready": "Preparados para {defend} su Futuro.",
+    "ready": "Preparados para <defend>Defender</defend> su Futuro.",
     "defend": "Defender",
     "description": "Nos tomamos el tiempo para examinar cada detalle de su caso. Permítanos guiarle a través de sus opciones legales con claridad y dedicación.",
     "speakWithTeam": "Hable directamente con nuestro equipo",
@@ -132,7 +132,7 @@
     "profile": {
       "title": "Perfil Profesional",
       "p1": "Durante más de cinco años, Osbelia ha trabajado como una agresiva litigante civil representando a compañías de seguros tanto en tribunales estatales como federales. Ha manejado cientos de casos de lesiones personales, incluyendo lesiones catastróficas, muertes injustas y casos de responsabilidad complejos.",
-      "p2": "Su experiencia representando a compañías de seguros le da una {edge} al luchar por sus clientes lesionados. Su experiencia en el lado de la defensa proporciona una perspectiva única para lograr resultados favorables en una etapa temprana.",
+      "p2": "Su experiencia representando a compañías de seguros le da una <edge>ventaja</edge> al luchar por sus clientes lesionados. Su experiencia en el lado de la defensa proporciona una perspectiva única para lograr resultados favorables en una etapa temprana.",
       "edge": "ventaja"
     },
     "competencies": {

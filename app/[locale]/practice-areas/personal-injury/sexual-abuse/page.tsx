@@ -3,8 +3,8 @@ import SexualAbuseContent from "./SexualAbuseContent";
 import JsonLd from "@/components/JsonLd";
 import { getTranslations } from "next-intl/server";
 
-export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  const { locale } = params;
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.sexualAbuse.metadata" });
 
   return {
@@ -13,8 +13,8 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   };
 }
 
-export default async function Page({ params }: { params: { locale: string } }) {
-  const { locale } = params;
+export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "PracticeAreasPage" });
   const subT = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.sexualAbuse" });
 

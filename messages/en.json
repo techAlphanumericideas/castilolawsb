@@ -58,7 +58,7 @@
     "prestige": "Prestige Legal Representation",
     "need": "Need",
     "litigation": "Litigation?",
-    "description": "The Law Office of Osbelia Castillo delivers elite defense strategies with {precision} and bilingual expertise.",
+    "description": "The Law Office of Osbelia Castillo delivers elite defense strategies with <precision>surgical precision</precision> and bilingual expertise.",
     "precision": "surgical precision",
     "consultation": "Consultation in English & Spanish",
     "getStarted": "Get Started",
@@ -81,7 +81,7 @@
     "leadership": "Legal Leadership",
     "title": "About Osbelia Castillo",
     "p1": "For over five years, Osbelia has worked as an aggressive civil litigator representing insurance companies in both state and federal court. She has handled hundreds of personal injury cases including catastrophic injuries, wrongful deaths, and complex liability cases.",
-    "p2": "Her experience representing insurance companies gives her an {edge} when fighting for her injured clients. Her background on the defense side provides a unique perspective to achieve favorable results at an early stage.",
+    "p2": "Her experience representing insurance companies gives her an <edge>edge</edge> when fighting for her injured clients. Her background on the defense side provides a unique perspective to achieve favorable results at an early stage.",
     "edge": "edge",
     "fluent": "Fluent in English & Spanish",
     "readProfile": "Read Full Profile",
@@ -103,7 +103,7 @@
   },
   "Contact": {
     "fluent": "Consultation Offered in English & Spanish",
-    "ready": "Ready to {defend} Your Future.",
+    "ready": "Ready to <defend>Defend</defend> Your Future.",
     "defend": "Defend",
     "description": "We take the time to examine every detail of your case. Let us guide you through your legal options with clarity and dedication.",
     "speakWithTeam": "Speak directly with our team",
@@ -132,7 +132,7 @@
     "profile": {
       "title": "Professional Profile",
       "p1": "For over five years, Osbelia has worked as an aggressive civil litigator representing insurance companies in both state and federal court. She has handled hundreds of personal injury cases including catastrophic injuries, wrongful deaths, and complex liability cases.",
-      "p2": "Her experience representing insurance companies gives her an {edge} when fighting for her injured clients. Her background on the defense side provides a unique perspective to achieve favorable results at an early stage.",
+      "p2": "Her experience representing insurance companies gives her an <edge>edge</edge> when fighting for her injured clients. Her background on the defense side provides a unique perspective to achieve favorable results at an early stage.",
       "edge": "edge"
     },
     "competencies": {

@@ -3,7 +3,8 @@ import TruckAccidentsContent from "./TruckAccidentsContent";
 import JsonLd from "@/components/JsonLd";
 import { getTranslations } from "next-intl/server";
 
-export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.truck" });
 
   return {
@@ -12,7 +13,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   };
 }
 
-export default async function Page({ params: { locale } }: { params: { locale: string } }) {
+export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.truck" });
 
   const breadcrumbSchema = {

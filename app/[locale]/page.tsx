@@ -329,7 +329,7 @@ export default function LandingPage() {
 
               <div className="text-xl md:text-[26px] text-slate-700 mb-10 font-medium leading-[1.3] max-w-2xl opacity-0 reveal">
                 {tHero.rich("description", {
-                  precision: (chunks) => <span className="text-[#0A1128] font-bold"> {chunks}</span>
+                  precision: (chunks) => <span className="text-[#0A1128] font-bold">{chunks}</span>
                 })}
               </div>
 
@@ -478,7 +478,7 @@ export default function LandingPage() {
               </p>
               <p className="about-p opacity-0">
                 {tAbout.rich("p2", {
-                  edge: (chunks) => <span className="text-[#0A1128] font-bold"> {chunks}</span>
+                  edge: (chunks) => <span className="text-[#0A1128] font-bold">{chunks}</span>
                 })}
               </p>
               <div className="about-p flex items-center gap-4 opacity-0">
@@ -616,8 +616,7 @@ export default function LandingPage() {
               <h2 className="text-5xl md:text-7xl font-serif font-bold text-[#0A1128] mb-8 tracking-tight leading-[1.05]">
                 {tContact.rich("ready", {
                   defend: (chunks) => <span className="text-[#C5A059]">{chunks}</span>
-                })} <br />
-                Your Future.
+                })}
               </h2>
 
               <p className="text-lg md:text-xl text-gray-500 font-light leading-relaxed max-w-xl">
