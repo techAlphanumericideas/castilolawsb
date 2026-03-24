@@ -28,6 +28,7 @@
     "pedestrianAccidents": "Pedestrian Accidents",
     "wrongfulDeath": "Wrongful Death",
     "workersComp": "Worker's Compensation",
+    "logoAlt": "Law Office of Osbelia Castillo",
     "callNow": "Call Now: 805-283-7656"
   },
   "Footer": {
@@ -59,7 +60,6 @@
     "need": "Need",
     "litigation": "Litigation?",
     "description": "The Law Office of Osbelia Castillo delivers elite defense strategies with <precision>surgical precision</precision> and bilingual expertise.",
-    "precision": "surgical precision",
     "consultation": "Consultation in English & Spanish",
     "getStarted": "Get Started",
     "freeConsultation": "Free Consultation",
@@ -82,7 +82,6 @@
     "title": "About Osbelia Castillo",
     "p1": "For over five years, Osbelia has worked as an aggressive civil litigator representing insurance companies in both state and federal court. She has handled hundreds of personal injury cases including catastrophic injuries, wrongful deaths, and complex liability cases.",
     "p2": "Her experience representing insurance companies gives her an <edge>edge</edge> when fighting for her injured clients. Her background on the defense side provides a unique perspective to achieve favorable results at an early stage.",
-    "edge": "edge",
     "fluent": "Fluent in English & Spanish",
     "readProfile": "Read Full Profile",
     "ariaProfile": "View the full legal profile and biography of Osbelia Castillo"
@@ -104,7 +103,6 @@
   "Contact": {
     "fluent": "Consultation Offered in English & Spanish",
     "ready": "Ready to <defend>Defend</defend> Your Future.",
-    "defend": "Defend",
     "description": "We take the time to examine every detail of your case. Let us guide you through your legal options with clarity and dedication.",
     "speakWithTeam": "Speak directly with our team",
     "clickToCall": "Click to Call",
@@ -132,8 +130,7 @@
     "profile": {
       "title": "Professional Profile",
       "p1": "For over five years, Osbelia has worked as an aggressive civil litigator representing insurance companies in both state and federal court. She has handled hundreds of personal injury cases including catastrophic injuries, wrongful deaths, and complex liability cases.",
-      "p2": "Her experience representing insurance companies gives her an <edge>edge</edge> when fighting for her injured clients. Her background on the defense side provides a unique perspective to achieve favorable results at an early stage.",
-      "edge": "edge"
+      "p2": "Her experience representing insurance companies gives her an <edge>edge</edge> when fighting for her injured clients. Her background on the defense side provides a unique perspective to achieve favorable results at an early stage."
     },
     "competencies": {
       "title": "Core Competencies",
@@ -150,6 +147,10 @@
     }
   },
   "PracticeAreasPage": {
+    "breadcrumbs": {
+      "home": "Home",
+      "practiceAreas": "Practice Areas"
+    },
     "common": {
       "heroPrestige": "Practice Areas",
       "defenseAdvantage": "The Defense Advantage",
@@ -160,6 +161,7 @@
       "getHelpNow": "Get Help Now"
     },
     "personalInjury": {
+      "title": "Personal Injury",
       "metadata": {
         "title": "Personal Injury Law Specialists | Santa Barbara | Osbelia Castillo",
         "description": "Injured due to someone else's negligence? We specialize in personal injury law, representing victims in slip and fall, dog bites, and catastrophic injury cases. defense-side insights to every plaintiff's case. Free consultation."
@@ -181,6 +183,7 @@
       }
     },
     "vehicleAccidents": {
+      "title": "Vehicle Accidents",
       "metadata": {
         "title": "Vehicle Accident Lawyers | Santa Barbara & Ventura | Castillo Law",
         "description": "Specialized legal representation for car, truck, motorcycle, and pedestrian accidents. We investigate thoroughly to secure maximum compensation for your injuries."
@@ -207,6 +210,7 @@
       }
     },
     "wrongfulDeath": {
+      "title": "Wrongful Death",
       "metadata": {
         "title": "Wrongful Death Attorneys | Santa Barbara | Osbelia Castillo",
         "description": "Navigating the loss of a loved one is devastating. Our wrongful death lawyers provide compassionate advocacy and aggressive legal representation to secure your family's future. Free consultation."
@@ -237,6 +241,7 @@
       }
     },
     "workersComp": {
+      "title": "Workers' Compensation",
       "metadata": {
         "title": "Workers' Compensation Lawyers | Santa Barbara | Osbelia Castillo",
         "description": "Injured at work? Our California workers' compensation attorneys protect your rights and ensure you receive maximum medical and financial benefits. Free consultation."
@@ -283,19 +288,27 @@
           "alt": "Attorney Osbelia Castillo - Asbestos & Mesothelioma Litigation Expert"
         },
         "content": {
-          "title": "Justice for Occupational Exposure",
-          "description": "Exposure to asbestos can lead to devastating health conditions, often appearing decades after the truth was hidden by employers and manufacturers. We understand the specialized nature of mesothelioma claims and fight for the resources your family needs.",
-          "trustClaims": "Asbestos Trust Claims",
-          "trustClaimsDesc": "Expediting recovery through established bankruptcy trusts of responsible corporations.",
-          "specialistAccess": "Medical Specialist Access",
-          "specialistAccessDesc": "Connecting victims with leading oncologists and pulmonary experts for diagnosis and care.",
-          "industrialNegligence": "Industrial Negligence",
-          "industrialNegligenceDesc": "Holding construction and manufacturing companies responsible for unsafe working conditions.",
-          "lifetimeAdvocacy": "Lifetime Advocacy",
-          "lifetimeAdvocacyDesc": "Ensuring long-term settlements that cover extensive medical needs and loss of consortium.",
-          "corporateLitigation": "Aggressive Corporate Litigation",
-          "corporateLitigationDesc": "Mesothelioma cases are highly technical. We have the experience and expert network required to handle the complex evidentiary standards of toxic tort law.",
-          "freeCaseReview": "Free Case Review"
+          "section1": {
+            "title": "Justice for Occupational Exposure",
+            "p1": "Exposure to asbestos can lead to devastating health conditions, often appearing decades after the truth was hidden by employers and manufacturers.",
+            "p2": "We understand the specialized nature of mesothelioma claims and fight for the resources your family needs."
+          },
+          "section2": {
+            "title": "Complex Toxic Tort Litigation",
+            "items": {
+              "item1": "Asbestos Trust Claims",
+              "item2": "Expediting recovery through established bankruptcy trusts of responsible corporations.",
+              "item3": "Medical Specialist Access",
+              "item4": "Connecting victims with leading oncologists and pulmonary experts for diagnosis and care.",
+              "item5": "Industrial Negligence",
+              "item6": "Holding construction and manufacturing companies responsible for unsafe working conditions."
+            }
+          },
+          "section3": {
+            "title": "Lifetime Advocacy",
+            "p1": "Ensuring long-term settlements that cover extensive medical needs and loss of consortium."
+          },
+          "quote": "Mesothelioma cases are highly technical. We have the experience and expert network required to handle the complex evidentiary standards of toxic tort law."
         }
       },
       "brainSpinal": {
@@ -311,19 +324,27 @@
           "alt": "Attorney Osbelia Castillo - Catastrophic Brain & Spinal Injury Specialist"
         },
         "content": {
-          "title": "Compassionate Advocacy for Serious Trauma",
-          "description": "Brain and spinal cord injuries often involve permanent changes to one's quality of life. Our firm understands the medical complexities and the lifelong costs associated with these catastrophic events.",
-          "tbi": "Traumatic Brain Injury (TBI)",
-          "tbiDesc": "Representation for concussions, cognitive impairment, and severe cranial trauma.",
-          "spinalDamage": "Spinal Cord Damage",
-          "spinalDamageDesc": "Fighting for victims of paralysis, nerve damage, and chronic spinal conditions.",
-          "longTermCare": "Long-term Care Planning",
-          "longTermCareDesc": "Ensuring settlements cover future rehabilitation, nursing, and medical equipment.",
-          "maximumRecovery": "Maximum Recovery",
-          "maximumRecoveryDesc": "Relentless pursuit of compensation for pain, suffering, and lost earning capacity.",
-          "pursuitOfJustice": "Relentless Pursuit of Justice",
-          "pursuitOfJusticeDesc": "We leverage medical experts and life-care planners to build a case that accurately reflects the true cost of your injury.",
-          "consultExpert": "Consult an Expert"
+          "section1": {
+            "title": "Compassionate Advocacy for Serious Trauma",
+            "p1": "Brain and spinal cord injuries often involve permanent changes to one's quality of life.",
+            "p2": "Our firm understands the medical complexities and the lifelong costs associated with these catastrophic events."
+          },
+          "section2": {
+            "title": "Holistic Recovery Strategy",
+            "items": {
+              "item1": "Medical Expert Network",
+              "item2": "Collaborating with neurologists and life-care planners to document the full scope of your needs.",
+              "item3": "Future Care Costing",
+              "item4": "Calculating decades of medical expenses, therapy, and adaptive equipment.",
+              "item5": "Vocational Support",
+              "item6": "Addressing the impact on your ability to work and providing resources for retraining."
+            }
+          },
+          "section3": {
+            "title": "Maximum Legal Recovery",
+            "p1": "Using aggressive litigation to ensure insurance companies pay for the lifetime of care required."
+          },
+          "quote": "We don't just fight for a settlement; we fight for your family's long-term security and dignity after a life-altering injury."
         }
       },
       "defectiveProducts": {
@@ -339,19 +360,27 @@
           "alt": "Attorney Osbelia Castillo - Defective Products & Liability Specialist"
         },
         "content": {
-          "title": "Justice for Unsafe Products",
-          "description": "When you buy a product, you have the right to expect it is safe for its intended use. Whether it's a defective auto part, a dangerous household appliance, or unsafe medication, we take on the large corporations responsible for your harm.",
-          "strictLiability": "Strict Liability Claims",
-          "strictLiabilityDesc": "Holding manufacturers responsible for design and manufacturing defects.",
-          "consumerSafety": "Consumer Safety",
-          "consumerSafetyDesc": "Fighting against dangerous products that lack proper safety warnings.",
-          "autoPartFailure": "Auto Part Failure",
-          "autoPartFailureDesc": "Cases involving defective airbags, tires, and mechanical failures.",
-          "corporateAccountability": "Corporate Accountability",
-          "corporateAccountabilityDesc": "Proving that a company knew of defects but failed to issue a recall.",
-          "commitment": "Osbelia Castillo's Commitment",
-          "commitmentDesc": "Pharmaceutical companies and manufacturers have a duty to ensure their products don't harm consumers. We hold them accountable when they prioritize profits over patient safety.",
-          "requestConsultation": "Request Consultation"
+          "section1": {
+            "title": "Justice for Unsafe Products",
+            "p1": "When you buy a product, you have the right to expect it is safe for its intended use.",
+            "p2": "Whether it's a defective auto part, a dangerous household appliance, or unsafe medication, we take on the large corporations responsible for your harm."
+          },
+          "section2": {
+            "title": "Liability & Accountability",
+            "items": {
+              "item1": "Strict Liability Claims",
+              "item2": "Holding manufacturers responsible for design and manufacturing defects.",
+              "item3": "Consumer Safety",
+              "item4": "Fighting against dangerous products that lack proper safety warnings.",
+              "item5": "Auto Part Failure",
+              "item6": "Cases involving defective airbags, tires, and mechanical failures."
+            }
+          },
+          "section3": {
+            "title": "Corporate Accountability",
+            "p1": "Proving that a company knew of defects but failed to issue a recall."
+          },
+          "quote": "Pharmaceutical companies and manufacturers have a duty to ensure their products don't harm consumers. We hold them accountable when they prioritize profits over patient safety."
         }
       },
       "dogBites": {
@@ -367,19 +396,27 @@
           "alt": "Attorney Osbelia Castillo - Dog Bite Injury Law Specialist"
         },
         "content": {
-          "title": "Strict Liability for Dog Bites",
-          "description": "California law follows a strict liability rule for dog bites. This means owners are responsible for the injuries their pets cause, regardless of whether the dog has bitten before. We help you navigate the claims process against homeowners' insurance to cover your recovery.",
-          "scarring": "Scarring & Disfigurement",
-          "scarringDesc": "Advocating for victims who require plastic surgery or long-term wound care.",
-          "statewideLiability": "Statewide Strict Liability",
-          "statewideLiabilityDesc": "Leveraging California's clear laws to hold animal owners fully accountable.",
-          "emotionalTrauma": "Emotional Trauma",
-          "emotionalTraumaDesc": "Fighting for compensation for the psychological impact and fear often caused by attacks.",
-          "infection": "Infection & Long-term Care",
-          "infectionDesc": "Ensuring your settlement covers all medical treatments, including specialized therapy.",
-          "protectRecovery": "Protect Your Recovery",
-          "protectRecoveryDesc": "Animal attacks are frightening and can lead to permanent damage. We are here to manage the insurance companies so you can focus on healing.",
-          "startClaim": "Start Claim"
+          "section1": {
+            "title": "Strict Liability for Dog Bites",
+            "p1": "California law follows a strict liability rule for dog bites. This means owners are responsible for the injuries their pets cause.",
+            "p2": "We help you navigate the claims process against homeowners' insurance to cover your recovery."
+          },
+          "section2": {
+            "title": "Advocating for Your Recovery",
+            "items": {
+              "item1": "Scarring & Disfigurement",
+              "item2": "Advocating for victims who require plastic surgery or long-term wound care.",
+              "item3": "Statewide Strict Liability",
+              "item4": "Leveraging California's clear laws to hold animal owners fully accountable.",
+              "item5": "Emotional Trauma",
+              "item6": "Fighting for compensation for the psychological impact and fear often caused by attacks."
+            }
+          },
+          "section3": {
+            "title": "Infection & Long-term Care",
+            "p1": "Ensuring your settlement covers all medical treatments, including specialized therapy."
+          },
+          "quote": "Animal attacks are frightening and can lead to permanent damage. We manage the insurance companies so you can focus on healing."
         }
       },
       "sexualAbuse": {
@@ -395,20 +432,27 @@
           "alt": "Attorney Osbelia Castillo - Compassionate Advocate for Abuse Survivors"
         },
         "content": {
-          "title": "Holding Institutions Accountable",
-          "description": "Beyond the abuser, institutions like schools, religious organizations, and workplaces often bear responsibility for failing to prevent harm. We are dedicated to holding these powerful entities accountable and securing the resources survivors need for healing and restoration.",
-          "institutionalNegligence": "Institutional Negligence",
-          "institutionalNegligenceDesc": "Holding organizations responsible for negligent hiring, supervision, and failures to act.",
-          "civilJustice": "Civil Justice Path",
-          "civilJusticeDesc": "Leveraging the civil court system to achieve the financial restoration and closure the criminal system may lack.",
-          "confidentialityFirst": "Confidentiality First",
-          "confidentialityFirstDesc": "Strict adherence to privacy and survivor-centered legal strategies to protect your identity.",
-          "powerfulProtection": "Powerful Protection",
-          "powerfulProtectionDesc": "Aggressive litigation to ensure survivors are not silenced and their voices are heard.",
-          "pathRestoration": "Your Path to Restoration",
-          "pathRestorationDesc": "You don't have to face this alone. We provide the legal strength and personal empathy required to navigate these difficult cases.",
-          "confidentialConsult": "Strictly Confidential Consultation",
-          "ariaCall": "Confidential contact for sexual abuse and molestation survivors"
+          "section1": {
+            "title": "Holding Institutions Accountable",
+            "p1": "Beyond the abuser, institutions like schools, religious organizations, and workplaces often bear responsibility for failing to prevent harm.",
+            "p2": "We are dedicated to holding these powerful entities accountable and securing the resources survivors need for healing and restoration."
+          },
+          "section2": {
+            "title": "Compassionate Civil Justice",
+            "items": {
+              "item1": "Institutional Negligence",
+              "item2": "Holding organizations responsible for negligent hiring, supervision, and failures to act.",
+              "item3": "Civil Justice Path",
+              "item4": "Leveraging the civil court system to achieve financial restoration and closure.",
+              "item5": "Confidentiality First",
+              "item6": "Strict adherence to privacy and survivor-centered legal strategies to protect your identity."
+            }
+          },
+          "section3": {
+            "title": "Powerful Protection",
+            "p1": "Aggressive litigation to ensure survivors are not silenced and their voices are heard."
+          },
+          "quote": "You don't have to face this alone. We provide the legal strength and personal empathy required to navigate these difficult cases."
         }
       },
       "slipAndFall": {
@@ -424,19 +468,27 @@
           "alt": "Attorney Osbelia Castillo - Slip and Fall & Premises Liability Law Expert"
         },
         "content": {
-          "title": "Premises Liability",
-          "description": "Premises liability arises when an injury is caused by an unsafe or defective condition on someone's property. Owners have the legal duty to keep their property safe for visitors.",
-          "wetFloors": "Wet or greasy floors",
-          "tornCarpeting": "Torn carpeting",
-          "unevenStairs": "Narrow or uneven stairs",
-          "sidewalks": "Broken or cracked public sidewalks",
-          "poorLighting": "Poor lighting",
-          "unevenPavement": "Uneven pavement",
-          "provingNegligence": "Proving Negligence",
-          "provingNegligenceDesc": "To win a compensation claim, we must demonstrate that the property owner knew or should have known about the dangerous condition and failed to address it.",
-          "establishOwner": "Establishing the property owner created the condition.",
-          "proveKnowledge": "Proving actual knowledge of the defect.",
-          "demonstrateKnowledge": "Demonstrating constructive knowledge (failure to inspect)."
+          "section1": {
+            "title": "Premises Liability",
+            "p1": "Premises liability arises when an injury is caused by an unsafe or defective condition on someone's property.",
+            "p2": "Owners have the legal duty to keep their property safe for visitors and warn of any potential hazards."
+          },
+          "section2": {
+            "title": "Proving Property Negligence",
+            "items": {
+              "item1": "Hazardous Conditions",
+              "item2": "Broken sidewalks, poor lighting, and wet floors are common causes of premises liability claims.",
+              "item3": "Property Owner Duty",
+              "item4": "Owners must maintain safe environments and warn visitors of any known dangers.",
+              "item5": "Proving Knowledge",
+              "item6": "We demonstrate that the owner knew or should have known about the risk and failed to fix it."
+            }
+          },
+          "section3": {
+            "title": "Negligence Litigation",
+            "p1": "Holding negligent property managers and owners accountable for your medical recovery."
+          },
+          "quote": "Premises liability cases require immediate investigation. We secure the evidence needed to prove the property was unsafe."
         }
       },
       "bicycleAccidents": {
@@ -452,16 +504,27 @@
           "alt": "Attorney Osbelia Castillo - Advocate for Bicycle Accident Victims"
         },
         "content": {
-          "title": "Standing Up for Cyclists",
-          "description": "Bicycle accidents often involve unique legal considerations, including roadway design, helmet laws, and driver visibility. We have the expertise to prove driver negligence in complex cyclist injury cases.",
-          "roadwayAdvocacy": "Roadway Advocacy",
-          "roadwayAdvocacyDesc": "Holding drivers accountable for failing to share the road or violating bike lane laws.",
-          "medicalSupport": "Medical Support",
-          "medicalSupportDesc": "Ensuring you receive top-tier medical care for fractures, head trauma, or road rash.",
-          "liabilityFocus": "Liability Focus",
-          "liabilityFocusDesc": "Proving driver distraction or failure to yield as the primary cause of the collision.",
-          "maximumRecovery": "Maximum Recovery",
-          "maximumRecoveryDesc": "Seeking compensation for lost wages, medical equipment, and rehabilitation."
+          "section1": {
+            "title": "Standing Up for Cyclists",
+            "p1": "Bicycle accidents often involve unique legal considerations, including roadway design and driver visibility.",
+            "p2": "We have the expertise to prove driver negligence in complex cyclist injury cases."
+          },
+          "section2": {
+            "title": "Cycle Safety Advocacy",
+            "items": {
+              "item1": "Roadway Advocacy",
+              "item2": "Holding drivers accountable for failing to share the road or violating bike lane laws.",
+              "item3": "Medical Support",
+              "item4": "Ensuring you receive top-tier medical care for fractures, head trauma, or road rash.",
+              "item5": "Liability Focus",
+              "item6": "Proving driver distraction or failure to yield as the primary cause of the collision."
+            }
+          },
+          "section3": {
+            "title": "Maximum Recovery",
+            "p1": "Seeking compensation for lost wages, medical equipment, and rehabilitation."
+          },
+          "quote": "Cyclists are vulnerable to driver negligence. We provide the aggressive advocacy needed to secure your future."
         }
       },
       "cellPhone": {
@@ -477,16 +540,27 @@
           "alt": "Attorney Osbelia Castillo - Distracted Driving Negligence Specialist"
         },
         "content": {
-          "title": "Combating Distracted Driving",
-          "description": "Cell phone use including texting, calling without hands-free devices, or using apps while driving is a primary cause of serious accidents today. We specialize in uncovering the evidence needed to prove digital distraction.",
-          "forensics": "Digital Forensics",
-          "forensicsDesc": "Subpoenaing phone records and analyzing data timestamps to prove phone use during the collision.",
-          "highImpact": "High-Impact Liability",
-          "highImpactDesc": "Proving gross negligence when drivers intentionally violate distracted driving laws.",
-          "victimRights": "Victim Rights",
-          "victimRightsDesc": "Ensuring you receive full compensation for medical treatment, property damage, and trauma.",
-          "handsFree": "Hands-Free Violations",
-          "handsFreeDesc": "Identifying when drivers failed to use legally required safety equipment."
+          "section1": {
+            "title": "Combating Distracted Driving",
+            "p1": "Cell phone use is a primary cause of serious accidents. We specialize in uncovering the evidence needed to prove digital distraction.",
+            "p2": "Distracted driving is a choice that leads to tragedy. We hold drivers accountable for prioritizing their screens over the road."
+          },
+          "section2": {
+            "title": "Digital Evidence Recovery",
+            "items": {
+              "item1": "Digital Forensics",
+              "item2": "Subpoenaing phone records and analyzing data timestamps to prove phone use during the collision.",
+              "item3": "High-Impact Liability",
+              "item4": "Proving gross negligence when drivers intentionally violate distracted driving laws.",
+              "item5": "Victim Rights",
+              "item6": "Ensuring you receive full compensation for medical treatment, property damage, and trauma."
+            }
+          },
+          "section3": {
+            "title": "Hands-Free Violations",
+            "p1": "Identifying when drivers failed to use legally required safety equipment."
+          },
+          "quote": "Distracted driving is a choice. We use digital forensics to prove the other driver was not watching the road."
         }
       },
       "drunkDriving": {
@@ -502,19 +576,27 @@
           "alt": "Attorney Osbelia Castillo - DUI Accident & Reckless Negligence Specialist"
         },
         "content": {
-          "title": "Justice for DUI Victims",
-          "description": "When a driver chooses to operate a vehicle under the influence, they are making a choice that endangers everyone on the road. We are committed to securing the compensation you deserve for your injuries and losses.",
-          "punitive": "Punitive Damages",
-          "punitiveDesc": "Seeking additional compensation to punish reckless behavior and deter future incidents.",
-          "criminalCivil": "Criminal vs. Civil",
-          "criminalCivilDesc": "Understanding how a DUI criminal case impacts your personal injury claim.",
-          "fullLiability": "Full Liability",
-          "fullLiabilityDesc": "Holding the intoxicated driver fully responsible for all medical costs and lost wages.",
-          "proof": "Rigorous Proof",
-          "proofDesc": "Using police reports, blood alcohol tests, and eyewitness accounts to build a solid case.",
-          "whyHire": "Why Hire Us?",
-          "whyHireDesc": "Drunk driving cases require a specific legal strategy to maximize recovery. We have the experience to navigate both the civil and criminal implications of your accident.",
-          "startClaim": "Start Your Claim"
+          "section1": {
+            "title": "Justice for DUI Victims",
+            "p1": "When a driver operates under the influence, they endanger everyone. We are committed to securing the compensation you deserve.",
+            "p2": "Drunk driving cases require a specific legal strategy to maximize recovery. We navigate both civil and criminal implications."
+          },
+          "section2": {
+            "title": "DUI Accountability",
+            "items": {
+              "item1": "Punitive Damages",
+              "item2": "Seeking additional compensation to punish reckless behavior and deter future incidents.",
+              "item3": "Criminal vs. Civil",
+              "item4": "Understanding how a DUI criminal case impacts your personal injury claim.",
+              "item5": "Full Liability",
+              "item6": "Holding the intoxicated driver fully responsible for all medical costs and lost wages."
+            }
+          },
+          "section3": {
+            "title": "Rigorous Proof",
+            "p1": "Using police reports and medical records to build an undeniable case against the negligent driver."
+          },
+          "quote": "A reckless choice shouldn't ruin your life. We fight for the justice and recovery that DUI victims rightfully deserve."
         }
       },
       "hitAndRun": {
@@ -530,16 +612,27 @@
           "alt": "Attorney Osbelia Castillo - Hit and Run Claims Specialist"
         },
         "content": {
-          "title": "Your Path to Recovery After a Hit and Run",
-          "description": "A hit and run accident can feel overwhelming and hopeless. However, there are multiple avenues for recovery, including uninsured motorist coverage and thorough investigations to locate the fleeing driver.",
-          "investigation": "Investigation",
-          "investigationDesc": "Working with private investigators and surveillance footage to identify the vehicle and driver.",
-          "umClaims": "UM/UIM Claims",
-          "umClaimsDesc": "Maximizing your own insurance policy's uninsured motorist benefits when the driver remains unknown.",
-          "criminalCharges": "Criminal Charges",
-          "criminalChargesDesc": "Coordinating with law enforcement to support criminal hit and run prosecutions.",
-          "fullDamages": "Full Damages",
-          "fullDamagesDesc": "Seeking compensation for medical bills, pain and suffering, and property damage."
+          "section1": {
+            "title": "Your Path to Recovery After a Hit and Run",
+            "p1": "A hit and run accident can feel overwhelming and hopeless.",
+            "p2": "However, there are multiple avenues for recovery, including uninsured motorist coverage and thorough investigations to locate the fleeing driver."
+          },
+          "section2": {
+            "title": "Investigative Avenues",
+            "items": {
+              "item1": "Private Investigation",
+              "item2": "Working with experts and surveillance footage to identify the vehicle and driver.",
+              "item3": "UM/UIM Claims",
+              "item4": "Maximizing your own insurance policy's uninsured motorist benefits when the driver remains unknown.",
+              "item5": "Criminal Coordination",
+              "item6": "Coordinating with law enforcement to support criminal hit and run prosecutions."
+            }
+          },
+          "section3": {
+            "title": "Full Damage Recovery",
+            "p1": "Seeking compensation for medical bills, pain and suffering, and property damage caused by the fleeing driver."
+          },
+          "quote": "A driver's choice to flee the scene shouldn't end your hope for recovery. We use every resource to track down the responsible party."
         }
       },
       "motorcycle": {
@@ -555,16 +648,27 @@
           "alt": "Attorney Osbelia Castillo - Motorcycle Accident Specialist"
         },
         "content": {
-          "title": "Protecting the Rights of Motorcyclists",
-          "description": "Motorcycle accidents often result in severe, life-altering injuries due to the lack of protection for the rider. We understand the bias riders often face and fight to ensure you are treated fairly by insurance companies.",
-          "advocacy": "Rider Advocacy",
-          "advocacyDesc": "Combating the negative stereotypes associated with motorcyclists to prove driver error.",
-          "expertise": "Injury Expertise",
-          "expertiseDesc": "Specializing in cases involving road rash, broken bones, and head injuries.",
-          "defense": "Liability Defense",
-          "defenseDesc": "Proving that the other driver's failure to see or respect your lane caused the accident.",
-          "futureCosts": "Future Costs",
-          "futureCostsDesc": "Calculating long-term rehabilitation and medical expenses for severe bike accidents."
+          "section1": {
+            "title": "Protecting the Rights of Motorcyclists",
+            "p1": "Motorcycle accidents often result in severe, life-altering injuries due to the lack of protection for the rider.",
+            "p2": "We understand the bias riders often face and fight to ensure you are treated fairly by insurance companies."
+          },
+          "section2": {
+            "title": "Rider-Focused Advocacy",
+            "items": {
+              "item1": "Combating Bias",
+              "item2": "Fighting against negative stereotypes to prove the driver's error was the true cause of the accident.",
+              "item3": "Injury Expertise",
+              "item4": "Specializing in cases involving road rash, broken bones, and head injuries unique to riders.",
+              "item5": "Liability Defense",
+              "item6": "Proving that the other driver's failure to see or respect your lane caused the accident."
+            }
+          },
+          "section3": {
+            "title": "Future Cost Recovery",
+            "p1": "Calculating long-term rehabilitation and medical expenses for severe bike accidents."
+          },
+          "quote": "Motorcyclists are often unfairly blamed for accidents. We provide the aggressive advocacy needed to overcome bias and secure your future."
         }
       },
       "pedestrian": {
@@ -580,16 +684,27 @@
           "alt": "Attorney Osbelia Castillo - Pedestrian Accident Specialist"
         },
         "content": {
-          "title": "Justice for Injured Pedestrians",
-          "description": "Pedestrians are the most vulnerable group on the road. When a driver fails to yield the right-of-way or drives distracted, the results are often catastrophic. We are here to help you navigate the legal system and recover.",
-          "duty": "Duty of Care",
-          "dutyDesc": "Proving that the driver violated their elevated duty of care toward pedestrians.",
-          "advocacy": "Medical Advocacy",
-          "advocacyDesc": "Helping you secure immediate expert care for severe orthopedic and head injuries.",
-          "violations": "Yield Violations",
-          "violationsDesc": "Investigating intersection and crosswalk collisions where drivers failed to yield.",
-          "settlement": "Maximum Settlement",
-          "settlementDesc": "Aggressively pursuing the highest possible recovery for your pain and losses."
+          "section1": {
+            "title": "Justice for Injured Pedestrians",
+            "p1": "Pedestrians are the most vulnerable group on the road. When a driver drives distracted, the results are often catastrophic.",
+            "p2": "We are here to help you navigate the legal system and recover the compensation you need to move forward."
+          },
+          "section2": {
+            "title": "Pedestrian Right-of-Way",
+            "items": {
+              "item1": "Duty of Care",
+              "item2": "Proving that the driver violated their elevated duty of care toward pedestrians in crosswalks and on sidewalks.",
+              "item3": "Accident Reconstruction",
+              "item4": "Using experts to prove speed and visibility factors that led to the collision.",
+              "item5": "Traumatic Outcomes",
+              "item6": "Securing resources for catastrophic injury recovery and specialized long-term care."
+            }
+          },
+          "section3": {
+            "title": "Liability Advocacy",
+            "p1": "Holding drivers fully responsible for failing to yield and for reckless driving behavior near pedestrian zones."
+          },
+          "quote": "A pedestrian has no protection in a collision. We provide the legal armor needed to fight for your recovery and hold negligent drivers accountable."
         }
       },
       "truck": {
@@ -605,16 +720,27 @@
           "alt": "Attorney Osbelia Castillo - Commercial Truck Accident & FMCSA Regulation Specialist"
         },
         "content": {
-          "title": "Holding Commercial Trucking Accountable",
-          "description": "18-wheelers and commercial vehicles are subject to strict state and federal safety regulations. We investigate driver logs, maintenance records, and company hiring practices to prove liability.",
-          "compliance": "FMCSA Compliance",
-          "complianceDesc": "Checking violations of Federal Motor Carrier Safety Administration hours-of-service rules.",
-          "liability": "Vicarious Liability",
-          "liabilityDesc": "Holding the entire trucking company responsible for their driver's actions and oversights.",
-          "audits": "Logbook Audits",
-          "auditsDesc": "Exposing falsified logs used to cover up driver fatigue and excessive driving hours.",
-          "recovery": "Catastrophic Recovery",
-          "recoveryDesc": "Securing resources for long-term care required after high-impact commercial collisions."
+          "section1": {
+            "title": "Holding Commercial Trucking Accountable",
+            "p1": "Commercial crashes involve complex regulations and powerful insurance companies. We level the playing field for victims of trucking company negligence.",
+            "p2": "18-wheelers and commercial vehicles are subject to strict state and federal safety regulations. We investigate driver logs, maintenance records, and company hiring practices to prove liability."
+          },
+          "section2": {
+            "title": "Complex Federal Regulations",
+            "items": {
+              "item1": "FMCSA Compliance",
+              "item2": "Checking violations of Federal Motor Carrier Safety Administration hours-of-service rules.",
+              "item3": "Vicarious Liability",
+              "item4": "Holding the entire trucking company responsible for their driver's actions and oversights.",
+              "item5": "Logbook Audits",
+              "item6": "Exposing falsified logs used to cover up driver fatigue and excessive driving hours."
+            }
+          },
+          "section3": {
+            "title": "Catastrophic Recovery",
+            "p1": "Securing resources for long-term care required after high-impact commercial collisions."
+          },
+          "quote": "Trucking accidents involve complex federal law. We use our defense-side insights to hold massive corporations accountable for safety violations."
         }
       }
     }

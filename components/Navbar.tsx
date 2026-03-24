@@ -33,7 +33,10 @@ const navLinks = [
         nameKey: "brainSpinal",
         href: "/practice-areas/personal-injury/brain-spinal-injury",
       },
-      { nameKey: "dogBites", href: "/practice-areas/personal-injury/dog-bites" },
+      {
+        nameKey: "dogBites",
+        href: "/practice-areas/personal-injury/dog-bites",
+      },
       {
         nameKey: "asbestos",
         href: "/practice-areas/personal-injury/asbestos-mesothelioma",
@@ -125,16 +128,16 @@ const Navbar = () => {
           isMenuOpen ? "z-[120]" : "z-50"
         }`}
       >
-        <div className="max-w-[1600px] w-full flex items-center justify-between h-full">
+        <div className="max-w-[1000px] w-full flex items-center justify-between h-full">
           {/* Logo */}
-          <div className="flex-none flex items-center pr-4 border-r border-gray-100">
+          <div className="flex-none flex items-center pr-0 border-r border-gray-100">
             <Link
               href="/"
               className="flex transition-all hover:brightness-110 active:scale-95"
             >
               <Image
                 src="/assets/logo.png"
-                alt="Law Office of Osbelia Castillo"
+                alt={t("logoAlt")}
                 width={300}
                 height={75}
                 className="w-48 md:w-64 h-auto object-contain antialiased"
@@ -149,69 +152,69 @@ const Navbar = () => {
             {navLinks.map((link) => {
               const linkName = t(link.nameKey as any);
               return (
-              <div
-                key={link.nameKey}
-                className="relative group flex-shrink-0"
-                onMouseEnter={() => setActiveDropdown(link.nameKey)}
-                onMouseLeave={() => setActiveDropdown(null)}
-              >
-                <Link
-                  href={link.href}
-                  className={`px-1 py-1 flex items-center gap-1 text-[12px] font-bold tracking-widest uppercase transition-colors whitespace-nowrap ${
-                    activeDropdown === link.nameKey
-                      ? "text-black"
-                      : "text-gray-700 hover:text-black"
-                  }`}
+                <div
+                  key={link.nameKey}
+                  className="relative group flex-shrink-0"
+                  onMouseEnter={() => setActiveDropdown(link.nameKey)}
+                  onMouseLeave={() => setActiveDropdown(null)}
                 >
-                  {linkName}
-                  {link.dropdownItems && link.nameKey !== "attorneys" && (
-                    <ChevronDown
-                      className={`w-4 h-4 transition-transform duration-300 ${
-                        activeDropdown === link.nameKey
-                          ? "rotate-180 text-[#C5A059]"
-                          : ""
-                      }`}
-                    />
-                  )}
-                  {(!link.dropdownItems || link.nameKey === "attorneys") && (
-                    <span className="absolute bottom-1 left-5 right-5 h-0.5 bg-[#C5A059] scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
-                  )}
-                </Link>
-
-                {/* Mega Dropdown / Submenu */}
-                {link.dropdownItems && link.nameKey !== "attorneys" && (
-                  <div
-                    className={`absolute top-full left-0 pt-4 w-72 opacity-0 invisible transition-all duration-300 transform translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 z-50`}
+                  <Link
+                    href={link.href}
+                    className={`px-1 py-1 flex items-center gap-1 text-[12px] font-bold tracking-widest uppercase transition-colors whitespace-nowrap ${
+                      activeDropdown === link.nameKey
+                        ? "text-black"
+                        : "text-gray-700 hover:text-black"
+                    }`}
                   >
-                    <div className="bg-white border border-gray-100 shadow-2xl rounded-xl overflow-hidden py-3">
-                      {link.dropdownItems.map((item) => (
-                        <Link
-                          key={item.nameKey}
-                          href={item.href}
-                          className="block px-8 py-4 text-[13px] font-medium text-gray-600 hover:bg-gray-50 hover:text-[#C5A059] transition-all border-l-4 border-transparent hover:border-[#C5A059]"
-                        >
-                          {t(item.nameKey as any)}
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </div>
-            )})}
-          </div>
-        
+                    {linkName}
+                    {link.dropdownItems && link.nameKey !== "attorneys" && (
+                      <ChevronDown
+                        className={`w-4 h-4 transition-transform duration-300 ${
+                          activeDropdown === link.nameKey
+                            ? "rotate-180 text-[#C5A059]"
+                            : ""
+                        }`}
+                      />
+                    )}
+                    {(!link.dropdownItems || link.nameKey === "attorneys") && (
+                      <span className="absolute bottom-1 left-5 right-5 h-0.5 bg-[#C5A059] scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                    )}
+                  </Link>
 
-        {/* CTA Button */}
-        <div className="hidden lg:flex flex-none items-center pl-1 border-l border-gray-100 mr-2">
-          <LanguageSwitcher />
-          <a
-            href="tel:8052837656"
-            className="flex items-center gap-2 px-3 py-3 bg-[#0A1128] text-white text-[11px] font-black tracking-widest uppercase rounded-full transition-all duration-300 hover:bg-[#C5A059] hover:shadow-[0_15px_30px_rgba(197,160,89,0.3)] hover:-translate-y-1 ml-2"
-          >
-            <Phone className="w-5 h-5 text-[#C5A059]" />
-            805-283-7656
-          </a>
-        </div>
+                  {/* Mega Dropdown / Submenu */}
+                  {link.dropdownItems && link.nameKey !== "attorneys" && (
+                    <div
+                      className={`absolute top-full left-0 pt-4 w-72 opacity-0 invisible transition-all duration-300 transform translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 z-50`}
+                    >
+                      <div className="bg-white border border-gray-100 shadow-2xl rounded-xl overflow-hidden py-3">
+                        {link.dropdownItems.map((item) => (
+                          <Link
+                            key={item.nameKey}
+                            href={item.href}
+                            className="block px-8 py-4 text-[13px] font-medium text-gray-600 hover:bg-gray-50 hover:text-[#C5A059] transition-all border-l-4 border-transparent hover:border-[#C5A059]"
+                          >
+                            {t(item.nameKey as any)}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+
+          {/* CTA Button */}
+          <div className=" lg:flex flex-none items-center pl-1 border-l border-gray-100 mr-2">
+            <LanguageSwitcher />
+            <a
+              href="tel:8052837656"
+              className="hidden lg:flex items-center gap-2 px-3 py-3 bg-[#0A1128] text-white text-[11px] font-black tracking-widest uppercase rounded-full transition-all duration-300 hover:bg-[#C5A059] hover:shadow-[0_15px_30px_rgba(197,160,89,0.3)] hover:-translate-y-1 ml-2"
+            >
+              <Phone className="w-5 h-5 text-[#C5A059]" />
+              805-283-7656
+            </a>
+          </div>
         </div>
 
         {/* Mobile Toggle */}
@@ -242,63 +245,69 @@ const Navbar = () => {
             {navLinks.map((link, idx) => {
               const linkName = t(link.nameKey as any);
               return (
-              <div key={link.nameKey} className="border-b border-gray-50 pb-4">
-                {link.dropdownItems ? (
-                  <div className="space-y-4">
-                    <div className="flex items-center justify-between">
-                      <Link
-                        href={link.href}
-                        onClick={() => setIsMenuOpen(false)}
-                        className="flex items-center gap-4 text-2xl font-serif font-bold text-[#0A1128]"
-                      >
-                        <span className="text-[#C5A059] text-[10px] font-sans tracking-[0.3em] uppercase opacity-70">
-                          0{idx + 1}
-                        </span>
-                        {linkName}
-                      </Link>
-                      <button
-                        onClick={() =>
-                          setMobileExpanded(
-                            mobileExpanded === link.nameKey ? null : link.nameKey,
-                          )
-                        }
-                        className="p-2 bg-gray-50 rounded-lg"
-                      >
-                        <ChevronDown
-                          className={`w-5 h-5 text-[#C5A059] transition-transform duration-300 ${mobileExpanded === link.nameKey ? "rotate-180" : ""}`}
-                        />
-                      </button>
-                    </div>
-
-                    <div
-                      className={`space-y-2 pl-8 overflow-hidden transition-all duration-500 ${mobileExpanded === link.nameKey ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
-                    >
-                      {link.dropdownItems.map((subItem) => (
+                <div
+                  key={link.nameKey}
+                  className="border-b border-gray-50 pb-4"
+                >
+                  {link.dropdownItems ? (
+                    <div className="space-y-4">
+                      <div className="flex items-center justify-between">
                         <Link
-                          key={subItem.nameKey}
-                          href={subItem.href}
+                          href={link.href}
                           onClick={() => setIsMenuOpen(false)}
-                          className="block text-lg text-gray-600 hover:text-[#C5A059] transition-colors py-1"
+                          className="flex items-center gap-4 text-2xl font-serif font-bold text-[#0A1128]"
                         >
-                          {t(subItem.nameKey as any)}
+                          <span className="text-[#C5A059] text-[10px] font-sans tracking-[0.3em] uppercase opacity-70">
+                            0{idx + 1}
+                          </span>
+                          {linkName}
                         </Link>
-                      ))}
+                        <button
+                          onClick={() =>
+                            setMobileExpanded(
+                              mobileExpanded === link.nameKey
+                                ? null
+                                : link.nameKey,
+                            )
+                          }
+                          className="p-2 bg-gray-50 rounded-lg"
+                        >
+                          <ChevronDown
+                            className={`w-5 h-5 text-[#C5A059] transition-transform duration-300 ${mobileExpanded === link.nameKey ? "rotate-180" : ""}`}
+                          />
+                        </button>
+                      </div>
+
+                      <div
+                        className={`space-y-2 pl-8 overflow-hidden transition-all duration-500 ${mobileExpanded === link.nameKey ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
+                      >
+                        {link.dropdownItems.map((subItem) => (
+                          <Link
+                            key={subItem.nameKey}
+                            href={subItem.href}
+                            onClick={() => setIsMenuOpen(false)}
+                            className="block text-lg text-gray-600 hover:text-[#C5A059] transition-colors py-1"
+                          >
+                            {t(subItem.nameKey as any)}
+                          </Link>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                ) : (
-                  <Link
-                    href={link.href}
-                    onClick={() => setIsMenuOpen(false)}
-                    className="flex items-center gap-4 text-2xl font-serif font-bold text-[#0A1128] hover:text-[#C5A059] transition-colors"
-                  >
-                    <span className="text-[#C5A059] text-[10px] font-sans tracking-[0.3em] uppercase opacity-70">
-                      0{idx + 1}
-                    </span>
-                    {linkName}
-                  </Link>
-                )}
-              </div>
-            )})}
+                  ) : (
+                    <Link
+                      href={link.href}
+                      onClick={() => setIsMenuOpen(false)}
+                      className="flex items-center gap-4 text-2xl font-serif font-bold text-[#0A1128] hover:text-[#C5A059] transition-colors"
+                    >
+                      <span className="text-[#C5A059] text-[10px] font-sans tracking-[0.3em] uppercase opacity-70">
+                        0{idx + 1}
+                      </span>
+                      {linkName}
+                    </Link>
+                  )}
+                </div>
+              );
+            })}
           </div>
 
           <div className="mt-12 space-y-8">
@@ -307,7 +316,7 @@ const Navbar = () => {
               className="w-full py-5 bg-[#0A1128] text-white text-[11px] font-black tracking-[0.3em] uppercase rounded-xl flex items-center justify-center gap-3 shadow-xl active:scale-95 transition-all"
             >
               <Phone className="w-4 h-4 text-[#C5A059]" />
-              Call Now: 805-283-7656
+              {t("callNow")}
             </Link>
           </div>
         </div>

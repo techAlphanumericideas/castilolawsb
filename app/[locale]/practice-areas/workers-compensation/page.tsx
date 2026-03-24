@@ -15,7 +15,7 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
 
 export default async function Page({params}: {params: Promise<{locale: string}>}) {
   const {locale} = await params;
-  const t = await getTranslations({locale, namespace: 'Navbar'});
+  const t = await getTranslations({locale, namespace: 'PracticeAreasPage'});
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -24,19 +24,19 @@ export default async function Page({params}: {params: Promise<{locale: string}>}
       {
         "@type": "ListItem",
         "position": 1,
-        "name": t("home"),
+        "name": t("breadcrumbs.home"),
         "item": `https://castillolawsb.com/${locale}/`
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": t("practiceAreas"),
+        "name": t("breadcrumbs.practiceAreas"),
         "item": `https://castillolawsb.com/${locale}/practice-areas`
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Workers' Compensation",
+        "name": t("workersComp.title"),
         "item": `https://castillolawsb.com/${locale}/practice-areas/workers-compensation`
       }
     ]
@@ -45,8 +45,8 @@ export default async function Page({params}: {params: Promise<{locale: string}>}
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Workers' Compensation Lawyers | Osbelia Castillo",
-    "description": "Legal advocacy for injured workers seeking medical and wage benefits in California.",
+    "name": t("workersComp.metadata.title"),
+    "description": t("workersComp.metadata.description"),
     "publisher": {
       "@id": "https://castillolawsb.com/#organization"
     }
