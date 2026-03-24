@@ -59,7 +59,7 @@ const WorkersCompensationContent = () => {
             <div className="lg:col-span-7">
               <div className="inline-flex items-center gap-3 mb-6 hero-reveal">
                 <div className="h-[1px] w-10 bg-[#C5A059]"></div>
-                <span className="text-[#C5A059] font-sans font-black tracking-[0.4em] uppercase text-[12px]">
+                <span className="text-[#C5A059] font-sans font-black tracking-[0.4em] uppercase text-[14px]">
                   {t("workersComp.hero.prestige")}
                 </span>
               </div>
@@ -94,7 +94,7 @@ const WorkersCompensationContent = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           <div className="lg:col-span-8 space-y-16">
             <div className="reveal-up">
-              <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#0A1128] mb-8">
+              <h2 className="text-3xl md:text-5xl font-serif font-bold text-[#0A1128] mb-8">
                 {t("workersComp.benefits.title")}
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-10">
@@ -142,7 +142,7 @@ const WorkersCompensationContent = () => {
 
             <div className="reveal-up">
               <div className="bg-[#FCFCFC] p-10 rounded-[2rem] border border-[#0A1128]/5 relative overflow-hidden">
-                <h3 className="text-2xl font-serif font-bold text-[#0A1128] mb-6">
+                <h3 className="text-2xl  md:text-3xlfont-serif font-bold text-[#0A1128] mb-6">
                   {t("workersComp.filing.title")}
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-6">
@@ -156,7 +156,7 @@ const WorkersCompensationContent = () => {
                     t("workersComp.filing.step4"),
                   ].map((step, i) => (
                     <div key={i} className="flex gap-4 items-center">
-                      <span className="text-[#C5A059] font-serif font-bold text-2xl">
+                      <span className="text-[#C5A059] font-serif font-bold text-1xl">
                         0{i + 1}
                       </span>
                       <p className="text-gray-800 font-medium">{step}</p>

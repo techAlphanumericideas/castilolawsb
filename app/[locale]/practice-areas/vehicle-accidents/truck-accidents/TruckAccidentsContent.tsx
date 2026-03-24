@@ -96,36 +96,36 @@ const TruckAccidentsContent = () => {
           <div className="lg:col-span-8 space-y-16">
             <div className="reveal-up">
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#0A1128] mb-8">
-                {t("content.section1.title")}
+                {t("content.title")}
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-10">
-                {t("content.section1.p1")} {t("content.section1.p2")}
+                {t("content.description")}
               </p>
 
               <h2 className="text-2xl font-serif font-bold text-[#0A1128] mb-6">
-                {t("content.section2.title")}
+                {commonT("insuranceExpertise")}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {[
                   {
                     icon: <Truck className="w-6 h-6" />,
-                    title: t("content.section2.items.item1"),
-                    desc: t("content.section2.items.item2"),
+                    title: t("content.compliance"),
+                    desc: t("content.complianceDesc"),
                   },
                   {
                     icon: <ShieldAlert className="w-6 h-6" />,
-                    title: t("content.section2.items.item3"),
-                    desc: t("content.section2.items.item4"),
+                    title: t("content.liability"),
+                    desc: t("content.liabilityDesc"),
                   },
                   {
                     icon: <FileText className="w-6 h-6" />,
-                    title: t("content.section2.items.item5"),
-                    desc: t("content.section2.items.item6"),
+                    title: t("content.audits"),
+                    desc: t("content.auditsDesc"),
                   },
                   {
                     icon: <Scale className="w-6 h-6" />,
-                    title: t("content.section3.title"),
-                    desc: t("content.section3.p1"),
+                    title: t("content.recovery"),
+                    desc: t("content.recoveryDesc"),
                   },
                 ].map((item, i) => (
                   <div
@@ -148,7 +148,7 @@ const TruckAccidentsContent = () => {
                   {commonT("defenseAdvantage")}
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-6 italic font-serif text-lg">
-                   "{t("content.quote")}"
+                   "{commonT("insuranceExpertiseDesc")}"
                 </p>
               </div>
             </div>
