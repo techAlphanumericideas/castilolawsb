@@ -43,7 +43,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       {
         "@type": "ListItem",
         "position": 4,
-        "name": subT("hero.subtitle"),
+        "name": subT("hero.title"),
         "item": `https://castillolawsb.com/${locale}/practice-areas/personal-injury/defective-products`
       }
     ]

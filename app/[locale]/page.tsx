@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -301,13 +302,16 @@ export default function LandingPage() {
             className="w-full h-full object-cover scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-br from-white via-transparent to-white/50"></div>
+          
         </div>
+
 
         {/* Decorative Ambient Accents */}
         <div className="absolute top-[20%] -left-[10%] w-[40%] h-[40%] bg-[#C5A059]/5 blur-[120px] rounded-full pointer-events-none"></div>
         <div className="absolute bottom-[10%] -right-[5%] w-[30%] h-[30%] bg-[#0A1128]/5 blur-[120px] rounded-full pointer-events-none"></div>
 
         <div className="relative z-10 max-w-7xl mx-auto w-full px-6 md:px-12 flex flex-col items-center">
+          
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start w-full mb-16">
             {/* Left Column: Text */}
@@ -364,6 +368,7 @@ export default function LandingPage() {
                   unoptimized
                 />
               </div>
+              
             </div>
           </div>
 

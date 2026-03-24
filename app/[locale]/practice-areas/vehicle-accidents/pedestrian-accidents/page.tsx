@@ -15,7 +15,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.pedestrian" });
+  const t = await getTranslations({ locale, namespace: "PracticeAreasPage" });
+  const subT = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.pedestrian" });
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -24,25 +25,25 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       {
         "@type": "ListItem",
         "position": 1,
-        "name": locale === "es" ? "Inicio" : "Home",
+        "name": t("breadcrumbs.home"),
         "item": `https://castillolawsb.com/${locale}`
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": locale === "es" ? "Áreas de Práctica" : "Practice Areas",
+        "name": t("breadcrumbs.practiceAreas"),
         "item": `https://castillolawsb.com/${locale}/practice-areas`
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": locale === "es" ? "Accidentes de Vehículos" : "Vehicle Accidents",
+        "name": t("vehicleAccidents.title"),
         "item": `https://castillolawsb.com/${locale}/practice-areas/vehicle-accidents`
       },
       {
         "@type": "ListItem",
         "position": 4,
-        "name": t("metadata.breadcrumb"),
+        "name": subT("hero.title"),
         "item": `https://castillolawsb.com/${locale}/practice-areas/vehicle-accidents/pedestrian-accidents`
       }
     ]
@@ -51,8 +52,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": t("metadata.title"),
-    "description": t("metadata.description"),
+    "name": subT("metadata.title"),
+    "description": subT("metadata.description"),
     "publisher": {
       "@id": "https://castillolawsb.com/#organization"
     }
