@@ -11,6 +11,7 @@ import {
   Banknote,
   FileText,
 } from "lucide-react";
+import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -339,14 +340,14 @@ export default function LandingPage() {
 
               <div className="flex flex-col sm:flex-row items-center gap-8 opacity-0 reveal">
                 <div ref={ctaRef}>
-                  <a
+                  <Link
                     href="tel:8052837656"
                     aria-label={tHero("ariaCall")}
                     className="group relative bg-[#0A1128] text-white px-10 py-5 rounded-full font-sans font-black tracking-[0.2em] text-[15px] uppercase hover:bg-[#C5A059] transition-all flex items-center gap-2 shadow-[0_20px_40px_rgba(10,17,40,0.15)] hover:-translate-y-1 transform duration-500 magnetic-btn"
                   >
                     <Phone className="w-5 h-5 text-[#C5A059] group-hover:text-white transition-colors" />
                     805-283-7656
-                  </a>
+                  </Link>
                 </div>
                 <p className="text-[#0A1128] font-serif italic text-lg border-b border-[#C5A059]/30 pb-1">
                   {tHero("consultation")}
@@ -495,14 +496,14 @@ export default function LandingPage() {
             </div>
 
             <div className="about-button opacity-0">
-              <a
+              <Link
                 href="/attorneys/osbelia-castillo"
                 aria-label={tAbout("ariaProfile")}
                 className="inline-flex items-center gap-3 bg-[#0A1128] text-white px-10 py-4 rounded-full font-bold tracking-[0.2em] uppercase text-[10px] md:text-[14px] hover:bg-[#C5A059] transition-all shadow-xl hover:-translate-y-1 transform duration-300 group"
               >
                 {tAbout("readProfile")}
                 <ArrowRight className="w-4 h-6 group-hover:translate-x-1 transition-transform" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -537,25 +538,25 @@ export default function LandingPage() {
                 title: tPractices("piTitle"),
                 desc: tPractices("piDesc"),
                 image: "/assets/per-injury-new.jpg",
-                link: "/practice-areas/personal-injury/",
+                link: "/practice-areas/personal-injury",
               },
               {
                 title: tPractices("vaTitle"),
                 desc: tPractices("vaDesc"),
                 image: "/assets/car-accident-pennsylvania-optimize.jpg",
-                link: "/practice-areas/vehicle-accidents/",
+                link: "/practice-areas/vehicle-accidents",
               },
               {
                 title: tPractices("wdTitle"),
                 desc: tPractices("wdDesc"),
                 image: "/assets/wrong-death-new.jpg",
-                link: "/practice-areas/wrongful-death/",
+                link: "/practice-areas/wrongful-death",
               },
               {
                 title: tPractices("wcTitle"),
                 desc: tPractices("wcDesc"),
                 image: "/assets/workerscomp-new.jpg",
-                link: "/practice-areas/workers-compensation/",
+                link: "/practice-areas/workers-compensation",
               },
             ].map((practice, idx) => (
               <div
@@ -581,13 +582,13 @@ export default function LandingPage() {
                     {practice.desc}
                   </p>
 
-                  <a
+                  <Link
                     href={practice.link}
                     className="inline-flex items-center gap-2 text-[#0A1128] font-bold text-[12px] tracking-[0.15em] uppercase border-b border-gray-200 pb-1 group-hover:border-[#C5A059] transition-all"
                   >
                     {tPractices("explore")}
                     <ArrowRight className="w-3 h-3 transition-transform group-hover:translate-x-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}
@@ -637,7 +638,7 @@ export default function LandingPage() {
                     {tContact("speakWithTeam")}
                   </p>
 
-                  <a
+                  <Link
                     href="tel:8052837656"
                     className="group relative flex flex-col items-center gap-6 magnetic-btn"
                   >
@@ -654,7 +655,7 @@ export default function LandingPage() {
                         {tContact("clickToCall")}
                       </span>
                     </div>
-                  </a>
+                  </Link>
 
                   <div className="mt-12 pt-8 border-t border-gray-50 w-full text-center">
                     <p className="text-gray-400 text-[11px] uppercase tracking-widest font-bold">
