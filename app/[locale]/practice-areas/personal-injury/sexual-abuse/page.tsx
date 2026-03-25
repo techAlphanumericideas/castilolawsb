@@ -6,10 +6,20 @@ import { getTranslations } from "next-intl/server";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.sexualAbuse.metadata" });
+  const baseUrl = "https://castillolawsb.com";
+  const path = "/practice-areas/personal-injury/sexual-abuse";
 
   return {
     title: t("title"),
     description: t("description"),
+    alternates: {
+      canonical: `${baseUrl}/${locale}${path}`,
+      languages: {
+        'en': `${baseUrl}/en${path}`,
+        'es': `${baseUrl}/es${path}`,
+        'x-default': `${baseUrl}/en${path}`,
+      },
+    },
   };
 }
 

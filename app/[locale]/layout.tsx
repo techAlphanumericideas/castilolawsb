@@ -11,10 +11,19 @@ import { routing } from '@/i18n/routing';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
+  const baseUrl = "https://castillolawsb.com";
 
   return {
     title: t("title"),
     description: t("description"),
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages: {
+        'en': `${baseUrl}/en`,
+        'es': `${baseUrl}/es`,
+        'x-default': `${baseUrl}/en`,
+      },
+    },
   };
 }
 

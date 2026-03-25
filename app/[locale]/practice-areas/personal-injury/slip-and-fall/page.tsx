@@ -7,10 +7,20 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   // Scoped to the metadata section of the specific sub-page
   const t = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.slipAndFall.metadata" });
+  const baseUrl = "https://castillolawsb.com";
+  const path = "/practice-areas/personal-injury/slip-and-fall";
 
   return {
     title: t("title"),
     description: t("description"),
+    alternates: {
+      canonical: `${baseUrl}/${locale}${path}`,
+      languages: {
+        'en': `${baseUrl}/en${path}`,
+        'es': `${baseUrl}/es${path}`,
+        'x-default': `${baseUrl}/en${path}`,
+      },
+    },
   };
 }
 
