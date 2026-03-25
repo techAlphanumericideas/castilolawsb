@@ -544,6 +544,16 @@
           "alt": "Abogada Osbelia Castillo - Especialista en negligencia por conducción distraída"
         },
         "content": {
+          "title": "Combatiendo la Conducción Distraída",
+          "description": "El uso del teléfono celular es una causa principal de accidentes graves. Nos especializamos en descubrir evidencia de distracción digital.",
+          "forensics": "Forense Digital",
+          "forensicsDesc": "Solicitud de registros telefónicos y análisis de marcas de tiempo para probar el uso del teléfono durante el choque.",
+          "highImpact": "Responsabilidad de Alto Impacto",
+          "highImpactDesc": "Demostrando negligencia grave cuando los conductores violan intencionalmente las leyes de conducción distraída.",
+          "victimRights": "Derechos de las Víctimas",
+          "victimRightsDesc": "Asegurando que reciba compensación total por tratamiento médico, daños a la propiedad y trauma emocional.",
+          "handsFree": "Violaciones de Manos Libres",
+          "handsFreeDesc": "Identificando cuándo los conductores fallaron en utilizar el equipo de seguridad legalmente requerido.",
           "section1": {
             "title": "Combatiendo la Conducción Distraída",
             "p1": "El uso del teléfono celular es una causa principal de accidentes graves. Nos especializamos en descubrir evidencia de distracción digital.",
@@ -580,6 +590,18 @@
           "alt": "Abogada Osbelia Castillo - Especialista en accidentes por DUI y negligencia imprudente"
         },
         "content": {
+          "title": "Justicia para las Víctimas de DUI",
+          "description": "Cuando un conductor elige operar un vehículo bajo la influencia, está tomando una decisión que pone en peligro a todos.",
+          "whyHire": "Responsabilidad por DUI",
+          "whyHireDesc": "Los casos de conducción ebria requieren una estrategia legal específica para maximizar la recuperación, navegando implicaciones civiles y penales.",
+          "punitive": "Daños Punitivos",
+          "punitiveDesc": "Búsqueda de compensación adicional para castigar el comportamiento imprudente y disuadir futuros incidentes.",
+          "proof": "Prueba Rigurosa",
+          "proofDesc": "Utilizando informes policiales, pruebas de alcohol y relatos de testigos para construir un caso sólido e irrefutable.",
+          "fullLiability": "Responsabilidad Total",
+          "fullLiabilityDesc": "Responsabilizando plenamente al conductor ebrio de todos los gastos médicos y salarios perdidos.",
+          "criminalCivil": "Penal vs. Civil",
+          "criminalCivilDesc": "Entendiendo cómo un caso penal de DUI impacta directamente en su reclamación por lesiones personales.",
           "section1": {
             "title": "Justicia para las Víctimas de DUI",
             "p1": "Cuando un conductor elige operar un vehículo bajo la influencia, está tomando una decisión que pone en peligro a todos.",
@@ -616,6 +638,16 @@
           "alt": "Abogada Osbelia Castillo - Especialista en reclamos de choque y fuga"
         },
         "content": {
+          "title": "Su Camino a la Recuperación Tras un Choque y Fuga",
+          "description": "Un accidente de choque y fuga puede parecer abrumador y desesperanzador. Existen múltiples vías para la recuperación, incluyendo la cobertura de motorista sin seguro.",
+          "investigation": "Investigación Privada",
+          "investigationDesc": "Trabajamos con expertos y grabaciones de vigilancia para identificar el vehículo y al conductor que huyó.",
+          "umClaims": "Reclamaciones UM/UIM",
+          "umClaimsDesc": "Maximizando los beneficios de motorista sin seguro de su propia póliza cuando el conductor es desconocido.",
+          "criminalCharges": "Cargos Penales",
+          "criminalChargesDesc": "Coordinación con las fuerzas del orden para apoyar los procesos penales por el delito de choca y huye.",
+          "fullDamages": "Daños Totales",
+          "fullDamagesDesc": "Búsqueda de compensación para facturas médicas, dolor y sufrimiento, y daños a la propiedad causados por la colisión.",
           "section1": {
             "title": "Su Camino a la Recuperación Tras un Choque y Fuga",
             "p1": "Un accidente de choque y fuga puede parecer abrumador y desesperanzador al principio.",
@@ -724,6 +756,16 @@
           "alt": "Abogada Osbelia Castillo - Especialista en accidentes de camiones comerciales y regulaciones de la FMCSA"
         },
         "content": {
+          "title": "Responsabilizando al Transporte Comercial",
+          "description": "Los choques comerciales involucran regulaciones complejas y poderosas empresas que buscan evadir su responsabilidad.",
+          "compliance": "Normativa FMCSA",
+          "complianceDesc": "Comprobación de violaciones de las normas de horas de servicio y seguridad federal de autotransportes.",
+          "liability": "Responsabilidad Vicaria",
+          "liabilityDesc": "Responsabilizando a toda la empresa de transporte por las acciones y descuidos fatales de sus conductores.",
+          "audits": "Auditorías de Libros",
+          "auditsDesc": "Exponiendo libros de ruta falsificados utilizados para encubrir la fatiga extrema del conductor comercial.",
+          "recovery": "Recuperación Catastrófica",
+          "recoveryDesc": "Asegurando los recursos masivos para el cuidado a largo plazo requerido tras colisiones industriales de alto impacto.",
           "section1": {
             "title": "Responsabilizando al Transporte Comercial",
             "p1": "Los choques comerciales involucran regulaciones complejas y poderosas empresas que buscan evadir su responsabilidad.",
@@ -745,6 +787,31 @@
             "p1": "Asegurando los recursos masivos para el cuidado a largo plazo requerido tras colisiones industriales de alto impacto."
           },
           "quote": "Los accidentes de camión implican leyes complejas. Usamos nuestra visión de defensa para responsabilizar a corporaciones masivas."
+        }
+      },
+      "bicycle": {
+        "metadata": {
+          "title": "Abogados de Accidentes de Bicicleta | Osbelia Castillo",
+          "description": "¿Lesionado mientras montaba en bicicleta? Nuestros abogados de accidentes de bicicleta de Santa Bárbara protegen sus derechos y luchan por un acuerdo completo de conductores negligentes."
+        },
+        "hero": {
+          "prestige": "Accidentes de Vehículos",
+          "title": "Accidentes de",
+          "subtitle": "Bicicleta",
+          "description": "Los ciclistas merecen seguridad en cada carretera. Representamos a ciclistas heridos por conductores negligentes, asegurando los recursos necesarios para su recuperación.",
+          "alt": "Abogada Osbelia Castillo - Defensora de las víctimas de accidentes de bicicleta"
+        },
+        "content": {
+          "title": "Defendiendo a los Ciclistas",
+          "description": "Los accidentes de bicicleta a menudo involucran consideraciones legales únicas, incluyendo el diseño de la carretera y la visibilidad del conductor. Tenemos la experiencia para probar la negligencia del conductor.",
+          "roadwayAdvocacy": "Abogacía Vial",
+          "roadwayAdvocacyDesc": "Responsabilizando a los conductores por no compartir la carretera o violar las leyes de carriles para bicicletas.",
+          "medicalSupport": "Apoyo Médico",
+          "medicalSupportDesc": "Asegurando que reciba atención médica de primer nivel para fracturas, traumas o abrasiones graves.",
+          "liabilityFocus": "Enfoque en Responsabilidad",
+          "liabilityFocusDesc": "Demostrar la distracción del conductor o no ceder el paso como la causa principal de la colisión.",
+          "maximumRecovery": "Máxima Recuperación",
+          "maximumRecoveryDesc": "Buscando compensación por salarios perdidos, equipo médico especializado y rehabilitación a largo plazo."
         }
       }
     }

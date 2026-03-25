@@ -540,6 +540,16 @@
           "alt": "Attorney Osbelia Castillo - Distracted Driving Negligence Specialist"
         },
         "content": {
+          "title": "Combating Distracted Driving",
+          "description": "Cell phone use is a primary cause of serious accidents. We specialize in uncovering the evidence needed to prove digital distraction.",
+          "forensics": "Digital Forensics",
+          "forensicsDesc": "Subpoenaing phone records and analyzing data timestamps to prove phone use during the collision.",
+          "highImpact": "High-Impact Liability",
+          "highImpactDesc": "Proving gross negligence when drivers intentionally violate distracted driving laws.",
+          "victimRights": "Victim Rights",
+          "victimRightsDesc": "Ensuring you receive full compensation for medical treatment, property damage, and trauma.",
+          "handsFree": "Hands-Free Violations",
+          "handsFreeDesc": "Identifying when drivers failed to use legally required safety equipment.",
           "section1": {
             "title": "Combating Distracted Driving",
             "p1": "Cell phone use is a primary cause of serious accidents. We specialize in uncovering the evidence needed to prove digital distraction.",
@@ -576,6 +586,18 @@
           "alt": "Attorney Osbelia Castillo - DUI Accident & Reckless Negligence Specialist"
         },
         "content": {
+          "title": "Justice for DUI Victims",
+          "description": "When a driver operates under the influence, they endanger everyone. We are committed to securing the compensation you deserve.",
+          "whyHire": "DUI Accountability",
+          "whyHireDesc": "Drunk driving cases require a specific legal strategy to maximize recovery. We navigate both civil and criminal implications.",
+          "punitive": "Punitive Damages",
+          "punitiveDesc": "Seeking additional compensation to punish reckless behavior and deter future incidents.",
+          "proof": "Rigorous Proof",
+          "proofDesc": "Using police reports and medical records to build an undeniable case against the negligent driver.",
+          "fullLiability": "Full Liability",
+          "fullLiabilityDesc": "Holding the intoxicated driver fully responsible for all medical costs and lost wages.",
+          "criminalCivil": "Criminal vs. Civil",
+          "criminalCivilDesc": "Understanding how a DUI criminal case impacts your personal injury claim.",
           "section1": {
             "title": "Justice for DUI Victims",
             "p1": "When a driver operates under the influence, they endanger everyone. We are committed to securing the compensation you deserve.",
@@ -612,6 +634,16 @@
           "alt": "Attorney Osbelia Castillo - Hit and Run Claims Specialist"
         },
         "content": {
+          "title": "Your Path to Recovery After a Hit and Run",
+          "description": "A hit and run accident can feel overwhelming and hopeless. However, there are multiple avenues for recovery, including uninsured motorist coverage and thorough investigations.",
+          "investigation": "Private Investigation",
+          "investigationDesc": "Working with experts and surveillance footage to identify the vehicle and driver.",
+          "umClaims": "UM/UIM Claims",
+          "umClaimsDesc": "Maximizing your own insurance policy's uninsured motorist benefits when the driver remains unknown.",
+          "criminalCharges": "Criminal Coordination",
+          "criminalChargesDesc": "Coordinating with law enforcement to support criminal hit and run prosecutions.",
+          "fullDamages": "Full Damage Recovery",
+          "fullDamagesDesc": "Seeking compensation for medical bills, pain and suffering, and property damage caused by the fleeing driver.",
           "section1": {
             "title": "Your Path to Recovery After a Hit and Run",
             "p1": "A hit and run accident can feel overwhelming and hopeless.",
@@ -720,6 +752,16 @@
           "alt": "Attorney Osbelia Castillo - Commercial Truck Accident & FMCSA Regulation Specialist"
         },
         "content": {
+          "title": "Holding Commercial Trucking Accountable",
+          "description": "Commercial crashes involve complex regulations and powerful insurance companies. We level the playing field for victims of trucking company negligence.",
+          "compliance": "FMCSA Compliance",
+          "complianceDesc": "Checking violations of Federal Motor Carrier Safety Administration hours-of-service rules.",
+          "liability": "Vicarious Liability",
+          "liabilityDesc": "Holding the entire trucking company responsible for their driver's actions and oversights.",
+          "audits": "Logbook Audits",
+          "auditsDesc": "Exposing falsified logs used to cover up driver fatigue and excessive driving hours.",
+          "recovery": "Catastrophic Recovery",
+          "recoveryDesc": "Securing resources for long-term care required after high-impact commercial collisions.",
           "section1": {
             "title": "Holding Commercial Trucking Accountable",
             "p1": "Commercial crashes involve complex regulations and powerful insurance companies. We level the playing field for victims of trucking company negligence.",
@@ -741,6 +783,31 @@
             "p1": "Securing resources for long-term care required after high-impact commercial collisions."
           },
           "quote": "Trucking accidents involve complex federal law. We use our defense-side insights to hold massive corporations accountable for safety violations."
+        }
+      },
+      "bicycle": {
+        "metadata": {
+          "title": "Bicycle Accident Lawyers | Osbelia Castillo",
+          "description": "Injured while cycling? Our Santa Barbara bicycle accident attorneys protect your rights and fight for full settlement from negligent drivers."
+        },
+        "hero": {
+          "prestige": "Vehicle Accidents",
+          "title": "Bicycle",
+          "subtitle": "Accidents",
+          "description": "Cyclists deserve safety on every road. We represent riders injured by negligent drivers, securing the resources needed for your recovery.",
+          "alt": "Attorney Osbelia Castillo - Advocate for Bicycle Accident Victims"
+        },
+        "content": {
+          "title": "Standing Up for Cyclists",
+          "description": "Bicycle accidents often involve unique legal considerations, including roadway design and driver visibility. We have the expertise to prove driver negligence in complex cyclist injury cases.",
+          "roadwayAdvocacy": "Roadway Advocacy",
+          "roadwayAdvocacyDesc": "Holding drivers accountable for failing to share the road or violating bike lane laws.",
+          "medicalSupport": "Medical Support",
+          "medicalSupportDesc": "Ensuring you receive top-tier medical care for fractures, head trauma, or road rash.",
+          "liabilityFocus": "Liability Focus",
+          "liabilityFocusDesc": "Proving driver distraction or failure to yield as the primary cause of the collision.",
+          "maximumRecovery": "Maximum Recovery",
+          "maximumRecoveryDesc": "Seeking compensation for lost wages, medical equipment, and rehabilitation."
         }
       }
     }
