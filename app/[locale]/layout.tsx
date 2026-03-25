@@ -33,6 +33,8 @@ const playfair = Playfair_Display({
   subsets: ["latin"],
 });
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
