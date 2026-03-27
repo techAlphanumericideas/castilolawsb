@@ -57,7 +57,7 @@ const OsbeliaCastilloContent = () => {
   return (
     <div ref={contentRef} className="bg-white min-h-screen">
       {/* Bio Hero */}
-      <section className="relative pt-40 pb-24 bg-[#0A1128] overflow-hidden">
+      <section className="relative pt-40 pb-2 bg-[#0A1128] overflow-hidden">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-[#C5A059]/5 transform skew-x-12 translate-x-20"></div>
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#C5A059]/10 rounded-full blur-[120px] -translate-x-1/2 translate-y-1/2"></div>
 

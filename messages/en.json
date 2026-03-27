@@ -19,7 +19,6 @@
     "dogBites": "Dog Bites",
     "asbestos": "Asbestos & Mesothelioma",
     "sexualAbuse": "Sexual Molestation & Abuse",
-    "catastrophicInjuries": "Catastrophic Injuries",
     "vehicleAccidents": "Vehicle Accidents",
     "drunkDriving": "Drunk Driving Accident",
     "hitAndRun": "Hit and Run",
@@ -28,9 +27,14 @@
     "motorcycleAccidents": "Motorcycle Accidents",
     "bicycleAccidents": "Bicycle Accidents",
     "pedestrianAccidents": "Pedestrian Accidents",
-    "constructionAccidents": "Construction Site Accidents",
-    "carAccidents": "Car Accidents",
-    "cellPhone": "Accidents & Cell Phone Use",
+    "boatingAccidents": "Boating Accidents",
+    "elderDependentAbuse": "Elder & Dependent Abuse",
+    "burnInjury": "Burn Injury",
+    "negligentSecurity": "Negligent Security",
+    "catastrophicInjuries": "Catastrophic Injuries",
+    "policeBrutalityShootings": "Police Brutality & Shootings",
+    "busAccidents": "Bus Accidents",
+    "medicalDeviceRecall":"3 Spring Reservoir Kits",
     "wrongfulDeath": "Wrongful Death",
     "workersComp": "Worker's Compensation",
     "areasWeServe": "Areas We Serve",
@@ -256,7 +260,7 @@
         "dogBites": "Dog Bites",
         "asbestos": "Asbestos & Mesothelioma",
         "sexualAbuse": "Sexual Molestation & Abuse",
-        "catastrophicInjuries": "Catastrophic Injuries"
+        "boatingAccidents": "Boating Accidents"
       }
     },
     "vehicleAccidents": {
@@ -608,43 +612,42 @@
           "quote": "Premises liability cases require immediate investigation. We secure the evidence needed to prove the property was unsafe."
         }
       },
-
-      "constructionAccidents": {
-  "metadata": {
-    "title": "Oxnard Construction Site Accident Lawyer | Osbelia Castillo",
-    "description": "Injured at a construction site? We handle complex personal injury and workers' compensation claims in Oxnard. 50+ years of experience fighting for your recovery. Free consultation."
-  },
-  "hero": {
-    "prestige": "Industrial & Site Liability",
-    "title": "Construction Site",
-    "subtitle": "Accident Litigation",
-    "description": "High-risk environments require elite legal strategies. We represent workers and pedestrians injured by site negligence, ensuring maximum recovery through both PI and Workers' Comp claims.",
-    "alt": "Attorney Osbelia Castillo - Construction Site Accident Expert"
-  },
-  "content": {
-    "section1": {
-      "title": "Strategic Advocacy for Complex Site Injuries",
-      "p1": "Construction sites are inherently dangerous zones where a single oversight can lead to life-altering trauma. Whether you are an employee or a passerby, contractors have a strict legal duty to maintain safety and warn the public of hazards.",
-      "p2": "In Oxnard, we navigate the intersection of Personal Injury and Workers' Compensation laws. We identify liable third parties—such as equipment manufacturers or negligent subcontractors—to ensure you aren't limited only to standard insurance payouts."
-    },
-    "section2": {
-      "title": "Maximizing Your Legal Recovery",
-      "items": {
-        "item1": "Third-Party Liability",
-        "item2": "Suing manufacturers or outside vendors when faulty machinery or external negligence causes the crash.",
-        "item3": "Pedestrian Protection",
-        "item4": "Representing non-workers struck by falling debris or injured by poorly secured site perimeters.",
-        "item5": "Comprehensive Damages",
-        "item6": "Securing full coverage for medical bills, permanent disability, and non-economic pain and suffering."
-      }
-    },
-    "section3": {
-      "title": "Your Rights Under California Law",
-      "p1": "California’s comparative negligence rules mean you can recover compensation even if you were partially at fault. We conduct deep investigations—including safety audit reviews and witness statements—to minimize your liability and maximize your award."
-    },
-    "quote": "We bridge the gap between industrial accidents and legal justice. Our team uses over 50 years of experience to hold powerful contractors and insurance firms accountable."
-  }
-},
+      "elderAbuse": {
+        "metadata": {
+          "title": "Elder & Dependent Abuse Lawyers | Santa Barbara | Osbelia Castillo",
+          "description": "Protecting the rights of seniors and dependent adults. Our Santa Barbara attorneys hold nursing homes and caregivers accountable for neglect and abuse. Free consultation."
+        },
+        "hero": {
+          "prestige": "Protecting Vulnerable Adults",
+          "title": "Elder & Dependent",
+          "subtitle": "Abuse",
+          "description": "Every individual deserves to live with dignity and safety. When trust is broken by caregivers or facilities, we provide the aggressive advocacy needed to protect your loved ones and secure justice.",
+          "alt": "Attorney Osbelia Castillo - Expert in Elder Abuse & Dependent Care Law"
+        },
+        "content": {
+          "section1": {
+            "title": "Compassionate Advocacy for the Vulnerable",
+            "p1": "Elder and dependent abuse is a heartbreaking betrayal of trust that can occur in nursing homes, assisted living facilities, or even within the home. Whether the harm is physical, emotional, or financial, victims and their families deserve a legal team that acts with urgency and precision.",
+            "p2": "Our firm is dedicated to uncovering the truth behind facility negligence. We investigate every detail to hold responsible parties accountable for the harm they have caused to those who often cannot speak for themselves."
+          },
+          "section2": {
+            "title": "Recognizing the Warning Signs",
+            "items": {
+              "item1": "Physical & Emotional Neglect",
+              "item2": "Unexplained injuries like bedsores, broken bones, or sudden, drastic changes in mood and personality.",
+              "item3": "Financial Exploitation",
+              "item4": "Sudden changes in bank accounts, missing property, or unauthorized changes to legal documents and wills.",
+              "item5": "Medical Malpractice",
+              "item6": "Improper medication dosing, missed treatments, or failure to provide a reasonable standard of care."
+            }
+          },
+          "section3": {
+            "title": "Decades of Dedicated Service",
+            "p1": "With over 50 years of collective legal experience, our attorneys possess the deep knowledge required to navigate the complexities of elder law and facility liability throughout California."
+          },
+          "quote": "Our elders deserve to spend their golden years in safety. We stand as a shield for those who cannot protect themselves against the tragedy of neglect."
+        }
+      },
       "bicycleAccidents": {
         "metadata": {
           "title": "Bicycle Accident Lawyers | Osbelia Castillo",
@@ -1082,6 +1085,374 @@
           "maximumRecovery": "Maximum Recovery",
           "maximumRecoveryDesc": "Seeking compensation for lost wages, medical equipment, and rehabilitation."
         }
+      },
+      "negligentSecurity": {
+        "metadata": {
+          "title": "Negligent Security Lawyers | Santa Barbara | Osbelia Castillo",
+          "description": "Injured due to inadequate security? Our Santa Barbara premises liability attorneys hold property owners accountable for poor lighting, lack of surveillance, and failed safety measures."
+        },
+        "hero": {
+          "prestige": "Premises Liability & Safety",
+          "title": "Negligent",
+          "subtitle": "Security",
+          "description": "Property owners have a legal obligation to keep visitors safe. When a lack of security leads to preventable harm, we provide the aggressive advocacy needed to hold them accountable.",
+          "alt": "Attorney Osbelia Castillo - Expert in Negligent Security & Premises Liability"
+        },
+        "content": {
+          "section1": {
+            "title": "Fighting for Victims of Preventable Crimes",
+            "p1": "When you visit a business, apartment complex, or public space, you have the right to feel secure. Unfortunately, many property owners cut corners on safety, leading to environments where criminal activity can flourish. These lapses in security often result in life-altering physical and emotional trauma.",
+            "p2": "Our firm takes a proactive and thorough approach to every case. We investigate the history of the property, analyzing whether the owner ignored known risks or failed to implement basic safety protocols that could have prevented your injury."
+          },
+          "section2": {
+            "title": "Common Failures in Property Safety",
+            "items": {
+              "item1": "Commercial & Retail Spaces",
+              "item2": "High-traffic shopping centers require functional surveillance, bright lighting, and often, professional security personnel to deter criminal activity.",
+              "item3": "Residential Complexes",
+              "item4": "Property managers must ensure that gates, locks, and entrances are secure to protect residents from unauthorized access and foreseeable harm.",
+              "item5": "Hospitality & Entertainment",
+              "item6": "Hotels and event venues must maintain strict access controls and employ trained staff to monitor premises and respond to security threats."
+            }
+          },
+          "section3": {
+            "title": "A Legacy of Legal Excellence",
+            "p1": "With over 50 years of collective legal experience, our team has a deep understanding of California's premises liability laws. We work on a contingency basis, meaning you pay nothing unless we secure the compensation you deserve."
+          },
+          "quote": "Safety is not a luxury; it is a right. We hold negligent property owners accountable to ensure our community remains a safer place for everyone."
+        }
+      },
+      "catastrophicInjuries": {
+        "metadata": {
+          "title": "Catastrophic Injury Lawyers | Santa Barbara | Osbelia Castillo",
+          "description": "Have you or a loved one suffered a life-altering injury? Our Santa Barbara catastrophic injury attorneys fight for the maximum compensation for TBI, spinal damage, and permanent disability."
+        },
+        "hero": {
+          "prestige": "Serious Injury Litigation",
+          "title": "Catastrophic",
+          "subtitle": "Injuries",
+          "description": "Life-changing injuries require life-changing representation. With over 50 years of collective experience, we provide the aggressive advocacy needed to secure your future after a devastating accident.",
+          "alt": "Attorney Osbelia Castillo - Expert in Catastrophic Injury Law"
+        },
+        "content": {
+          "section1": {
+            "title": "Navigating the Path to Recovery After Severe Trauma",
+            "p1": "A catastrophic injury is more than just a medical event; it is a permanent shift in the trajectory of your life. Whether it is a traumatic brain injury, a spinal cord impairment, or severe amputation, these incidents require intensive medical intervention and lifelong support. In Santa Barbara, we stand as a dedicated ally for families facing these overwhelming challenges.",
+            "p2": "The impact of such trauma extends far beyond the victim, creating a ripple effect that touches every family member. We focus on securing a recovery that accounts for home modifications, specialized medical equipment, and the long-term socioeconomic security your family deserves."
+          },
+          "section2": {
+            "title": "Essential Steps Following a Major Accident",
+            "items": {
+              "item1": "Immediate Medical Priority",
+              "item2": "Seek emergency care immediately. Detailed medical records from the outset are the foundation of any legal claim.",
+              "item3": "Incident Documentation",
+              "item4": "Ensure a police report is filed and gather as much evidence as possible, including photos and witness contact details.",
+              "item5": "Legal Consultation",
+              "item6": "Avoid discussing fault with insurance adjusters. Consult with our experienced legal team before making any statements."
+            }
+          },
+          "section3": {
+            "title": "A Commitment to Excellence",
+            "p1": "With over five decades of combined experience, our firm leverages deep legal knowledge to navigate the complexities of California's injury laws. We represent our clients on a contingency basis—ensuring that elite legal representation is available to everyone without upfront costs."
+          },
+          "quote": "Justice is about more than just compensation; it is about providing the resources necessary to reclaim your dignity and independence.",
+          "faqs": {
+            "title": "Catastrophic Injury: Frequently Asked Questions",
+            "q1": "What legally defines a 'Catastrophic' injury?",
+            "a1": "A catastrophic injury is one that has a permanent, severe impact on a person's life, typically preventing them from returning to work or performing daily activities without assistance. This includes TBI, paralysis, and severe burns.",
+            "q2": "How does California's comparative negligence rule affect my case?",
+            "a2": "California allows you to recover compensation even if you were partially at fault for the accident. Your final award is simply reduced by your percentage of responsibility.",
+            "q3": "What can I expect during the litigation process?",
+            "a3": "We handle every step: from investigation and evidence gathering to intense negotiations with insurance firms and, if necessary, taking your case to trial to ensure a fair outcome.",
+            "q4": "How long do I have to file my claim?",
+            "a4": "In California, the statute of limitations is generally two years from the date of the injury. However, catastrophic cases require early investigation, so it is vital to contact a lawyer as soon as possible."
+          }
+        }
+      },
+      "burnInjury": {
+        "metadata": {
+          "title": "Burn Injury Lawyers | Santa Barbara | Osbelia Castillo",
+          "description": "Have you suffered severe burns due to negligence? Our Santa Barbara burn injury attorneys help victims recover compensation for medical bills and long-term care. Free consultation."
+        },
+        "hero": {
+          "prestige": "Specialized Injury Advocacy",
+          "title": "Burn",
+          "subtitle": "Injuries",
+          "description": "Burn injuries are among the most painful and complex traumas a person can endure. We provide the dedicated legal support needed to secure resources for your long-term recovery and well-being.",
+          "alt": "Attorney Osbelia Castillo - Expert in Burn Injury & Personal Injury Law"
+        },
+        "content": {
+          "section1": {
+            "title": "Comprehensive Support for Severe Burn Survivors",
+            "p1": "A burn injury changes your life in an instant. Whether caused by a fire, explosion, chemical exposure, or electrical accident, the path to recovery is often long and requires specialized medical attention. Victims in Santa Barbara deserve an advocate who understands the medical and legal complexities of these catastrophic cases.",
+            "p2": "Our firm focuses on more than just the immediate legal claim; we look at your future. From skin grafts and physical therapy to psychological support for trauma, we fight to ensure your settlement covers the full scope of your recovery."
+          },
+          "section2": {
+            "title": "The Lasting Impact of Burn Trauma",
+            "items": {
+              "item1": "Extensive Medical Costs",
+              "item2": "Emergency care is just the beginning. Surgeries, specialized burn unit treatments, and ongoing rehabilitation can create an immense financial burden.",
+              "item3": "Physical & Emotional Recovery",
+              "item4": "Beyond physical scarring, survivors often face psychological challenges such as PTSD and depression. We pursue damages for both visible and invisible wounds.",
+              "item5": "Loss of Income & Benefits",
+              "item6": "Severe burns often prevent victims from returning to work for extended periods. We hold negligent parties accountable for your lost wages and future earning capacity."
+            }
+          },
+          "section3": {
+            "title": "Decades of Specialized Experience",
+            "p1": "With over 50 years of collective legal experience, our team has the knowledge to take on complex liability cases involving property owners, manufacturers, and corporate entities. We operate on a contingency basis—you pay no fees unless we win."
+          },
+          "quote": "Recovery is a journey that no one should walk alone. We are here to provide the legal strength you need to focus entirely on your healing.",
+          "faqs": {
+            "title": "Frequently Asked Questions",
+            "q1": "What steps should I take immediately after a burn?",
+            "a1": "Seek emergency medical care immediately. Document the scene with photos if possible, and once stable, contact a specialized attorney to ensure evidence—like faulty equipment or safety violations—is preserved.",
+            "q2": "How can a lawyer help with my burn injury claim?",
+            "a2": "We handle all negotiations with insurance companies, investigate the cause of the accident, and work with medical experts to accurately value the cost of your lifetime care.",
+            "q3": "What types of compensation can I seek?",
+            "a3": "You may be entitled to medical expenses (past and future), lost wages, compensation for pain and suffering, and damages for permanent disfigurement or scarring.",
+            "q4": "Is it necessary to hire a lawyer for a burn case?",
+            "a4": "While not required, burn cases involve high-value damages that insurance companies often try to minimize. Having an experienced advocate ensures you aren't pressured into an unfair settlement."
+          }
+        }
+      },
+      "policeBrutality": {
+        "metadata": {
+          "title": "Police Brutality & Shooting Lawyers | Santa Barbara | Osbelia Castillo",
+          "description": "Victim of police misconduct or excessive force? Our Santa Barbara civil rights attorneys hold law enforcement accountable for brutality and constitutional violations. Free consultation."
+        },
+        "hero": {
+          "prestige": "Civil Rights & Accountability",
+          "title": "Police",
+          "subtitle": "Brutality",
+          "description": "The badge is a symbol of trust, not a license for abuse. When law enforcement officials exceed their authority, we provide the aggressive advocacy needed to protect your constitutional rights and secure justice.",
+          "alt": "Attorney Osbelia Castillo - Expert in Police Misconduct & Civil Rights Law"
+        },
+        "content": {
+          "section1": {
+            "title": "Holding Authority Accountable to the Law",
+            "p1": "Law enforcement officials are sworn to protect the public, but when they abuse their power, the results are often tragic. Police brutality and shootings represent a profound betrayal of the community's trust and can leave victims with life-altering physical and emotional scars.",
+            "p2": "Filing a claim against a government agency is an uphill battle that requires a deep understanding of civil rights litigation. Our firm investigates the specific circumstances of misconduct—from excessive force to wrongful detention—ensuring that those who wear the badge are held to the same legal standards as the citizens they serve."
+          },
+          "section2": {
+            "title": "Recognizing Violations of Civil Rights",
+            "items": {
+              "item1": "Excessive Use of Force",
+              "item2": "When physical violence or the use of a weapon exceeds what is necessary for a situation, resulting in severe injury or wrongful death.",
+              "item3": "Wrongful Arrest & Detention",
+              "item4": "Holding officers accountable for arresting or detaining individuals without probable cause or violating due process.",
+              "item5": "Malicious Prosecution",
+              "item6": "Pursuing cases where law enforcement or prosecutors use the legal system to harass or wrongfully convict innocent individuals."
+            }
+          },
+          "section3": {
+            "title": "Decades of Courageous Advocacy",
+            "p1": "With over 50 years of collective experience, our legal team has the resources and the resolve to take on complex cases against municipal and state agencies. We fight tirelessly throughout Santa Barbara and Ventura Counties to ensure your voice is heard."
+          },
+          "quote": "The law must apply to everyone equally. We stand as a shield for those whose rights have been violated by the very people sworn to protect them.",
+          "faqs": {
+            "title": "Police Misconduct: Frequently Asked Questions",
+            "q1": "What legally constitutes police brutality?",
+            "a1": "It involves the use of unnecessary or excessive force—physical violence or weapon discharge—that goes beyond the scope of an officer's duty. It also includes constitutional violations like unlawful search and seizure.",
+            "q2": "Is it difficult to sue a police department in California?",
+            "a2": "Yes, government agencies often have 'qualified immunity.' However, California law allows for claims when clear misconduct or civil rights violations occur. These cases require immediate action and experienced legal counsel.",
+            "q3": "What is the timeline for filing a misconduct claim?",
+            "a3": "Claims against government entities in California often have much shorter deadlines than standard personal injury cases—sometimes as little as six months. It is critical to consult an attorney immediately.",
+            "q4": "What compensation can be recovered?",
+            "a4": "Victims can seek damages for medical expenses, psychological trauma, lost wages, and in some cases, punitive damages intended to deter future misconduct by the department."
+          }
+        }
+      },
+      "busAccidents": {
+        "metadata": {
+          "title": "Bus Accident Lawyers | Santa Barbara | Osbelia Castillo",
+          "description": "Injured in a bus crash? Our Santa Barbara bus accident attorneys hold transit companies and government agencies accountable for negligence. Free consultation."
+        },
+        "hero": {
+          "prestige": "Public Transit & Safety",
+          "title": "Bus",
+          "subtitle": "Accidents",
+          "description": "Buses are pillars of our community's transportation. When transit operators fail to exercise the utmost care, we provide the aggressive advocacy needed to secure your recovery and hold public and private entities accountable.",
+          "alt": "Attorney Osbelia Castillo - Expert in Bus Accident & Public Transit Law"
+        },
+        "content": {
+          "section1": {
+            "title": "Navigating the Complexities of Transit Liability",
+            "p1": "Bus accidents involve a complex web of liability that standard car accident claims do not. Whether it involves a public transit vehicle, a school bus, or a private charter, these cases are governed by strict 'common carrier' laws that demand the highest standard of safety for passengers.",
+            "p2": "Our firm is equipped to handle the unique challenges of transit litigation, from uncovering safety violations in maintenance logs to navigating the short filing deadlines required for government entity claims. We ensure that every responsible party—from the driver to the transit agency—is held responsible for your injuries."
+          },
+          "section2": {
+            "title": "Types of Transit Accident Claims",
+            "items": {
+              "item1": "Public & School Bus Injuries",
+              "item2": "Claims against local government transit agencies or school districts often involve a strict six-month deadline to file a formal notice of claim.",
+              "item3": "Pedestrian & Cyclist Collisions",
+              "item4": "Large vehicles have significant blind spots; we hold drivers accountable for failing to yield or monitor their surroundings in high-traffic areas.",
+              "item5": "Private Charter & Commercial Coaches",
+              "item6": "Private companies must adhere to federal safety regulations; we investigate driver fatigue, maintenance failures, and improper training."
+            }
+          },
+          "section3": {
+            "title": "A Proven Track Record of Success",
+            "p1": "With over 50 years of collective legal experience, our team has successfully navigated the intricate regulations surrounding California's transportation system. We represent victims on a contingency basis, meaning you focus on healing while we handle the legal burden."
+          },
+          "quote": "Public safety is a non-negotiable duty. We stand with victims to ensure that transit agencies fulfill their promise of safe transportation for all.",
+          "faqs": {
+            "title": "Bus Accidents: Frequently Asked Questions",
+            "q1": "Is there a specific deadline for public transit claims?",
+            "a1": "Yes. If the accident involves a government-operated bus, you typically have only six months to file a formal claim under the California Government Claims Act. Missing this deadline can permanently bar you from seeking compensation.",
+            "q2": "What kind of evidence is critical in a bus crash?",
+            "a2": "Onboard surveillance video, electronic data recorders (black boxes), and driver dispatch logs are vital. Because this data is often overwritten quickly, it is essential to have an attorney issue a preservation notice immediately.",
+            "q3": "Can I seek compensation if I was injured while standing?",
+            "a3": "Absolutely. Bus operators are required to provide 'utmost care' for all passengers. Sudden, aggressive maneuvers or stops that cause falls are often clear indicators of negligence.",
+            "q4": "Does immigration status affect my right to a claim?",
+            "a4": "No. In California, your immigration status is completely irrelevant to your right to seek compensation for injuries caused by another party's negligence."
+          }
+        }
+      },
+      "medicalDeviceRecall": {
+        "metadata": {
+          "title": "Medical Device Recall Lawyers | Santa Barbara | Osbelia Castillo",
+          "description": "Injured by a recalled Jackson-Pratt (JP) 3-Spring Reservoir? Our Santa Barbara attorneys hold medical manufacturers accountable for sterilization failures and infections."
+        },
+        "hero": {
+          "prestige": "Medical Device Litigation",
+          "title": "Medical Device",
+          "subtitle": "Recalls",
+          "description": "Patients trust medical equipment to aid their recovery, not cause further harm. When manufacturers release unsterilized or defective devices, we provide the aggressive advocacy needed to secure justice.",
+          "alt": "Attorney Osbelia Castillo - Expert in Medical Device & Product Liability Law"
+        },
+        "content": {
+          "section1": {
+            "title": "Advocating for Victims of Sterile Processing Failures",
+            "p1": "The Jackson-Pratt (JP) 3-Spring Reservoir is a critical tool used to drain wounds post-surgery. However, recent recalls have highlighted a dangerous lapse in sterilization protocols, placing thousands of patients at risk of life-threatening infections. When a medical device fails to meet basic safety standards, the manufacturer must be held accountable.",
+            "p2": "In Santa Barbara, we represent individuals who have suffered complications due to these recalled kits. Our firm investigates the timeline of the defect and the manufacturer's failure to warn the public, ensuring that injured patients receive the compensation necessary for additional medical care and recovery."
+          },
+          "section2": {
+            "title": "Recognizing the Risks of JP Reservoir Kits",
+            "items": {
+              "item1": "Post-Operative Infections",
+              "item2": "Unsterilized equipment can lead to severe surgical site infections, characterized by high fever, redness, and discolored discharge.",
+              "item3": "Sepsis & Systemic Risks",
+              "item4": "If a wound infection is not treated aggressively, it can progress to sepsis, a life-threatening condition that leads to organ failure.",
+              "item5": "Extended Hospitalization",
+              "item6": "Victims of defective medical devices often face additional surgeries and long-term antibiotic treatments to combat preventable infections."
+            }
+          },
+          "section3": {
+            "title": "A Legacy of Challenging Large Corporations",
+            "p1": "With over 50 years of collective legal experience, our team has the resources to take on major medical manufacturers. We operate on a contingency basis, ensuring you have access to premier legal representation without any upfront costs."
+          },
+          "quote": "Medical safety is a right, not a privilege. We stand with patients to ensure that corporate negligence never goes unchecked.",
+          "faqs": {
+            "title": "Medical Device Recalls: Frequently Asked Questions",
+            "q1": "How do I know if a recalled device was used in my surgery?",
+            "a1": "Your surgical records and hospital discharge papers will list the specific medical instruments used. We can assist you in obtaining these records to confirm if your device was part of a recalled lot.",
+            "q2": "What are the early warning signs of a device-related infection?",
+            "a2": "Patients should monitor for high fevers, chills, excessive swelling at the wound site, or any unusual discharge. If you experience these symptoms, seek medical attention immediately.",
+            "q3": "Can I sue even if the manufacturer issued a 'voluntary' recall?",
+            "a3": "Yes. A voluntary recall does not absolve a company of liability for the harm their product caused before or during the recall process.",
+            "q4": "What compensation is available for medical device injuries?",
+            "a4": "You may seek recovery for additional medical bills, lost wages during your extended recovery, pain and suffering, and the long-term impact on your health."
+          }
+        }
+      },
+      "boatingAccidents": {
+        "metadata": {
+          "title": "Boating Accident Lawyers | Santa Barbara | Osbelia Castillo",
+          "description": "Injured in a boating accident? Our Santa Barbara maritime injury attorneys hold negligent operators accountable for inattention, BUI, and machinery failure. Free consultation."
+        },
+        "hero": {
+          "prestige": "Maritime & Boating Safety",
+          "title": "Boating",
+          "subtitle": "Accidents",
+          "description": "Waterways should be enjoyed safely. When negligence leads to collisions, we provide the aggressive advocacy needed to secure your recovery and hold responsible parties accountable.",
+          "alt": "Attorney Osbelia Castillo - Expert in Boating Accident & Maritime Law"
+        },
+        "content": {
+          "section1": {
+            "title": "Diligent Advocacy for Boating Victims",
+            "p1": "Boating accidents often result in devastating injuries and complex legal challenges. Whether on a lake or the open ocean, victims deserve a dedicated legal team to navigate these difficult waters.",
+            "p2": "Our firm conducts thorough investigations to determine liability, ensuring that negligent operators are held responsible for the harm they cause."
+          },
+          "section2": {
+            "title": "Common Causes of Maritime Collisions",
+            "items": {
+              "item1": "Operator Negligence",
+              "item2": "Distractions from cell phones, loud music, or simply failing to pay attention to surroundings.",
+              "item3": "Boating Under the Influence",
+              "item4": "Strongly pursuing cases where alcohol or drugs impaired the safe operation of a vessel.",
+              "item5": "Machinery & Equipment Failure",
+              "item6": "Holding manufacturers or owners accountable for poorly maintained or defective boat components."
+            }
+          },
+          "section3": {
+            "title": "Experience You Can Trust",
+            "p1": "With over 50 years of collective legal experience, we have a proven track record of securing justice for accident victims throughout California."
+          },
+          "quote": "A day on the water shouldn't end in tragedy. We use our extensive experience to ensure boat operators fulfill their legal responsibility to operate safely."
+        }
+      }
+    }
+  },
+
+  "ShannonMCrane": {
+    "metadata": {
+      "title": "Shannon M. Crane | Managing Partner | Personal Injury Attorney",
+      "description": "Meet Shannon M. Crane, Managing Partner of Crane Flores Injury & Car Accident Lawyers. Experienced Oxnard personal injury attorney specializing in wrongful death, automobile, and trucking accidents."
+    },
+    "hero": {
+      "name": "Shannon M. Crane",
+      "tagline": "More Than 50 Years of Combined Experience Dedicated to Helping Injured Victims",
+      "heading": "Shannon M. Crane – Oxnard, Ventura & Santa Barbara Personal Injury Attorney",
+      "subtitle": "Attorney, Founding Partner"
+    },
+    "profile": {
+      "p1": "As a founding partner of Crane Flores Injury & Car Accident Lawyers, Shannon M. Crane is an experienced Oxnard personal injury attorney and the Managing Partner of the firm. She concentrates her practice on personal injury and wrongful death cases, including automobile accidents, trucking accidents, boating accidents, medical malpractice, birth injuries, brain injuries, spinal cord injuries, dog bites, defective products, assault and battery, Jones Act (Longshoreman), and child sexual abuse.",
+      "p2": "With respect to community involvement, Ms. Crane has two daughters and volunteers each week at her children’s school. In addition, she sponsors events for the school, such as the I Madonnari Italian Street Painting Festival, in which students participate in chalk painting."
+    },
+    "education": {
+      "title": "Education:",
+      "list": [
+        "B.A., University of California, Santa Barbara",
+        "J.D., Loyola University School of Law, Los Angeles (1993)"
+      ]
+    },
+    "admissions": {
+      "title": "Admissions:",
+      "list": [
+        "California State Courts",
+        "U.S. District Court, Central District of California"
+      ]
+    },
+    "associations": {
+      "title": "Professional Associations/Memberships:",
+      "list": [
+        "State Bar of California",
+        "Consumer Attorneys of California",
+        "Consumer Attorneys Association of Los Angeles"
+      ]
+    },
+    "footer": {
+      "text": "Crane Flores Injury & Car Accident Lawyers has offices in Santa Barbara, Ventura and Oxnard.",
+      "link": "Contact us",
+      "afterLink": " at (805) 292-7074 to schedule a free consultation with one of our personal injury attorneys today."
+    },
+    "highlights": {
+      "experience": "We Have the Experience to Recover Compensation For You",
+      "virtualConsult": {
+        "title": "Start with a Virtual Consult",
+        "desc": "You don't need to come to our office. We can meet virtually!"
+      },
+      "spanishService": {
+        "title": "Providing Service in Spanish",
+        "desc": "Our team is proud to help with Spanish services."
+      },
+      "recoveredMillions": {
+        "title": "Recovered Millions of Dollars on Behalf of Our Clients"
+      },
+      "available24": {
+        "title": "Available to Answer Your Call 24 Hours a Day"
       }
     }
   }
