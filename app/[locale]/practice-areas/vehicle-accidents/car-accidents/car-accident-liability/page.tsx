@@ -1,15 +1,15 @@
 import { Metadata } from "next";
-import ConstructionContent from "./ConstructionContent";
+import CarAccidentLiabilityContent from "./CarAccidentLiability";
 import JsonLd from "@/components/JsonLd";
 import { getTranslations } from "next-intl/server";
 
+const baseUrl = "https://castillolawsb.com";
+const path = "/practice-areas/vehicle-accidents/car-accidents";
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.constructionAccidents.metadata" });
-  
-  const baseUrl = "https://castillolawsb.com";
-  const path = "/practice-areas/vehicle-accidents/construction-site-accidents";
-
+  const t = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.carAccidents.metadata" });
+    
   return {
     title: t("title"),
     description: t("description"),
@@ -26,8 +26,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  
   const t = await getTranslations({ locale, namespace: "PracticeAreasPage" });
-  const subT = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.constructionAccidents" });
+  const subT = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.carAccidents" });
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -37,25 +38,25 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         "@type": "ListItem",
         "position": 1,
         "name": t("breadcrumbs.home"),
-        "item": `https://castillolawsb.com/${locale}`
+        "item": `${baseUrl}/${locale}`
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": t("breadcrumbs.practiceAreas"),
-        "item": `https://castillolawsb.com/${locale}/practice-areas`
+        "item": `${baseUrl}/${locale}/practice-areas`
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": t("personalInjury.title"),
-        "item": `https://castillolawsb.com/${locale}/practice-areas/personal-injury`
+        "name": t("vehicleAccidents.title"),
+        "item": `${baseUrl}/${locale}/practice-areas/vehicle-accidents`
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": subT("hero.title"),
-        "item": `https://castillolawsb.com/${locale}/practice-areas/personal-injury/construction-site-accidents`
+        "item": `${baseUrl}/${locale}${path}`
       }
     ]
   };
@@ -65,16 +66,14 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     "@type": "WebPage",
     "name": subT("metadata.title"),
     "description": subT("metadata.description"),
-    "publisher": {
-      "@id": "https://castillolawsb.com/#organization"
-    }
+    "publisher": { "@id": `${baseUrl}/#organization` }
   };
 
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
       <JsonLd data={webPageSchema} />
-      <ConstructionContent />
+      <CarAccidentLiabilityContent />
     </>
   );
 }

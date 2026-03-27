@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import ConstructionContent from "./ConstructionContent";
+import CraneAccidentsContent from "./CraneAccidents";
 import JsonLd from "@/components/JsonLd";
 import { getTranslations } from "next-intl/server";
 
@@ -8,7 +8,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.constructionAccidents.metadata" });
   
   const baseUrl = "https://castillolawsb.com";
-  const path = "/practice-areas/vehicle-accidents/construction-site-accidents";
+  const path = "/practice-areas/vehicle-accidents/construction-site-accidents/crane-accidents";
 
   return {
     title: t("title"),
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "PracticeAreasPage" });
-  const subT = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.constructionAccidents" });
+  const subT = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.craneAccidents" });
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -55,7 +55,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         "@type": "ListItem",
         "position": 4,
         "name": subT("hero.title"),
-        "item": `https://castillolawsb.com/${locale}/practice-areas/personal-injury/construction-site-accidents`
+        "item": `https://castillolawsb.com/${locale}/practice-areas/vehicle-accidents/construction-site-accidents/crane-accidents`
       }
     ]
   };
@@ -74,7 +74,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     <>
       <JsonLd data={breadcrumbSchema} />
       <JsonLd data={webPageSchema} />
-      <ConstructionContent />
+      <CraneAccidentsContent />
     </>
   );
 }

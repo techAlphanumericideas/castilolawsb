@@ -87,8 +87,16 @@ const navLinks = [
         href: "/practice-areas/vehicle-accidents/hit-and-run",
       },
       {
-        nameKey: "cellPhone",
-        href: "/practice-areas/vehicle-accidents/cell-phone-use",
+        nameKey: "carAccidents",
+        href: "/practice-areas/vehicle-accidents/car-accidents",
+        // ADDED SUB-ITEMS HERE
+        subItems: [
+          {
+            nameKey: "carAccidentLiability",
+            href: "/practice-areas/vehicle-accidents/car-accidents/car-accident-liability",
+          }
+        ]
+        
       },
       {
         nameKey: "truckAccidents",
@@ -113,6 +121,22 @@ const navLinks = [
       {
         nameKey: "busAccidents",
         href: "/practice-areas/vehicle-accidents/bus-accidents",
+      },
+      {
+        nameKey: "constructionSiteAccidents",
+        href: "/practice-areas/vehicle-accidents/construction-site-accidents",
+        // ADDED SUB-ITEMS HERE
+        subItems: [
+          {
+            nameKey: "craneAccidents",
+            href: "/practice-areas/vehicle-accidents/construction-site-accidents/crane-accidents",
+          },
+          {
+            nameKey: "forkliftAccidents",
+            href: "/practice-areas/vehicle-accidents/construction-site-accidents/forklift-accidents",
+          }
+        ],
+        
       },
     ],
   },

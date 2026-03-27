@@ -22,7 +22,8 @@
     "vehicleAccidents": "Vehicle Accidents",
     "drunkDriving": "Drunk Driving Accident",
     "hitAndRun": "Hit and Run",
-    
+    "carAccidents": "Car Accidents",
+    "carAccidentLiability": "Car Accident Liability",
     "truckAccidents": "Truck Accidents",
     "motorcycleAccidents": "Motorcycle Accidents",
     "bicycleAccidents": "Bicycle Accidents",
@@ -34,9 +35,12 @@
     "catastrophicInjuries": "Catastrophic Injuries",
     "policeBrutalityShootings": "Police Brutality & Shootings",
     "busAccidents": "Bus Accidents",
-    "medicalDeviceRecall":"3 Spring Reservoir Kits",
+    "constructionSiteAccidents": "Construction Site Accidents",
+    "craneAccidents": "Crane Accidents",
+    "forkliftAccidents": "Forklift Accidents",
+    "medicalDeviceRecall": "3 Spring Reservoir Kits",
     "wrongfulDeath": "Wrongful Death",
-    "workersComp": "Worker's Compensation",
+    "workersComp": "Worker's Compensation", 
     "areasWeServe": "Areas We Serve",
     "oxnard": "Oxnard",
     "santaBarbara": "Santa Barbara",
@@ -429,44 +433,42 @@
         }
       },
 
-"cellPhoneAccidents": {
-  "metadata": {
-    "title": "Distracted Driving & Cell Phone Accident Lawyer | Oxnard",
-    "description": "Injured by a driver texting or using a phone? Our Oxnard legal team holds distracted drivers accountable using digital forensics and aggressive litigation. Free consultation."
-  },
-  "hero": {
-    "prestige": "Distracted Driving Litigation",
-    "title": "Cell Phone Use",
-    "subtitle": "& Driver Negligence",
-    "description": "Studies prove cell phone use impairs driving more than alcohol. We treat this negligence with the seriousness it deserves, fighting to recover the full value of your claim.",
-    "alt": "Attorney Osbelia Castillo - Expert in Distracted Driving Car Accidents"
-  },
-  "content": {
-    "section1": {
-      "title": "The Epidemic of Distracted Driving",
-      "p1": "Every year, over 1.6 million crashes involve drivers distracted by texting or mobile devices. In Oxnard and throughout Ventura County, these avoidable tragedies occur because drivers prioritize screens over safety.",
-      "p2": "The Law Office of Osbelia Castillo uses a 'Negligence Per Se' approach. Since California law prohibits handheld device use, a driver violating this law is often automatically considered negligent. We investigate phone records and data timestamps to prove the other party was distracted at the moment of impact."
-    },
-    "section2": {
-      "title": "Legal Strategy & Accountability",
-      "items": {
-        "item1": "Digital Forensic Investigation",
-        "item2": "Subpoenaing mobile records to establish the timeline of distraction and prove liability.",
-        "item3": "Negligence Per Se Claims",
-        "item4": "Leveraging California's strict electronic device laws to simplify the path to recovery.",
-        "item5": "Bilingual Victim Advocacy",
-        "item6": "Ensuring our Spanish-speaking community receives elite representation against major insurance carriers."
-      }
-    },
-    "section3": {
-      "title": "California's Strict Electronic Laws",
-      "p1": "California mandates hands-free equipment for all adults and prohibits any device use for drivers under 18. If a driver was writing, sending, or reading a text, their negligence is clear. We guide you through the process of holding them financially responsible for your medical bills and trauma."
-    },
-    "quote": "Distracted driving is a choice. Our mission is to send a clear message through aggressive litigation: cell phone use and driving do not mix."
-  }
-},
-
-
+      "cellPhoneAccidents": {
+        "metadata": {
+          "title": "Distracted Driving & Cell Phone Accident Lawyer | Oxnard",
+          "description": "Injured by a driver texting or using a phone? Our Oxnard legal team holds distracted drivers accountable using digital forensics and aggressive litigation. Free consultation."
+        },
+        "hero": {
+          "prestige": "Distracted Driving Litigation",
+          "title": "Cell Phone Use",
+          "subtitle": "& Driver Negligence",
+          "description": "Studies prove cell phone use impairs driving more than alcohol. We treat this negligence with the seriousness it deserves, fighting to recover the full value of your claim.",
+          "alt": "Attorney Osbelia Castillo - Expert in Distracted Driving Car Accidents"
+        },
+        "content": {
+          "section1": {
+            "title": "The Epidemic of Distracted Driving",
+            "p1": "Every year, over 1.6 million crashes involve drivers distracted by texting or mobile devices. In Oxnard and throughout Ventura County, these avoidable tragedies occur because drivers prioritize screens over safety.",
+            "p2": "The Law Office of Osbelia Castillo uses a 'Negligence Per Se' approach. Since California law prohibits handheld device use, a driver violating this law is often automatically considered negligent. We investigate phone records and data timestamps to prove the other party was distracted at the moment of impact."
+          },
+          "section2": {
+            "title": "Legal Strategy & Accountability",
+            "items": {
+              "item1": "Digital Forensic Investigation",
+              "item2": "Subpoenaing mobile records to establish the timeline of distraction and prove liability.",
+              "item3": "Negligence Per Se Claims",
+              "item4": "Leveraging California's strict electronic device laws to simplify the path to recovery.",
+              "item5": "Bilingual Victim Advocacy",
+              "item6": "Ensuring our Spanish-speaking community receives elite representation against major insurance carriers."
+            }
+          },
+          "section3": {
+            "title": "California's Strict Electronic Laws",
+            "p1": "California mandates hands-free equipment for all adults and prohibits any device use for drivers under 18. If a driver was writing, sending, or reading a text, their negligence is clear. We guide you through the process of holding them financially responsible for your medical bills and trauma."
+          },
+          "quote": "Distracted driving is a choice. Our mission is to send a clear message through aggressive litigation: cell phone use and driving do not mix."
+        }
+      },
 
       "defectiveProducts": {
         "metadata": {
@@ -897,7 +899,6 @@
         }
       },
 
-  
       "truck": {
         "metadata": {
           "title": "Truck Accident & Commercial Crash Lawyers | Osbelia Castillo",
@@ -988,78 +989,43 @@
           "quote": "Catastrophic injuries require specialized legal support. We secure resources for life-long care and maximum compensation."
         }
       },
-      "catastrophicInjuries": {
+
+      "carAccidents": {
         "metadata": {
-          "title": "Oxnard Catastrophic Injury Attorneys | Osbelia Castillo",
-          "description": "Life-altering injuries require elite legal advocacy. We represent victims of brain trauma, spinal damage, and severe burns in Oxnard. 50+ years of combined experience. Free consultation."
+          "title": "Oxnard Car Accident Lawyer | Osbelia Castillo | Personal Injury",
+          "description": "Injured in a car crash in Oxnard? Our elite legal team provides aggressive representation against insurance tactics. 50+ years of combined experience. Free consultation."
         },
         "hero": {
-          "prestige": "High-Stakes Litigation",
-          "title": "Catastrophic",
-          "subtitle": "Injury Advocacy",
-          "description": "When an accident fundamentally alters your life, you need more than just a lawyer—you need a strategic ally with over 50 years of combined legal expertise.",
-          "alt": "Attorney Osbelia Castillo - Expert in Catastrophic Injury Claims"
+          "prestige": "Elite Vehicle Litigation",
+          "title": "Car Accident",
+          "subtitle": "Recovery & Justice",
+          "description": "Insurance adjusters work to devalue your claim. We use our defense-side insights to neutralize their tactics and secure the maximum compensation you deserve for your recovery.",
+          "alt": "Attorney Osbelia Castillo - Expert Car Accident Representative in Oxnard"
         },
         "content": {
           "section1": {
-            "title": "Compassionate Representation for Life-Altering Trauma",
-            "p1": "Catastrophic injuries—such as traumatic brain injuries, spinal cord damage, and amputations—create a permanent ripple effect, impacting your career, family, and financial stability.",
-            "p2": "In Oxnard, high-impact collisions on the 101 or PCH often lead to these devastating outcomes. We understand the local legal landscape and the immense socio-economic burden these injuries place on survivors and their loved ones."
+            "title": "The Defense Advantage in Car Accident Claims",
+            "p1": "The aftermath of a collision on Oxnard Boulevard or Highway 101 can be overwhelming. While you focus on healing, insurance companies are already building a case to minimize your payout. This is where the Law Office of Osbelia Castillo levels the playing field.",
+            "p2": "With an extensive background in insurance defense, Osbelia Castillo understands the exact strategies adjusters use to deny valid claims. We handle every detail—from accident reconstruction and medical coordination to aggressive negotiations—ensuring your financial future is protected."
           },
           "section2": {
-            "title": "Our Personalized Strategic Approach",
+            "title": "Our Strategic Litigation Process",
             "items": {
-              "item1": "Neurological & Trauma Focus",
-              "item2": "Specialized advocacy for victims of TBI, paralysis, and complex orthopedic fractures.",
-              "item3": "Socio-Economic Planning",
-              "item4": "Calculating the total cost of lifelong medical care, home modifications, and lost earning capacity.",
-              "item5": "Contingency-Based Model",
-              "item6": "Access elite defense-level strategies with zero upfront costs—we only win when you do."
+              "item1": "Comprehensive Investigation",
+              "item2": "Analyzing traffic patterns, surveillance footage, and agricultural vehicle conflicts unique to Oxnard roads.",
+              "item3": "Insurance Tactic Neutralization",
+              "item4": "Preventing adjusters from using recorded statements or early lowball offers to damage your claim.",
+              "item5": "Medical Expert Access",
+              "item6": "Arranging specialized care with providers who wait for payment until your case is successfully settled."
             }
           },
           "section3": {
-            "title": "The Path to Restoration",
-            "p1": "Navigating California's comparative negligence rules is critical in high-value claims. We prioritize open communication and aggressive negotiation to ensure insurance adjusters respect the true value of your future."
+            "title": "Navigating California Negligence Laws",
+            "p1": "Under California’s comparative negligence rules, you may still be entitled to recovery even if you were partially at fault. We meticulously calculate economic and non-economic damages to ensure no loss is overlooked."
           },
-          "quote": "We don't just settle cases; we rebuild futures. Our team uses internal risk-management insights to anticipate and defeat common insurance denial tactics."
+          "quote": "Most car accident cases resolve through high-stakes negotiation. Our commitment is to prepare every case as if it were going to trial to demand the highest possible settlement."
         }
       },
-"carAccidents": {
-  "metadata": {
-    "title": "Oxnard Car Accident Lawyer | Osbelia Castillo | Personal Injury",
-    "description": "Injured in a car crash in Oxnard? Our elite legal team provides aggressive representation against insurance tactics. 50+ years of combined experience. Free consultation."
-  },
-  "hero": {
-    "prestige": "Elite Vehicle Litigation",
-    "title": "Car Accident",
-    "subtitle": "Recovery & Justice",
-    "description": "Insurance adjusters work to devalue your claim. We use our defense-side insights to neutralize their tactics and secure the maximum compensation you deserve for your recovery.",
-    "alt": "Attorney Osbelia Castillo - Expert Car Accident Representative in Oxnard"
-  },
-  "content": {
-    "section1": {
-      "title": "The Defense Advantage in Car Accident Claims",
-      "p1": "The aftermath of a collision on Oxnard Boulevard or Highway 101 can be overwhelming. While you focus on healing, insurance companies are already building a case to minimize your payout. This is where the Law Office of Osbelia Castillo levels the playing field.",
-      "p2": "With an extensive background in insurance defense, Osbelia Castillo understands the exact strategies adjusters use to deny valid claims. We handle every detail—from accident reconstruction and medical coordination to aggressive negotiations—ensuring your financial future is protected."
-    },
-    "section2": {
-      "title": "Our Strategic Litigation Process",
-      "items": {
-        "item1": "Comprehensive Investigation",
-        "item2": "Analyzing traffic patterns, surveillance footage, and agricultural vehicle conflicts unique to Oxnard roads.",
-        "item3": "Insurance Tactic Neutralization",
-        "item4": "Preventing adjusters from using recorded statements or early lowball offers to damage your claim.",
-        "item5": "Medical Expert Access",
-        "item6": "Arranging specialized care with providers who wait for payment until your case is successfully settled."
-      }
-    },
-    "section3": {
-      "title": "Navigating California Negligence Laws",
-      "p1": "Under California’s comparative negligence rules, you may still be entitled to recovery even if you were partially at fault. We meticulously calculate economic and non-economic damages to ensure no loss is overlooked."
-    },
-    "quote": "Most car accident cases resolve through high-stakes negotiation. Our commitment is to prepare every case as if it were going to trial to demand the highest possible settlement."
-  }
-},
 
       "bicycle": {
         "metadata": {
@@ -1120,6 +1086,147 @@
             "p1": "With over 50 years of collective legal experience, our team has a deep understanding of California's premises liability laws. We work on a contingency basis, meaning you pay nothing unless we secure the compensation you deserve."
           },
           "quote": "Safety is not a luxury; it is a right. We hold negligent property owners accountable to ensure our community remains a safer place for everyone."
+        }
+      },
+      "constructionAccidents": {
+        "metadata": {
+          "title": "Construction Site Accident Lawyers | Santa Barbara | Osbelia Castillo",
+          "description": "Injured at a construction site? Our Santa Barbara attorneys handle complex personal injury and third-party liability claims for workers and pedestrians. Free consultation."
+        },
+        "hero": {
+          "prestige": "Workplace & Site Safety",
+          "title": "Construction Site",
+          "subtitle": "Accidents",
+          "description": "Construction zones are high-risk environments where negligence can lead to life-altering trauma. We provide the aggressive advocacy needed to navigate both personal injury and third-party liability claims.",
+          "alt": "Attorney Osbelia Castillo - Expert in Construction Site Accident Law"
+        },
+        "content": {
+          "section1": {
+            "title": "Navigating the Complexities of Site Liability",
+            "p1": "Construction sites are inherently dangerous, and accidents can impact workers, contractors, and even passing pedestrians. Determining the right legal path—whether it is a standard workers' compensation claim or a third-party personal injury lawsuit—is essential to ensuring you receive the full scope of benefits you deserve.",
+            "p2": "While workers' comp covers basic medical costs and a portion of lost wages, a personal injury claim against a negligent contractor or equipment manufacturer can provide additional recovery for pain, suffering, and reduced quality of life. In Santa Barbara, we investigate the root cause of every site accident to protect our clients' long-term interests."
+          },
+          "section2": {
+            "title": "Common Scenarios in Construction Litigation",
+            "items": {
+              "item1": "Third-Party & Manufacturer Liability",
+              "item2": "If faulty machinery or defective safety equipment caused your injury, you may have the right to sue the manufacturer for damages beyond workers' compensation.",
+              "item3": "Pedestrian & Public Safety",
+              "item4": "Contractors have a duty to secure sites and warn the public of hazards. Falling debris or unmarked hazards often lead to valid claims for injured passersby.",
+              "item5": "Contractor & Site Negligence",
+              "item6": "We hold builders and site managers accountable for failing to follow safety protocols or properly securing heavy equipment and structural components."
+            }
+          },
+          "section3": {
+            "title": "Over 50 Years of Collective Legal Wisdom",
+            "p1": "Our firm leverages five decades of experience to dismantle the complex defenses used by large construction firms. We work on a contingency basis, ensuring you have access to premier legal representation while you focus on your physical recovery."
+          },
+          "quote": "Safety protocols are not suggestions—they are legal requirements designed to protect lives. We ensure those who cut corners are held responsible.",
+          "faqs": {
+            "title": "Construction Accidents: Frequently Asked Questions",
+            "q1": "What should I do immediately after a construction accident?",
+            "a1": "Seek medical care immediately, even if your injuries seem minor. Document the scene with photos, get witness contact details, and report the incident to your supervisor or the site manager to ensure an official record exists.",
+            "q2": "Can I file a lawsuit if I am already receiving workers' comp?",
+            "a2": "You generally cannot sue your direct employer, but you can file a 'third-party' lawsuit if a separate contractor, property owner, or equipment manufacturer's negligence contributed to your accident.",
+            "q3": "How long do I have to file my claim in California?",
+            "a3": "For personal injury claims, the deadline is typically two years. However, if a government entity is involved, you may have as little as six months to file a formal notice of claim.",
+            "q4": "What compensation can I expect to recover?",
+            "a4": "Depending on the type of claim, you can recover medical expenses, a portion of lost wages, and in personal injury cases, compensation for pain, suffering, and emotional distress."
+          }
+        }
+      },
+      "craneAccidents": {
+        "metadata": {
+          "title": "Crane Accident Lawyers | Santa Barbara | Osbelia Castillo",
+          "description": "Injured in a crane or heavy machinery accident? Our Santa Barbara construction injury attorneys hold negligent companies accountable for equipment failure and safety lapses."
+        },
+        "hero": {
+          "prestige": "Industrial & Construction Safety",
+          "title": "Crane",
+          "subtitle": "Accidents",
+          "description": "Crane accidents often result in life-altering consequences. When equipment failure or operator negligence leads to tragedy, we provide the aggressive advocacy needed to secure your future.",
+          "alt": "Attorney Osbelia Castillo - Expert in Construction and Crane Accident Law"
+        },
+        "content": {
+          "section1": {
+            "title": "Protecting the Rights of Industrial Accident Victims",
+            "p1": "Construction sites are among the most hazardous work environments, and crane accidents are particularly devastating. Whether caused by mechanical failure, improper weight loads, or lack of proper training, these incidents leave victims facing immense physical and financial challenges. In Santa Barbara, we stand as a shield for those harmed on the job.",
+            "p2": "Our legal team conducts a meticulous examination of all evidence, including crane maintenance logs, operator certifications, and site safety records. We work to uncover the root cause of the failure to ensure that every negligent party—from the site manager to the equipment manufacturer—is held accountable."
+          },
+          "section2": {
+            "title": "Steps to Take Following a Construction Site Incident",
+            "items": {
+              "item1": "Seek Immediate Medical Care",
+              "item2": "Your health is the priority. Emergency room documentation is also the most critical evidence linking your injuries to the site accident.",
+              "item3": "Report and Document",
+              "item4": "Notify your employer and Cal/OSHA immediately. If possible, take photos of the crane, the rigging, and the surrounding environment.",
+              "item5": "Consult Specialized Counsel",
+              "item6": "Avoid making statements to insurance adjusters or signing 'incident reports' that may waive your rights before speaking with an attorney."
+            }
+          },
+          "section3": {
+            "title": "Expertise in Complex Industrial Litigation",
+            "p1": "With over 50 years of collective legal experience, our firm understands the nuances of industrial liability. We leverage industry experts to substantiate your claim and fight for the maximum compensation for medical bills, lost wages, and long-term rehabilitation."
+          },
+          "quote": "Worker safety is a legal obligation, not a choice. We stand with those who have been injured when safety protocols are ignored.",
+          "faqs": {
+            "title": "Crane Accidents: Frequently Asked Questions",
+            "q1": "How long do I have to file a crane accident claim?",
+            "a1": "In California, you typically have two years from the date of the injury to file a claim. However, cases involving government entities or specific workers' comp rules may have much shorter deadlines (often 6 months), so act quickly.",
+            "q2": "Can I recover compensation if I was partially at fault?",
+            "a2": "Yes. California follows a comparative negligence rule. You can still recover damages even if you shared some responsibility, though your award will be reduced by your percentage of fault.",
+            "q3": "What if the accident was caused by a mechanical defect?",
+            "a3": "If the crane itself was poorly designed or manufactured, you may have a 'product liability' claim against the equipment maker in addition to your standard injury claim.",
+            "q4": "What compensation is available for my injuries?",
+            "a4": "Victims can seek recovery for all medical expenses, lost current and future income, pain and suffering, and the long-term cost of physical therapy or home modifications."
+          }
+        }
+      },
+      "forkliftAccidents": {
+        "metadata": {
+          "title": "Forklift Accident Lawyers | Santa Barbara | Osbelia Castillo",
+          "description": "Injured in a warehouse or construction forklift accident? Our Santa Barbara attorneys hold negligent employers and manufacturers accountable for machinery injuries. Free consultation."
+        },
+        "hero": {
+          "prestige": "Industrial & Warehouse Safety",
+          "title": "Forklift",
+          "subtitle": "Accidents",
+          "description": "Industrial hubs depend on heavy machinery, but a single lapse in safety can lead to catastrophic injury. We provide the aggressive legal advocacy needed to secure your recovery and hold responsible parties accountable.",
+          "alt": "Attorney Osbelia Castillo - Expert in Forklift and Machinery Accident Law"
+        },
+        "content": {
+          "section1": {
+            "title": "Advocating for Victims of Industrial Negligence",
+            "p1": "Forklift accidents are a leading cause of severe injury in warehouses and construction sites across Santa Barbara. Whether caused by inadequate training, mechanical failure, or a chaotic work environment, these incidents often result in long-term physical and financial hardship. Victims deserve an advocate who understands the complex safety regulations governing industrial workplaces.",
+            "p2": "Our firm conducts deep investigations into the root causes of machinery failure. We examine maintenance records and safety protocol compliance to ensure that negligent operators and companies are held to account for the harm they have caused."
+          },
+          "section2": {
+            "title": "Contributing Factors in Forklift Incidents",
+            "items": {
+              "item1": "Operational Negligence",
+              "item2": "Reckless driving, speeding, or operating machinery in crowded spaces without proper spotters.",
+              "item3": "Training & Oversight Lapses",
+              "item4": "Failure to provide adequate certification or ignoring safety protocols to meet production quotas.",
+              "item5": "Equipment & Maintenance Failure",
+              "item6": "Malfunctioning brakes, steering, or lift mechanisms caused by poor maintenance or manufacturing defects."
+            }
+          },
+          "section3": {
+            "title": "Determining Fault and Liability",
+            "p1": "Liability in a forklift accident often extends beyond a single person. It can involve third-party maintenance contractors, equipment manufacturers, or site managers. With over 50 years of collective experience, we identify every party responsible to ensure your compensation is comprehensive."
+          },
+          "quote": "Every worker has the right to a safe environment. We stand as a shield for those injured when profits are prioritized over safety.",
+          "faqs": {
+            "title": "Forklift Accidents: Frequently Asked Questions",
+            "q1": "What should I do immediately after a forklift accident?",
+            "a1": "Seek medical attention immediately to document your injuries. Report the incident to your supervisor and Cal/OSHA, and if possible, take photos of the machinery and the surrounding scene.",
+            "q2": "Can I file a claim if I am already receiving Workers' Comp?",
+            "a2": "Yes. While you generally cannot sue your employer, you may have a 'third-party' personal injury claim if the accident was caused by a contractor or a defective machine part, allowing for additional compensation.",
+            "q3": "How quickly do I need to act after an industrial injury?",
+            "a3": "Industrial evidence, like maintenance logs and surveillance video, can be lost quickly. Contacting an attorney immediately allows us to issue preservation notices to protect your case.",
+            "q4": "What compensation can I recover for my injuries?",
+            "a4": "You can seek recovery for medical expenses, lost current and future wages, pain and suffering, and the long-term costs of rehabilitation or permanent disability."
+          }
         }
       },
       "catastrophicInjuries": {
@@ -1354,6 +1461,53 @@
             "a3": "Yes. A voluntary recall does not absolve a company of liability for the harm their product caused before or during the recall process.",
             "q4": "What compensation is available for medical device injuries?",
             "a4": "You may seek recovery for additional medical bills, lost wages during your extended recovery, pain and suffering, and the long-term impact on your health."
+          }
+        }
+      },
+      "carAccidentLiability": {
+        "metadata": {
+          "title": "Car Accident Liability Lawyers | Santa Barbara | Osbelia Castillo",
+          "description": "Struggling to prove fault after a crash? Our Santa Barbara car accident liability attorneys help you establish negligence and secure fair compensation. Free consultation."
+        },
+        "hero": {
+          "prestige": "Liability & Negligence Law",
+          "title": "Car Accident",
+          "subtitle": "Liability",
+          "description": "Determining who is at fault is the most critical step in a personal injury claim. With over 50 years of collective experience, we use every resource to establish liability and protect your right to recovery.",
+          "alt": "Attorney Osbelia Castillo - Expert in Car Accident Liability"
+        },
+        "content": {
+          "section1": {
+            "title": "Strategic Advocacy to Establish Fault",
+            "p1": "Proving liability in a car accident requires more than just a statement; it requires a comprehensive legal strategy. Whether you were involved in a multi-car pileup or a side-swipe collision, insurance companies will often look for ways to shift blame. We are here to ensure the facts are presented clearly and your interests are defended.",
+            "p2": "The actions you take in the moments following a crash are vital. Our legal team reviews every detail—from black box data to witness statements—to build a foundation of evidence that holds negligent drivers accountable for the harm they have caused."
+          },
+          "section2": {
+            "title": "Critical Steps to Protect Your Claim",
+            "items": {
+              "item1": "Official Documentation",
+              "item2": "Always call the police. An official incident report provides a neutral third-party observation that is essential for proving your version of events.",
+              "item3": "Evidence Collection",
+              "item4": "Take photos of the scene, all vehicles involved, and your injuries. Exchange information with other drivers but avoid discussing fault at the scene.",
+              "item5": "Medical Records",
+              "item6": "Seek immediate care and document your treatment. Consistent medical records prevent insurance adjusters from claiming your injuries were unrelated to the crash."
+            }
+          },
+          "section3": {
+            "title": "How Insurance Adjusters Determine Liability",
+            "p1": "Insurance companies analyze several factors to assess damages, including local traffic laws, the point of impact, and police reports. We work to identify errors in initial reporting and use credible evidence to ensure the true cause of the accident is recognized by all parties involved."
+          },
+          "quote": "Establishing the truth is the first step toward justice. We leave no stone unturned when it comes to proving liability and securing your future.",
+          "faqs": {
+            "title": "Car Accident Liability: Frequently Asked Questions",
+            "q1": "What happens if the police report is wrong?",
+            "a1": "Factual errors can often be corrected if you have credible evidence. For errors involving an officer's opinion, we can work to have your formal statement added to the record to provide a complete picture.",
+            "q2": "Can I still recover compensation if I was partially at fault?",
+            "a2": "Yes. California follows a comparative negligence rule, meaning you can still recover damages even if you were partially responsible, though your award may be reduced by your percentage of fault.",
+            "q3": "Should I apologize to the other driver at the scene?",
+            "a3": "No. While it is natural to be polite, an apology can be legally interpreted as an admission of fault. Stick to exchanging insurance and contact information only.",
+            "q4": "How long do I have to file a claim in California?",
+            "a4": "Generally, you have two years from the date of the accident to file a personal injury lawsuit. However, evidence disappears quickly, so it is best to start the process as soon as possible."
           }
         }
       },
