@@ -2,7 +2,6 @@
   "Index": {
     "title": "Welcome"
   },
-  
   "Metadata": {
     "title": "The Law Office of Osbelia Castillo",
     "description": "Aggressive Personal Injury & Vehicle Accident Representation in Santa Barbara, Oxnard, and Ventura.",
@@ -12,6 +11,7 @@
     "home": "Home",
     "attorneys": "Attorneys",
     "osbelia": "Osbelia Castillo",
+    "mark": "Mark Kenneth Flores",
     "personalInjury": "Personal Injury",
     "slipAndFall": "Slip and Fall",
     "defectiveProducts": "Defective Products & Drugs",
@@ -19,16 +19,26 @@
     "dogBites": "Dog Bites",
     "asbestos": "Asbestos & Mesothelioma",
     "sexualAbuse": "Sexual Molestation & Abuse",
+    "catastrophicInjuries": "Catastrophic Injuries",
     "vehicleAccidents": "Vehicle Accidents",
     "drunkDriving": "Drunk Driving Accident",
     "hitAndRun": "Hit and Run",
-    "cellPhone": "Accidents Due to Cell Phone Use",
+    
     "truckAccidents": "Truck Accidents",
     "motorcycleAccidents": "Motorcycle Accidents",
     "bicycleAccidents": "Bicycle Accidents",
     "pedestrianAccidents": "Pedestrian Accidents",
+    "constructionAccidents": "Construction Site Accidents",
+    "carAccidents": "Car Accidents",
+    "cellPhone": "Accidents & Cell Phone Use",
     "wrongfulDeath": "Wrongful Death",
     "workersComp": "Worker's Compensation",
+    "areasWeServe": "Areas We Serve",
+    "oxnard": "Oxnard",
+    "santaBarbara": "Santa Barbara",
+    "ventura": "Ventura",
+    "thousandOaks": "Thousand Oaks",
+    "santaPaula": "Santa Paula",
     "logoAlt": "Law Office of Osbelia Castillo",
     "callNow": "Call Now: 805-283-7656"
   },
@@ -147,6 +157,49 @@
       "fluent": "English & Spanish"
     }
   },
+  "MarkKennethFlores": {
+    "metadata": {
+      "title": "Mark Kenneth Flores | Attorney, Founding Partner | Personal Injury Specialist",
+      "description": "Attorney Mark Kenneth Flores, founder & partner at Crane Flores Injury & Car Accident Lawyers, represents clients throughout Ventura & Santa Barbara County."
+    },
+    "hero": {
+      "role": "Attorney, Founding Partner",
+      "quote": "Mr. Flores has exclusively practiced in the area of personal injury litigation for more than 20 years."
+    },
+    "profile": {
+      "title": "Professional Profile",
+      "p1": "Attorney Mark Kenneth Flores is a founding partner of Crane Flores Injury & Car Accident Lawyers. Mr. Flores has exclusively practiced in the area of personal injury litigation for more than 20 years. Prior to starting his practice on the Central Coast, he worked at some of the largest and most successful personal injury law firms in Los Angeles.",
+      "p2": "Mr. Flores is capable of handling any type of personal injury or wrongful death claim, from motor vehicle accidents to asbestos-induced mesothelioma."
+    },
+    "education": {
+      "title": "Education",
+      "item1": "J.D., Loyola University of Los Angeles (1993)",
+      "item2": "B.S., University of Southern California (1988)"
+    },
+    "admissions": {
+      "title": "Admissions",
+      "item1": "California State Courts",
+      "item2": "U.S. District Court, Central District of California"
+    },
+    "associations": {
+      "title": "Professional Associations/Memberships",
+      "skill1": "State Bar of California",
+      "skill2": "Consumer Attorneys Association of Los Angeles",
+      "skill3": "Consumer Attorneys of California",
+      "skill4": "Santa Barbara County Bar Association",
+      "skill5": "Ventura County Bar Associations",
+      "skill6": "Million Dollar Advocates Forum",
+      "skill7": "ProVisors",
+      "skill8": "Top 10 Verdicts in California in 2016"
+    },
+    "awards": {
+      "title": "Awards & Accolades"
+    },
+    "sidebar": {
+      "directContact": "Direct Contact",
+      "phone": "(805) 749-5681"
+    }
+  },
   "PracticeAreasPage": {
     "breadcrumbs": {
       "home": "Home",
@@ -160,6 +213,28 @@
       "maximumRecovery": "Maximum Recovery",
       "maximumRecoveryDesc": "Meticulous case preparation designed to secure the highest possible settlements.",
       "getHelpNow": "Get Help Now"
+    },
+    "personalInjury1": {
+      "title1": "Mark Kenneth Flores",
+      "metadata": {
+        "title1": "Mark Kenneth Flores",
+        "description1": "More Than 50 Years of Combined Experience Dedicated to Helping Injured Victims."
+      },
+      "hero": {
+        "title1": "Mark Kenneth Flores",
+        "subtitle1": "",
+        "description1": "More Than 50 Years of Combined Experience Dedicated to Helping Injured Victims.",
+        "alt": "Attorney Osbelia Castillo - Leading Personal Injury Law Specialist in Santa Barbara"
+      },
+      "focus1": {
+        "title1": "Personal Injury Focus Areas",
+        "slipAndFall1": "Slip and Fall",
+        "defectiveProducts1": "Defective Products & Drugs",
+        "brainSpinal1": "Brain & Spinal Injury",
+        "dogBites1": "Dog Bites",
+        "asbestos1": "Asbestos & Mesothelioma",
+        "sexualAbuse1": "Sexual Molestation & Abuse"
+      }
     },
     "personalInjury": {
       "title": "Personal Injury",
@@ -180,7 +255,8 @@
         "brainSpinal": "Brain & Spinal Injury",
         "dogBites": "Dog Bites",
         "asbestos": "Asbestos & Mesothelioma",
-        "sexualAbuse": "Sexual Molestation & Abuse"
+        "sexualAbuse": "Sexual Molestation & Abuse",
+        "catastrophicInjuries": "Catastrophic Injuries"
       }
     },
     "vehicleAccidents": {
@@ -348,6 +424,46 @@
           "quote": "We don't just fight for a settlement; we fight for your family's long-term security and dignity after a life-altering injury."
         }
       },
+
+"cellPhoneAccidents": {
+  "metadata": {
+    "title": "Distracted Driving & Cell Phone Accident Lawyer | Oxnard",
+    "description": "Injured by a driver texting or using a phone? Our Oxnard legal team holds distracted drivers accountable using digital forensics and aggressive litigation. Free consultation."
+  },
+  "hero": {
+    "prestige": "Distracted Driving Litigation",
+    "title": "Cell Phone Use",
+    "subtitle": "& Driver Negligence",
+    "description": "Studies prove cell phone use impairs driving more than alcohol. We treat this negligence with the seriousness it deserves, fighting to recover the full value of your claim.",
+    "alt": "Attorney Osbelia Castillo - Expert in Distracted Driving Car Accidents"
+  },
+  "content": {
+    "section1": {
+      "title": "The Epidemic of Distracted Driving",
+      "p1": "Every year, over 1.6 million crashes involve drivers distracted by texting or mobile devices. In Oxnard and throughout Ventura County, these avoidable tragedies occur because drivers prioritize screens over safety.",
+      "p2": "The Law Office of Osbelia Castillo uses a 'Negligence Per Se' approach. Since California law prohibits handheld device use, a driver violating this law is often automatically considered negligent. We investigate phone records and data timestamps to prove the other party was distracted at the moment of impact."
+    },
+    "section2": {
+      "title": "Legal Strategy & Accountability",
+      "items": {
+        "item1": "Digital Forensic Investigation",
+        "item2": "Subpoenaing mobile records to establish the timeline of distraction and prove liability.",
+        "item3": "Negligence Per Se Claims",
+        "item4": "Leveraging California's strict electronic device laws to simplify the path to recovery.",
+        "item5": "Bilingual Victim Advocacy",
+        "item6": "Ensuring our Spanish-speaking community receives elite representation against major insurance carriers."
+      }
+    },
+    "section3": {
+      "title": "California's Strict Electronic Laws",
+      "p1": "California mandates hands-free equipment for all adults and prohibits any device use for drivers under 18. If a driver was writing, sending, or reading a text, their negligence is clear. We guide you through the process of holding them financially responsible for your medical bills and trauma."
+    },
+    "quote": "Distracted driving is a choice. Our mission is to send a clear message through aggressive litigation: cell phone use and driving do not mix."
+  }
+},
+
+
+
       "defectiveProducts": {
         "metadata": {
           "title": "Defective Product Liability Attorneys | Osbelia Castillo",
@@ -492,6 +608,43 @@
           "quote": "Premises liability cases require immediate investigation. We secure the evidence needed to prove the property was unsafe."
         }
       },
+
+      "constructionAccidents": {
+  "metadata": {
+    "title": "Oxnard Construction Site Accident Lawyer | Osbelia Castillo",
+    "description": "Injured at a construction site? We handle complex personal injury and workers' compensation claims in Oxnard. 50+ years of experience fighting for your recovery. Free consultation."
+  },
+  "hero": {
+    "prestige": "Industrial & Site Liability",
+    "title": "Construction Site",
+    "subtitle": "Accident Litigation",
+    "description": "High-risk environments require elite legal strategies. We represent workers and pedestrians injured by site negligence, ensuring maximum recovery through both PI and Workers' Comp claims.",
+    "alt": "Attorney Osbelia Castillo - Construction Site Accident Expert"
+  },
+  "content": {
+    "section1": {
+      "title": "Strategic Advocacy for Complex Site Injuries",
+      "p1": "Construction sites are inherently dangerous zones where a single oversight can lead to life-altering trauma. Whether you are an employee or a passerby, contractors have a strict legal duty to maintain safety and warn the public of hazards.",
+      "p2": "In Oxnard, we navigate the intersection of Personal Injury and Workers' Compensation laws. We identify liable third parties—such as equipment manufacturers or negligent subcontractors—to ensure you aren't limited only to standard insurance payouts."
+    },
+    "section2": {
+      "title": "Maximizing Your Legal Recovery",
+      "items": {
+        "item1": "Third-Party Liability",
+        "item2": "Suing manufacturers or outside vendors when faulty machinery or external negligence causes the crash.",
+        "item3": "Pedestrian Protection",
+        "item4": "Representing non-workers struck by falling debris or injured by poorly secured site perimeters.",
+        "item5": "Comprehensive Damages",
+        "item6": "Securing full coverage for medical bills, permanent disability, and non-economic pain and suffering."
+      }
+    },
+    "section3": {
+      "title": "Your Rights Under California Law",
+      "p1": "California’s comparative negligence rules mean you can recover compensation even if you were partially at fault. We conduct deep investigations—including safety audit reviews and witness statements—to minimize your liability and maximize your award."
+    },
+    "quote": "We bridge the gap between industrial accidents and legal justice. Our team uses over 50 years of experience to hold powerful contractors and insurance firms accountable."
+  }
+},
       "bicycleAccidents": {
         "metadata": {
           "title": "Bicycle Accident Lawyers | Osbelia Castillo",
@@ -740,6 +893,8 @@
           "quote": "A pedestrian has no protection in a collision. We provide the legal armor needed to fight for your recovery and hold negligent drivers accountable."
         }
       },
+
+  
       "truck": {
         "metadata": {
           "title": "Truck Accident & Commercial Crash Lawyers | Osbelia Castillo",
@@ -786,6 +941,123 @@
           "quote": "Trucking accidents involve complex federal law. We use our defense-side insights to hold massive corporations accountable for safety violations."
         }
       },
+      "catastrophic": {
+        "metadata": {
+          "title": "Catastrophic Injury Lawyers | Osbelia Castillo",
+          "description": "Catastrophic injuries require specialized legal support. Our Santa Barbara attorneys secure resources for life-altering injuries and long-term care."
+        },
+        "hero": {
+          "prestige": "Personal Injury",
+          "title": "Catastrophic",
+          "subtitle": "Injuries",
+          "description": "Life-altering injuries require specialized legal support. We secure resources for life-long care and maximum compensation.",
+          "alt": "Attorney Osbelia Castillo - Catastrophic Injury & Life Care Planning"
+        },
+        "content": {
+          "title": "Fighting for Life-Altering Injuries",
+          "description": "Catastrophic injuries change lives forever. We provide the specialized legal support needed to secure resources for life-long care and maximum compensation.",
+          "lifeCarePlanning": "Life Care Planning",
+          "lifeCarePlanningDesc": "Developing comprehensive plans that account for medical, vocational, and personal care needs for the rest of your life.",
+          "medicalLiaison": "Medical Liaison",
+          "medicalLiaisonDesc": "Coordinating with top medical specialists to fully document the extent of your injuries and future care requirements.",
+          "financialRecovery": "Financial Recovery",
+          "financialRecoveryDesc": "Securing resources for home modifications, assistive devices, and long-term medical support.",
+          "section1": {
+            "title": "Fighting for Life-Altering Injuries",
+            "p1": "Catastrophic injuries change lives forever. We provide the specialized legal support needed to secure resources for life-long care and maximum compensation.",
+            "p2": "Injuries like spinal cord damage, traumatic brain injuries, and severe burns require more than standard legal representation. We assemble teams of medical and financial experts to build comprehensive recovery plans."
+          },
+          "section2": {
+            "title": "Specialized Recovery Support",
+            "items": {
+              "item1": "Life Care Planning",
+              "item2": "Developing comprehensive plans that account for medical, vocational, and personal care needs for the rest of your life.",
+              "item3": "Medical Liaison",
+              "item4": "Coordinating with top medical specialists to fully document the extent of your injuries and future care requirements.",
+              "item5": "Financial Recovery",
+              "item6": "Securing resources for home modifications, assistive devices, and long-term medical support."
+            }
+          },
+          "section3": {
+            "title": "Comprehensive Care Planning",
+            "p1": "We work with life care planners, economists, and medical specialists to ensure every aspect of your future needs is accounted for in settlement negotiations."
+          },
+          "quote": "Catastrophic injuries require specialized legal support. We secure resources for life-long care and maximum compensation."
+        }
+      },
+      "catastrophicInjuries": {
+        "metadata": {
+          "title": "Oxnard Catastrophic Injury Attorneys | Osbelia Castillo",
+          "description": "Life-altering injuries require elite legal advocacy. We represent victims of brain trauma, spinal damage, and severe burns in Oxnard. 50+ years of combined experience. Free consultation."
+        },
+        "hero": {
+          "prestige": "High-Stakes Litigation",
+          "title": "Catastrophic",
+          "subtitle": "Injury Advocacy",
+          "description": "When an accident fundamentally alters your life, you need more than just a lawyer—you need a strategic ally with over 50 years of combined legal expertise.",
+          "alt": "Attorney Osbelia Castillo - Expert in Catastrophic Injury Claims"
+        },
+        "content": {
+          "section1": {
+            "title": "Compassionate Representation for Life-Altering Trauma",
+            "p1": "Catastrophic injuries—such as traumatic brain injuries, spinal cord damage, and amputations—create a permanent ripple effect, impacting your career, family, and financial stability.",
+            "p2": "In Oxnard, high-impact collisions on the 101 or PCH often lead to these devastating outcomes. We understand the local legal landscape and the immense socio-economic burden these injuries place on survivors and their loved ones."
+          },
+          "section2": {
+            "title": "Our Personalized Strategic Approach",
+            "items": {
+              "item1": "Neurological & Trauma Focus",
+              "item2": "Specialized advocacy for victims of TBI, paralysis, and complex orthopedic fractures.",
+              "item3": "Socio-Economic Planning",
+              "item4": "Calculating the total cost of lifelong medical care, home modifications, and lost earning capacity.",
+              "item5": "Contingency-Based Model",
+              "item6": "Access elite defense-level strategies with zero upfront costs—we only win when you do."
+            }
+          },
+          "section3": {
+            "title": "The Path to Restoration",
+            "p1": "Navigating California's comparative negligence rules is critical in high-value claims. We prioritize open communication and aggressive negotiation to ensure insurance adjusters respect the true value of your future."
+          },
+          "quote": "We don't just settle cases; we rebuild futures. Our team uses internal risk-management insights to anticipate and defeat common insurance denial tactics."
+        }
+      },
+"carAccidents": {
+  "metadata": {
+    "title": "Oxnard Car Accident Lawyer | Osbelia Castillo | Personal Injury",
+    "description": "Injured in a car crash in Oxnard? Our elite legal team provides aggressive representation against insurance tactics. 50+ years of combined experience. Free consultation."
+  },
+  "hero": {
+    "prestige": "Elite Vehicle Litigation",
+    "title": "Car Accident",
+    "subtitle": "Recovery & Justice",
+    "description": "Insurance adjusters work to devalue your claim. We use our defense-side insights to neutralize their tactics and secure the maximum compensation you deserve for your recovery.",
+    "alt": "Attorney Osbelia Castillo - Expert Car Accident Representative in Oxnard"
+  },
+  "content": {
+    "section1": {
+      "title": "The Defense Advantage in Car Accident Claims",
+      "p1": "The aftermath of a collision on Oxnard Boulevard or Highway 101 can be overwhelming. While you focus on healing, insurance companies are already building a case to minimize your payout. This is where the Law Office of Osbelia Castillo levels the playing field.",
+      "p2": "With an extensive background in insurance defense, Osbelia Castillo understands the exact strategies adjusters use to deny valid claims. We handle every detail—from accident reconstruction and medical coordination to aggressive negotiations—ensuring your financial future is protected."
+    },
+    "section2": {
+      "title": "Our Strategic Litigation Process",
+      "items": {
+        "item1": "Comprehensive Investigation",
+        "item2": "Analyzing traffic patterns, surveillance footage, and agricultural vehicle conflicts unique to Oxnard roads.",
+        "item3": "Insurance Tactic Neutralization",
+        "item4": "Preventing adjusters from using recorded statements or early lowball offers to damage your claim.",
+        "item5": "Medical Expert Access",
+        "item6": "Arranging specialized care with providers who wait for payment until your case is successfully settled."
+      }
+    },
+    "section3": {
+      "title": "Navigating California Negligence Laws",
+      "p1": "Under California’s comparative negligence rules, you may still be entitled to recovery even if you were partially at fault. We meticulously calculate economic and non-economic damages to ensure no loss is overlooked."
+    },
+    "quote": "Most car accident cases resolve through high-stakes negotiation. Our commitment is to prepare every case as if it were going to trial to demand the highest possible settlement."
+  }
+},
+
       "bicycle": {
         "metadata": {
           "title": "Bicycle Accident Lawyers | Osbelia Castillo",

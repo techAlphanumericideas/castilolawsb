@@ -45,6 +45,11 @@ const navLinks = [
         nameKey: "sexualAbuse",
         href: "/practice-areas/personal-injury/sexual-abuse",
       },
+
+      {
+        nameKey: "catastrophicInjuries",
+        href: "/practice-areas/personal-injury/catastrophic-injuries",
+      },
     ],
   },
   {
@@ -79,6 +84,26 @@ const navLinks = [
         nameKey: "pedestrianAccidents",
         href: "/practice-areas/vehicle-accidents/pedestrian-accidents",
       },
+         {
+  nameKey: "constructionAccidents", 
+  href: "/practice-areas/vehicle-accidents/construction-site-accidents",
+},
+
+{
+      nameKey: "carAccidents", 
+      href: "/practice-areas/vehicle-accidents/car-accidents", 
+
+
+
+
+
+    },
+
+
+
+
+
+      
     ],
   },
   { nameKey: "wrongfulDeath", href: "/practice-areas/wrongful-death" },
