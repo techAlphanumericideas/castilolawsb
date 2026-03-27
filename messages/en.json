@@ -31,8 +31,11 @@
     "boatingAccidents": "Boating Accidents",
     "elderDependentAbuse": "Elder & Dependent Abuse",
     "burnInjury": "Burn Injury",
+
+     "underinsuredMotorist": "Underinsured Motorist Claims",
     "negligentSecurity": "Negligent Security",
     "catastrophicInjuries": "Catastrophic Injuries",
+    "rideshareAccidents": "Rideshare Accidents (Uber/Lyft)",
     "policeBrutalityShootings": "Police Brutality & Shootings",
     "busAccidents": "Bus Accidents",
     "constructionSiteAccidents": "Construction Site Accidents",
@@ -42,6 +45,7 @@
     "wrongfulDeath": "Wrongful Death",
     "workersComp": "Worker's Compensation", 
     "areasWeServe": "Areas We Serve",
+    "rolloverAccidents": "Rollover Accidents",
     "oxnard": "Oxnard",
     "santaBarbara": "Santa Barbara",
     "ventura": "Ventura",
@@ -324,6 +328,8 @@
         "desc": "We use our insurance industry knowledge to hold negligent parties accountable, ensuring they pay the full value for the life they've affected.",
         "ariaCall": "Contact Osbelia Castillo for support with a wrongful death claim"
       }
+
+      
     },
     "workersComp": {
       "title": "Workers' Compensation",
@@ -396,6 +402,82 @@
           "quote": "Mesothelioma cases are highly technical. We have the experience and expert network required to handle the complex evidentiary standards of toxic tort law."
         }
       },
+
+      "rolloverAccidents": {
+  "metadata": {
+    "title": "Oxnard Rollover Accident Lawyer | Osbelia Castillo | Personal Injury",
+    "description": "Injured in a vehicle rollover in Oxnard? SUVs and trucks are high-risk. We use over 50 years of experience to hold negligent drivers and manufacturers accountable. Free consultation."
+  },
+  "hero": {
+    "prestige": "High-Impact Collision Litigation",
+    "title": "Rollover",
+    "subtitle": "Accident Claims",
+    "description": "Vehicles with a high center of gravity, like SUVs and trucks, are prone to catastrophic rollovers. We provide elite legal advocacy to secure justice for life-altering injuries.",
+    "alt": "Attorney Osbelia Castillo - Expert in Rollover Accident Claims"
+  },
+  "content": {
+    "section1": {
+      "title": "The Physics of Negligence in Rollovers",
+      "p1": "Rollover accidents are among the most dangerous types of crashes on Oxnard roads. SUVs, commercial trucks, and 18-wheelers have a high center of gravity, making them susceptible to tipping if a driver speeds around turns or acts recklessly. When these accidents occur, the force involved often leads to devastating trauma.",
+      "p2": "The Law Office of Osbelia Castillo investigates the core cause of the roll—whether it was driver error, a mechanical defect, or poorly designed roadways. We use our defense-side insights to anticipate how insurance firms will try to blame the victim, and we shut down those tactics before they damage your claim."
+    },
+    "section2": {
+      "title": "Liability & Recovery for Severe Trauma",
+      "items": {
+        "item1": "SUV & Truck Liability",
+        "item2": "Holding drivers of high-profile vehicles accountable for failing to exercise caution during turns.",
+        "item3": "Catastrophic Injury Litigation",
+        "item4": "Representing victims suffering from paralysis, TBIs, and complex spinal cord injuries.",
+        "item5": "Punitive Damage Pursuit",
+        "item6": "Seeking additional compensation for cases involving gross negligence or egregious reckless behavior."
+      }
+    },
+    "section3": {
+      "title": "Aggressive Evidence Gathering",
+      "p1": "Proving liability in a rollover requires meticulous documentation. We gather witness statements, police reports, and accident reconstruction data to build an ironclad case. Our goal is to ensure you receive full financial relief for medical bills, lost wages, and emotional distress."
+    },
+    "quote": "A rollover happens in seconds, but the impact lasts a lifetime. We fight to ensure insurance companies respect the true value of your restoration."
+  }
+},
+
+
+
+"underinsuredMotorist": {
+  "metadata": {
+    "title": "Oxnard Underinsured Motorist Claim Lawyer | Osbelia Castillo",
+    "description": "Injured by a driver with little or no insurance? We help you maximize recovery through UM/UIM policies. Don't let your insurer lowball your own claim. Free consultation."
+  },
+  "hero": {
+    "prestige": "Policyholder Advocacy",
+    "title": "UM/UIM",
+    "subtitle": "Motorist Claims",
+    "description": "California law requires insurers to offer protection against uninsured drivers. If your own insurance company is refusing to pay the full value of your safety net, we are here to hold them accountable.",
+    "alt": "Attorney Osbelia Castillo - Expert in Uninsured & Underinsured Motorist Claims"
+  },
+  "content": {
+    "section1": {
+      "title": "Protecting Your Right to the Coverage You Paid For",
+      "p1": "In California, uninsured/underinsured motorist (UM/UIM) coverage is a critical legal safeguard. Many drivers carry only minimum liability, which is rarely enough to cover catastrophic injuries. When you are hit by an uninsured driver or a fleeing hit-and-run motorist, your own policy is supposed to act as your shield.",
+      "p2": "The Law Office of Osbelia Castillo understands that even your own insurance company is a for-profit entity that may try to minimize your settlement. We treat these claims with the same aggressive litigation strategies used in third-party lawsuits, ensuring your insurer fulfills its contractual obligations to you."
+    },
+    "section2": {
+      "title": "Navigating Complex Policy Tiers",
+      "items": {
+        "item1": "Uninsured Bodily Injury (UMBI)",
+        "item2": "Securing compensation for medical bills and trauma when the at-fault driver has zero insurance.",
+        "item3": "Underinsured Motorist (UIM)",
+        "item4": "Bridging the gap when the other driver's insurance limits are too low to cover your total damages.",
+        "item5": "Hit-and-Run Recovery",
+        "item6": "Aggressively pursuing claims when the responsible party remains unidentified after a collision."
+      }
+    },
+    "section3": {
+      "title": "Maximizing Your Compensation",
+      "p1": "Proving fault is still required in UM/UIM claims. We conduct deep investigations to establish negligence, preventing your insurer from using technicalities to deny your financial relief for medical bills, lost wages, and permanent disability."
+    },
+    "quote": "Your UM/UIM policy is a safety net you've already paid for. Our mission is to make sure that net is strong enough to catch your future."
+  }
+},
       "brainSpinal": {
         "metadata": {
           "title": "Brain & Spinal Injury Lawyers | Osbelia Castillo",
@@ -898,6 +980,42 @@
           "quote": "A pedestrian has no protection in a collision. We provide the legal armor needed to fight for your recovery and hold negligent drivers accountable."
         }
       },
+      "rideshareAccidents": {
+  "metadata": {
+    "title": "Oxnard Uber & Lyft Accident Lawyer | Osbelia Castillo",
+    "description": "Injured in an Uber or Lyft accident in Oxnard? Navigating rideshare insurance tiers is complex. We hold billion-dollar corporations accountable. Free consultation."
+  },
+  "hero": {
+    "prestige": "Gig Economy Litigation",
+    "title": "Rideshare",
+    "subtitle": "Accident Recovery",
+    "description": "Uber and Lyft use complex insurance tiers to shield themselves from liability. We use our defense-side insights to pierce through these layers and secure the $1M coverage you deserve.",
+    "alt": "Attorney Osbelia Castillo - Rideshare Liability Specialist"
+  },
+  "content": {
+    "section1": {
+      "title": "Holding Billion-Dollar Corporations Accountable",
+      "p1": "Rideshare services like Uber and Lyft are convenient, but when a crash occurs, these companies often hide behind the 'independent contractor' status of their drivers. This makes pursuing compensation far more difficult than a standard car accident claim.",
+      "p2": "The Law Office of Osbelia Castillo specializes in navigating the three levels of rideshare insurance. Whether the driver was on personal business, waiting for a ping, or carrying a passenger, we identify the correct policy to ensure you aren't left with mounting medical bills and zero recourse."
+    },
+    "section2": {
+      "title": "Navigating Insurance Tiers & Damages",
+      "items": {
+        "item1": "$1 Million Coverage",
+        "item2": "Aggressively pursuing the primary $1M policy available when a driver is actively carrying a passenger.",
+        "item3": "Complex Injury Litigation",
+        "item4": "Representing victims of TBIs, spinal damage, and internal injuries caused by high-impact collisions.",
+        "item5": "Full Economic Recovery",
+        "item6": "Securing compensation for medical expenses, lost future earnings, and emotional trauma like PTSD."
+      }
+    },
+    "section3": {
+      "title": "Why Elite Representation Matters",
+      "p1": "Uber and Lyft insurers are focused on profit, not your recovery. Taking on these entities requires highly professional legal advocacy. We handle every step—from filing the claim to high-stakes settlement negotiations—so you can focus on healing."
+    },
+    "quote": "Summoning a ride is easy; getting a settlement from a billion-dollar rideshare firm is not. We provide the legal armor you need to win."
+  }
+},
 
       "truck": {
         "metadata": {
@@ -1276,6 +1394,43 @@
           }
         }
       },
+
+      "propertyDamages": {
+  "metadata": {
+    "title": "Property Damage Accident Lawyer | Oxnard | Osbelia Castillo",
+    "description": "Vehicle or personal property damaged in a car accident? We help you navigate California property damage claims to secure repairs and replacements. Free consultation."
+  },
+  "hero": {
+    "prestige": "Financial Asset Recovery",
+    "title": "Property",
+    "subtitle": "Damage Claims",
+    "description": "Beyond physical injuries, a crash can destroy your vehicle and personal assets. We provide elite legal guidance to ensure you receive the full fair market value for your losses.",
+    "alt": "Attorney Osbelia Castillo - Property Damage Recovery Specialist"
+  },
+  "content": {
+    "section1": {
+      "title": "Navigating Property Loss in California",
+      "p1": "Traffic accidents in Oxnard often result in significant damage to your vehicle and personal belongings. While minor issues might be settled out of pocket, complex damages requiring thousands in repairs demand a formal insurance claim. California mandates a minimum of $5,000 for property damage liability, but this is often insufficient for modern vehicles.",
+      "p2": "The Law Office of Osbelia Castillo analyzes your insurance policy and the at-fault party's coverage. Whether we are dealing with the other driver's carrier or your own collision policy, we ensure you aren't forced to accept a lowball settlement for your repairs or replacement."
+    },
+    "section2": {
+      "title": "Recoverable Damages & Compensation",
+      "items": {
+        "item1": "Total Loss & Replacement",
+        "item2": "Negotiating the true fair market value of your car if it is deemed a total loss.",
+        "item3": "Incidental Expenses",
+        "item4": "Recovering costs for rental cars, transportation, and gas mileage during your recovery.",
+        "item5": "Repair & Diminished Value",
+        "item6": "Securing funds for high-quality repairs and compensation for the vehicle's lost resale value."
+      }
+    },
+    "section3": {
+      "title": "Strategic Insurance Negotiation",
+      "p1": "If the defendant acted with gross negligence, we may also pursue punitive damages. Our team handles all communications with adjusters, preventing them from devaluing your property or delaying your financial relief."
+    },
+    "quote": "Your vehicle is essential to your livelihood. We treat your property claim with the same aggressive dedication as your personal injury case."
+  }
+},
       "burnInjury": {
         "metadata": {
           "title": "Burn Injury Lawyers | Santa Barbara | Osbelia Castillo",
