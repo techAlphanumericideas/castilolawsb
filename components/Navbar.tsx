@@ -86,10 +86,12 @@ const navLinks = [
         nameKey: "hitAndRun",
         href: "/practice-areas/vehicle-accidents/hit-and-run",
       },
-      {
-        nameKey: "cellPhone",
-        href: "/practice-areas/vehicle-accidents/cell-phone-use",
-      },
+      
+ {
+      nameKey: "carAccidents", 
+      href: "/practice-areas/vehicle-accidents/car-accidents", 
+    },
+
       {
         nameKey: "truckAccidents",
         href: "/practice-areas/vehicle-accidents/truck-accidents",
@@ -114,6 +116,7 @@ const navLinks = [
         nameKey: "busAccidents",
         href: "/practice-areas/vehicle-accidents/bus-accidents",
       },
+     
     ],
   },
   { nameKey: "wrongfulDeath", href: "/practice-areas/wrongful-death" },
