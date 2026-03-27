@@ -3,16 +3,16 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Link } from "@/i18n/routing";
 import Image from "next/image";
-import { Scale, ArrowRight, ShieldCheck } from "lucide-react";
+import { Anchor, ShieldAlert, Scale, HelpCircle } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 import { useTranslations } from "next-intl";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const PersonalInjuryContent = () => {
-  const t = useTranslations("PracticeAreasPage");
+const BoatingAccidentsContent = () => {
+  const t = useTranslations("PracticeAreasPage.subPages.boatingAccidents");
+  const commonT = useTranslations("PracticeAreasPage.common");
   const contentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -61,25 +61,25 @@ const PersonalInjuryContent = () => {
               <div className="inline-flex items-center gap-3 mb-6 hero-reveal">
                 <div className="h-[1px] w-10 bg-[#C5A059]"></div>
                 <span className="text-[#C5A059] font-sans font-black tracking-[0.4em] uppercase text-[12px]">
-                  {t("common.heroPrestige")}
+                  {t("hero.prestige")}
                 </span>
               </div>
               <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-8 leading-tight hero-reveal">
-                {t("personalInjury.hero.title")} <br />
-                <span className="text-[#C5A059] italic">{t("personalInjury.hero.subtitle")}</span>
+                {t("hero.title")} <br />
+                <span className="text-[#C5A059] italic">{t("hero.subtitle")}</span>
               </h1>
               <p className="text-xl text-white/70 font-light leading-relaxed mb-10 hero-reveal max-w-2xl">
-                {t("personalInjury.hero.description")}
+                {t("hero.description")}
               </p>
             </div>
 
-            {/* Right Side: Replicated Homepage Portrait Style */}
+            {/* Right Side: Premium Portrait */}
             <div className="lg:col-span-5 relative w-full h-[280px] md:h-[300px] lg:h-[300px] hero-portrait flex items-start justify-center lg:justify-end">
               <div className="relative w-full max-w-[400px] h-full rounded-[2rem] overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.3)] border border-white/20 bg-white/5 backdrop-blur-sm">
                  <div className="absolute inset-0 bg-gradient-to-b from-[#C5A059]/10 to-transparent"></div>
                  <Image
                    src="/assets/osbelia-castillo.jpg"
-                   alt={t("personalInjury.hero.alt")}
+                   alt={t("hero.alt")}
                    fill
                    className="object-cover object-top scale-105"
                    priority
@@ -94,75 +94,82 @@ const PersonalInjuryContent = () => {
       <section className="py-24 px-6 md:px-12 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           <div className="lg:col-span-8 space-y-16">
+            {/* Section 1: Intro */}
             <div className="reveal-up">
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#0A1128] mb-8">
-                {t("personalInjury.focus.title")}
+                {t("content.section1.title")}
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {[
-                  {
-                    name: t("personalInjury.focus.slipAndFall"),
-                    href: "/practice-areas/personal-injury/slip-and-fall",
-                  },
-                  {
-                    name: t("personalInjury.focus.defectiveProducts"),
-                    href: "/practice-areas/personal-injury/defective-products",
-                  },
-                  {
-                    name: t("personalInjury.focus.brainSpinal"),
-                    href: "/practice-areas/personal-injury/brain-spinal-injury",
-                  },
-                  {
-                    name: t("personalInjury.focus.dogBites"),
-                    href: "/practice-areas/personal-injury/dog-bites",
-                  },
-                  {
-                    name: t("personalInjury.focus.asbestos"),
-                    href: "/practice-areas/personal-injury/asbestos-mesothelioma",
-                  },
-                  {
-                    name: t("personalInjury.focus.sexualAbuse"),
-                    href: "/practice-areas/personal-injury/sexual-abuse",
-                  },
-                  {
-                    name: t("personalInjury.focus.boatingAccidents"),
-                    href: "/practice-areas/personal-injury/boating-accidents",
-                  },
-                ].map((item, i) => (
-                  <Link
-                    key={i}
-                    href={item.href}
-                    aria-label={`Learn more about our services in ${item.name}`}
-                    className="flex items-center justify-between p-6 bg-[#FCFCFC] border border-gray-100 rounded-xl hover:border-[#C5A059] hover:shadow-lg transition-all group"
-                  >
-                    <span className="text-gray-800 font-serif font-bold">
-                      {item.name}
-                    </span>
-                    <ArrowRight className="w-5 h-5 text-[#C5A059] opacity-0 group-hover:opacity-100 transition-all transform group-hover:translate-x-1" />
-                  </Link>
-                ))}
+              <div className="prose prose-lg text-gray-600 space-y-6">
+                <p>{t("content.section1.p1")}</p>
+                <p>{t("content.section1.p2")}</p>
               </div>
             </div>
 
+            {/* Section 2: Common Causes */}
+            <div className="reveal-up">
+              <h2 className="text-2xl md:text-3xl font-serif font-bold text-[#0A1128] mb-8">
+                {t("content.section2.title")}
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="p-8 bg-[#FCFCFC] border border-gray-100 rounded-2xl">
+                  <ShieldAlert className="w-8 h-8 text-[#C5A059] mb-4" />
+                  <h3 className="text-xl font-bold mb-3">{t("content.section2.items.item1")}</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {t("content.section2.items.item2")}
+                  </p>
+                </div>
+                <div className="p-8 bg-[#FCFCFC] border border-gray-100 rounded-2xl">
+                  <HelpCircle className="w-8 h-8 text-[#C5A059] mb-4" />
+                  <h3 className="text-xl font-bold mb-3">{t("content.section2.items.item3")}</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {t("content.section2.items.item4")}
+                  </p>
+                </div>
+                <div className="p-8 bg-[#FCFCFC] border border-gray-100 rounded-2xl md:col-span-2">
+                  <Anchor className="w-8 h-8 text-[#C5A059] mb-4" />
+                  <h3 className="text-xl font-bold mb-3">{t("content.section2.items.item5")}</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {t("content.section2.items.item6")}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 3: Experience */}
+            <div className="reveal-up bg-[#F9F9F9] p-10 rounded-[2rem]">
+              <h2 className="text-2xl md:text-3xl font-serif font-bold text-[#0A1128] mb-6">
+                {t("content.section3.title")}
+              </h2>
+              <p className="text-gray-600 leading-relaxed mb-8">
+                {t("content.section3.p1")}
+              </p>
+              <div className="flex items-center gap-4 text-[#C5A059] font-serif italic text-lg">
+                <blockquote className="border-l-4 border-[#C5A059] pl-6 py-2">
+                  "{t("content.quote")}"
+                </blockquote>
+              </div>
+            </div>
+
+            {/* Defense Advantage Banner */}
             <div className="reveal-up">
               <div className="bg-[#0A1128] text-white p-10 rounded-[2rem] relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-64 h-64 bg-[#C5A059]/10 rounded-full blur-[100px]"></div>
                 <h3 className="text-3xl font-serif font-bold mb-6 relative z-10">
-                  {t("common.defenseAdvantage")}
+                  {commonT("defenseAdvantage")}
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
                   <div className="space-y-4">
-                    <ShieldCheck className="w-8 h-8 text-[#C5A059]" />
-                    <h4 className="text-xl font-bold">{t("common.insuranceExpertise")}</h4>
+                    <ShieldAlert className="w-8 h-8 text-[#C5A059]" />
+                    <h4 className="text-xl font-bold">{commonT("insuranceExpertise")}</h4>
                     <p className="text-white/60 text-sm">
-                      {t("common.insuranceExpertiseDesc")}
+                      {commonT("insuranceExpertiseDesc")}
                     </p>
                   </div>
                   <div className="space-y-4">
                     <Scale className="w-8 h-8 text-[#C5A059]" />
-                    <h4 className="text-xl font-bold">{t("common.maximumRecovery")}</h4>
+                    <h4 className="text-xl font-bold">{commonT("maximumRecovery")}</h4>
                     <p className="text-white/60 text-sm">
-                      {t("common.maximumRecoveryDesc")}
+                      {commonT("maximumRecoveryDesc")}
                     </p>
                   </div>
                 </div>
@@ -170,6 +177,7 @@ const PersonalInjuryContent = () => {
             </div>
           </div>
 
+          {/* Right Side Sticky Contact Form */}
           <div className="lg:col-span-4">
             <div className="sticky top-32">
               <ContactForm compact />
@@ -181,4 +189,4 @@ const PersonalInjuryContent = () => {
   );
 };
 
-export default PersonalInjuryContent;
+export default BoatingAccidentsContent;
