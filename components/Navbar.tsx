@@ -1,7 +1,7 @@
 "use client";
 
 import { Link } from "@/i18n/routing";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useLayoutEffect, useRef, useCallback } from "react";
 import Image from "next/image";
 import { Menu, X, ChevronDown, Phone, ChevronRight } from "lucide-react";
 import { gsap } from "gsap";
@@ -174,13 +174,33 @@ const Navbar = () => {
   );
   const menuRef = useRef<HTMLDivElement>(null);
 
+  // Set initial hidden state before paint to prevent flash
+  useLayoutEffect(() => {
+    if (menuRef.current) {
+      gsap.set(menuRef.current, {
+        xPercent: 100,
+        opacity: 0,
+        visibility: "hidden",
+        pointerEvents: "none",
+      });
+    }
+  }, []);
+
+  const toggleMenu = useCallback(() => {
+    setIsMenuOpen((prev) => !prev);
+  }, []);
+
+  const closeMenu = useCallback(() => {
+    setIsMenuOpen(false);
+  }, []);
+
   useEffect(() => {
     if (!menuRef.current) return;
 
     if (isMenuOpen) {
       document.body.style.overflow = "hidden";
       gsap.to(menuRef.current, {
-        x: "0%",
+        xPercent: 0,
         opacity: 1,
         visibility: "visible",
         pointerEvents: "auto",
@@ -189,14 +209,19 @@ const Navbar = () => {
       });
     } else {
       document.body.style.overflow = "auto";
+      // Reset expanded states on close
+      setMobileExpanded(null);
+      setMobileSubExpanded(null);
       gsap.to(menuRef.current, {
-        x: "100%",
+        xPercent: 100,
         opacity: 0,
         pointerEvents: "none",
         duration: 0.5,
         ease: "power3.in",
         onComplete: () => {
-          gsap.set(menuRef.current, { visibility: "hidden" });
+          if (menuRef.current) {
+            gsap.set(menuRef.current, { visibility: "hidden" });
+          }
         },
       });
     }
@@ -304,15 +329,15 @@ const Navbar = () => {
           <div className="lg:hidden ml-auto flex items-center gap-2">
             <LanguageSwitcher />
             <button
-              className="flex items-center z-[110]"
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              aria-label="Toggle Menu"
+              className="relative flex items-center justify-center w-10 h-10 z-[110]"
+              onClick={toggleMenu}
+              aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
               aria-expanded={isMenuOpen}
             >
               {isMenuOpen ? (
-                <X className="w-7 h-7 text-[#0A1128]" />
+                <X className="w-7 h-7 text-[#0A1128]" strokeWidth={2.5} />
               ) : (
-                <Menu className="w-7 h-7 text-[#0A1128]" />
+                <Menu className="w-7 h-7 text-[#0A1128]" strokeWidth={2.5} />
               )}
             </button>
           </div>
@@ -322,9 +347,20 @@ const Navbar = () => {
       {/* Mobile Menu Overlay */}
       <div
         ref={menuRef}
-        className="fixed inset-0 z-[100] bg-white lg:hidden h-screen w-screen overflow-y-auto translate-x-full opacity-0 invisible pointer-events-none"
+        className="fixed inset-0 z-[100] bg-white lg:hidden h-screen w-screen overflow-y-auto"
+        style={{ willChange: "transform, opacity" }}
       >
-        <div className="flex flex-col min-h-full pt-32 pb-12 px-8">
+        {/* Close button inside overlay for reliable click target */}
+        <div className="sticky top-0 flex justify-end p-4 pt-5 pr-5 z-10">
+          <button
+            onClick={closeMenu}
+            className="flex items-center justify-center w-10 h-10"
+            aria-label="Close Menu"
+          >
+            <X className="w-7 h-7 text-[#0A1128]" strokeWidth={2.5} />
+          </button>
+        </div>
+        <div className="flex flex-col min-h-full pt-8 pb-12 px-8">
           <div className="space-y-4">
             {navLinks.map((link, idx) => (
               <div key={link.nameKey} className="border-b border-gray-50 pb-4">
@@ -333,7 +369,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-between">
                       <Link
                         href={link.href}
-                        onClick={() => setIsMenuOpen(false)}
+                        onClick={closeMenu}
                         className="flex items-center gap-4 text-2xl font-serif font-bold text-[#0A1128]"
                       >
                         <span className="text-[#C5A059] text-[10px] font-sans tracking-[0.3em] uppercase opacity-70">
@@ -365,7 +401,7 @@ const Navbar = () => {
                           <div className="flex items-center justify-between">
                             <Link
                               href={subItem.href}
-                              onClick={() => setIsMenuOpen(false)}
+                              onClick={closeMenu}
                               className="block text-base text-gray-600 hover:text-[#C5A059] py-1"
                             >
                               {t(subItem.nameKey as any)}
@@ -396,7 +432,7 @@ const Navbar = () => {
                                 <Link
                                   key={sub.nameKey}
                                   href={sub.href}
-                                  onClick={() => setIsMenuOpen(false)}
+                                  onClick={closeMenu}
                                   className="block text-sm text-gray-500 py-2"
                                 >
                                   {t(sub.nameKey as any)}
@@ -411,7 +447,7 @@ const Navbar = () => {
                 ) : (
                   <Link
                     href={link.href}
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={closeMenu}
                     className="flex items-center gap-4 text-2xl font-serif font-bold text-[#0A1128] hover:text-[#C5A059]"
                   >
                     <span className="text-[#C5A059] text-[10px] font-sans tracking-[0.3em] uppercase opacity-70">
