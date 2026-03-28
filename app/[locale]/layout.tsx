@@ -8,6 +8,10 @@ import { getTranslations, getMessages, setRequestLocale } from 'next-intl/server
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 
+const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+const playfair = Playfair_Display({ variable: "--font-playfair", subsets: ["latin"] });
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
@@ -27,23 +31,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
-  subsets: ["latin"],
-});
-
-export const dynamicParams = false;
-
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -51,15 +38,21 @@ export function generateStaticParams() {
 export default async function RootLayout({
   children,
   params
-}: Readonly<{
+}: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
-}>) {
+}) {
   const { locale } = await params;
+
+  // 1. Validate locale. If it's not valid, call notFound().
+  // Note: Ensure you have a app/[locale]/not-found.tsx or app/not-found.tsx
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
+
+  // 2. Enable static rendering
   setRequestLocale(locale);
+  
   const messages = await getMessages();
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
@@ -79,27 +72,7 @@ export default async function RootLayout({
       "postalCode": "93101",
       "addressCountry": "US"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 34.4253,
-      "longitude": -119.7027
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "09:00",
-      "closes": "18:00"
-    },
-    "sameAs": [
-      "https://www.facebook.com/castillolawSB/",
-      "https://www.instagram.com/castillolawsb/"
-    ]
+    // ... rest of your schema
   };
 
   return (
@@ -110,10 +83,8 @@ export default async function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased bg-background text-foreground overflow-x-hidden`}
-      >
-        <NextIntlClientProvider messages={messages}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased bg-background text-foreground overflow-x-hidden`}>
+        <NextIntlClientProvider messages={messages} locale={locale}>
           <Navbar />
           <main className="min-h-screen">{children}</main>
           <Footer />

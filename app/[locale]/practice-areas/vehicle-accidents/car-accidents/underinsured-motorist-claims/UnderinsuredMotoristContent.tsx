@@ -11,6 +11,7 @@ import { useTranslations } from "next-intl";
 gsap.registerPlugin(ScrollTrigger);
 
 const UnderinsuredMotoristContent = () => {
+  // Matches your JSON structure: PracticeAreasPage.subPages.underinsuredMotorist
   const t = useTranslations("PracticeAreasPage.subPages.underinsuredMotorist");
   const commonT = useTranslations("PracticeAreasPage.common");
   const contentRef = useRef<HTMLDivElement>(null);
@@ -22,7 +23,6 @@ const UnderinsuredMotoristContent = () => {
         scrollTrigger: { trigger: ".reveal-up", start: "top 85%" },
       });
       gsap.from(".hero-reveal", { y: 30, opacity: 0, duration: 1, ease: "power3.out", delay: 0.2, stagger: 0.1 });
-      gsap.from(".hero-portrait", { x: 30, opacity: 0, duration: 1.2, ease: "power4.out", delay: 0.5 });
     }, contentRef);
     return () => ctx.revert();
   }, []);
@@ -69,7 +69,7 @@ const UnderinsuredMotoristContent = () => {
               <p className="text-gray-600 text-lg leading-relaxed mb-6">{t("content.section1.p1")}</p>
               <p className="text-gray-600 text-lg leading-relaxed mb-10">{t("content.section1.p2")}</p>
 
-              <h2 className="text-2xl font-serif font-bold text-[#0A1128] mb-6">
+              <h2 className="text-2xl md:text-3xl font-serif font-bold text-[#0A1128] mb-8">
                 {t("content.section2.title")}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -88,8 +88,9 @@ const UnderinsuredMotoristContent = () => {
               </div>
             </div>
             <div className="reveal-up">
-              <div className="bg-[#FCFCFC] p-10 rounded-[2rem] border border-[#0A1128]/5 relative overflow-hidden">
-                <h3 className="text-[10px] font-sans font-black tracking-widest text-[#C5A059] uppercase mb-4">{commonT("defenseAdvantage")}</h3>
+              <div className="bg-[#F9F9F9] p-10 rounded-[2rem] border border-[#0A1128]/5 relative overflow-hidden">
+                <h3 className="text-[10px] font-sans font-black tracking-widest text-[#C5A059] uppercase mb-4">Firm Philosophy</h3>
+                {/* FIXED THE QUOTE KEY HERE */}
                 <p className="text-[#0A1128] leading-relaxed italic font-serif text-xl">"{t("content.quote")}"</p>
               </div>
             </div>

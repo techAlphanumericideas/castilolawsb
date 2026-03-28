@@ -1,13 +1,18 @@
 import { Metadata } from "next";
 import CarAccidentContent from "./CarAccidentContent";
 import JsonLd from "@/components/JsonLd";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 const baseUrl = "https://castillolawsb.com";
 const path = "/practice-areas/vehicle-accidents/car-accidents";
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+export async function generateMetadata({ 
+  params 
+}: { 
+  params: Promise<{ locale: string }> 
+}): Promise<Metadata> {
   const { locale } = await params;
+  // Ensure the namespace matches your JSON structure exactly
   const t = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.carAccidents.metadata" });
   
   return {
@@ -24,8 +29,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+export default async function Page({ 
+  params 
+}: { 
+  params: Promise<{ locale: string }> 
+}) {
   const { locale } = await params;
+  
+  // CRITICAL: Required for static rendering/caching with next-intl
+  setRequestLocale(locale);
   
   const t = await getTranslations({ locale, namespace: "PracticeAreasPage" });
   const subT = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.carAccidents" });
@@ -49,7 +61,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       {
         "@type": "ListItem",
         "position": 3,
-        "name": t("vehicleAccidents.title"),
+        "name": t("vehicleAccidents.title"), // Ensure this key exists in PracticeAreasPage namespace
         "item": `${baseUrl}/${locale}/practice-areas/vehicle-accidents`
       },
       {
@@ -66,13 +78,16 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     "@type": "WebPage",
     "name": subT("metadata.title"),
     "description": subT("metadata.description"),
-    "publisher": { "@id": `${baseUrl}/#organization` }
+    "publisher": { "@id": `${baseUrl}/#organization` },
+    "breadcrumb": { "@id": `${baseUrl}/${locale}${path}#breadcrumb` }
   };
 
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
       <JsonLd data={webPageSchema} />
+      {/* If CarAccidentContent is a Client Component, 
+          it will automatically have access to the locale via next-intl hooks */}
       <CarAccidentContent />
     </>
   );

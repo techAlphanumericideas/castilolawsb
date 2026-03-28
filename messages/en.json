@@ -24,6 +24,8 @@
     "hitAndRun": "Hit and Run",
     "carAccidents": "Car Accidents",
     "carAccidentLiability": "Car Accident Liability",
+    "propertyDamages": "Property Damages",
+    "underinsuredMotoristClaims": "Underinsured Motorist Claims",
     "truckAccidents": "Truck Accidents",
     "motorcycleAccidents": "Motorcycle Accidents",
     "bicycleAccidents": "Bicycle Accidents",

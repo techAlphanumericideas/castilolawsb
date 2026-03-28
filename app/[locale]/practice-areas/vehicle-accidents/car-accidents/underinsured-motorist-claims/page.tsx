@@ -8,6 +8,7 @@ const path = "/practice-areas/personal-injury/car-accidents/underinsured-motoris
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
+  // Namespace fixed to point to metadata specifically
   const t = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.underinsuredMotorist.metadata" });
   
   return {
@@ -23,6 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "PracticeAreasPage" });
+  // This scopes subT to the whole underinsuredMotorist object
   const subT = await getTranslations({ locale, namespace: "PracticeAreasPage.subPages.underinsuredMotorist" });
 
   const breadcrumbSchema = {
@@ -32,7 +34,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       { "@type": "ListItem", "position": 1, "name": t("breadcrumbs.home"), "item": `${baseUrl}/${locale}` },
       { "@type": "ListItem", "position": 2, "name": t("breadcrumbs.practiceAreas"), "item": `${baseUrl}/${locale}/practice-areas` },
       { "@type": "ListItem", "position": 3, "name": t("personalInjury.title"), "item": `${baseUrl}/${locale}/practice-areas/personal-injury` },
-      { "@type": "ListItem", "position": 4, "name": t("subPages.carAccidents.hero.title"), "item": `${baseUrl}/${locale}/practice-areas/personal-injury/car-accidents` },
+      // Adjusted to standard category title to avoid missing message errors
+      { "@type": "ListItem", "position": 4, "name": t("vehicleAccidents.title"), "item": `${baseUrl}/${locale}/practice-areas/personal-injury/car-accidents` },
       { "@type": "ListItem", "position": 5, "name": subT("hero.title"), "item": `${baseUrl}/${locale}${path}` }
     ]
   };
@@ -40,6 +43,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
+    "@id": `${baseUrl}/${locale}${path}/#webpage`,
+    "url": `${baseUrl}/${locale}${path}`,
     "name": subT("metadata.title"),
     "description": subT("metadata.description"),
     "publisher": { "@id": `${baseUrl}/#organization` }
