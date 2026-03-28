@@ -2,7 +2,7 @@
 
 import { Link } from "@/i18n/routing";
 import Image from "next/image";
-import { Phone, Mail, MapPin, Facebook, Instagram, MoveRight } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Linkedin, MoveRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export default function Footer() {
@@ -30,8 +30,8 @@ export default function Footer() {
               <a href="https://www.facebook.com/castillolawSB/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#C5A059] transition-all group">
                 <Facebook className="w-5 h-5 group-hover:scale-110 transition-transform" />
               </a>
-              <a href="https://www.instagram.com/castillolawsb/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#C5A059] transition-all group">
-                <Instagram className="w-5 h-5 group-hover:scale-110 transition-transform" />
+              <a href="https://www.linkedin.com/in/osbelia-castillo-2b71186" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#C5A059] transition-all group">
+                <Linkedin className="w-5 h-5 group-hover:scale-110 transition-transform" />
               </a>
             </div>
           </div>
@@ -84,8 +84,8 @@ export default function Footer() {
                 <div>
                   <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">{t("location")}</p>
                   <p className="text-gray-300 leading-relaxed">
-                    1111 Garden St #100<br />
-                    Santa Barbara, CA 93101
+                   315 Meigs Rd, Ste A142<br />
+                    Santa Barbara, California 93109c
                   </p>
                 </div>
               </div>
