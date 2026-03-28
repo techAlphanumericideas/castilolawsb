@@ -3,43 +3,67 @@
     "title": "Bienvenido"
   },
   "Metadata": {
-    "title": "El Despacho Jurídico de Osbelia Castillo",
-    "description": "Representación agresiva en lesiones personales y accidentes de vehículos en Santa Bárbara, Oxnard y Ventura.",
-    "organizationName": "El Despacho Jurídico de Osbelia Castillo"
+    "title": "Oficina Legal de Osbelia Castillo",
+    "description": "Representación agresiva en casos de lesiones personales y accidentes de vehículos en Santa Bárbara, Oxnard y Ventura.",
+    "organizationName": "Oficina Legal de Osbelia Castillo"
   },
   "Navbar": {
     "home": "Inicio",
     "attorneys": "Abogados",
     "osbelia": "Osbelia Castillo",
+    "mark": "Mark Kenneth Flores",
     "personalInjury": "Lesiones Personales",
     "slipAndFall": "Resbalones y Caídas",
     "defectiveProducts": "Productos y Medicamentos Defectuosos",
     "brainSpinal": "Lesiones Cerebrales y Espinales",
     "dogBites": "Mordeduras de Perro",
     "asbestos": "Asbesto y Mesotelioma",
-    "sexualAbuse": "Abuso Sexual",
+    "sexualAbuse": "Abuso y Molestación Sexual",
     "vehicleAccidents": "Accidentes de Vehículos",
-    "drunkDriving": "Accidentes por Conducir Ebrio",
-    "hitAndRun": "Choca y Huye",
-    "cellPhone": "Accidentes por Teléfono",
-    "truckAccidents": "Accidentes de Camión",
+    "drunkDriving": "Accidentes por Conductor Ebrio",
+    "hitAndRun": "Choque y Fuga",
+    "carAccidents": "Accidentes de Auto",
+    "carAccidentLiability": "Responsabilidad en Accidentes",
+    "propertyDamages": "Daños a la Propiedad",
+    "underinsuredMotoristClaims": "Reclamos de Conductores con Seguro Insuficiente",
+    "truckAccidents": "Accidentes de Camiones",
     "motorcycleAccidents": "Accidentes de Motocicleta",
     "bicycleAccidents": "Accidentes de Bicicleta",
     "pedestrianAccidents": "Accidentes de Peatones",
-    "wrongfulDeath": "Muerte Injusta",
-    "workersComp": "Compensación de Trabajadores",
+    "boatingAccidents": "Accidentes de Botes",
+    "elderDependentAbuse": "Abuso de Ancianos y Dependientes",
+    "burnInjury": "Lesiones por Quemaduras",
+    "underinsuredMotorist": "Conductores con Seguro Insuficiente",
+    "negligentSecurity": "Seguridad Negligente",
+    "catastrophicInjuries": "Lesiones Catastróficas",
+    "rideshareAccidents": "Accidentes de Rideshare (Uber/Lyft)",
+    "policeBrutalityShootings": "Brutalidad Policial y Tiroteos",
+    "busAccidents": "Accidentes de Autobús",
+    "constructionSiteAccidents": "Accidentes en Construcción",
+    "craneAccidents": "Accidentes de Grúas",
+    "forkliftAccidents": "Accidentes de Montacargas",
+    "medicalDeviceRecall": "Kits de Depósito de 3 Resortes",
+    "wrongfulDeath": "Muerte por Negligencia",
+    "workersComp": "Compensación al Trabajador",
+    "areasWeServe": "Áreas que Servimos",
+    "rolloverAccidents": "Accidentes de Volcamiento",
+    "oxnard": "Oxnard",
+    "santaBarbara": "Santa Bárbara",
+    "ventura": "Ventura",
+    "thousandOaks": "Thousand Oaks",
+    "santaPaula": "Santa Paula",
     "logoAlt": "Oficina Legal de Osbelia Castillo",
-    "callNow": "Llame Ahora: 805-283-7656"
+    "callNow": "Llamar ahora: 805-283-7656"
   },
   "Footer": {
-    "aboutText": "Un grupo profesional de abogados en Santa Bárbara, Oxnard y Ventura especializado en casos de lesiones personales, accidentes vehiculares, muerte injusta y compensación de trabajadores.",
+    "aboutText": "Un grupo profesional de abogados en Santa Bárbara, Oxnard y Ventura especializado en casos de lesiones personales, accidentes vehiculares, muerte por negligencia y compensación al trabajador.",
     "quickLinks": "Enlaces Rápidos",
     "aboutUs": "Sobre Nosotros",
     "practiceAreas": "Áreas de Práctica",
     "contact": "Contacto",
     "contactInfo": "Información de Contacto",
-    "callAnytime": "Llame en Cualquier Momento",
-    "emailUs": "Envíenos un Correo",
+    "callAnytime": "Llamar en cualquier momento",
+    "emailUs": "Envíenos un correo",
     "location": "Nuestra Ubicación",
     "rightsReserved": "Todos los derechos reservados.",
     "privacyPolicy": "Política de Privacidad",
@@ -57,10 +81,9 @@
   },
   "Hero": {
     "prestige": "Representación Legal de Prestigio",
-    "need": "Busca",
-    "litigation": "¿Litigios?",
+    "need": "¿Necesita",
+    "litigation": "Litigación?",
     "description": "La Oficina Legal de Osbelia Castillo ofrece estrategias de defensa de élite con <precision>precisión quirúrgica</precision> y experiencia bilingüe.",
-    "precision": "precisión quirúrgica",
     "consultation": "Consulta en Inglés y Español",
     "getStarted": "Comenzar",
     "freeConsultation": "Consulta Gratuita",
@@ -69,24 +92,23 @@
     "email": "Correo Electrónico",
     "describeCase": "Describa brevemente su caso",
     "sendRequest": "Enviar Solicitud",
-    "ariaCall": "Llame a Osbelia Castillo para una consulta gratuita al 805-283-7656",
+    "ariaCall": "Llame a Osbelia Castillo para una Consulta Gratuita al 805-283-7656",
     "ariaSubmit": "Envíe su solicitud para una consulta legal gratuita"
   },
   "Settlements": {
     "carAccident": "Accidente de Auto",
-    "spinalInjury": "Lesión de Columna",
+    "spinalInjury": "Lesión Espinal",
     "motorVehicle": "Accidente de Vehículo Motorizado",
     "pedestrian": "Accidente de Peatón"
   },
   "About": {
     "leadership": "Liderazgo Legal",
     "title": "Sobre Osbelia Castillo",
-    "p1": "Durante más de cinco años, Osbelia ha trabajado como una agresiva litigante civil representando a compañías de seguros tanto en tribunales estatales como federales. Ha manejado cientos de casos de lesiones personales, incluyendo lesiones catastróficas, muertes injustas y casos de responsabilidad complejos.",
-    "p2": "Su experiencia representando a compañías de seguros le da una <edge>ventaja</edge> al luchar por sus clientes lesionados. Su experiencia en el lado de la defensa proporciona una perspectiva única para lograr resultados favorables en una etapa temprana.",
-    "edge": "ventaja",
-    "fluent": "Bilingüe en Inglés y Español",
+    "p1": "Durante más de cinco años, Osbelia ha trabajado como una agresiva litigante civil representando a compañías de seguros tanto en tribunales estatales como federales. Ha manejado cientos de casos de lesiones personales, incluyendo lesiones catastróficas, muertes por negligencia y casos de responsabilidad compleja.",
+    "p2": "Su experiencia representando a compañías de seguros le otorga una <edge>ventaja competitiva</edge> al luchar por sus clientes lesionados. Su formación en el lado de la defensa proporciona una perspectiva única para lograr resultados favorables en una etapa temprana.",
+    "fluent": "Fluidez en Inglés y Español",
     "readProfile": "Leer Perfil Completo",
-    "ariaProfile": "Vea el perfil legal completo y la biografía de Osbelia Castillo"
+    "ariaProfile": "Ver el perfil legal completo y la biografía de Osbelia Castillo"
   },
   "PracticeAreas": {
     "expertise": "Experiencia y Enfoque",
@@ -94,60 +116,101 @@
     "subtitle": "Dedicados a su recuperación.",
     "explore": "Explorar Área",
     "piTitle": "Lesiones Personales",
-    "piDesc": "Manejando lesiones catastróficas con un enfoque agresivo para asegurar la compensación que usted merece.",
+    "piDesc": "Manejamos lesiones catastróficas con un enfoque agresivo para asegurar la compensación que usted merece.",
     "vaTitle": "Accidentes de Vehículos",
-    "vaDesc": "Representación experta para colisiones en autopistas, accidentes en calles secundarias y casos complejos en estacionamientos.",
-    "wdTitle": "Muerte Injusta",
-    "wdDesc": "Apoyo legal compasivo para familias que buscan justicia tras la pérdida de un ser querido debido a negligencia.",
-    "wcTitle": "Compensación Laboral",
-    "wcDesc": "Protegiendo su derecho a un lugar de trabajo seguro y asegurando beneficios completos por lesiones en el trabajo."
+    "vaDesc": "Representación experta para colisiones en carreteras, accidentes en calles secundarias y casos complejos en estacionamientos.",
+    "wdTitle": "Muerte por Negligencia",
+    "wdDesc": "Apoyo legal compasivo para familias que buscan justicia tras la pérdida de un ser querido debido a la negligencia.",
+    "wcTitle": "Compensación al Trabajador",
+    "wcDesc": "Protegemos su derecho a un lugar de trabajo seguro y garantizamos todos los beneficios por lesiones laborales."
   },
   "Contact": {
     "fluent": "Consulta Ofrecida en Inglés y Español",
-    "ready": "Preparados para <defend>Defender</defend> su Futuro.",
-    "defend": "Defender",
-    "description": "Nos tomamos el tiempo para examinar cada detalle de su caso. Permítanos guiarle a través de sus opciones legales con claridad y dedicación.",
+    "ready": "Listos para <defend>Defender</defend> su Futuro.",
+    "description": "Nos tomamos el tiempo para examinar cada detalle de su caso. Permítanos guiarlo a través de sus opciones legales con claridad y dedicación.",
     "speakWithTeam": "Hable directamente con nuestro equipo",
-    "clickToCall": "Haga Clic para Llamar",
-    "initialConsultation": "Consulta Inicial — Sin Cargo"
+    "clickToCall": "Haga clic para llamar",
+    "initialConsultation": "Consulta Inicial — Sin Costo"
   },
   "Process": {
-    "whatWeDo": "Qué Hacemos",
-    "title": "Definiendo Metas, Método y Éxito Juntos",
-    "p1": "Al realizar diversas actividades de investigación interna e implementar evaluaciones de gestión de riesgos, nuestro enfoque ahorra tiempo y dinero a nuestros clientes a largo plazo.",
-    "p2": "Hacer crecer orgánicamente la visión holística del mundo de la innovación disruptiva a través de la diversidad y el empoderamiento en el lugar de trabajo.",
-    "step1": "Obtenga su Asesoría Legal",
+    "whatWeDo": "Lo que Hacemos",
+    "title": "Definiendo Metas, Métodos y Éxito Juntos",
+    "p1": "Mediante diversas actividades de investigación interna e implementación de evaluaciones de gestión de riesgos, nuestro enfoque ahorra tiempo y dinero a nuestros clientes a largo plazo.",
+    "p2": "Impulsamos una visión holística de innovación a través de la diversidad y el empoderamiento en el lugar de trabajo.",
+    "step1": "Obtenga Asesoría Legal",
     "step2": "Trabaje con Abogados Expertos",
-    "step3": "Obtenga Tarifas con Descuento",
-    "step4": "Revise sus Documentos de Caso"
+    "step3": "Tarifas con Descuentos",
+    "step4": "Revise los Documentos de su Caso"
   },
   "OsbeliaCastillo": {
     "metadata": {
       "title": "Osbelia Castillo | Abogada Fundadora | Especialista en Lesiones Personales",
-      "description": "Conozca a Osbelia Castillo, abogada fundadora de La Oficina Legal de Osbelia Castillo. Con más de 5 años de experiencia en litigios civiles y defensa de seguros, lucha por la máxima recuperación de las víctimas de lesiones personales. Abogacía bilingüe en inglés y español."
+      "description": "Conozca a Osbelia Castillo, abogada fundadora de la Oficina Legal de Osbelia Castillo. Con más de 5 años de experiencia en litigios civiles y defensa de seguros, lucha por la máxima recuperación de las víctimas de lesiones personales. Defensa bilingüe en inglés y español."
     },
     "hero": {
       "role": "Abogada Fundadora",
-      "quote": "Habiendo visto cómo las compañías de seguros defienden las reclamaciones desde adentro, ahora uso ese conocimiento para luchar por la máxima recuperación para mis clientes."
+      "quote": "Habiendo visto cómo las compañías de seguros defienden los reclamos desde adentro, ahora uso ese conocimiento para luchar por la máxima recuperación para mis clientes."
     },
     "profile": {
       "title": "Perfil Profesional",
-      "p1": "Durante más de cinco años, Osbelia ha trabajado como una agresiva litigante civil representando a compañías de seguros tanto en tribunales estatales como federales. Ha manejado cientos de casos de lesiones personales, incluyendo lesiones catastróficas, muertes injustas y casos de responsabilidad complejos.",
-      "p2": "Su experiencia representando a compañías de seguros le da una <edge>ventaja</edge> al luchar por sus clientes lesionados. Su experiencia en el lado de la defensa proporciona una perspectiva única para lograr resultados favorables en una etapa temprana.",
-      "edge": "ventaja"
+      "p1": "Durante más de cinco años, Osbelia ha trabajado como una agresiva litigante civil representando a compañías de seguros tanto en tribunales estatales como federales. Ha manejado cientos de casos de lesiones personales, incluyendo lesiones catastróficas, muertes por negligencia y casos de responsabilidad compleja.",
+      "p2": "Su experiencia representando a compañías de seguros le otorga una <edge>ventaja</edge> al luchar por sus clientes lesionados. Su historial en la defensa proporciona una perspectiva única para lograr resultados favorables desde el inicio."
     },
     "competencies": {
       "title": "Competencias Principales",
-      "skill1": "Litigios por Lesiones Catastróficas",
+      "skill1": "Litigación de Lesiones Catastróficas",
       "skill2": "Estrategia de Defensa de Seguros",
       "skill3": "Análisis de Responsabilidad Compleja",
-      "skill4": "Representación por Muerte Injusta",
-      "skill5": "Abogacía Legal Bilingüe",
-      "skill6": "Negociación de Acuerdos Previos al Juicio"
+      "skill4": "Representación en Muerte por Negligencia",
+      "skill5": "Defensoría Legal Bilingüe",
+      "skill6": "Negociación de Acuerdos Pre-Juicio"
     },
     "sidebar": {
       "directContact": "Contacto Directo",
       "fluent": "Inglés y Español"
+    }
+  },
+  "MarkKennethFlores": {
+    "metadata": {
+      "title": "Mark Kenneth Flores | Abogado, Socio Fundador | Especialista en Lesiones Personales",
+      "description": "Abogado Mark Kenneth Flores, fundador y socio en Crane Flores Injury & Car Accident Lawyers, representa a clientes en los condados de Ventura y Santa Bárbara."
+    },
+    "hero": {
+      "role": "Abogado, Socio Fundador",
+      "quote": "El Sr. Flores ha practicado exclusivamente en el área de litigios por lesiones personales durante más de 20 años."
+    },
+    "profile": {
+      "title": "Perfil Profesional",
+      "p1": "El abogado Mark Kenneth Flores es socio fundador de Crane Flores Injury & Car Accident Lawyers. El Sr. Flores ha practicado exclusivamente en el área de litigios por lesiones personales durante más de 20 años. Antes de iniciar su práctica en la Costa Central, trabajó en algunas de las firmas de lesiones personales más grandes y exitosas de Los Ángeles.",
+      "p2": "El Sr. Flores es capaz de manejar cualquier tipo de reclamo por lesiones personales o muerte por negligencia, desde accidentes de vehículos motorizados hasta mesotelioma causado por asbesto."
+    },
+    "education": {
+      "title": "Educación",
+      "item1": "J.D., Universidad Loyola de Los Ángeles (1993)",
+      "item2": "B.S., Universidad del Sur de California (1988)"
+    },
+    "admissions": {
+      "title": "Admisiones",
+      "item1": "Tribunales Estatales de California",
+      "item2": "Tribunal de Distrito de los EE. UU., Distrito Central de California"
+    },
+    "associations": {
+      "title": "Asociaciones Profesionales / Membresías",
+      "skill1": "Colegio de Abogados del Estado de California",
+      "skill2": "Asociación de Abogados de Consumidores de Los Ángeles",
+      "skill3": "Abogados de Consumidores de California",
+      "skill4": "Asociación de Abogados del Condado de Santa Bárbara",
+      "skill5": "Asociaciones de Abogados del Condado de Ventura",
+      "skill6": "Foro de Abogados Defensores de Millones de Dólares",
+      "skill7": "ProVisors",
+      "skill8": "Top 10 Veredictos en California en 2016"
+    },
+    "awards": {
+      "title": "Premios y Reconocimientos"
+    },
+    "sidebar": {
+      "directContact": "Contacto Directo",
+      "phone": "(805) 749-5681"
     }
   },
   "PracticeAreasPage": {
@@ -159,31 +222,54 @@
       "heroPrestige": "Áreas de Práctica",
       "defenseAdvantage": "La Ventaja de la Defensa",
       "insuranceExpertise": "Experiencia en Seguros",
-      "insuranceExpertiseDesc": "Anticipamos las tácticas de las compañías de seguros para prevenir estrategias comunes de denegación de reclamaciones.",
+      "insuranceExpertiseDesc": "Anticipamos las tácticas de las compañías de seguros para evitar estrategias comunes de denegación de reclamos.",
       "maximumRecovery": "Máxima Recuperación",
-      "maximumRecoveryDesc": "Preparación meticulosa del caso diseñada para asegurar los acuerdos más altos posibles.",
-      "getHelpNow": "Obtener Ayuda Ahora"
+      "maximumRecoveryDesc": "Preparación meticulosa de casos diseñada para asegurar los acuerdos más altos posibles.",
+      "getHelpNow": "Obtenga Ayuda Ahora"
+    },
+    "personalInjury1": {
+      "title1": "Mark Kenneth Flores",
+      "metadata": {
+        "title1": "Mark Kenneth Flores",
+        "description1": "Más de 50 años de experiencia combinada dedicada a ayudar a víctimas lesionadas."
+      },
+      "hero": {
+        "title1": "Mark Kenneth Flores",
+        "subtitle1": "",
+        "description1": "Más de 50 años de experiencia combinada dedicada a ayudar a víctimas lesionadas.",
+        "alt": "Abogada Osbelia Castillo - Especialista líder en leyes de lesiones personales en Santa Bárbara"
+      },
+      "focus1": {
+        "title1": "Áreas de Enfoque en Lesiones Personales",
+        "slipAndFall1": "Resbalones y Caídas",
+        "defectiveProducts1": "Productos y Medicamentos Defectuosos",
+        "brainSpinal1": "Lesiones Cerebrales y Espinales",
+        "dogBites1": "Mordeduras de Perro",
+        "asbestos1": "Asbesto y Mesotelioma",
+        "sexualAbuse1": "Abuso y Molestación Sexual"
+      }
     },
     "personalInjury": {
       "title": "Lesiones Personales",
       "metadata": {
-        "title": "Especialistas en Ley de Lesiones Personales | Santa Bárbara | Osbelia Castillo",
-        "description": "¿Lesionado por la negligencia de otra persona? Nos especializamos en la ley de lesiones personales, representando a víctimas en resbalones y caídas, mordeduras de perro y casos de lesiones catastróficas. Aportamos conocimientos del lado de la defensa a cada caso del demandante. Consulta gratuita."
+        "title": "Especialistas en Lesiones Personales | Santa Bárbara | Osbelia Castillo",
+        "description": "¿Lesionado por la negligencia de otra persona? Nos especializamos en leyes de lesiones personales, representando a víctimas en casos de resbalones y caídas, mordeduras de perro y lesiones catastróficas. Consulta gratuita."
       },
       "hero": {
         "title": "Lesiones",
         "subtitle": "Personales",
-        "description": "Recuperando compensación para aquellos lesionados por negligencia. Aportamos conocimientos del lado de la defensa a cada caso del demandante.",
-        "alt": "Abogada Osbelia Castillo - Especialista líder en derecho de lesiones personales en Santa Bárbara"
+        "description": "Recuperando compensación para aquellos lesionados por negligencia. Aportamos conocimientos del lado de la defensa a cada caso de demandante.",
+        "alt": "Abogada Osbelia Castillo - Especialista líder en lesiones personales en Santa Bárbara"
       },
       "focus": {
         "title": "Áreas de Enfoque en Lesiones Personales",
         "slipAndFall": "Resbalones y Caídas",
         "defectiveProducts": "Productos y Medicamentos Defectuosos",
-        "brainSpinal": "Lesiones de Cerebro y Columna",
+        "brainSpinal": "Lesiones Cerebrales y Espinales",
         "dogBites": "Mordeduras de Perro",
         "asbestos": "Asbesto y Mesotelioma",
-        "sexualAbuse": "Abuso y Molestia Sexual"
+        "sexualAbuse": "Abuso y Molestación Sexual",
+        "boatingAccidents": "Accidentes de Botes"
       }
     },
     "vehicleAccidents": {
@@ -195,624 +281,1475 @@
       "hero": {
         "title": "Accidentes de",
         "subtitle": "Vehículos",
-        "description": "Litigio agresivo por accidentes de auto, camión, motocicleta y peatones. Aseguramos la compensación que necesita para seguir adelante.",
+        "description": "Litigación agresiva para accidentes de auto, camión, motocicleta y peatones. Aseguramos la compensación que usted necesita para seguir adelante.",
         "alt": "Abogada Osbelia Castillo - Experta en representación de accidentes de vehículos"
       },
       "categories": {
         "title": "Categorías de Accidentes Especializados",
-        "drunkDriving": "Accidente por Conducir Ebrio",
+        "drunkDriving": "Accidentes por Conductor Ebrio",
         "hitAndRun": "Choque y Fuga",
-        "cellPhone": "Accidentes por Uso de Teléfono Celular",
+        "cellPhone": "Accidentes por Uso de Celular",
         "truck": "Accidentes de Camiones",
-        "motorcycle": "Accidentes de Motocicletas",
-        "bicycle": "Accidentes de Bicicletas",
+        "motorcycle": "Accidentes de Motocicleta",
+        "bicycle": "Accidentes de Bicicleta",
         "pedestrian": "Accidentes de Peatones"
       },
       "investigation": {
         "title": "Investigación Meticulosa",
-        "desc": "Vamos más allá del informe policial, utilizando expertos en reconstrucción de accidentes y forense digital para establecer la responsabilidad en casos complejos de colisión de vehículos."
+        "desc": "Vamos más allá del informe policial, utilizando expertos en reconstrucción de accidentes y análisis forense digital para establecer la responsabilidad en casos complejos."
       }
     },
     "wrongfulDeath": {
-      "title": "Muerte Injusta",
+      "title": "Muerte por Negligencia",
       "metadata": {
-        "title": "Abogados de Muerte Injusta | Santa Bárbara | Osbelia Castillo",
-        "description": "Navegar por la pérdida de un ser querido es devastador. Nuestros abogados de muerte injusta ofrecen una defensa compasiva y una representación legal agresiva para asegurar el futuro de su familia. Consulta gratuita."
+        "title": "Abogados de Muerte por Negligencia | Santa Bárbara | Osbelia Castillo",
+        "description": "Navegar la pérdida de un ser querido es devastador. Nuestros abogados de muerte por negligencia ofrecen una defensa compasiva y agresiva para asegurar el futuro de su familia. Consulta gratuita."
       },
       "hero": {
         "prestige": "Justicia Compasiva",
-        "title": "Reclamaciones por",
-        "subtitle": "Muerte Injusta",
+        "title": "Muerte por",
+        "subtitle": "Negligencia",
         "description": "Buscando justicia para las familias que navegan por una pérdida inimaginable. Luchamos por su futuro mientras usted se enfoca en sanar.",
-        "alt": "Abogada Osbelia Castillo - Representante compasiva para reclamos por muerte injusta"
+        "alt": "Abogada Osbelia Castillo - Representante compasiva para reclamos de muerte por negligencia"
       },
       "future": {
         "title": "Asegurando el Futuro de su Familia",
-        "description": "Aunque ninguna cantidad de dinero puede reemplazar a un ser querido, una reclamación por muerte injusta puede proporcionar la seguridad financiera que su familia necesita para sobrevivir y prosperar tras una pérdida trágica.",
+        "description": "Aunque ninguna cantidad de dinero puede reemplazar a un ser querido, un reclamo por muerte por negligencia puede proporcionar la seguridad financiera que su familia necesita para sobrevivir y prosperar.",
         "survival": "Acciones de Supervivencia",
-        "survivalDesc": "Reclamaciones por el sufrimiento de la víctima antes de la muerte.",
+        "survivalDesc": "Reclamos por el sufrimiento de la víctima antes de su muerte.",
         "consortium": "Pérdida de Consorcio",
         "consortiumDesc": "Justicia por la pérdida de compañía y cuidado.",
         "earnings": "Pérdida de Ingresos",
-        "earningsDesc": "Recuperación de los ingresos futuros perdidos debido al fallecimiento.",
+        "earningsDesc": "Recuperación de ingresos futuros perdidos debido al fallecimiento.",
         "funeral": "Gastos Funerarios",
         "funeralDesc": "Cobertura para gastos médicos finales y de sepelio."
       },
       "litigation": {
-        "title": "Litigio Agresivo",
-        "desc": "Usamos nuestro conocimiento de la industria de seguros para responsabilizar a las partes negligentes, asegurando que paguen el valor total por la vida que han afectado.",
-        "ariaCall": "Contacte a Osbelia Castillo para apoyo con un reclamo por muerte injusta"
+        "title": "Litigación Agresiva",
+        "desc": "Usamos nuestro conocimiento de la industria de seguros para hacer responsables a las partes negligentes, asegurando que paguen el valor total por la vida que han afectado.",
+        "ariaCall": "Contacte a Osbelia Castillo para apoyo en un reclamo de muerte por negligencia"
       }
     },
     "workersComp": {
-      "title": "Compensación de Trabajadores",
+      "title": "Compensación al Trabajador",
       "metadata": {
-        "title": "Abogados de Compensación de Trabajadores | Santa Bárbara | Osbelia Castillo",
-        "description": "¿Lesionado en el trabajo? Nuestros abogados de compensación de trabajadores de California protegen sus derechos y aseguran que reciba los máximos beneficios médicos y financieros. Consulta gratuita."
+        "title": "Abogados de Compensación al Trabajador | Santa Bárbara | Osbelia Castillo",
+        "description": "¿Se lesionó en el trabajo? Nuestros abogados de compensación laboral en California protegen sus derechos y garantizan que reciba los máximos beneficios médicos y financieros. Consulta gratuita."
       },
       "hero": {
         "prestige": "Derechos de los Trabajadores",
-        "title": "Lesiones en el",
-        "subtitle": "Lugar de Trabajo",
-        "description": "Protegiendo sus derechos y su sustento. Nos aseguramos de que reciba los beneficios médicos y financieros completos que merece bajo la ley de California.",
-        "alt": "Abogada Osbelia Castillo - Experta en la ley de compensación de trabajadores de California"
+        "title": "Lesiones",
+        "subtitle": "Laborales",
+        "description": "Protegiendo sus derechos y su sustento. Nos aseguramos de que obtenga todos los beneficios médicos y financieros que merece bajo la ley de California.",
+        "alt": "Abogada Osbelia Castillo - Experta en la ley de Compensación al Trabajador de California"
       },
       "benefits": {
-        "title": "Beneficios de Compensación de Trabajadores",
-        "description": "El sistema de compensación de trabajadores es complejo y a menudo está sesgado a favor de los empleadores. Reequilibramos la balanza para asegurar que reciba cobertura total por sus lesiones laborales.",
+        "title": "Beneficios de Compensación al Trabajador",
+        "description": "El sistema de compensación laboral es complejo y a menudo favorece a los empleadores. Equilibramos la balanza para asegurar que reciba cobertura total por sus lesiones laborales.",
         "lostWages": "Salarios Perdidos",
         "lostWagesDesc": "Compensación por el tiempo fuera del trabajo durante la recuperación.",
         "medicalCare": "Atención Médica",
-        "medicalCareDesc": "Cobertura total para cirugía, terapia y medicamentos.",
+        "medicalCareDesc": "Cobertura total para cirugías, terapias y medicamentos.",
         "disability": "Discapacidad",
         "disabilityDesc": "Pagos por discapacidad permanente o temporal.",
         "retraining": "Reentrenamiento",
         "retrainingDesc": "Vales para capacitación en nuevas habilidades si no puede regresar al mismo puesto."
       },
       "filing": {
-        "title": "Presentación de su Reclamación",
-        "description": "El tiempo es crítico en los casos de compensación de trabajadores. Siga estos pasos para proteger su reclamación:",
-        "step1": "Informe la lesión a su empleador de inmediato.",
-        "step2": "Busque una evaluación médica de un proveedor certificado.",
-        "step3": "Contacte a nuestra oficina para presentar un formulario formal DWC-1.",
-        "step4": "Documente todos los síntomas e interacciones del tratamiento."
+        "title": "Presentación de su Reclamo",
+        "description": "El tiempo es crítico en los casos de compensación laboral. Siga estos pasos para proteger su reclamo:",
+        "step1": "Reporte la lesión a su empleador de inmediato.",
+        "step2": "Busque evaluación médica de un proveedor certificado.",
+        "step3": "Contacte nuestra oficina para presentar un formulario formal DWC-1.",
+        "step4": "Documente todos los síntomas e interacciones de tratamiento."
       }
     },
     "subPages": {
       "asbestos": {
         "metadata": {
-          "title": "Litigios de Asbesto y Mesotelioma | Osbelia Castillo",
-          "description": "Defensa legal experta para víctimas de exposición al asbesto. Responsabilizamos a las corporaciones por fallas en la salud ocupacional. Consulta gratuita."
+          "title": "Litigación de Asbesto y Mesotelioma | Osbelia Castillo",
+          "description": "Defensoría legal experta para víctimas de exposición al asbesto. Hacemos responsables a las corporaciones por fallas en salud ocupacional. Consulta gratuita."
         },
         "hero": {
           "prestige": "Agravio Tóxico y Exposición",
           "title": "Asbesto y",
           "subtitle": "Mesotelioma",
-          "description": "Máxima defensa para las víctimas de toxinas ambientales. Responsabilizamos a las entidades industriales y corporativas por las fallas en la protección de trabajadores y familias.",
-          "alt": "Abogada Osbelia Castillo - Experta en litigios de asbesto y mesotelioma"
+          "description": "Máxima defensoría para víctimas de toxinas ambientales. Hacemos responsables a entidades industriales y corporativas por no proteger a trabajadores y familias.",
+          "alt": "Abogada Osbelia Castillo - Experta en litigación de asbesto y mesotelioma"
         },
         "content": {
           "section1": {
             "title": "Justicia por Exposición Ocupacional",
-            "p1": "La exposición al asbesto puede provocar condiciones de salud devastadoras, que a menudo aparecen décadas después de que se ocultara la verdad.",
-            "p2": "Entendemos la naturaleza especializada de las reclamaciones por mesotelioma y luchamos por los recursos que su familia necesita."
+            "p1": "La exposición al asbesto puede provocar condiciones de salud devastadoras, que a menudo aparecen décadas después de que los empleadores y fabricantes ocultaran la verdad.",
+            "p2": "Entendemos la naturaleza especializada de los reclamos por mesotelioma y luchamos por los recursos que su familia necesita."
           },
           "section2": {
-            "title": "Litigios de Agravios Tóxicos",
+            "title": "Litigación Compleja de Agravios Tóxicos",
             "items": {
-              "item1": "Fideicomisos de Asbesto",
-              "item2": "Acelerando la recuperación a través de fideicomisos de bancarrota de corporaciones responsables.",
-              "item3": "Acceso a Especialistas",
-              "item4": "Conectando a las víctimas con oncólogos y expertos pulmonares líderes para su diagnóstico.",
+              "item1": "Reclamos de Fideicomiso de Asbesto",
+              "item2": "Acelerando la recuperación a través de fideicomisos de bancarrota establecidos por corporaciones responsables.",
+              "item3": "Acceso a Especialistas Médicos",
+              "item4": "Conectando a las víctimas con oncólogos y expertos pulmonares líderes para diagnóstico y cuidado.",
               "item5": "Negligencia Industrial",
-              "item6": "Responsabilizando a las empresas por condiciones de trabajo inseguras y exposición peligrosa."
+              "item6": "Haciendo responsables a las empresas de construcción y manufactura por condiciones de trabajo inseguras."
             }
           },
           "section3": {
-            "title": "Defensa de por Vida",
-            "p1": "Asegurando acuerdos a largo plazo que cubran las extensas necesidades médicas y la pérdida de consorcio."
+            "title": "Defensoría de por Vida",
+            "p1": "Asegurando acuerdos a largo plazo que cubran necesidades médicas extensas y pérdida de consorcio."
           },
-          "quote": "Los casos de mesotelioma son altamente técnicos. Contamos con la experiencia y la red de expertos necesarias para manejar estos complejos estándares de evidencia."
+          "quote": "Los casos de mesotelioma son altamente técnicos. Contamos con la experiencia y la red de expertos necesaria para manejar los complejos estándares probatorios de la ley de agravios tóxicos."
+        }
+      },
+      "rolloverAccidents": {
+        "metadata": {
+          "title": "Abogado de Accidentes de Volcamiento en Oxnard | Osbelia Castillo | Lesiones Personales",
+          "description": "¿Lesionado en un volcamiento de vehículo en Oxnard? Las SUVs y camiones son de alto riesgo. Usamos más de 50 años de experiencia para hacer responsables a conductores y fabricantes negligentes. Consulta gratuita."
+        },
+        "hero": {
+          "prestige": "Litigación de Colisiones de Alto Impacto",
+          "title": "Accidentes de",
+          "subtitle": "Volcamiento",
+          "description": "Los vehículos con un centro de gravedad alto, como las SUVs y camiones, son propensos a volcamientos catastróficos. Ofrecemos defensa legal de élite para asegurar justicia por lesiones que alteran la vida.",
+          "alt": "Abogada Osbelia Castillo - Experta en reclamos de accidentes de volcamiento"
+        },
+        "content": {
+          "section1": {
+            "title": "La Física de la Negligencia en Volcamientos",
+            "p1": "Los accidentes de volcamiento se encuentran entre los más peligrosos en las carreteras de Oxnard. Las SUVs, camiones comerciales y de 18 ruedas tienen un centro de gravedad alto, lo que los hace susceptibles a volcarse si un conductor acelera en curvas o actúa de manera temeraria. Cuando estos accidentes ocurren, la fuerza involucrada suele provocar traumas devastadores.",
+            "p2": "La Oficina Legal de Osbelia Castillo investiga la causa principal del volcamiento: si fue error del conductor, un defecto mecánico o carreteras mal diseñadas. Usamos nuestra perspectiva de defensa para anticipar cómo las aseguradoras intentarán culpar a la víctima y detenemos esas tácticas antes de que afecten su reclamo."
+          },
+          "section2": {
+            "title": "Responsabilidad y Recuperación por Trauma Severo",
+            "items": {
+              "item1": "Responsabilidad de SUVs y Camiones",
+              "item2": "Haciendo responsables a los conductores de vehículos de perfil alto por no tener precaución en las curvas.",
+              "item3": "Litigación de Lesiones Catastróficas",
+              "item4": "Representando a víctimas que sufren parálisis, lesiones cerebrales traumáticas y daños espinales complejos.",
+              "item5": "Búsqueda de Daños Punitivos",
+              "item6": "Buscando compensación adicional para casos que involucran negligencia grave o comportamiento temerario evidente."
+            }
+          },
+          "section3": {
+            "title": "Recopilación Agresiva de Evidencia",
+            "p1": "Probar la responsabilidad en un volcamiento requiere documentación meticulosa. Recopilamos declaraciones de testigos, informes policiales y datos de reconstrucción de accidentes para construir un caso sólido. Nuestra meta es asegurar que usted reciba el alivio financiero total por facturas médicas, salarios perdidos y angustia emocional."
+          },
+          "quote": "Un volcamiento ocurre en segundos, pero el impacto dura toda la vida. Luchamos para asegurar que las aseguradoras respeten el verdadero valor de su restauración."
+        }
+      },
+      "underinsuredMotorist": {
+        "metadata": {
+          "title": "Abogado de Reclamos de Conductores con Seguro Insuficiente en Oxnard | Osbelia Castillo",
+          "description": "¿Lesionado por un conductor con poco o nada de seguro? Le ayudamos a maximizar la recuperación a través de pólizas UM/UIM. No permita que su aseguradora minimice su reclamo. Consulta gratuita."
+        },
+        "hero": {
+          "prestige": "Defensa del Asegurado",
+          "title": "Reclamos de",
+          "subtitle": "Conductores UM/UIM",
+          "description": "La ley de California exige que las aseguradoras ofrezcan protección contra conductores sin seguro. Si su propia compañía se niega a pagar el valor total de su cobertura, estamos aquí para hacerlos responsables.",
+          "alt": "Abogada Osbelia Castillo - Experta en reclamos de conductores sin seguro o con seguro insuficiente"
+        },
+        "content": {
+          "section1": {
+            "title": "Protegiendo su Derecho a la Cobertura que Usted Pagó",
+            "p1": "En California, la cobertura de conductor sin seguro o con seguro insuficiente (UM/UIM) es una salvaguarda legal crítica. Muchos conductores solo tienen el seguro mínimo, que rara vez cubre lesiones catastróficas. Cuando lo choca un conductor sin seguro o uno que se da a la fuga, su propia póliza debe actuar como su escudo.",
+            "p2": "La Oficina Legal de Osbelia Castillo entiende que incluso su propia aseguradora es una entidad con fines de lucro que puede intentar minimizar su acuerdo. Tratamos estos reclamos con las mismas estrategias de litigio agresivo utilizadas en demandas a terceros, garantizando que su aseguradora cumpla con sus obligaciones contractuales."
+          },
+          "section2": {
+            "title": "Navegando Niveles de Pólizas Complejas",
+            "items": {
+              "item1": "Lesiones Corporales sin Seguro (UMBI)",
+              "item2": "Asegurando compensación por facturas médicas y trauma cuando el conductor culpable no tiene seguro.",
+              "item3": "Conductor con Seguro Insuficiente (UIM)",
+              "item4": "Cerrando la brecha cuando los límites de seguro del otro conductor son demasiado bajos para cubrir sus daños totales.",
+              "item5": "Recuperación por Choque y Fuga",
+              "item6": "Persiguiendo reclamos agresivamente cuando la parte responsable no es identificada tras una colisión."
+            }
+          },
+          "section3": {
+            "title": "Maximizando su Compensación",
+            "p1": "Probar la culpabilidad sigue siendo necesario en los reclamos UM/UIM. Realizamos investigaciones profundas para establecer la negligencia, evitando que su aseguradora use tecnicismos para negarle el alivio financiero por gastos médicos, salarios perdidos y discapacidad permanente."
+          },
+          "quote": "Su póliza UM/UIM es una red de seguridad que ya pagó. Nuestra misión es asegurar que esa red sea lo suficientemente fuerte para sostener su futuro."
         }
       },
       "brainSpinal": {
         "metadata": {
-          "title": "Abogados de Lesiones de Cerebro y Columna | Osbelia Castillo",
+          "title": "Abogados de Lesiones Cerebrales y Espinales | Osbelia Castillo",
           "description": "Las lesiones catastróficas requieren representación legal experta. Luchamos por el cuidado a largo plazo y la seguridad financiera que su familia merece. Consulta gratuita."
         },
         "hero": {
           "prestige": "Lesiones Catastróficas",
-          "title": "Lesiones de Cerebro",
-          "subtitle": "y Columna",
-          "description": "Las lesiones que alteran la vida requieren una defensa dedicada. Luchamos para asegurar el cuidado a largo plazo y los recursos financieros que su familia necesita para el camino que tienen por delante.",
-          "alt": "Abogada Osbelia Castillo - Especialista en lesiones catastróficas de cerebro y columna"
+          "title": "Lesiones",
+          "subtitle": "Cerebrales y Espinales",
+          "description": "Las lesiones que alteran la vida requieren una defensoría dedicada. Luchamos para asegurar el cuidado a largo plazo y los recursos financieros que su familia necesita para el camino por delante.",
+          "alt": "Abogada Osbelia Castillo - Especialista en lesiones cerebrales y espinales catastróficas"
         },
         "content": {
           "section1": {
             "title": "Defensa Compasiva para Traumas Graves",
-            "p1": "Las lesiones de cerebro y médula espinal a menudo implican cambios permanentes en la calidad de vida.",
-            "p2": "Nuestra firma entiende las complejidades médicas y los costos de por vida asociados con estos eventos catastróficos."
+            "p1": "Las lesiones cerebrales y de la médula espinal a menudo implican cambios permanentes en la calidad de vida.",
+            "p2": "Nuestra firma comprende las complejidades médicas y los costos de por vida asociados con estos eventos catastróficos."
           },
           "section2": {
             "title": "Estrategia de Recuperación Integral",
             "items": {
               "item1": "Red de Expertos Médicos",
-              "item2": "Colaborando con neurólogos y planificadores de cuidados para documentar el alcance total de sus necesidades.",
-              "item3": "Costos de Cuidado Futuro",
-              "item4": "Calculando décadas de gastos médicos, terapia y equipo adaptativo necesario para su vida diaria.",
+              "item2": "Colaborando con neurólogos y planificadores de cuidado de vida para documentar el alcance total de sus necesidades.",
+              "item3": "Costeo de Cuidados Futuros",
+              "item4": "Calculando décadas de gastos médicos, terapia y equipo adaptativo.",
               "item5": "Apoyo Vocacional",
               "item6": "Abordando el impacto en su capacidad para trabajar y proporcionando recursos para el reentrenamiento."
             }
           },
           "section3": {
             "title": "Máxima Recuperación Legal",
-            "p1": "Uso de litigios agresivos para asegurar que las compañías de seguros paguen por el cuidado de por vida requerido."
+            "p1": "Usando litigios agresivos para asegurar que las compañías de seguros paguen por la vida de cuidados requeridos."
           },
           "quote": "No solo luchamos por un acuerdo; luchamos por la seguridad a largo plazo y la dignidad de su familia tras una lesión que altera la vida."
+        }
+      },
+      "cellPhoneAccidents": {
+        "metadata": {
+          "title": "Abogado de Distracción al Volante y Accidentes por Celular | Oxnard",
+          "description": "¿Lesionado por un conductor enviando mensajes de texto? Nuestro equipo en Oxnard hace responsables a conductores distraídos mediante análisis forense digital y litigación agresiva. Consulta gratuita."
+        },
+        "hero": {
+          "prestige": "Litigación por Distracción al Volante",
+          "title": "Uso de Celular",
+          "subtitle": "y Negligencia del Conductor",
+          "description": "Estudios demuestran que el uso del celular afecta la conducción más que el alcohol. Tratamos esta negligencia con la seriedad que merece, luchando por recuperar el valor total de su reclamo.",
+          "alt": "Abogada Osbelia Castillo - Experta en accidentes de auto por distracción al volante"
+        },
+        "content": {
+          "section1": {
+            "title": "La Epidemia de la Distracción al Volante",
+            "p1": "Cada año, más de 1.6 millones de choques involucran a conductores distraídos por mensajes de texto o dispositivos móviles. En Oxnard y en todo el condado de Ventura, estas tragedias evitables ocurren porque los conductores priorizan las pantallas sobre la seguridad.",
+            "p2": "La Oficina Legal de Osbelia Castillo utiliza un enfoque de 'Negligencia Per Se'. Dado que la ley de California prohíbe el uso de dispositivos portátiles, un conductor que viola esta ley suele ser considerado negligente automáticamente. Investigamos registros telefónicos y marcas de tiempo para probar que la otra parte estaba distraída en el momento del impacto."
+          },
+          "section2": {
+            "title": "Estrategia Legal y Rendición de Cuentas",
+            "items": {
+              "item1": "Investigación Forense Digital",
+              "item2": "Solicitando registros móviles para establecer la línea de tiempo de la distracción y probar la responsabilidad.",
+              "item3": "Reclamos de Negligencia Per Se",
+              "item4": "Aprovechando las estrictas leyes de dispositivos electrónicos de California para simplificar el camino hacia la recuperación.",
+              "item5": "Defensoría Bilingüe de Víctimas",
+              "item6": "Garantizando que nuestra comunidad de habla hispana reciba representación de élite contra las grandes aseguradoras."
+            }
+          },
+          "section3": {
+            "title": "Leyes Estrictas de Electrónicos en California",
+            "p1": "California exige equipos de manos libres para todos los adultos y prohíbe cualquier uso de dispositivos para conductores menores de 18 años. Si un conductor estaba escribiendo, enviando o leyendo un texto, su negligencia es clara. Le guiamos en el proceso de hacerlo financieramente responsable por sus gastos médicos y trauma."
+          },
+          "quote": "Distraerse al volante es una elección. Nuestra misión es enviar un mensaje claro mediante litigios agresivos: el uso del celular y la conducción no se mezclan."
         }
       },
       "defectiveProducts": {
         "metadata": {
           "title": "Abogados de Responsabilidad por Productos Defectuosos | Osbelia Castillo",
-          "description": "¿Lesionado por un producto peligroso? Nos enfrentamos a grandes corporaciones para recuperar daños por defectos de fabricación y diseño. Consulta gratuita."
+          "description": "¿Lesionado por un producto peligroso? Enfrentamos a las grandes corporaciones para recuperar daños por defectos de fabricación y diseño. Consulta gratuita."
         },
         "hero": {
-          "prestige": "Responsabilidad del Producto",
+          "prestige": "Responsabilidad por Productos",
           "title": "Productos",
           "subtitle": "Defectuosos",
-          "description": "Cuando las corporaciones anteponen los beneficios a las personas, las responsabilizamos. Nuestra firma maneja casos complejos de responsabilidad por productos para recuperar daños por lesiones causadas por bienes de consumo inseguros.",
+          "description": "Cuando las corporaciones anteponen las ganancias a las personas, las hacemos responsables. Nuestra firma maneja casos complejos de responsabilidad por productos para recuperar daños por lesiones causadas por bienes de consumo inseguros.",
           "alt": "Abogada Osbelia Castillo - Especialista en productos defectuosos y responsabilidad"
         },
         "content": {
           "section1": {
             "title": "Justicia por Productos Inseguros",
-            "p1": "Al comprar un producto, tiene derecho a esperar que sea seguro para el uso previsto.",
-            "p2": "Ya sea un componente de automóvil defectuoso, un electrodoméstico peligroso o un medicamento inseguro, nos enfrentamos a las grandes corporaciones."
+            "p1": "Al comprar un producto, usted tiene el derecho de esperar que sea seguro para el uso previsto.",
+            "p2": "Ya sea una pieza de auto defectuosa, un electrodoméstico peligroso o un medicamento inseguro, nos enfrentamos a las grandes corporaciones responsables de su daño."
           },
           "section2": {
             "title": "Responsabilidad y Rendición de Cuentas",
             "items": {
-              "item1": "Responsabilidad Estricta",
-              "item2": "Responsabilizando a los fabricantes por defectos de diseño y fabricación del producto.",
+              "item1": "Reclamos de Responsabilidad Objetiva",
+              "item2": "Haciendo responsables a los fabricantes por defectos de diseño y fabricación.",
               "item3": "Seguridad del Consumidor",
               "item4": "Luchando contra productos peligrosos que carecen de las advertencias de seguridad adecuadas.",
               "item5": "Falla de Autopartes",
-              "item6": "Casos que involucran airbags, neumáticos defectuosos y fallas mecánicas graves."
+              "item6": "Casos que involucran bolsas de aire, neumáticos y fallas mecánicas defectuosas."
             }
           },
           "section3": {
-            "title": "Responsabilidad Corporativa",
-            "p1": "Demostrando que una empresa conocía los defectos pero no emitió una retirada o advertencia oportuna."
+            "title": "Rendición de Cuentas Corporativa",
+            "p1": "Probando que una empresa conocía los defectos pero no emitió un retiro del mercado."
           },
-          "quote": "Las farmacéuticas y los fabricantes deben asegurar que sus productos no dañen. Los responsabilizamos cuando priorizan ganancias sobre seguridad."
+          "quote": "Las compañías farmacéuticas y los fabricantes tienen el deber de garantizar que sus productos no dañen a los consumidores. Los hacemos responsables cuando priorizan las ganancias sobre la seguridad del paciente."
         }
       },
       "dogBites": {
         "metadata": {
           "title": "Abogados de Lesiones por Mordedura de Perro | Osbelia Castillo",
-          "description": "Las leyes de responsabilidad estricta de California protegen a las víctimas de mordeduras de perro. Aseguramos compensación por atención médica y trauma emocional. Consulta gratuita."
+          "description": "Las leyes de responsabilidad objetiva de California protegen a las víctimas de mordeduras de perro. Aseguramos compensación por atención médica y trauma emocional. Consulta gratuita."
         },
         "hero": {
           "prestige": "Responsabilidad Animal",
-          "title": "Lesiones por",
-          "subtitle": "Mordedura de Perro",
-          "description": "Responsabilizando a los dueños por ataques de animales. Nos especializamos en asegurar la compensación por el trauma físico y emocional causado por las mordeduras de perro.",
-          "alt": "Abogada Osbelia Castillo - Especialista en derecho de lesiones por mordedura de perro"
+          "title": "Mordedura",
+          "subtitle": "de Perro",
+          "description": "Haciendo responsables a los dueños por ataques de animales. Nos especializamos en asegurar compensación por el trauma físico y emocional causado por las mordeduras de perro.",
+          "alt": "Abogada Osbelia Castillo - Especialista en leyes de lesiones por mordedura de perro"
         },
         "content": {
           "section1": {
-            "title": "Responsabilidad Estricta por Mordedura de Perro",
-            "p1": "La ley de California sigue una regla de responsabilidad estricta para las mordeduras de perro.",
-            "p2": "Le ayudamos a navegar el proceso de reclamación contra el seguro de propietarios para asegurar su recuperación integral."
+            "title": "Responsabilidad Objetiva por Mordeduras de Perro",
+            "p1": "La ley de California sigue la regla de responsabilidad objetiva para las mordeduras de perro. Esto significa que los dueños son responsables de las lesiones que sus mascotas causen.",
+            "p2": "Le ayudamos a navegar el proceso de reclamo contra el seguro de propietarios para cubrir su recuperación."
           },
           "section2": {
             "title": "Abogando por su Recuperación",
             "items": {
-              "item1": "Cicatrización y Desfiguración",
-              "item2": "Abogando por las víctimas que requieren cirugía plástica o cuidado de heridas a largo plazo.",
-              "item3": "Ley de Responsabilidad",
-              "item4": "Aprovechando las leyes claras de California para responsabilizar plenamente a los dueños de animales.",
+              "item1": "Cicatrices y Desfiguración",
+              "item2": "Abogando por víctimas que requieren cirugía plástica o cuidado de heridas a largo plazo.",
+              "item3": "Responsabilidad Objetiva Estatal",
+              "item4": "Aprovechando las leyes claras de California para hacer responsables a los dueños de animales.",
               "item5": "Trauma Emocional",
-              "item6": "Luchando por la compensación del impacto psicológico y el miedo que suelen causar los ataques."
+              "item6": "Luchando por compensación por el impacto psicológico y el miedo causado por los ataques."
             }
           },
           "section3": {
-            "title": "Infección y Cuidado Crónico",
-            "p1": "Asegurando que su acuerdo cubra todos los tratamientos médicos y la terapia especializada requerida."
+            "title": "Infección y Cuidado a Largo Plazo",
+            "p1": "Asegurando que su acuerdo cubra todos los tratamientos médicos, incluida la terapia especializada."
           },
-          "quote": "Los ataques de animales son aterradores y pueden provocar daños permanentes. Gestionamos el seguro para que usted pueda sanar."
+          "quote": "Los ataques de animales son aterradores y pueden provocar daños permanentes. Manejamos a las aseguradoras para que usted pueda enfocarse en sanar."
         }
       },
       "sexualAbuse": {
         "metadata": {
-          "title": "Abogados de Abuso Sexual y Estupro | Osbelia Castillo",
-          "description": "Defensa legal compasiva y confidencial para sobrevivientes de abuso y negligencia institucional. Luchamos por su restauración y justicia."
+          "title": "Abogados de Abuso y Molestación Sexual | Osbelia Castillo",
+          "description": "Defensoría legal compasiva y confidencial para sobrevivientes de abuso y negligencia institucional. Luchamos por su restauración y justicia."
         },
         "hero": {
-          "prestige": "Defensa Sensible",
-          "title": "Abuso Sexual y",
-          "subtitle": "Estupro",
-          "description": "Búsqueda de justicia suave pero agresiva. Brindamos un espacio seguro y una poderosa protección legal a los sobrevivientes de abusos y negligencia institucional.",
+          "prestige": "Defensoría Sensible",
+          "title": "Abuso y",
+          "subtitle": "Molestación Sexual",
+          "description": "Búsqueda de justicia suave pero agresiva. Brindamos un espacio seguro y una poderosa protección legal para sobrevivientes de abuso y negligencia institucional.",
           "alt": "Abogada Osbelia Castillo - Defensora compasiva para sobrevivientes de abuso"
         },
         "content": {
           "section1": {
-            "title": "Responsabilizando a las Instituciones",
-            "p1": "Más allá del abusador, las instituciones como escuelas, organizaciones religiosas y lugares de trabajo a menudo tienen la responsabilidad de no haber evitado el daño.",
-            "p2": "Nos dedicamos a responsabilizar a estas poderosas entidades y a asegurar los recursos que los sobrevivientes necesitan para sanar y restaurarse."
+            "title": "Haciendo Responsables a las Instituciones",
+            "p1": "Más allá del abusador, instituciones como escuelas, organizaciones religiosas y lugares de trabajo suelen tener la responsabilidad por no prevenir el daño.",
+            "p2": "Estamos dedicados a hacer responsables a estas entidades poderosas y asegurar los recursos que los sobrevivientes necesitan para su sanación y restauración."
           },
           "section2": {
             "title": "Justicia Civil Compasiva",
             "items": {
               "item1": "Negligencia Institucional",
-              "item2": "Responsabilizando a las organizaciones por la contratación y supervisión negligente, y por no actuar oportunamente.",
-              "item3": "Camino de la Justicia Civil",
-              "item4": "Aprovechando el sistema de tribunales civiles para lograr la restauración financiera y el cierre necesario.",
-              "item5": "Confidencialidad Prioritaria",
-              "item6": "Adhesión estricta a la privacidad y estrategias legales centradas en el sobreviviente para proteger su identidad."
+              "item2": "Haciendo responsables a las organizaciones por contratación negligente, supervisión deficiente y fallas en actuar.",
+              "item3": "Camino de Justicia Civil",
+              "item4": "Aprovechando el sistema judicial civil para lograr restauración financiera y cierre.",
+              "item5": "Confidencialidad Primero",
+              "item6": "Adherencia estricta a la privacidad y estrategias centradas en el sobreviviente para proteger su identidad."
             }
           },
           "section3": {
             "title": "Protección Poderosa",
-            "p1": "Litigio agresivo para asegurar que los sobrevivientes no sean silenciados y que sus voces sean escuchadas con fuerza."
+            "p1": "Litigación agresiva para asegurar que los sobrevivientes no sean silenciados y que sus voces sean escuchadas."
           },
-          "quote": "No tiene por qué enfrentarse a esto solo. Brindamos la fuerza legal y la empatía personal necesarias para navegar estos casos difíciles."
+          "quote": "No tiene que enfrentar esto solo. Proporcionamos la fuerza legal y la empatía personal requeridas para navegar estos casos difíciles."
         }
       },
       "slipAndFall": {
         "metadata": {
           "title": "Abogados de Accidentes de Resbalones y Caídas | Osbelia Castillo",
-          "description": "¿Lesionado en la propiedad de otra persona? Nuestros abogados de resbalones y caídas de Santa Bárbara responsabilizan a los dueños de propiedades negligentes. Consulta gratuita."
+          "description": "¿Lesionado en la propiedad de otra persona? Nuestros abogados de resbalones y caídas en Santa Bárbara hacen responsables a los dueños negligentes. Consulta gratuita."
         },
         "hero": {
           "prestige": "Especialistas en Lesiones Personales",
-          "title": "Abogados de Resbalones",
-          "subtitle": "y Caídas",
-          "description": "Recuperando justicia para las víctimas de responsabilidad de locales en Santa Bárbara, Oxnard y Ventura.",
-          "alt": "Abogada Osbelia Castillo - Experta en leyes de resbalones y caídas y responsabilidad de locales"
+          "title": "Abogados de",
+          "subtitle": "Resbalones y Caídas",
+          "description": "Recuperando justicia para víctimas de responsabilidad de locales en Santa Bárbara, Oxnard y Ventura.",
+          "alt": "Abogada Osbelia Castillo - Experta en leyes de resbalones, caídas y responsabilidad de locales"
         },
         "content": {
           "section1": {
-            "title": "Responsabilidad de los Locales",
-            "p1": "La responsabilidad de los locales surge cuando una lesión es causada por una condición insegura o defectuosa en la propiedad de alguien.",
-            "p2": "Los propietarios tienen el deber legal de mantener su propiedad segura para los visitantes y advertir sobre peligros potenciales."
+            "title": "Responsabilidad de Locales",
+            "p1": "La responsabilidad de locales surge cuando una lesión es causada por una condición insegura o defectuosa en la propiedad de alguien.",
+            "p2": "Los propietarios tienen el deber legal de mantener su propiedad segura para los visitantes y advertir sobre cualquier peligro potencial."
           },
           "section2": {
-            "title": "Probando la Negligencia en la Propiedad",
+            "title": "Probando Negligencia en la Propiedad",
             "items": {
               "item1": "Condiciones Peligrosas",
-              "item2": "Pisos mojados, alfombras rotas y mala iluminación son causas comunes de reclamaciones de responsabilidad.",
+              "item2": "Aceras rotas, mala iluminación y pisos mojados son causas comunes de reclamos de responsabilidad de locales.",
               "item3": "Deber del Propietario",
-              "item4": "Los dueños deben mantener entornos seguros y advertir a los visitantes sobre cualquier peligro conocido.",
-              "item5": "Prueba de Conocimiento",
-              "item6": "Demostramos que el dueño conocía o debería haber conocido el riesgo y no lo solucionó a tiempo."
+              "item4": "Los propietarios deben mantener entornos seguros y advertir a los visitantes sobre peligros conocidos.",
+              "item5": "Probando el Conocimiento",
+              "item6": "Demostramos que el propietario conocía o debería haber conocido el riesgo y no lo solucionó."
             }
           },
           "section3": {
-            "title": "Litigio por Negligencia",
-            "p1": "Responsabilizando a los administradores y dueños de propiedades negligentes por su recuperación médica."
+            "title": "Litigación por Negligencia",
+            "p1": "Haciendo responsables a los administradores y dueños de propiedades negligentes por su recuperación médica."
           },
-          "quote": "Los casos de responsabilidad de locales requieren investigación inmediata. Aseguramos la evidencia necesaria para probar el peligro."
+          "quote": "Los casos de responsabilidad de locales requieren investigación inmediata. Aseguramos la evidencia necesaria para demostrar que la propiedad era insegura."
+        }
+      },
+      "elderAbuse": {
+        "metadata": {
+          "title": "Abogados de Abuso de Ancianos y Dependientes | Santa Bárbara | Osbelia Castillo",
+          "description": "Protegiendo los derechos de personas mayores y adultos dependientes. Nuestros abogados en Santa Bárbara hacen responsables a hogares de ancianos y cuidadores por negligencia y abuso. Consulta gratuita."
+        },
+        "hero": {
+          "prestige": "Protegiendo a los Adultos Vulnerables",
+          "title": "Abuso de Ancianos",
+          "subtitle": "y Dependientes",
+          "description": "Cada individuo merece vivir con dignidad y seguridad. Cuando los cuidadores o instalaciones rompen la confianza, brindamos la defensa agresiva necesaria para proteger a sus seres queridos y asegurar justicia.",
+          "alt": "Abogada Osbelia Castillo - Experta en leyes de abuso de ancianos y cuidado de dependientes"
+        },
+        "content": {
+          "section1": {
+            "title": "Defensa Compasiva para los Vulnerables",
+            "p1": "El abuso de ancianos y dependientes es una traición de confianza desgarradora que puede ocurrir en hogares de ancianos, centros de vida asistida o incluso dentro del hogar. Ya sea que el daño sea físico, emocional o financiero, las víctimas y sus familias merecen un equipo legal que actúe con urgencia y precisión.",
+            "p2": "Nuestra firma se dedica a descubrir la verdad detrás de la negligencia en las instalaciones. Investigamos cada detalle para hacer responsables a las partes por el daño causado a quienes a menudo no pueden hablar por sí mismos."
+          },
+          "section2": {
+            "title": "Reconociendo las Señales de Alerta",
+            "items": {
+              "item1": "Negligencia Física y Emocional",
+              "item2": "Lesiones inexplicables como llagas, fracturas de huesos o cambios drásticos y repentinos en el humor y la personalidad.",
+              "item3": "Explotación Financiera",
+              "item4": "Cambios repentinos en cuentas bancarias, propiedad desaparecida o cambios no autorizados en documentos legales y testamentos.",
+              "item5": "Negligencia Médica",
+              "item6": "Dosificación incorrecta de medicamentos, tratamientos omitidos o falta de provisión de un estándar razonable de cuidado."
+            }
+          },
+          "section3": {
+            "title": "Décadas de Servicio Dedicado",
+            "p1": "Con más de 50 años de experiencia legal colectiva, nuestros abogados poseen el conocimiento profundo requerido para navegar las complejidades de la ley de ancianos y la responsabilidad de instalaciones en toda California."
+          },
+          "quote": "Nuestros mayores merecen pasar sus años dorados con seguridad. Somos un escudo para aquellos que no pueden protegerse contra la tragedia de la negligencia."
         }
       },
       "bicycleAccidents": {
         "metadata": {
           "title": "Abogados de Accidentes de Bicicleta | Osbelia Castillo",
-          "description": "¿Lesionado mientras montaba en bicicleta? Nuestros abogados de accidentes de bicicleta de Santa Bárbara protegen sus derechos y luchan por un acuerdo completo de conductores negligentes."
+          "description": "¿Lesionado mientras pedaleaba? Nuestros abogados en Santa Bárbara protegen sus derechos y luchan por un acuerdo total contra conductores negligentes."
         },
         "hero": {
           "prestige": "Accidentes de Vehículos",
-          "title": "Accidentes de",
-          "subtitle": "Bicicleta",
-          "description": "Los ciclistas merecen seguridad en cada carretera. Representamos a ciclistas heridos por conductores negligentes, asegurando los recursos necesarios para su recuperación.",
-          "alt": "Abogada Osbelia Castillo - Defensora de las víctimas de accidentes de bicicleta"
+          "title": "Accidentes",
+          "subtitle": "de Bicicleta",
+          "description": "Los ciclistas merecen seguridad en cada carretera. Representamos a ciclistas lesionados por conductores negligentes, asegurando los recursos necesarios para su recuperación.",
+          "alt": "Abogada Osbelia Castillo - Defensora de víctimas de accidentes de bicicleta"
         },
         "content": {
           "section1": {
             "title": "Defendiendo a los Ciclistas",
-            "p1": "Los accidentes de bicicleta a menudo involucran consideraciones legales únicas, incluyendo el diseño de la carretera y la visibilidad del conductor.",
-            "p2": "Tenemos la experiencia para probar la negligencia del conductor en casos complejos de lesiones de ciclistas."
+            "p1": "Los accidentes de bicicleta suelen implicar consideraciones legales únicas, incluyendo el diseño de la carretera y la visibilidad del conductor.",
+            "p2": "Contamos con la experiencia para demostrar la negligencia del conductor en casos complejos de lesiones a ciclistas."
           },
           "section2": {
-            "title": "Defensa de la Seguridad Vial",
+            "title": "Defensa de la Seguridad Ciclista",
             "items": {
-              "item1": "Abogacía Vial",
-              "item2": "Responsabilizando a los conductores por no compartir la carretera o violar las leyes de carriles para bicicletas.",
+              "item1": "Defensoría Vial",
+              "item2": "Haciendo responsables a los conductores por no compartir la carretera o violar las leyes de carriles para bicicletas.",
               "item3": "Apoyo Médico",
-              "item4": "Asegurando que reciba atención médica de primer nivel para fracturas, traumas o abrasiones graves.",
+              "item4": "Garantizando que reciba atención médica de primer nivel para fracturas, traumas en la cabeza o raspaduras.",
               "item5": "Enfoque en Responsabilidad",
-              "item6": "Demostrar la distracción del conductor o no ceder el paso como la causa principal de la colisión."
+              "item6": "Probando la distracción del conductor o la falta de ceder el paso como causa principal de la colisión."
             }
           },
           "section3": {
             "title": "Máxima Recuperación",
-            "p1": "Buscando compensación por salarios perdidos, equipo médico especializado y rehabilitación a largo plazo."
+            "p1": "Buscando compensación por salarios perdidos, equipo médico y rehabilitación."
           },
-          "quote": "Los ciclistas son vulnerables a la negligencia de los conductores. Brindamos la defensa agresiva necesaria para asegurar su futuro."
+          "quote": "Los ciclistas son vulnerables ante la negligencia del conductor. Brindamos la defensa agresiva necesaria para asegurar su futuro."
         }
       },
       "cellPhone": {
         "metadata": {
-          "title": "Abogados de Accidentes por Conducción Distraída | Osbelia Castillo",
-          "description": "El uso del teléfono celular causa accidentes devastadores. Responsabilizamos a los conductores distraídos y aseguramos una compensación por sus lesiones. Consulta gratuita."
+          "title": "Abogados de Accidentes por Distracción al Volante | Osbelia Castillo",
+          "description": "El uso del celular causa accidentes devastadores. Hacemos responsables a los conductores distraídos y aseguramos compensación por sus lesiones. Consulta gratuita."
         },
         "hero": {
           "prestige": "Accidentes de Vehículos",
-          "title": "Negligencia por Uso",
-          "subtitle": "de Celular",
-          "description": "La conducción distraída es una elección que conduce a la tragedia. Responsabilizamos a los conductores por poner en peligro a otros al priorizar sus pantallas sobre la carretera.",
-          "alt": "Abogada Osbelia Castillo - Especialista en negligencia por conducción distraída"
+          "title": "Negligencia",
+          "subtitle": "por Uso de Celular",
+          "description": "Distraerse al volante es una elección que lleva a la tragedia. Hacemos responsables a los conductores por poner en peligro a otros al priorizar sus pantallas sobre el camino.",
+          "alt": "Abogada Osbelia Castillo - Especialista en negligencia por distracción al volante"
         },
         "content": {
-          "title": "Combatiendo la Conducción Distraída",
-          "description": "El uso del teléfono celular es una causa principal de accidentes graves. Nos especializamos en descubrir evidencia de distracción digital.",
+          "title": "Combatiendo la Distracción al Volante",
+          "description": "El uso del celular es una causa principal de accidentes graves. Nos especializamos en descubrir la evidencia necesaria para probar la distracción digital.",
           "forensics": "Forense Digital",
-          "forensicsDesc": "Solicitud de registros telefónicos y análisis de marcas de tiempo para probar el uso del teléfono durante el choque.",
+          "forensicsDesc": "Solicitando registros telefónicos y analizando marcas de tiempo para probar el uso del teléfono durante la colisión.",
           "highImpact": "Responsabilidad de Alto Impacto",
-          "highImpactDesc": "Demostrando negligencia grave cuando los conductores violan intencionalmente las leyes de conducción distraída.",
+          "highImpactDesc": "Probando negligencia grave cuando los conductores violan intencionalmente las leyes de distracción al volante.",
           "victimRights": "Derechos de las Víctimas",
-          "victimRightsDesc": "Asegurando que reciba compensación total por tratamiento médico, daños a la propiedad y trauma emocional.",
+          "victimRightsDesc": "Garantizando que reciba compensación total por tratamiento médico, daños a la propiedad y trauma.",
           "handsFree": "Violaciones de Manos Libres",
-          "handsFreeDesc": "Identificando cuándo los conductores fallaron en utilizar el equipo de seguridad legalmente requerido.",
+          "handsFreeDesc": "Identificando cuándo los conductores fallaron en usar el equipo de seguridad exigido legalmente.",
           "section1": {
-            "title": "Combatiendo la Conducción Distraída",
-            "p1": "El uso del teléfono celular es una causa principal de accidentes graves. Nos especializamos en descubrir evidencia de distracción digital.",
-            "p2": "La conducción distraída es una elección que conduce a la tragedia. Responsabilizamos a los conductores por priorizar sus pantallas."
+            "title": "Combatiendo la Distracción al Volante",
+            "p1": "El uso del celular es una causa principal de accidentes graves. Nos especializamos en descubrir la evidencia necesaria para probar la distracción digital.",
+            "p2": "Distraerse al volante es una elección que lleva a la tragedia. Hacemos responsables a los conductores por priorizar sus pantallas sobre el camino."
           },
           "section2": {
             "title": "Recuperación de Evidencia Digital",
             "items": {
               "item1": "Forense Digital",
-              "item2": "Solicitud de registros telefónicos y análisis de marcas de tiempo para probar el uso del teléfono durante el choque.",
+              "item2": "Solicitando registros telefónicos y analizando marcas de tiempo para probar el uso del teléfono durante la colisión.",
               "item3": "Responsabilidad de Alto Impacto",
-              "item4": "Demostrando negligencia grave cuando los conductores violan intencionalmente las leyes de conducción distraída.",
+              "item4": "Probando negligencia grave cuando los conductores violan intencionalmente las leyes de distracción al volante.",
               "item5": "Derechos de las Víctimas",
-              "item6": "Asegurando que reciba compensación total por tratamiento médico, daños a la propiedad y trauma emocional."
+              "item6": "Garantizando que reciba compensación total por tratamiento médico, daños a la propiedad y trauma."
             }
           },
           "section3": {
             "title": "Violaciones de Manos Libres",
-            "p1": "Identificando cuándo los conductores fallaron en utilizar el equipo de seguridad legalmente requerido."
+            "p1": "Identificando cuándo los conductores fallaron en usar el equipo de seguridad exigido legalmente."
           },
-          "quote": "La conducción distraída es una elección. Usamos forense digital para probar que el otro conductor no miraba la carretera."
+          "quote": "Distraerse al volante es una elección. Usamos forense digital para probar que el otro conductor no estaba mirando la carretera."
         }
       },
       "drunkDriving": {
         "metadata": {
-          "title": "Abogados de Accidentes por Conducción Ebria | Osbelia Castillo",
-          "description": "¿Víctima de un choque por DUI? Responsabilizamos a los conductores ebrios por sus decisiones imprudentes y luchamos por su máxima recuperación. Consulta gratuita."
+          "title": "Abogados de Accidentes por Conductor Ebrio | Osbelia Castillo",
+          "description": "¿Víctima de un choque por DUI? Hacemos responsables a los conductores ebrios por sus decisiones temerarias y luchamos por su máxima recuperación. Consulta gratuita."
         },
         "hero": {
           "prestige": "Accidentes de Vehículos",
-          "title": "Accidentes por",
-          "subtitle": "Conducción Ebria",
-          "description": "Responsabilizando a los conductores negligentes por sus decisiones imprudentes. Luchamos por la justicia y la máxima recuperación para las víctimas de colisiones por DUI.",
-          "alt": "Abogada Osbelia Castillo - Especialista en accidentes por DUI y negligencia imprudente"
+          "title": "Accidentes",
+          "subtitle": "por Conducción en Estado de Ebriedad",
+          "description": "Haciendo responsables a los conductores negligentes por sus decisiones temerarias. Luchamos por justicia y la máxima recuperación para víctimas de colisiones por DUI.",
+          "alt": "Abogada Osbelia Castillo - Especialista en accidentes por DUI y negligencia temeraria"
         },
         "content": {
-          "title": "Justicia para las Víctimas de DUI",
-          "description": "Cuando un conductor elige operar un vehículo bajo la influencia, está tomando una decisión que pone en peligro a todos.",
-          "whyHire": "Responsabilidad por DUI",
-          "whyHireDesc": "Los casos de conducción ebria requieren una estrategia legal específica para maximizar la recuperación, navegando implicaciones civiles y penales.",
+          "title": "Justicia para Víctimas de DUI",
+          "description": "Cuando un conductor opera bajo la influencia, pone en peligro a todos. Estamos comprometidos a asegurar la compensación que usted merece.",
+          "whyHire": "Rendición de Cuentas por DUI",
+          "whyHireDesc": "Los casos de conducción en estado de ebriedad requieren una estrategia legal específica para maximizar la recuperación. Navegamos tanto las implicaciones civiles como penales.",
           "punitive": "Daños Punitivos",
-          "punitiveDesc": "Búsqueda de compensación adicional para castigar el comportamiento imprudente y disuadir futuros incidentes.",
+          "punitiveDesc": "Buscando compensación adicional para castigar el comportamiento temerario y disuadir incidentes futuros.",
           "proof": "Prueba Rigurosa",
-          "proofDesc": "Utilizando informes policiales, pruebas de alcohol y relatos de testigos para construir un caso sólido e irrefutable.",
+          "proofDesc": "Usando informes policiales y registros médicos para construir un caso innegable contra el conductor negligente.",
           "fullLiability": "Responsabilidad Total",
-          "fullLiabilityDesc": "Responsabilizando plenamente al conductor ebrio de todos los gastos médicos y salarios perdidos.",
+          "fullLiabilityDesc": "Haciendo al conductor ebrio totalmente responsable de todos los gastos médicos y salarios perdidos.",
           "criminalCivil": "Penal vs. Civil",
-          "criminalCivilDesc": "Entendiendo cómo un caso penal de DUI impacta directamente en su reclamación por lesiones personales.",
+          "criminalCivilDesc": "Entendiendo cómo un caso penal por DUI impacta su reclamo por lesiones personales.",
           "section1": {
-            "title": "Justicia para las Víctimas de DUI",
-            "p1": "Cuando un conductor elige operar un vehículo bajo la influencia, está tomando una decisión que pone en peligro a todos.",
-            "p2": "Estamos comprometidos a asegurar la compensación que merece por sus lesiones y pérdidas tras una colisión por DUI."
+            "title": "Justicia para Víctimas de DUI",
+            "p1": "Cuando un conductor opera bajo la influencia, pone en peligro a todos. Estamos comprometidos a asegurar la compensación que usted merece.",
+            "p2": "Los casos de conducción en estado de ebriedad requieren una estrategia legal específica para maximizar la recuperación. Navegamos tanto las implicaciones civiles como penales."
           },
           "section2": {
-            "title": "Responsabilidad por DUI",
+            "title": "Rendición de Cuentas por DUI",
             "items": {
               "item1": "Daños Punitivos",
-              "item2": "Búsqueda de compensación adicional para castigar el comportamiento imprudente y disuadir futuros incidentes.",
+              "item2": "Buscando compensación adicional para castigar el comportamiento temerario y disuadir incidentes futuros.",
               "item3": "Penal vs. Civil",
-              "item4": "Entendiendo cómo un caso penal de DUI impacta directamente en su reclamación por lesiones personales.",
+              "item4": "Entendiendo cómo un caso penal por DUI impacta su reclamo por lesiones personales.",
               "item5": "Responsabilidad Total",
-              "item6": "Responsabilizando plenamente al conductor ebrio de todos los gastos médicos y salarios perdidos."
+              "item6": "Haciendo al conductor ebrio totalmente responsable de todos los gastos médicos y salarios perdidos."
             }
           },
           "section3": {
             "title": "Prueba Rigurosa",
-            "p1": "Utilizando informes policiales, pruebas de alcohol y relatos de testigos para construir un caso sólido e irrefutable."
+            "p1": "Usando informes policiales y registros médicos para construir un caso innegable contra el conductor negligente."
           },
-          "quote": "Una elección imprudente no debería arruinar su vida. Luchamos por la justicia y la recuperación que las víctimas de DUI merecen."
+          "quote": "Una decisión temeraria no debería arruinar su vida. Luchamos por la justicia y recuperación que las víctimas de DUI merecen legítimamente."
         }
       },
       "hitAndRun": {
         "metadata": {
-          "title": "Abogados de Accidentes por Choque y Fuga | Osbelia Castillo",
-          "description": "¿El conductor huyó de la escena? Utilizamos todos los recursos para rastrear a los responsables y maximizar su recuperación de motorista sin seguro. Consulta gratuita."
+          "title": "Abogados de Accidentes de Choque y Fuga | Osbelia Castillo",
+          "description": "¿El conductor huyó de la escena? Usamos cada recurso para rastrear a los responsables y maximizar su recuperación de motorista sin seguro. Consulta gratuita."
         },
         "hero": {
           "prestige": "Accidentes de Vehículos",
-          "title": "Reclamaciones por",
+          "title": "Reclamos de",
           "subtitle": "Choque y Fuga",
-          "description": "Cuando un conductor huye de la escena, deja tras de sí algo más que daños. Utilizamos todos los recursos para localizar a los responsables y asegurar su recuperación.",
+          "description": "Cuando un conductor huye de la escena, deja atrás más que solo daños. Usamos cada recurso para localizar a los responsables y asegurar su recuperación.",
           "alt": "Abogada Osbelia Castillo - Especialista en reclamos de choque y fuga"
         },
         "content": {
           "title": "Su Camino a la Recuperación Tras un Choque y Fuga",
-          "description": "Un accidente de choque y fuga puede parecer abrumador y desesperanzador. Existen múltiples vías para la recuperación, incluyendo la cobertura de motorista sin seguro.",
+          "description": "Un accidente de choque y fuga puede sentirse abrumador y desalentador. Sin embargo, existen múltiples vías de recuperación, incluyendo la cobertura de motorista sin seguro e investigaciones exhaustivas.",
           "investigation": "Investigación Privada",
-          "investigationDesc": "Trabajamos con expertos y grabaciones de vigilancia para identificar el vehículo y al conductor que huyó.",
-          "umClaims": "Reclamaciones UM/UIM",
-          "umClaimsDesc": "Maximizando los beneficios de motorista sin seguro de su propia póliza cuando el conductor es desconocido.",
-          "criminalCharges": "Cargos Penales",
-          "criminalChargesDesc": "Coordinación con las fuerzas del orden para apoyar los procesos penales por el delito de choca y huye.",
-          "fullDamages": "Daños Totales",
-          "fullDamagesDesc": "Búsqueda de compensación para facturas médicas, dolor y sufrimiento, y daños a la propiedad causados por la colisión.",
+          "investigationDesc": "Trabajando con expertos y grabaciones de vigilancia para identificar el vehículo y al conductor.",
+          "umClaims": "Reclamos UM/UIM",
+          "umClaimsDesc": "Maximizando los beneficios de motorista sin seguro de su propia póliza cuando el conductor sigue siendo desconocido.",
+          "criminalCharges": "Coordinación Penal",
+          "criminalChargesDesc": "Coordinando con las autoridades para apoyar los procesamientos penales por choque y fuga.",
+          "fullDamages": "Recuperación Total de Daños",
+          "fullDamagesDesc": "Buscando compensación por facturas médicas, dolor y sufrimiento, y daños a la propiedad causados por el conductor que huyó.",
           "section1": {
             "title": "Su Camino a la Recuperación Tras un Choque y Fuga",
-            "p1": "Un accidente de choque y fuga puede parecer abrumador y desesperanzador al principio.",
-            "p2": "Sin embargo, existen múltiples vías para la recuperación, incluyendo la cobertura de motorista sin seguro e investigación experta."
+            "p1": "Un accidente de choque y fuga puede sentirse abrumador y desalentador.",
+            "p2": "Sin embargo, existen múltiples vías de recuperación, incluyendo la cobertura de motorista sin seguro e investigaciones exhaustivas para localizar al conductor que huyó."
           },
           "section2": {
-            "title": "Avenidas de Investigación",
+            "title": "Vías de Investigación",
             "items": {
               "item1": "Investigación Privada",
-              "item2": "Trabajamos con expertos y grabaciones de vigilancia para identificar el vehículo y al conductor que huyó.",
-              "item3": "Reclamaciones UM/UIM",
-              "item4": "Maximizando los beneficios de motorista sin seguro de su propia póliza cuando el conductor es desconocido.",
-              "item5": "Cargos Penales",
-              "item6": "Coordinación con las fuerzas del orden para apoyar los procesos penales por el delito de choca y huye."
+              "item2": "Trabajando con expertos y grabaciones de vigilancia para identificar el vehículo y al conductor.",
+              "item3": "Reclamos UM/UIM",
+              "item4": "Maximizando los beneficios de motorista sin seguro de su propia póliza cuando el conductor sigue siendo desconocido.",
+              "item5": "Coordinación Penal",
+              "item6": "Coordinando con las autoridades para apoyar los procesamientos penales por choque y fuga."
             }
           },
           "section3": {
-            "title": "Daños Totales",
-            "p1": "Búsqueda de compensación para facturas médicas, dolor y sufrimiento, y daños a la propiedad causados por la colisión."
+            "title": "Recuperación Total de Daños",
+            "p1": "Buscando compensación por facturas médicas, dolor y sufrimiento, y daños a la propiedad causados por el conductor que huyó."
           },
-          "quote": "Que un conductor huya no significa que pierda su derecho a la recuperación. Usamos cada recurso para rastrear la responsabilidad."
+          "quote": "La decisión de un conductor de huir de la escena no debería terminar con su esperanza de recuperación. Usamos cada recurso para rastrear a la parte responsable."
         }
       },
       "motorcycle": {
         "metadata": {
           "title": "Abogados de Accidentes de Motocicleta | Osbelia Castillo",
-          "description": "¿Lesionado en una motocicleta? Brindamos una representación agresiva para superar los prejuicios y recuperar la compensación total que los motociclistas merecen. Consulta gratuita."
+          "description": "¿Lesionado en una motocicleta? Brindamos representación agresiva para superar prejuicios y recuperar la compensación total que los motociclistas merecen. Consulta gratuita."
         },
         "hero": {
           "prestige": "Accidentes de Vehículos",
           "title": "Accidentes de",
           "subtitle": "Motocicleta",
-          "description": "Los motociclistas enfrentan riesgos únicos en la carretera. Brindamos una representación agresiva para proteger sus derechos y recuperar la compensación por lesiones graves de motocicleta.",
+          "description": "Los motociclistas enfrentan riesgos únicos en el camino. Brindamos representación agresiva para proteger sus derechos y recuperar compensación por lesiones graves.",
           "alt": "Abogada Osbelia Castillo - Especialista en accidentes de motocicleta"
         },
         "content": {
           "section1": {
             "title": "Protegiendo los Derechos de los Motociclistas",
-            "p1": "Los accidentes de motocicleta a menudo provocan lesiones graves debido a la falta de protección física del conductor.",
-            "p2": "Entendemos el prejuicio que los motociclistas suelen enfrentar y luchamos para asegurar que sea tratado con justicia."
+            "p1": "Los accidentes de motocicleta suelen resultar en lesiones severas que alteran la vida debido a la falta de protección para el conductor.",
+            "p2": "Entendemos el prejuicio que los motociclistas enfrentan a menudo y luchamos para asegurar que sea tratado justamente por las compañías de seguros."
           },
           "section2": {
             "title": "Defensa Enfocada en el Motociclista",
             "items": {
-              "item1": "Combatir el Prejuicio",
-              "item2": "Luchando contra los estereotipos negativos de los motociclistas para demostrar que el error fue del otro conductor.",
+              "item1": "Combatiendo el Prejuicio",
+              "item2": "Luchando contra los estereotipos negativos para probar que el error del otro conductor fue la verdadera causa del accidente.",
               "item3": "Experiencia en Lesiones",
-              "item4": "Especialización en casos de abrasiones por asfalto, fracturas y lesiones en la cabeza únicas para motociclistas.",
-              "item5": "Defensa de Carril",
-              "item6": "Demostrando que el hecho de que el otro conductor no respetara su carril o no le viera causó el accidente."
+              "item4": "Especializados en casos que involucran raspaduras, fracturas de huesos y lesiones en la cabeza únicas de los motociclistas.",
+              "item5": "Defensa de Responsabilidad",
+              "item6": "Probando que la falla del otro conductor al no verlo o no respetar su carril causó el accidente."
             }
           },
           "section3": {
-            "title": "Costos de Cuidados Futuros",
-            "p1": "Cálculo preciso de la rehabilitación a largo plazo y de los gastos médicos necesarios tras un accidente de moto grave."
+            "title": "Recuperación de Costos Futuros",
+            "p1": "Calculando la rehabilitación a largo plazo y los gastos médicos para accidentes graves de motocicleta."
           },
-          "quote": "Los motociclistas suelen ser culpados injustamente. Brindamos la defensa agresiva necesaria para superar prejuicios y asegurar su futuro."
+          "quote": "A menudo se culpa injustamente a los motociclistas por los accidentes. Brindamos la defensa agresiva necesaria para superar el prejuicio y asegurar su futuro."
         }
       },
       "pedestrian": {
         "metadata": {
           "title": "Abogados de Accidentes de Peatones | Osbelia Castillo",
-          "description": "Protección para los que van a pie. Responsabilizamos a los conductores negligentes por no ceder el paso y violar el derecho de paso de los peatones. Consulta gratuita."
+          "description": "Protegiendo a quienes van a pie. Hacemos responsables a los conductores negligentes por no ceder el paso y violar el derecho de vía peatonal. Consulta gratuita."
         },
         "hero": {
           "prestige": "Accidentes de Vehículos",
-          "title": "Accidentes de",
-          "subtitle": "Peatones",
-          "description": "Protegiendo a los peatones. Responsabilizamos a los conductores negligentes por no ceder el paso y violar el derecho de paso de un peatón.",
+          "title": "Accidentes",
+          "subtitle": "de Peatones",
+          "description": "Protegiendo a quienes van a pie. Hacemos responsables a los conductores negligentes por no ceder el paso y violar el derecho de vía del peatón.",
           "alt": "Abogada Osbelia Castillo - Especialista en accidentes de peatones"
         },
         "content": {
           "section1": {
             "title": "Justicia para Peatones Lesionados",
-            "p1": "Los peatones son el grupo más vulnerable. Cuando un conductor no cede el paso o se distrae, los resultados son catastróficos.",
-            "p2": "Estamos aquí para ayudarle a navegar por el sistema legal y asegurar la compensación necesaria para su recuperación integral."
+            "p1": "Los peatones son el grupo más vulnerable en el camino. Cuando un conductor maneja distraído, los resultados suelen ser catastróficos.",
+            "p2": "Estamos aquí para ayudarle a navegar el sistema legal y recuperar la compensación que necesita para seguir adelante."
           },
           "section2": {
-            "title": "Derecho de Paso del Peatón",
+            "title": "Derecho de Vía del Peatón",
             "items": {
               "item1": "Deber de Cuidado",
-              "item2": "Demostrando que el conductor violó su elevado deber de cuidado hacia los peatones en cruces y banquetas.",
-              "item3": "Defensa Médica",
-              "item4": "Ayudándole a asegurar atención experta inmediata para lesiones ortopédicas y craneales de alto impacto.",
-              "item5": "Violaciones de Tránsito",
-              "item6": "Investigando colisiones en intersecciones donde los conductores fallaron en ceder el paso legalmente."
+              "item2": "Probando que el conductor violó su deber elevado de cuidado hacia los peatones en pasos de cebra y aceras.",
+              "item3": "Reconstrucción de Accidentes",
+              "item4": "Usando expertos para probar factores de velocidad y visibilidad que llevaron a la colisión.",
+              "item5": "Resultados Traumáticos",
+              "item6": "Asegurando recursos para la recuperación de lesiones catastróficas y cuidados especializados a largo plazo."
             }
           },
           "section3": {
-            "title": "Acuerdo Máximo",
-            "p1": "Búsqueda agresiva de la recuperación financiera más alta posible por su dolor, sufrimiento y pérdidas económicas."
+            "title": "Defensa de Responsabilidad",
+            "p1": "Haciendo a los conductores totalmente responsables por no ceder el paso y por comportamientos de conducción temerarios cerca de zonas peatonales."
           },
-          "quote": "Un peatón no tiene protección en un choque. Brindamos la armadura legal necesaria para responsabilizar a los conductores negligentes."
+          "quote": "Un peatón no tiene protección en una colisión. Brindamos la armadura legal necesaria para luchar por su recuperación y hacer responsables a los conductores negligentes."
+        }
+      },
+      "rideshareAccidents": {
+        "metadata": {
+          "title": "Abogado de Accidentes de Uber y Lyft en Oxnard | Osbelia Castillo",
+          "description": "¿Lesionado en un accidente de Uber o Lyft en Oxnard? Navegar los niveles de seguro de rideshare es complejo. Hacemos responsables a corporaciones multimillonarias. Consulta gratuita."
+        },
+        "hero": {
+          "prestige": "Litigación de la Economía Gig",
+          "title": "Recuperación en",
+          "subtitle": "Accidentes de Rideshare",
+          "description": "Uber y Lyft usan niveles de seguro complejos para protegerse de la responsabilidad. Usamos nuestra experiencia en defensa para atravesar estas capas y asegurar la cobertura de $1M que usted merece.",
+          "alt": "Abogada Osbelia Castillo - Especialista en responsabilidad de rideshare"
+        },
+        "content": {
+          "section1": {
+            "title": "Haciendo Responsables a Corporaciones Multimillonarias",
+            "p1": "Los servicios de rideshare como Uber y Lyft son convenientes, pero cuando ocurre un choque, estas empresas a menudo se esconden tras el estatus de 'contratista independiente' de sus conductores. Esto hace que buscar compensación sea mucho más difícil que en un reclamo de accidente de auto estándar.",
+            "p2": "La Oficina Legal de Osbelia Castillo se especializa en navegar los tres niveles de seguro de rideshare. Ya sea que el conductor estuviera en asuntos personales, esperando una solicitud o llevando a un pasajero, identificamos la póliza correcta para garantizar que no se quede con facturas médicas acumuladas y sin recurso alguno."
+          },
+          "section2": {
+            "title": "Navegando Niveles de Seguro y Daños",
+            "items": {
+              "item1": "Cobertura de $1 Millón",
+              "item2": "Persiguiendo agresivamente la póliza principal de $1M disponible cuando un conductor lleva activamente a un pasajero.",
+              "item3": "Litigación de Lesiones Complejas",
+              "item4": "Representando a víctimas de lesiones cerebrales traumáticas, daños espinales y lesiones internas causadas por colisiones de alto impacto.",
+              "item5": "Recuperación Económica Total",
+              "item6": "Asegurando compensación por gastos médicos, pérdida de ingresos futuros y trauma emocional como el TEPT."
+            }
+          },
+          "section3": {
+            "title": "Por qué la Representación de Élite Importa",
+            "p1": "Las aseguradoras de Uber y Lyft se enfocan en las ganancias, no en su recuperación. Enfrentar a estas entidades requiere una defensa legal altamente profesional. Manejamos cada paso, desde presentar el reclamo hasta negociaciones de acuerdos de alto nivel, para que usted pueda enfocarse en sanar."
+          },
+          "quote": "Pedir un viaje es fácil; obtener un acuerdo de una empresa de rideshare multimillonaria no lo es. Brindamos la armadura legal que necesita para ganar."
         }
       },
       "truck": {
         "metadata": {
-          "title": "Abogados de Accidentes de Camiones | Osbelia Castillo",
-          "description": "Los accidentes de camiones comerciales involucran complejas regulaciones federales. Responsabilizamos a las empresas de transporte por negligencia y violaciones de seguridad. Consulta gratuita."
+          "title": "Abogados de Accidentes de Camiones y Choques Comerciales | Osbelia Castillo",
+          "description": "Los accidentes de camiones comerciales involucran regulaciones federales complejas. Hacemos responsables a las empresas de transporte por negligencia y violaciones de seguridad. Consulta gratuita."
         },
         "hero": {
           "prestige": "Accidentes de Vehículos",
-          "title": "Accidentes de",
-          "subtitle": "Camiones",
-          "description": "Los choques comerciales involucran complejas regulaciones y poderosas compañías de seguros. Nivelamos el campo de juego para las víctimas de negligencia de empresas de transporte.",
-          "alt": "Abogada Osbelia Castillo - Especialista en accidentes de camiones comerciales y regulaciones de la FMCSA"
+          "title": "Accidentes",
+          "subtitle": "de Camiones",
+          "description": "Los choques comerciales involucran regulaciones complejas y aseguradoras poderosas. Nivelamos el campo de juego para las víctimas de negligencia de empresas de transporte.",
+          "alt": "Abogada Osbelia Castillo - Especialista en accidentes de camiones comerciales y regulaciones FMCSA"
         },
         "content": {
-          "title": "Responsabilizando al Transporte Comercial",
-          "description": "Los choques comerciales involucran regulaciones complejas y poderosas empresas que buscan evadir su responsabilidad.",
-          "compliance": "Normativa FMCSA",
-          "complianceDesc": "Comprobación de violaciones de las normas de horas de servicio y seguridad federal de autotransportes.",
+          "title": "Haciendo Responsable al Transporte Comercial",
+          "description": "Los choques comerciales involucran regulaciones complejas y aseguradoras poderosas. Nivelamos el campo de juego para las víctimas de negligencia de empresas de transporte.",
+          "compliance": "Cumplimiento FMCSA",
+          "complianceDesc": "Verificando violaciones a las reglas de horas de servicio de la Administración Federal de Seguridad de Autotransportistas.",
           "liability": "Responsabilidad Vicaria",
-          "liabilityDesc": "Responsabilizando a toda la empresa de transporte por las acciones y descuidos fatales de sus conductores.",
-          "audits": "Auditorías de Libros",
-          "auditsDesc": "Exponiendo libros de ruta falsificados utilizados para encubrir la fatiga extrema del conductor comercial.",
+          "liabilityDesc": "Haciendo responsable a toda la empresa de camiones por las acciones y descuidos de su conductor.",
+          "audits": "Auditorías de Libros de Registro",
+          "auditsDesc": "Exponiendo registros falsificados usados para ocultar la fatiga del conductor y horas excesivas al volante.",
           "recovery": "Recuperación Catastrófica",
-          "recoveryDesc": "Asegurando los recursos masivos para el cuidado a largo plazo requerido tras colisiones industriales de alto impacto.",
+          "recoveryDesc": "Asegurando recursos para cuidados a largo plazo requeridos tras colisiones comerciales de alto impacto.",
           "section1": {
-            "title": "Responsabilizando al Transporte Comercial",
-            "p1": "Los choques comerciales involucran regulaciones complejas y poderosas empresas que buscan evadir su responsabilidad.",
-            "p2": "Investigamos a fondo los registros de mantenimiento y prácticas de contratación para probar negligencia corporativa."
+            "title": "Haciendo Responsable al Transporte Comercial",
+            "p1": "Los choques comerciales involucran regulaciones complejas y aseguradoras poderosas. Nivelamos el campo de juego para las víctimas de negligencia de empresas de transporte.",
+            "p2": "Los camiones de 18 ruedas y vehículos comerciales están sujetos a estrictas regulaciones de seguridad estatales y federales. Investigamos registros del conductor, de mantenimiento y las prácticas de contratación de la empresa para probar la responsabilidad."
           },
           "section2": {
             "title": "Regulaciones Federales Complejas",
             "items": {
-              "item1": "Normativa FMCSA",
-              "item2": "Comprobación de violaciones de las normas de horas de servicio y seguridad federal de autotransportes.",
+              "item1": "Cumplimiento FMCSA",
+              "item2": "Verificando violaciones a las reglas de horas de servicio de la Administración Federal de Seguridad de Autotransportistas.",
               "item3": "Responsabilidad Vicaria",
-              "item4": "Responsabilizando a toda la empresa de transporte por las acciones y descuidos fatales de sus conductores.",
-              "item5": "Auditorías de Libros",
-              "item6": "Exponiendo libros de ruta falsificados utilizados para encubrir la fatiga extrema del conductor comercial."
+              "item4": "Haciendo responsable a toda la empresa de camiones por las acciones y descuidos de su conductor.",
+              "item5": "Auditorías de Libros de Registro",
+              "item6": "Exponiendo registros falsificados usados para ocultar la fatiga del conductor y horas excesivas al volante."
             }
           },
           "section3": {
             "title": "Recuperación Catastrófica",
-            "p1": "Asegurando los recursos masivos para el cuidado a largo plazo requerido tras colisiones industriales de alto impacto."
+            "p1": "Asegurando recursos para cuidados a largo plazo requeridos tras colisiones comerciales de alto impacto."
           },
-          "quote": "Los accidentes de camión implican leyes complejas. Usamos nuestra visión de defensa para responsabilizar a corporaciones masivas."
+          "quote": "Los accidentes de camiones involucran leyes federales complejas. Usamos nuestra experiencia en defensa para hacer responsables a las grandes corporaciones por violaciones de seguridad."
+        }
+      },
+      "catastrophic": {
+        "metadata": {
+          "title": "Abogados de Lesiones Catastróficas | Osbelia Castillo",
+          "description": "Las lesiones catastróficas requieren apoyo legal especializado. Nuestros abogados en Santa Bárbara aseguran recursos para lesiones que alteran la vida y cuidados a largo plazo."
+        },
+        "hero": {
+          "prestige": "Lesiones Personales",
+          "title": "Lesiones",
+          "subtitle": "Catastróficas",
+          "description": "Las lesiones que alteran la vida requieren apoyo legal especializado. Aseguramos recursos para cuidados de por vida y la máxima compensación.",
+          "alt": "Abogada Osbelia Castillo - Lesiones catastróficas y planificación de cuidado de vida"
+        },
+        "content": {
+          "title": "Luchando por Lesiones que Alteran la Vida",
+          "description": "Las lesiones catastróficas cambian las vidas para siempre. Brindamos el apoyo legal especializado necesario para asegurar recursos para cuidados de por vida y la máxima compensación.",
+          "lifeCarePlanning": "Planificación del Cuidado de Vida",
+          "lifeCarePlanningDesc": "Desarrollando planes integrales que consideren necesidades médicas, vocacionales y de cuidado personal por el resto de su vida.",
+          "medicalLiaison": "Enlace Médico",
+          "medicalLiaisonDesc": "Coordinando con los mejores especialistas médicos para documentar completamente la extensión de sus lesiones y requerimientos de cuidados futuros.",
+          "financialRecovery": "Recuperación Financiera",
+          "financialRecoveryDesc": "Asegurando recursos para modificaciones en el hogar, dispositivos de asistencia y apoyo médico a largo plazo.",
+          "section1": {
+            "title": "Luchando por Lesiones que Alteran la Vida",
+            "p1": "Las lesiones catastróficas cambian las vidas para siempre. Brindamos el apoyo legal especializado necesario para asegurar recursos para cuidados de por vida y la máxima compensación.",
+            "p2": "Lesiones como daños en la médula espinal, traumas cerebrales y quemaduras graves requieren más que una representación legal estándar. Reunimos equipos de expertos médicos y financieros para construir planes de recuperación integrales."
+          },
+          "section2": {
+            "title": "Apoyo Especializado en la Recuperación",
+            "items": {
+              "item1": "Planificación del Cuidado de Vida",
+              "item2": "Desarrollando planes integrales que consideren necesidades médicas, vocacionales y de cuidado personal por el resto de su vida.",
+              "item3": "Enlace Médico",
+              "item4": "Coordinando con los mejores especialistas médicos para documentar completamente la extensión de sus lesiones y requerimientos de cuidados futuros.",
+              "item5": "Recuperación Financiera",
+              "item6": "Asegurando recursos para modificaciones en el hogar, dispositivos de asistencia y apoyo médico a largo plazo."
+            }
+          },
+          "section3": {
+            "title": "Planificación de Cuidado Integral",
+            "p1": "Trabajamos con planificadores de cuidado de vida, economistas y especialistas médicos para garantizar que cada aspecto de sus necesidades futuras sea considerado en las negociaciones del acuerdo."
+          },
+          "quote": "Las lesiones catastróficas requieren apoyo legal especializado. Aseguramos recursos para cuidados de por vida y la máxima compensación."
+        }
+      },
+      "carAccidents": {
+        "metadata": {
+          "title": "Abogado de Accidentes de Auto en Oxnard | Osbelia Castillo | Lesiones Personales",
+          "description": "¿Lesionado en un choque de auto en Oxnard? Nuestro equipo legal de élite brinda representación agresiva contra las tácticas de seguros. Más de 50 años de experiencia. Consulta gratuita."
+        },
+        "hero": {
+          "prestige": "Litigación Vehicular de Élite",
+          "title": "Recuperación y Justicia en",
+          "subtitle": "Accidentes de Auto",
+          "description": "Los ajustadores de seguros trabajan para devaluar su reclamo. Usamos nuestra experiencia en defensa para neutralizar sus tácticas y asegurar la máxima compensación que usted merece para su recuperación.",
+          "alt": "Abogada Osbelia Castillo - Experta representante en accidentes de auto en Oxnard"
+        },
+        "content": {
+          "section1": {
+            "title": "La Ventaja de la Defensa en Reclamos de Accidentes de Auto",
+            "p1": "Las secuelas de una colisión en Oxnard Boulevard o la autopista 101 pueden ser abrumadoras. Mientras usted se enfoca en sanar, las compañías de seguros ya están construyendo un caso para minimizar su pago. Aquí es donde la Oficina Legal de Osbelia Castillo equilibra el campo de juego.",
+            "p2": "Con una amplia trayectoria en defensa de seguros, Osbelia Castillo comprende las estrategias exactas que los ajustadores usan para negar reclamos válidos. Manejamos cada detalle, desde la reconstrucción del accidente y la coordinación médica hasta negociaciones agresivas, garantizando que su futuro financiero esté protegido."
+          },
+          "section2": {
+            "title": "Nuestro Proceso Estratégico de Litigación",
+            "items": {
+              "item1": "Investigación Integral",
+              "item2": "Analizando patrones de tráfico, grabaciones de vigilancia y conflictos con vehículos agrícolas únicos en las carreteras de Oxnard.",
+              "item3": "Neutralización de Tácticas de Seguros",
+              "item4": "Evitando que los ajustadores usen declaraciones grabadas u ofertas iniciales bajas para dañar su reclamo.",
+              "item5": "Acceso a Expertos Médicos",
+              "item6": "Organizando cuidados con especialistas que esperan el pago hasta que su caso se resuelva con éxito."
+            }
+          },
+          "section3": {
+            "title": "Navegando las Leyes de Negligencia de California",
+            "p1": "Bajo las reglas de negligencia comparativa de California, usted aún puede tener derecho a la recuperación incluso si tuvo parte de la culpa. Calculamos meticulosamente los daños económicos y no económicos para asegurar que ninguna pérdida sea pasada por alto."
+          },
+          "quote": "La mayoría de los casos de accidentes de auto se resuelven mediante negociaciones de alto nivel. Nuestro compromiso es preparar cada caso como si fuera a juicio para exigir el acuerdo más alto posible."
         }
       },
       "bicycle": {
         "metadata": {
           "title": "Abogados de Accidentes de Bicicleta | Osbelia Castillo",
-          "description": "¿Lesionado mientras montaba en bicicleta? Nuestros abogados de accidentes de bicicleta de Santa Bárbara protegen sus derechos y luchan por un acuerdo completo de conductores negligentes."
+          "description": "¿Lesionado mientras pedaleaba? Nuestros abogados en Santa Bárbara protegen sus derechos y luchan por un acuerdo total contra conductores negligentes."
         },
         "hero": {
           "prestige": "Accidentes de Vehículos",
           "title": "Accidentes de",
           "subtitle": "Bicicleta",
-          "description": "Los ciclistas merecen seguridad en cada carretera. Representamos a ciclistas heridos por conductores negligentes, asegurando los recursos necesarios para su recuperación.",
-          "alt": "Abogada Osbelia Castillo - Defensora de las víctimas de accidentes de bicicleta"
+          "description": "Los ciclistas merecen seguridad en cada carretera. Representamos a ciclistas lesionados por conductores negligentes, asegurando los recursos necesarios para su recuperación.",
+          "alt": "Abogada Osbelia Castillo - Defensora de víctimas de accidentes de bicicleta"
         },
         "content": {
           "title": "Defendiendo a los Ciclistas",
-          "description": "Los accidentes de bicicleta a menudo involucran consideraciones legales únicas, incluyendo el diseño de la carretera y la visibilidad del conductor. Tenemos la experiencia para probar la negligencia del conductor.",
-          "roadwayAdvocacy": "Abogacía Vial",
-          "roadwayAdvocacyDesc": "Responsabilizando a los conductores por no compartir la carretera o violar las leyes de carriles para bicicletas.",
+          "description": "Los accidentes de bicicleta suelen implicar consideraciones legales únicas, incluyendo el diseño de la carretera y la visibilidad del conductor. Contamos con la experiencia para demostrar la negligencia del conductor en casos complejos de lesiones a ciclistas.",
+          "roadwayAdvocacy": "Defensoría Vial",
+          "roadwayAdvocacyDesc": "Haciendo responsables a los conductores por no compartir la carretera o violar las leyes de carriles para bicicletas.",
           "medicalSupport": "Apoyo Médico",
-          "medicalSupportDesc": "Asegurando que reciba atención médica de primer nivel para fracturas, traumas o abrasiones graves.",
+          "medicalSupportDesc": "Garantizando que reciba atención médica de primer nivel para fracturas, traumas en la cabeza o raspaduras.",
           "liabilityFocus": "Enfoque en Responsabilidad",
-          "liabilityFocusDesc": "Demostrar la distracción del conductor o no ceder el paso como la causa principal de la colisión.",
+          "liabilityFocusDesc": "Probando la distracción del conductor o la falta de ceder el paso como causa principal de la colisión.",
           "maximumRecovery": "Máxima Recuperación",
-          "maximumRecoveryDesc": "Buscando compensación por salarios perdidos, equipo médico especializado y rehabilitación a largo plazo."
+          "maximumRecoveryDesc": "Buscando compensación por salarios perdidos, equipo médico y rehabilitación."
         }
+      },
+      "negligentSecurity": {
+        "metadata": {
+          "title": "Abogados de Seguridad Negligente | Santa Bárbara | Osbelia Castillo",
+          "description": "¿Lesionado debido a una seguridad inadecuada? Nuestros abogados de responsabilidad de locales en Santa Bárbara hacen responsables a los dueños por mala iluminación, falta de vigilancia y fallas en medidas de seguridad."
+        },
+        "hero": {
+          "prestige": "Responsabilidad de Locales y Seguridad",
+          "title": "Seguridad",
+          "subtitle": "Negligente",
+          "description": "Los propietarios tienen la obligación legal de mantener seguros a los visitantes. Cuando la falta de seguridad conduce a un daño evitable, brindamos la defensa agresiva necesaria para hacerlos responsables.",
+          "alt": "Abogada Osbelia Castillo - Experta en seguridad negligente y responsabilidad de locales"
+        },
+        "content": {
+          "section1": {
+            "title": "Luchando por Víctimas de Crímenes Evitables",
+            "p1": "Cuando visita un negocio, complejo de apartamentos o espacio público, tiene el derecho de sentirse seguro. Lamentablemente, muchos dueños de propiedades recortan gastos en seguridad, creando entornos donde la actividad criminal puede florecer. Estos fallos suelen resultar en traumas físicos y emocionales que alteran la vida.",
+            "p2": "Nuestra firma adopta un enfoque proactivo y exhaustivo en cada caso. Investigamos el historial de la propiedad, analizando si el dueño ignoró riesgos conocidos o falló en implementar protocolos básicos de seguridad que podrían haber prevenido su lesión."
+          },
+          "section2": {
+            "title": "Fallas Comunes en la Seguridad de la Propiedad",
+            "items": {
+              "item1": "Espacios Comerciales y Minoristas",
+              "item2": "Los centros comerciales de alto tráfico requieren vigilancia funcional, iluminación brillante y, a menudo, personal de seguridad profesional para disuadir la actividad criminal.",
+              "item3": "Complejos Residenciales",
+              "item4": "Los administradores de propiedades deben asegurar que las puertas, cerraduras y entradas sean seguras para proteger a los residentes de accesos no autorizados y daños previsibles.",
+              "item5": "Hospitalidad y Entretenimiento",
+              "item6": "Hoteles y lugares de eventos deben mantener controles de acceso estrictos y emplear personal capacitado para monitorear las instalaciones y responder a amenazas de seguridad."
+            }
+          },
+          "section3": {
+            "title": "Un Legado de Excelencia Legal",
+            "p1": "Con más de 50 años de experiencia legal colectiva, nuestro equipo tiene un profundo conocimiento de las leyes de responsabilidad de locales de California. Trabajamos bajo cuota de contingencia, lo que significa que usted no paga nada a menos que aseguremos la compensación que merece."
+          },
+          "quote": "La seguridad no es un lujo; es un derecho. Hacemos responsables a los dueños negligentes para asegurar que nuestra comunidad sea un lugar más seguro para todos."
+        }
+      },
+      "constructionAccidents": {
+        "metadata": {
+          "title": "Abogados de Accidentes en Construcción | Santa Bárbara | Osbelia Castillo",
+          "description": "¿Lesionado en un sitio de construcción? Nuestros abogados en Santa Bárbara manejan reclamos complejos de lesiones personales y responsabilidad de terceros para trabajadores y peatones. Consulta gratuita."
+        },
+        "hero": {
+          "prestige": "Seguridad en el Trabajo y el Sitio",
+          "title": "Accidentes en Sitios",
+          "subtitle": "de Construcción",
+          "description": "Las zonas de construcción son entornos de alto riesgo donde la negligencia puede causar traumas que alteran la vida. Brindamos la defensa agresiva necesaria para navegar tanto los reclamos de lesiones personales como los de responsabilidad de terceros.",
+          "alt": "Abogada Osbelia Castillo - Experta en leyes de accidentes en sitios de construcción"
+        },
+        "content": {
+          "section1": {
+            "title": "Navegando las Complejidades de la Responsabilidad en el Sitio",
+            "p1": "Los sitios de construcción son intrínsecamente peligrosos, y los accidentes pueden afectar a trabajadores, contratistas e incluso a peatones que pasan. Determinar el camino legal correcto, ya sea un reclamo estándar de compensación laboral o una demanda de lesiones personales contra terceros, es esencial para asegurar que reciba el alcance total de los beneficios que merece.",
+            "p2": "Mientras que la compensación al trabajador cubre gastos médicos básicos y una parte de los salarios perdidos, un reclamo de lesiones personales contra un contratista negligente o fabricante de equipos puede proporcionar recuperación adicional por dolor, sufrimiento y reducción de la calidad de vida. En Santa Bárbara, investigamos la causa raíz de cada accidente para proteger los intereses a largo plazo de nuestros clientes."
+          },
+          "section2": {
+            "title": "Escenarios Comunes en Litigación de Construcción",
+            "items": {
+              "item1": "Responsabilidad de Terceros y Fabricantes",
+              "item2": "Si una maquinaria fallida o equipo de seguridad defectuoso causó su lesión, puede tener el derecho de demandar al fabricante por daños más allá de la compensación laboral.",
+              "item3": "Seguridad Pública y Peatonal",
+              "item4": "Los contratistas tienen el deber de asegurar los sitios y advertir al público sobre los peligros. Escombros que caen o peligros no marcados suelen llevar a reclamos válidos para transeúntes lesionados.",
+              "item5": "Negligencia del Contratista y el Sitio",
+              "item6": "Hacemos responsables a los constructores y administradores del sitio por no seguir los protocolos de seguridad o no asegurar adecuadamente el equipo pesado y los componentes estructurales."
+            }
+          },
+          "section3": {
+            "title": "Más de 50 Años de Sabiduría Legal Colectiva",
+            "p1": "Nuestra firma aprovecha cinco décadas de experiencia para desmantelar las complejas defensas usadas por las grandes empresas constructoras. Trabajamos bajo cuota de contingencia, garantizando que tenga acceso a una representación legal de primer nivel mientras se enfoca en su recuperación física."
+          },
+          "quote": "Los protocolos de seguridad no son sugerencias; son requisitos legales diseñados para proteger vidas. Aseguramos que aquellos que recortan gastos sean hechos responsables.",
+          "faqs": {
+            "title": "Accidentes de Construcción: Preguntas Frecuentes",
+            "q1": "¿Qué debo hacer inmediatamente después de un accidente de construcción?",
+            "a1": "Busque atención médica de inmediato, incluso si sus lesiones parecen menores. Documente la escena con fotos, obtenga los datos de contacto de los testigos y reporte el incidente a su supervisor o al administrador del sitio para asegurar que exista un registro oficial.",
+            "q2": "¿Puedo presentar una demanda si ya estoy recibiendo compensación laboral?",
+            "a2": "Generalmente no puede demandar a su empleador directo, pero puede presentar una demanda de 'terceros' si la negligencia de un contratista independiente, dueño de la propiedad o fabricante de equipo contribuyó a su accidente.",
+            "q3": "¿Cuánto tiempo tengo para presentar mi reclamo en California?",
+            "a3": "Para reclamos de lesiones personales, el plazo suele ser de dos años. Sin embargo, si una entidad gubernamental está involucrada, podría tener tan solo seis meses para presentar un aviso formal de reclamo.",
+            "q4": "¿Qué compensación puedo recuperar?",
+            "a4": "Dependiendo del tipo de reclamo, puede recuperar gastos médicos, una parte de los salarios perdidos y, en casos de lesiones personales, compensación por dolor, sufrimiento y angustia emocional."
+          }
+        }
+      },
+      "craneAccidents": {
+        "metadata": {
+          "title": "Abogados de Accidentes de Grúas | Santa Bárbara | Osbelia Castillo",
+          "description": "¿Lesionado en un accidente de grúa o maquinaria pesada? Nuestros abogados en Santa Bárbara hacen responsables a las empresas negligentes por fallas de equipo y descuidos de seguridad."
+        },
+        "hero": {
+          "prestige": "Seguridad Industrial y de Construcción",
+          "title": "Accidentes",
+          "subtitle": "de Grúas",
+          "description": "Los accidentes de grúas suelen tener consecuencias que alteran la vida. Cuando la falla del equipo o la negligencia del operador conducen a la tragedia, brindamos la defensa agresiva necesaria para asegurar su futuro.",
+          "alt": "Abogada Osbelia Castillo - Experta en leyes de construcción y accidentes de grúas"
+        },
+        "content": {
+          "section1": {
+            "title": "Protegiendo los Derechos de las Víctimas de Accidentes Industriales",
+            "p1": "Los sitios de construcción están entre los entornos de trabajo más peligrosos, y los accidentes de grúas son particularmente devastadores. Ya sea causado por falla mecánica, cargas de peso inadecuadas o falta de capacitación adecuada, estos incidentes dejan a las víctimas enfrentando inmensos desafíos físicos y financieros. En Santa Bárbara, somos un escudo para aquellos dañados en el trabajo.",
+            "p2": "Nuestro equipo legal realiza un examen meticuloso de toda la evidencia, incluyendo registros de mantenimiento de las grúas, certificaciones de los operadores y registros de seguridad del sitio. Trabajamos para descubrir la causa raíz de la falla y asegurar que cada parte negligente, desde el administrador del sitio hasta el fabricante del equipo, rinda cuentas."
+          },
+          "section2": {
+            "title": "Pasos a Seguir Tras un Incidente en un Sitio de Construcción",
+            "items": {
+              "item1": "Busque Atención Médica Inmediata",
+              "item2": "Su salud es la prioridad. La documentación de la sala de emergencias es también la evidencia más crítica que vincula sus lesiones con el accidente.",
+              "item3": "Reporte y Documente",
+              "item4": "Notifique a su empleador y a Cal/OSHA de inmediato. Si es posible, tome fotos de la grúa, el aparejo y el entorno circundante.",
+              "item5": "Consulte a un Abogado Especializado",
+              "item6": "Evite dar declaraciones a los ajustadores de seguros o firmar 'informes de incidentes' que puedan renunciar a sus derechos antes de hablar con un abogado."
+            }
+          },
+          "section3": {
+            "title": "Experiencia en Litigios Industriales Complejos",
+            "p1": "Con más de 50 años de experiencia legal colectiva, nuestra firma entiende los matices de la responsabilidad industrial. Aprovechamos expertos de la industria para sustentar su reclamo y luchar por la máxima compensación por facturas médicas, salarios perdidos y rehabilitación a largo plazo."
+          },
+          "quote": "La seguridad del trabajador es una obligación legal, no una elección. Estamos con aquellos que han sido lesionados cuando se ignoran los protocolos de seguridad.",
+          "faqs": {
+            "title": "Accidentes de Grúas: Preguntas Frecuentes",
+            "q1": "¿Cuánto tiempo tengo para presentar un reclamo por accidente de grúa?",
+            "a1": "En California, suele tener dos años desde la fecha de la lesión para presentar un reclamo. Sin embargo, los casos que involucran entidades gubernamentales o reglas específicas de compensación laboral pueden tener plazos mucho más cortos (a menudo 6 meses), así que actúe rápido.",
+            "q2": "¿Puedo recuperar compensación si tuve parte de la culpa?",
+            "a2": "Sí. California sigue una regla de negligencia comparativa. Aún puede recuperar daños incluso si compartió parte de la responsabilidad, aunque su indemnización se reducirá según su porcentaje de culpa.",
+            "q3": "¿Qué pasa si el accidente fue causado por un defecto mecánico?",
+            "a3": "Si la grúa en sí fue mal diseñada o fabricada, puede tener un reclamo de 'responsabilidad por producto' contra el fabricante del equipo además de su reclamo estándar por lesiones.",
+            "q4": "¿Qué compensación está disponible por mis lesiones?",
+            "a4": "Las víctimas pueden buscar recuperación para todos los gastos médicos, ingresos actuales y futuros perdidos, dolor y sufrimiento, y el costo a largo plazo de fisioterapia o modificaciones en el hogar."
+          }
+        }
+      },
+      "forkliftAccidents": {
+        "metadata": {
+          "title": "Abogados de Accidentes de Montacargas | Santa Bárbara | Osbelia Castillo",
+          "description": "¿Lesionado en un accidente de montacargas en un almacén o construcción? Nuestros abogados en Santa Bárbara hacen responsables a empleadores y fabricantes negligentes. Consulta gratuita."
+        },
+        "hero": {
+          "prestige": "Seguridad Industrial y de Almacenes",
+          "title": "Accidentes de",
+          "subtitle": "Montacargas",
+          "description": "Los centros industriales dependen de la maquinaria pesada, pero un solo descuido en la seguridad puede llevar a una lesión catastrófica. Brindamos la defensa legal agresiva necesaria para asegurar su recuperación.",
+          "alt": "Abogada Osbelia Castillo - Experta en leyes de accidentes de montacargas y maquinaria"
+        },
+        "content": {
+          "section1": {
+            "title": "Abogando por las Víctimas de Negligencia Industrial",
+            "p1": "Los accidentes de montacargas son una de las causas principales de lesiones graves en almacenes y sitios de construcción en Santa Bárbara. Ya sea por falta de capacitación, falla mecánica o un entorno de trabajo caótico, estos incidentes a menudo resultan en dificultades físicas y financieras a largo plazo.",
+            "p2": "Nuestra firma realiza investigaciones profundas sobre las causas raíz de la falla de la maquinaria. Examinamos los registros de mantenimiento y el cumplimiento de los protocolos de seguridad para asegurar que los operadores y empresas negligentes rindan cuentas por el daño causado."
+          },
+          "section2": {
+            "title": "Factores que Contribuyen a los Incidentes con Montacargas",
+            "items": {
+              "item1": "Negligencia Operativa",
+              "item2": "Conducción temeraria, exceso de velocidad o manejo de maquinaria en espacios concurridos sin los señalizadores adecuados.",
+              "item3": "Faltas en Capacitación y Supervisión",
+              "item4": "No proporcionar la certificación adecuada o ignorar protocolos de seguridad para cumplir con cuotas de producción.",
+              "item5": "Equipo y Mantenimiento Failure",
+              "item6": "Frenos, dirección o mecanismos de elevación defectuosos causados por un mantenimiento deficiente o defectos de fabricación."
+            }
+          },
+          "section3": {
+            "title": "Determinando la Culpa y Responsabilidad",
+            "p1": "La responsabilidad en un accidente de montacargas a menudo se extiende más allá de una sola persona. Puede involucrar a contratistas de mantenimiento externos, fabricantes de equipos o administradores del sitio. Con más de 50 años de experiencia colectiva, identificamos a cada parte responsable."
+          },
+          "quote": "Cada trabajador tiene derecho a un entorno seguro. Somos un escudo para aquellos lesionados cuando se priorizan las ganancias sobre la seguridad.",
+          "faqs": {
+            "title": "Accidentes de Montacargas: Preguntas Frecuentes",
+            "q1": "¿Qué debo hacer inmediatamente después de un accidente de montacargas?",
+            "a1": "Busque atención médica de inmediato para documentar sus lesiones. Reporte el incidente a su supervisor y a Cal/OSHA, y si es posible, tome fotos de la maquinaria y la escena circundante.",
+            "q2": "¿Puedo presentar un reclamo si ya recibo Compensación al Trabajador?",
+            "a2": "Sí. Aunque generalmente no puede demandar a su empleador, puede tener un reclamo de lesiones personales de 'terceros' si el accidente fue causado por un contratista o una pieza defectuosa de la máquina.",
+            "q3": "¿Qué tan rápido debo actuar tras una lesión industrial?",
+            "a3": "La evidencia industrial, como registros de mantenimiento y videos de vigilancia, puede perderse rápido. Contactar a un abogado de inmediato nos permite emitir avisos de preservación para proteger su caso.",
+            "q4": "¿Qué compensación puedo recuperar por mis lesiones?",
+            "a4": "Puede buscar recuperación para gastos médicos, salarios actuales y futuros perdidos, dolor y sufrimiento, y los costos a largo plazo de rehabilitación o discapacidad permanente."
+          }
+        }
+      },
+      "catastrophicInjuries": {
+        "metadata": {
+          "title": "Abogados de Lesiones Catastróficas | Santa Bárbara | Osbelia Castillo",
+          "description": "¿Usted o un ser querido han sufrido una lesión que alteró su vida? Nuestros abogados en Santa Bárbara luchan por la máxima compensación por TBI, daños espinales y discapacidad permanente."
+        },
+        "hero": {
+          "prestige": "Litigación de Lesiones Graves",
+          "title": "Lesiones",
+          "subtitle": "Catastróficas",
+          "description": "Las lesiones que cambian la vida requieren una representación que cambie la vida. Con más de 50 años de experiencia colectiva, brindamos la defensa agresiva necesaria para asegurar su futuro.",
+          "alt": "Abogada Osbelia Castillo - Experta en leyes de lesiones catastróficas"
+        },
+        "content": {
+          "section1": {
+            "title": "Navegando el Camino a la Recuperación Tras un Trauma Severo",
+            "p1": "Una lesión catastrófica es más que un evento médico; es un cambio permanente en la trayectoria de su vida. Ya sea una lesión cerebral traumática, una discapacidad de la médula espinal o una amputación severa, estos incidentes requieren intervención médica intensiva y apoyo de por vida.",
+            "p2": "El impacto de tal trauma se extiende mucho más allá de la víctima, afectando a cada miembro de la familia. Nos enfocamos en asegurar una recuperación que considere modificaciones en el hogar, equipo médico especializado y la seguridad socioeconómica a largo plazo que su familia merece."
+          },
+          "section2": {
+            "title": "Pasos Esenciales Tras un Accidente Mayor",
+            "items": {
+              "item1": "Prioridad Médica Inmediata",
+              "item2": "Busque atención de emergencia de inmediato. Los registros médicos detallados desde el principio son la base de cualquier reclamo legal.",
+              "item3": "Documentación del Incidente",
+              "item4": "Asegúrese de que se presente un informe policial y recopile tanta evidencia como sea posible, incluyendo fotos y detalles de testigos.",
+              "item5": "Consulta Legal",
+              "item6": "Evite discutir la culpa con los ajustadores de seguros. Consulte con nuestro experimentado equipo legal antes de dar cualquier declaración."
+            }
+          },
+          "section3": {
+            "title": "Un Compromiso con la Excelencia",
+            "p1": "Con más de cinco décadas de experiencia combinada, nuestra firma aprovecha un profundo conocimiento legal para navegar las leyes de lesiones de California. Representamos a nuestros clientes bajo cuota de contingencia, garantizando que la representación de élite esté disponible para todos."
+          },
+          "quote": "La justicia es más que una compensación; se trata de proporcionar los recursos necesarios para reclamar su dignidad e independencia.",
+          "faqs": {
+            "title": "Lesiones Catastróficas: Preguntas Frecuentes",
+            "q1": "¿Qué define legalmente una lesión 'Catastrófica'?",
+            "a1": "Es una lesión que tiene un impacto permanente y severo en la vida de una persona, impidiéndole regresar al trabajo o realizar actividades diarias sin asistencia. Incluye TBI, parálisis y quemaduras graves.",
+            "q2": "¿Cómo afecta la regla de negligencia comparativa de California a mi caso?",
+            "a2": "California le permite recuperar compensación incluso si tuvo parte de la culpa en el accidente. Su indemnización final simplemente se reduce según su porcentaje de responsabilidad.",
+            "q3": "¿Qué puedo esperar durante el proceso de litigio?",
+            "a3": "Manejamos cada paso: desde la investigación y recopilación de pruebas hasta negociaciones intensas con aseguradoras y, si es necesario, llevar su caso a juicio para asegurar un resultado justo.",
+            "q4": "¿Cuánto tiempo tengo para presentar mi reclamo?",
+            "a4": "En California, el estatuto de limitaciones suele ser de dos años desde la fecha de la lesión. Sin embargo, los casos catastróficos requieren una investigación temprana, por lo que es vital contactar a un abogado lo antes posible."
+          }
+        }
+      },
+      "propertyDamages": {
+        "metadata": {
+          "title": "Abogado de Daños a la Propiedad en Oxnard | Osbelia Castillo",
+          "description": "¿Vehículo o propiedad personal dañada en un accidente de auto? Le ayudamos a navegar los reclamos por daños a la propiedad en California para asegurar reparaciones y reemplazos. Consulta gratuita."
+        },
+        "hero": {
+          "prestige": "Recuperación de Activos Financieros",
+          "title": "Reclamos por",
+          "subtitle": "Daños a la Propiedad",
+          "description": "Más allá de las lesiones físicas, un choque puede destruir su vehículo y sus bienes personales. Brindamos orientación legal de élite para asegurar que reciba el valor justo de mercado por sus pérdidas.",
+          "alt": "Abogada Osbelia Castillo - Especialista en recuperación de daños a la propiedad"
+        },
+        "content": {
+          "section1": {
+            "title": "Navegando la Pérdida de Propiedad en California",
+            "p1": "Los accidentes de tráfico en Oxnard a menudo resultan en daños significativos a su vehículo y pertenencias. Aunque los problemas menores podrían resolverse de su bolsillo, los daños complejos que requieren miles en reparaciones exigen un reclamo de seguro formal. California exige un mínimo de $5,000 para responsabilidad por daños a la propiedad, pero esto suele ser insuficiente.",
+            "p2": "La Oficina Legal de Osbelia Castillo analiza su póliza y la cobertura de la parte culpable. Ya sea que estemos tratando con la aseguradora del otro conductor o con su propia póliza de colisión, garantizamos que no lo obliguen a aceptar un acuerdo injusto por sus reparaciones o reemplazo."
+          },
+          "section2": {
+            "title": "Daños Recuperables y Compensación",
+            "items": {
+              "item1": "Pérdida Total y Reemplazo",
+              "item2": "Negociando el verdadero valor justo de mercado de su auto si se declara pérdida total.",
+              "item3": "Gastos Incidentales",
+              "item4": "Recuperando costos de autos de alquiler, transporte y kilometraje de gasolina durante su recuperación.",
+              "item5": "Reparación y Valor Disminuido",
+              "item6": "Asegurando fondos para reparaciones de alta calidad y compensación por la pérdida del valor de reventa del vehículo."
+            }
+          },
+          "section3": {
+            "title": "Negociación Estratégica con Seguros",
+            "p1": "Si el demandado actuó con negligencia grave, también podemos buscar daños punitivos. Nuestro equipo maneja todas las comunicaciones con los ajustadores, evitando que devalúen su propiedad o retrasen su alivio financiero."
+          },
+          "quote": "Su vehículo es esencial para su sustento. Tratamos su reclamo de propiedad con la misma dedicación agresiva que su caso de lesiones personales."
+        }
+      },
+      "burnInjury": {
+        "metadata": {
+          "title": "Abogados de Lesiones por Quemaduras | Santa Bárbara | Osbelia Castillo",
+          "description": "¿Ha sufrido quemaduras severas debido a negligencia? Nuestros abogados en Santa Bárbara ayudan a las víctimas a recuperar compensación por facturas médicas y cuidados a largo plazo. Consulta gratuita."
+        },
+        "hero": {
+          "prestige": "Defensoría Especializada en Lesiones",
+          "title": "Lesiones por",
+          "subtitle": "Quemaduras",
+          "description": "Las lesiones por quemaduras están entre los traumas más dolorosos y complejos que una persona puede soportar. Brindamos el apoyo legal dedicado necesario para asegurar recursos para su recuperación y bienestar a largo plazo.",
+          "alt": "Abogada Osbelia Castillo - Experta en lesiones por quemaduras y lesiones personales"
+        },
+        "content": {
+          "section1": {
+            "title": "Apoyo Integral para Sobrevivientes de Quemaduras Graves",
+            "p1": "Una lesión por quemadura cambia su vida en un instante. Ya sea causada por un incendio, explosión, exposición química o accidente eléctrico, el camino a la recuperación suele ser largo y requiere atención médica especializada. Las víctimas en Santa Bárbara merecen un defensor que entienda las complejidades médicas y legales de estos casos catastróficos.",
+            "p2": "Nuestra firma se enfoca en más que solo el reclamo legal inmediato; miramos hacia su futuro. Desde injertos de piel y fisioterapia hasta apoyo psicológico por el trauma, luchamos para asegurar que su acuerdo cubra el alcance total de su recuperación."
+          },
+          "section2": {
+            "title": "El Impacto Duradero del Trauma por Quemaduras",
+            "items": {
+              "item1": "Costos Médicos Extensos",
+              "item2": "La atención de emergencia es solo el comienzo. Las cirugías, tratamientos en unidades de quemados especializadas y la rehabilitación continua pueden crear una carga financiera inmensa.",
+              "item3": "Recuperación Física y Emocional",
+              "item4": "Más allá de las cicatrices físicas, los sobrevivientes suelen enfrentar desafíos psicológicos como TEPT y depresión. Buscamos daños por heridas visibles e invisibles.",
+              "item5": "Pérdida de Ingresos y Beneficios",
+              "item6": "Las quemaduras graves suelen impedir que las víctimas regresen al trabajo por periodos prolongados. Hacemos responsables a las partes negligentes por sus salarios perdidos y capacidad de ingresos futuros."
+            }
+          },
+          "section3": {
+            "title": "Décadas de Experiencia Especializada",
+            "p1": "Con más de 50 años de experiencia legal colectiva, nuestro equipo tiene el conocimiento para enfrentar casos complejos que involucran a dueños de propiedades, fabricantes y entidades corporativas. Operamos bajo cuota de contingencia—no paga honorarios a menos que ganemos."
+          },
+          "quote": "La recuperación es un viaje que nadie debería caminar solo. Estamos aquí para brindarle la fuerza legal que necesita para enfocarse completamente en su sanación.",
+          "faqs": {
+            "title": "Preguntas Frecuentes",
+            "q1": "¿Qué pasos debo tomar inmediatamente después de una quemadura?",
+            "a1": "Busque atención médica de emergencia de inmediato. Documente la escena con fotos si es posible y, una vez estable, contacte a un abogado especializado para asegurar que la evidencia sea preservada.",
+            "q2": "¿Cómo puede un abogado ayudar con mi reclamo por quemaduras?",
+            "a2": "Manejamos todas las negociaciones con las aseguradoras, investigamos la causa del accidente y trabajamos con expertos médicos para valorar con precisión el costo de sus cuidados de por vida.",
+            "q3": "¿Qué tipos de compensación puedo solicitar?",
+            "a3": "Puede tener derecho a gastos médicos (pasados y futuros), salarios perdidos, compensación por dolor y sufrimiento, y daños por desfiguración permanente o cicatrices.",
+            "q4": "¿Es necesario contratar a un abogado para un caso de quemaduras?",
+            "a4": "Aunque no es obligatorio, los casos de quemaduras involucran daños de alto valor que las aseguradoras a menudo intentan minimizar. Tener un defensor experimentado garantiza un acuerdo justo."
+          }
+        }
+      },
+      "policeBrutality": {
+        "metadata": {
+          "title": "Abogados de Brutalidad Policial y Tiroteos | Santa Bárbara | Osbelia Castillo",
+          "description": "¿Víctima de mala conducta policial o uso excesivo de la fuerza? Nuestros abogados de derechos civiles en Santa Bárbara hacen responsables a las autoridades por brutalidad y violaciones constitucionales. Consulta gratuita."
+        },
+        "hero": {
+          "prestige": "Derechos Civiles y Rendición de Cuentas",
+          "title": "Brutalidad",
+          "subtitle": "Policial",
+          "description": "La placa es un símbolo de confianza, no una licencia para el abuso. Cuando los oficiales de la ley exceden su autoridad, brindamos la defensa agresiva necesaria para proteger sus derechos constitucionales.",
+          "alt": "Abogada Osbelia Castillo - Experta en mala conducta policial y leyes de derechos civiles"
+        },
+        "content": {
+          "section1": {
+            "title": "Haciendo Responsable a la Autoridad ante la Ley",
+            "p1": "Los oficiales de la ley juran proteger al público, pero cuando abusan de su poder, los resultados suelen ser trágicos. La brutalidad policial y los tiroteos representan una traición profunda a la confianza comunitaria.",
+            "p2": "Presentar un reclamo contra una agencia gubernamental es una batalla cuesta arriba que requiere un conocimiento profundo de los litigios de derechos civiles. Garantizamos que quienes portan la placa cumplan con los mismos estándares legales que los ciudadanos a quienes sirven."
+          },
+          "section2": {
+            "title": "Reconociendo Violaciones de Derechos Civiles",
+            "items": {
+              "item1": "Uso Excesivo de la Fuerza",
+              "item2": "Cuando la violencia física o el disparo de un arma excede lo necesario para una situación, resultando en lesiones graves o muerte por negligencia.",
+              "item3": "Arresto y Detención Ilegal",
+              "item4": "Haciendo responsables a los oficiales por arrestar o detener individuos sin causa probable o violando el debido proceso.",
+              "item5": "Procesamiento Malicioso",
+              "item6": "Persiguiendo casos donde la policía o los fiscales usan el sistema legal para acosar o condenar erróneamente a personas inocentes."
+            }
+          },
+          "section3": {
+            "title": "Décadas de Defensoría Valiente",
+            "p1": "Con más de 50 años de experiencia colectiva, nuestro equipo legal tiene los recursos y la determinación para enfrentar casos complejos contra agencias municipales y estatales."
+          },
+          "quote": "La ley debe aplicarse a todos por igual. Somos un escudo para aquellos cuyos derechos han sido violados por las mismas personas juramentadas para protegerlos.",
+          "faqs": {
+            "title": "Mala Conducta Policial: Preguntas Frecuentes",
+            "q1": "¿Qué constituye legalmente la brutalidad policial?",
+            "a1": "Involucra el uso de fuerza innecesaria o excesiva —violencia física o disparo de arma— que va más allá del deber de un oficial. También incluye violaciones constitucionales como registros e incautaciones ilegales.",
+            "q2": "¿Es difícil demandar a un departamento de policía en California?",
+            "a2": "Sí, las agencias gubernamentales suelen tener 'inmunidad calificada'. Sin embargo, la ley de California permite reclamos cuando ocurre una mala conducta clara. Estos casos requieren acción inmediata.",
+            "q3": "¿Cuál es el plazo para presentar un reclamo por mala conducta?",
+            "a3": "Los reclamos contra entidades gubernamentales en California a menudo tienen plazos mucho más cortos que los casos estándar, a veces tan solo seis meses.",
+            "q4": "¿Qué compensación se puede recuperar?",
+            "a4": "Las víctimas pueden buscar daños por gastos médicos, trauma psicológico, salarios perdidos y, en algunos casos, daños punitivos destinados a disuadir futuras malas conductas."
+          }
+        }
+      },
+      "busAccidents": {
+        "metadata": {
+          "title": "Abogados de Accidentes de Autobús | Santa Bárbara | Osbelia Castillo",
+          "description": "¿Lesionado en un choque de autobús? Nuestros abogados en Santa Bárbara hacen responsables a empresas de tránsito y agencias gubernamentales por negligencia. Consulta gratuita."
+        },
+        "hero": {
+          "prestige": "Tránsito Público y Seguridad",
+          "title": "Accidentes de",
+          "subtitle": "Autobús",
+          "description": "Los autobuses son pilares del transporte de nuestra comunidad. Cuando los operadores de tránsito no ejercen el máximo cuidado, brindamos la defensa agresiva necesaria para asegurar su recuperación.",
+          "alt": "Abogada Osbelia Castillo - Experta en accidentes de autobús y leyes de tránsito público"
+        },
+        "content": {
+          "section1": {
+            "title": "Navegando las Complejidades de la Responsabilidad de Tránsito",
+            "p1": "Los accidentes de autobús involucran una red de responsabilidad compleja que los reclamos de accidentes de auto estándar no tienen. Estos casos se rigen por leyes estrictas de 'transportista común' que exigen el estándar más alto de seguridad.",
+            "p2": "Nuestra firma está equipada para manejar los desafíos únicos de los litigios de tránsito, desde descubrir violaciones de seguridad en registros de mantenimiento hasta navegar los cortos plazos requeridos para reclamos gubernamentales."
+          },
+          "section2": {
+            "title": "Tipos de Reclamos de Accidentes de Tránsito",
+            "items": {
+              "item1": "Lesiones en Autobuses Públicos y Escolares",
+              "item2": "Los reclamos contra agencias locales de tránsito o distritos escolares a menudo involucran un plazo estricto de seis meses para presentar un aviso formal.",
+              "item3": "Colisiones con Peatones y Ciclistas",
+              "item4": "Los vehículos grandes tienen puntos ciegos significativos; hacemos responsables a los conductores por no monitorear su entorno en áreas de alto tráfico.",
+              "item5": "Chárters Privados y Autobuses Comerciales",
+              "item6": "Las compañías privadas deben adherirse a regulaciones federales; investigamos la fatiga del conductor, fallas de mantenimiento y capacitación inadecuada."
+            }
+          },
+          "section3": {
+            "title": "Un Historial Probado de Éxito",
+            "p1": "Con más de 50 años de experiencia legal colectiva, nuestro equipo ha navegado con éxito las intrincadas regulaciones del sistema de transporte de California. Representamos a las víctimas bajo cuota de contingencia."
+          },
+          "quote": "La seguridad pública es un deber no negociable. Estamos con las víctimas para asegurar que las agencias de tránsito cumplan su promesa de transporte seguro para todos.",
+          "faqs": {
+            "title": "Accidentes de Autobús: Preguntas Frecuentes",
+            "q1": "¿Existe un plazo específico para reclamos de tránsito público?",
+            "a1": "Sí. Si el accidente involucra un autobús operado por el gobierno, suele tener solo seis meses para presentar un reclamo formal bajo la Ley de Reclamos del Gobierno de California.",
+            "q2": "¿Qué tipo de evidencia es crítica en un choque de autobús?",
+            "a2": "Video de vigilancia a bordo, registradores de datos electrónicos (cajas negras) y registros de despacho son vitales. Es esencial que un abogado emita un aviso de preservación de inmediato.",
+            "q3": "¿Puedo buscar compensación si me lesioné mientras estaba de pie?",
+            "a3": "Absolutamente. Los operadores de autobuses deben brindar el 'máximo cuidado' a todos los pasajeros. Maniobras bruscas o paradas repentinas que causen caídas suelen ser indicadores claros de negligencia.",
+            "q4": "¿Afecta mi estatus migratorio mi derecho a un reclamo?",
+            "a4": "No. En California, su estatus migratorio es completamente irrelevante para su derecho a buscar compensación por lesiones causadas por la negligencia de otra parte."
+          }
+        }
+      },
+      "medicalDeviceRecall": {
+        "metadata": {
+          "title": "Abogados de Retiro de Dispositivos Médicos | Santa Bárbara | Osbelia Castillo",
+          "description": "¿Lesionado por un depósito Jackson-Pratt (JP) de 3 resortes retirado? Nuestros abogados en Santa Bárbara hacen responsables a los fabricantes por fallas de esterilización e infecciones."
+        },
+        "hero": {
+          "prestige": "Litigación de Dispositivos Médicos",
+          "title": "Retiro de",
+          "subtitle": "Dispositivos Médicos",
+          "description": "Los pacientes confían en el equipo médico para ayudar en su recuperación, no para causar más daño. Brindamos la defensa agresiva necesaria para asegurar justicia cuando los dispositivos fallan.",
+          "alt": "Abogada Osbelia Castillo - Experta en dispositivos médicos y responsabilidad por productos"
+        },
+        "content": {
+          "section1": {
+            "title": "Abogando por las Víctimas de Fallas en Procesamiento Estéril",
+            "p1": "El Depósito de 3 Resortes Jackson-Pratt (JP) es una herramienta crítica usada tras una cirugía. Sin embargo, retiros recientes han resaltado una peligrosa falta en los protocolos de esterilización, poniendo a pacientes en riesgo de infecciones mortales.",
+            "p2": "En Santa Bárbara, representamos a individuos que han sufrido complicaciones debido a estos kits retirados. Nuestra firma investiga la línea de tiempo del defecto y la falla del fabricante al no advertir al público."
+          },
+          "section2": {
+            "title": "Reconociendo los Riesgos de los Kits de Depósito JP",
+            "items": {
+              "item1": "Infecciones Post-Operatorias",
+              "item2": "El equipo no esterilizado puede provocar infecciones severas en el sitio quirúrgico, caracterizadas por fiebre alta y secreción inusual.",
+              "item3": "Sepsis y Riesgos Sistémicos",
+              "item4": "Si una infección de herida no se trata agresivamente, puede progresar a sepsis, una condición mortal que conduce a la falla de órganos.",
+              "item5": "Hospitalización Prolongada",
+              "item6": "Las víctimas de dispositivos médicos defectuosos suelen enfrentar cirugías adicionales y tratamientos prolongados para combatir infecciones evitables."
+            }
+          },
+          "section3": {
+            "title": "Un Legado Desafiando a Grandes Corporaciones",
+            "p1": "Con más de 50 años de experiencia legal colectiva, nuestro equipo tiene los recursos para enfrentar a los grandes fabricantes médicos bajo cuota de contingencia."
+          },
+          "quote": "La seguridad médica es un derecho, no un privilegio. Estamos con los pacientes para asegurar que la negligencia corporativa nunca quede impune.",
+          "faqs": {
+            "title": "Retiros de Dispositivos Médicos: Preguntas Frecuentes",
+            "q1": "¿Cómo sé si se usó un dispositivo retirado en mi cirugía?",
+            "a1": "Sus registros quirúrgicos y documentos de alta hospitalaria enumerarán los instrumentos utilizados. Podemos ayudarle a obtener estos registros para confirmar si su dispositivo era parte de un lote retirado.",
+            "q2": "¿Cuáles son las señales de alerta temprana de una infección por dispositivo?",
+            "a2": "Los pacientes deben monitorear fiebres altas, escalofríos o hinchazón excesiva en el sitio de la herida. Si experimenta estos síntomas, busque atención médica de inmediato.",
+            "q3": "¿Puedo demandar incluso si el fabricante emitió un retiro 'voluntario'?",
+            "a3": "Sí. Un retiro voluntario no exime a una empresa de responsabilidad por el daño que su producto causó antes o durante el proceso de retiro.",
+            "q4": "¿Qué compensación está disponible por lesiones de dispositivos médicos?",
+            "a4": "Usted puede buscar recuperación por facturas médicas adicionales, salarios perdidos durante su recuperación extendida, dolor, sufrimiento y el impacto a largo plazo en su salud."
+          }
+        }
+      },
+      "carAccidentLiability": {
+        "metadata": {
+          "title": "Abogados de Responsabilidad en Accidentes de Auto | Santa Bárbara | Osbelia Castillo",
+          "description": "¿Luchando por probar la culpa tras un choque? Nuestros abogados en Santa Bárbara le ayudan a establecer la negligencia y asegurar una compensación justa."
+        },
+        "hero": {
+          "prestige": "Ley de Responsabilidad y Negligencia",
+          "title": "Responsabilidad en",
+          "subtitle": "Accidentes de Auto",
+          "description": "Determinar quién tiene la culpa es el paso más crítico en un reclamo. Usamos cada recurso para establecer la responsabilidad y proteger su derecho a la recuperación.",
+          "alt": "Abogada Osbelia Castillo - Experta en responsabilidad en accidentes de auto"
+        },
+        "content": {
+          "section1": {
+            "title": "Defensa Estratégica para Establecer la Culpa",
+            "p1": "Probar la responsabilidad en un accidente requiere más que una simple declaración; requiere una estrategia legal integral. Estamos aquí para asegurar que los hechos se presenten con claridad.",
+            "p2": "Las acciones que tome en los momentos posteriores a un choque son vitales. Nuestro equipo legal revisa cada detalle —desde datos de cajas negras hasta declaraciones de testigos— para hacer responsables a los conductores negligentes."
+          },
+          "section2": {
+            "title": "Pasos Críticos para Proteger su Reclamo",
+            "items": {
+              "item1": "Documentación Oficial",
+              "item2": "Siempre llame a la policía. Un informe de incidente oficial proporciona una observación neutral que es esencial para probar su versión de los hechos.",
+              "item3": "Recopilación de Evidencia",
+              "item4": "Tome fotos de la escena, de todos los vehículos involucrados y de sus lesiones. Evite discutir la culpa en la escena con otros conductores.",
+              "item5": "Registros Médicos",
+              "item6": "Busque atención inmediata y documente su tratamiento. Los registros médicos consistentes evitan que los ajustadores aleguen que sus lesiones no están relacionadas con el choque."
+            }
+          },
+          "section3": {
+            "title": "Cómo los Ajustadores Determinan la Responsabilidad",
+            "p1": "Las compañías de seguros analizan factores como las leyes de tránsito locales, el punto de impacto y los informes policiales. Trabajamos para identificar errores en el reporte inicial para asegurar que se reconozca la verdadera causa."
+          },
+          "quote": "Establecer la verdad es el primer paso hacia la justicia. No dejamos piedra sin remover para probar la responsabilidad y asegurar su futuro.",
+          "faqs": {
+            "title": "Responsabilidad en Accidentes de Auto: Preguntas Frecuentes",
+            "q1": "¿Qué pasa si el informe policial es incorrecto?",
+            "a1": "Los errores fácticos pueden corregirse si tiene evidencia creíble. Para errores que involucren la opinión de un oficial, podemos trabajar para que su declaración formal sea agregada al registro.",
+            "q2": "¿Aún puedo recuperar compensación si tuve parte de la culpa?",
+            "a2": "Sí. California sigue una regla de negligencia comparativa, lo que significa que aún puede recuperar daños incluso si fue parcialmente responsable.",
+            "q3": "¿Debería disculparme con el otro conductor en la escena?",
+            "a3": "No. Aunque es natural ser cortés, una disculpa puede interpretarse legalmente como una admisión de culpa. Limítese a intercambiar información únicamente.",
+            "q4": "¿Cuánto tiempo tengo para presentar un reclamo en California?",
+            "a4": "Generalmente, tiene dos años desde la fecha del accidente para presentar una demanda por lesiones personales. Es mejor comenzar el proceso lo antes posible."
+          }
+        }
+      },
+      "boatingAccidents": {
+        "metadata": {
+          "title": "Abogados de Accidentes de Botes | Santa Bárbara | Osbelia Castillo",
+          "description": "¿Lesionado en un accidente de bote? Nuestros abogados en Santa Bárbara hacen responsables a operadores negligentes por desatención y fallas de maquinaria. Consulta gratuita."
+        },
+        "hero": {
+          "prestige": "Seguridad Marítima y de Navegación",
+          "title": "Accidentes",
+          "subtitle": "de Botes",
+          "description": "Los canales de navegación deben disfrutarse con seguridad. Cuando la negligencia conduce a colisiones, brindamos la defensa agresiva necesaria para asegurar su recuperación.",
+          "alt": "Abogada Osbelia Castillo - Experta en accidentes de botes y leyes marítimas"
+        },
+        "content": {
+          "section1": {
+            "title": "Defensa Diligente para Víctimas de Navegación",
+            "p1": "Los accidentes de botes a menudo resultan en lesiones devastadoras. Ya sea en un lago o en el océano abierto, las víctimas merecen un equipo legal dedicado para navegar estas aguas difíciles.",
+            "p2": "Nuestra firma realiza investigaciones exhaustivas para determinar la responsabilidad, asegurando que los operadores negligentes rindan cuentas por el daño causado."
+          },
+          "section2": {
+            "title": "Causas Comunes de Colisiones Marítimas",
+            "items": {
+              "item1": "Negligencia del Operador",
+              "item2": "Distracciones por celulares, música fuerte o simplemente no prestar atención a los alrededores.",
+              "item3": "Navegación Bajo la Influencia",
+              "item4": "Persiguiendo con firmeza casos donde el alcohol o las drogas afectaron la operación segura de una embarcación.",
+              "item5": "Falla de Maquinaria y Equipo",
+              "item6": "Haciendo responsables a fabricantes o dueños por componentes de botes defectuosos o mal mantenidos."
+            }
+          },
+          "section3": {
+            "title": "Experiencia en la que Puede Confiar",
+            "p1": "Con más de 50 años de experiencia legal colectiva, tenemos un historial probado de asegurar justicia para víctimas de accidentes en todo California."
+          },
+          "quote": "Un día en el agua no debería terminar en tragedia. Usamos nuestra amplia experiencia para asegurar que los operadores cumplan con su responsabilidad legal."
+        }
+      }
+    }
+  },
+  "ShannonMCrane": {
+    "metadata": {
+      "title": "Shannon M. Crane | Socia Directora | Abogada de Lesiones Personales",
+      "description": "Conozca a Shannon M. Crane, Socia Directora de Crane Flores Injury & Car Accident Lawyers. Experimentada abogada de lesiones personales en Oxnard especializada en muerte por negligencia y accidentes de auto."
+    },
+    "hero": {
+      "name": "Shannon M. Crane",
+      "tagline": "Más de 50 años de experiencia combinada dedicada a ayudar a víctimas lesionadas",
+      "heading": "Shannon M. Crane – Abogada de Lesiones Personales en Oxnard, Ventura y Santa Bárbara",
+      "subtitle": "Abogada, Socia Fundadora"
+    },
+    "profile": {
+      "p1": "Como socia fundadora de Crane Flores Injury & Car Accident Lawyers, Shannon M. Crane es una experimentada abogada en Oxnard y la Socia Directora de la firma. Concentra su práctica en casos de lesiones personales y muerte por negligencia, incluyendo accidentes automovilísticos, accidentes de camiones, negligencia médica, lesiones de nacimiento, lesiones cerebrales y abuso sexual infantil.",
+      "p2": "Con respecto a su participación comunitaria, la Sra. Crane tiene dos hijas y es voluntaria cada semana en la escuela de sus hijas. Además, patrocina eventos para la escuela, como el Festival de Pintura Callejera I Madonnari."
+    },
+    "education": {
+      "title": "Educación:",
+      "list": [
+        "B.A., Universidad de California, Santa Bárbara",
+        "J.D., Facultad de Derecho de la Universidad Loyola, Los Ángeles (1993)"
+      ]
+    },
+    "admissions": {
+      "title": "Admisiones:",
+      "list": [
+        "Tribunales Estatales de California",
+        "Tribunal de Distrito de los EE. UU., Distrito Central de California"
+      ]
+    },
+    "associations": {
+      "title": "Asociaciones Profesionales / Membresías:",
+      "list": [
+        "Colegio de Abogados del Estado de California (State Bar)",
+        "Abogados de Consumidores de California",
+        "Asociación de Abogados de Consumidores de Los Ángeles"
+      ]
+    },
+    "footer": {
+      "text": "Crane Flores Injury & Car Accident Lawyers tiene oficinas en Santa Bárbara, Ventura y Oxnard.",
+      "link": "Contáctenos",
+      "afterLink": " al (805) 292-7074 para programar una consulta gratuita con uno de nuestros abogados hoy mismo."
+    },
+    "highlights": {
+      "experience": "Tenemos la experiencia para recuperar una indemnización para usted",
+      "virtualConsult": {
+        "title": "Comience con una Consulta Virtual",
+        "desc": "No necesita venir a nuestra oficina. ¡Podemos reunirnos virtualmente!"
+      },
+      "spanishService": {
+        "title": "Brindando Servicio en Español",
+        "desc": "Nuestro equipo se enorgullece de brindar servicios legales en español."
+      },
+      "recoveredMillions": {
+        "title": "Hemos recuperado millones de dólares para nuestros clientes"
+      },
+      "available24": {
+        "title": "Disponibles para responder su llamada las 24 horas del día"
       }
     }
   }

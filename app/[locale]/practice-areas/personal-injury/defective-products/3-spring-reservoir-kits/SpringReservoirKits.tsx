@@ -92,13 +92,15 @@ const MedicalDeviceRecallContent = () => {
               </p>
             </div>
 
-            <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] hero-portrait flex items-start justify-center lg:justify-end">
-              <div className="relative w-full max-w-[450px] h-full rounded-[2rem] overflow-hidden shadow-2xl border border-white/10">
+            {/* Right Side: Premium Portrait */}
+            <div className="lg:col-span-5 relative w-full h-[280px] md:h-[300px] lg:h-[300px] hero-portrait flex items-start justify-center lg:justify-end">
+              <div className="relative w-full max-w-[400px] h-full rounded-[2rem] overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.3)] border border-white/20 bg-white/5 backdrop-blur-sm">
+                <div className="absolute inset-0 bg-gradient-to-b from-[#C5A059]/10 to-transparent"></div>
                 <Image
                   src="/assets/osbelia-castillo.jpg"
                   alt={t("hero.alt")}
                   fill
-                  className="object-cover object-top"
+                  className="object-cover object-top scale-105"
                   priority
                 />
               </div>
@@ -121,13 +123,7 @@ const MedicalDeviceRecallContent = () => {
                 </div>
 
                 <div className="flex-1 space-y-10">
-                  {/* Label Badge */}
-                  <div className="inline-flex items-center gap-3">
-                    <span className="w-8 h-[1px] bg-[#C5A059]"></span>
-                    <span className="text-[#C5A059] font-sans font-black tracking-[0.3em] uppercase text-[11px]">
-                      Legal Insight
-                    </span>
-                  </div>
+                  
 
                   <h2 className="text-3xl font-serif font-bold text-[#0A1128] leading-[1.3] max-w-4xl">
                     {t("content.section1.title")}
