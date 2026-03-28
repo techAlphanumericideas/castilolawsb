@@ -432,26 +432,6 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-
-        {/* Improved Settlement Ticker */}
-        <div className="absolute bottom-0 left-0 w-full bg-[#0A1128] py-4 overflow-hidden whitespace-nowrap z-20 border-t border-[#C5A059]/10">
-          <div className="gsap-marquee inline-block will-change-transform cursor-default">
-            {[
-              ...settlements,
-              ...settlements,
-              ...settlements,
-              ...settlements,
-            ].map((item, i) => (
-              <span
-                key={i}
-                className="inline-flex items-center mx-12 text-white/40 font-sans font-black tracking-[0.2em] uppercase text-[12px] transition-all duration-600 hover:text-[#C5A059]"
-              >
-                <span className="w-2 h-2 bg-[#C5A059] mr-8 rounded-full shadow-[0_0_10px_rgba(197,160,89,0.5)]"></span>
-                {item}
-              </span>
-            ))}
-          </div>
-        </div>
       </section>
 
       {/* About Osbelia Castillo Section */}
