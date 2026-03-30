@@ -149,7 +149,7 @@ const MedicalDeviceRecallContent = () => {
             {/* Section 2: Cards for Recall Risks */}
             <div className="reveal-up">
               <div className="flex items-center gap-6 mb-16">
-                <h2 className="text-3xl font-serif font-bold text-[#0A1128] shrink-0">
+                <h2 className="text-3xl max-w-85 font-serif font-bold text-[#0A1128] shrink-0">
                   {t("content.section2.title")}
                 </h2>
                 <div className="h-[2px] w-full bg-gradient-to-r from-gray-100 to-transparent"></div>
