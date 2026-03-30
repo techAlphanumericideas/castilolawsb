@@ -157,7 +157,7 @@ const OsbeliaCastilloContent = () => {
                     key="direct-phone"
                     href="tel:8052837656"
                     aria-label="Call Attorney Osbelia Castillo directly"
-                    className="flex items-center gap-4 hover:text-[#C5A059] transition-colors group"
+                    className="flex items-center gap-4 transition-colors group"
                   >
                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#C5A059] transition-all">
                       <Phone className="w-5 h-5" />

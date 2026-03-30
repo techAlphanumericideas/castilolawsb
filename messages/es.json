@@ -25,7 +25,7 @@
     "carAccidents": "Accidentes de Auto",
     "carAccidentLiability": "Responsabilidad en Accidentes",
     "propertyDamages": "Daños a la Propiedad",
-    "underinsuredMotoristClaims": "Reclamos de Conductores con Seguro Insuficiente",
+    "underinsuredMotoristClaims": "Reclamaciones por conductores sin seguro",
     "truckAccidents": "Accidentes de Camiones",
     "motorcycleAccidents": "Accidentes de Motocicleta",
     "bicycleAccidents": "Accidentes de Bicicleta",
@@ -43,7 +43,7 @@
     "craneAccidents": "Accidentes de Grúas",
     "forkliftAccidents": "Accidentes de Montacargas",
     "medicalDeviceRecall": "Kits de Depósito de 3 Resortes",
-    "wrongfulDeath": "Muerte por Negligencia",
+    "wrongfulDeath": "Reclamaciones por Muerte Injusta",
     "workersComp": "Compensación al Trabajador",
     "areasWeServe": "Áreas que Servimos",
     "rolloverAccidents": "Accidentes de Volcamiento",
@@ -126,7 +126,7 @@
   },
   "Contact": {
     "fluent": "Consulta Ofrecida en Inglés y Español",
-    "ready": "Listos para <defend>Defender</defend> su Futuro.",
+    "ready": "Listos para <defend>Defender</defend> tu Futuro.",
     "description": "Nos tomamos el tiempo para examinar cada detalle de su caso. Permítanos guiarlo a través de sus opciones legales con claridad y dedicación.",
     "speakWithTeam": "Hable directamente con nuestro equipo",
     "clickToCall": "Haga clic para llamar",
@@ -163,7 +163,7 @@
       "skill3": "Análisis de Responsabilidad Compleja",
       "skill4": "Representación en Muerte por Negligencia",
       "skill5": "Defensoría Legal Bilingüe",
-      "skill6": "Negociación de Acuerdos Pre-Juicio"
+      "skill6": "Negociación de acuerdo previa al juicio"
     },
     "sidebar": {
       "directContact": "Contacto Directo",
@@ -221,7 +221,7 @@
     "common": {
       "heroPrestige": "Áreas de Práctica",
       "defenseAdvantage": "La Ventaja de la Defensa",
-      "insuranceExpertise": "Experiencia en Seguros",
+      "insuranceExpertise": "Pericia en seguros",
       "insuranceExpertiseDesc": "Anticipamos las tácticas de las compañías de seguros para evitar estrategias comunes de denegación de reclamos.",
       "maximumRecovery": "Máxima Recuperación",
       "maximumRecoveryDesc": "Preparación meticulosa de casos diseñada para asegurar los acuerdos más altos posibles.",
@@ -922,9 +922,9 @@
           "section2": {
             "title": "Defensa Enfocada en el Motociclista",
             "items": {
-              "item1": "Combatiendo el Prejuicio",
+              "item1": "Combatir los sesgos",
               "item2": "Luchando contra los estereotipos negativos para probar que el error del otro conductor fue la verdadera causa del accidente.",
-              "item3": "Experiencia en Lesiones",
+              "item3": "Pericia en lesiones",
               "item4": "Especializados en casos que involucran raspaduras, fracturas de huesos y lesiones en la cabeza únicas de los motociclistas.",
               "item5": "Defensa de Responsabilidad",
               "item6": "Probando que la falla del otro conductor al no verlo o no respetar su carril causó el accidente."
@@ -1028,7 +1028,7 @@
           "complianceDesc": "Verificando violaciones a las reglas de horas de servicio de la Administración Federal de Seguridad de Autotransportistas.",
           "liability": "Responsabilidad Vicaria",
           "liabilityDesc": "Haciendo responsable a toda la empresa de camiones por las acciones y descuidos de su conductor.",
-          "audits": "Auditorías de Libros de Registro",
+          "audits": "Auditorías de bitácoras",
           "auditsDesc": "Exponiendo registros falsificados usados para ocultar la fatiga del conductor y horas excesivas al volante.",
           "recovery": "Recuperación Catastrófica",
           "recoveryDesc": "Asegurando recursos para cuidados a largo plazo requeridos tras colisiones comerciales de alto impacto.",
@@ -1305,7 +1305,7 @@
         "content": {
           "section1": {
             "title": "Abogando por las Víctimas de Negligencia Industrial",
-            "p1": "Los accidentes de montacargas son una de las causas principales de lesiones graves en almacenes y sitios de construcción en Santa Bárbara. Ya sea por falta de capacitación, falla mecánica o un entorno de trabajo caótico, estos incidentes a menudo resultan en dificultades físicas y financieras a largo plazo.",
+            "p1": "Los accidentes de montacargas son una de las causas principales de lesiones graves en almacenes y sitios de construcción en todo Santa Barbara. Ya sea por una capacitación inadecuada, fallas mecánicas o un entorno laboral caótico, estos incidentes a menudo resultan en dificultades físicas y financieras a largo plazo. Las víctimas merecen un defensor que comprenda las complejas regulaciones de seguridad que rigen losf lugares de trabajo industriales.",
             "p2": "Nuestra firma realiza investigaciones profundas sobre las causas raíz de la falla de la maquinaria. Examinamos los registros de mantenimiento y el cumplimiento de los protocolos de seguridad para asegurar que los operadores y empresas negligentes rindan cuentas por el daño causado."
           },
           "section2": {
@@ -1482,8 +1482,8 @@
         "content": {
           "section1": {
             "title": "Haciendo Responsable a la Autoridad ante la Ley",
-            "p1": "Los oficiales de la ley juran proteger al público, pero cuando abusan de su poder, los resultados suelen ser trágicos. La brutalidad policial y los tiroteos representan una traición profunda a la confianza comunitaria.",
-            "p2": "Presentar un reclamo contra una agencia gubernamental es una batalla cuesta arriba que requiere un conocimiento profundo de los litigios de derechos civiles. Garantizamos que quienes portan la placa cumplan con los mismos estándares legales que los ciudadanos a quienes sirven."
+            "p1": "Los agentes del orden tienen el juramento de proteger al público, pero cuando abusan de su poder, los resultados suelen ser trágicos. La brutalidad policial y los tiroteos representan una profunda traición a la confianza de la comunidad y pueden dejar a las víctimas con secuelas físicas y emocionales que cambian sus vidas para siempre.",
+            "p2": "Presentar una demanda contra una agencia gubernamental es una batalla cuesta arriba que requiere un conocimiento profundo del litigio en materia de derechos civiles. Nuestra firma investiga las circunstancias específicas de conducta indebida—desde el uso excesivo de la fuerza hasta la detención ilegal—para garantizar que quienes portan la placa estén sujetos a las mismas normas legales que los ciudadanos a los que sirven."
           },
           "section2": {
             "title": "Reconociendo Violaciones de Derechos Civiles",
@@ -1623,8 +1623,8 @@
         "content": {
           "section1": {
             "title": "Defensa Estratégica para Establecer la Culpa",
-            "p1": "Probar la responsabilidad en un accidente requiere más que una simple declaración; requiere una estrategia legal integral. Estamos aquí para asegurar que los hechos se presenten con claridad.",
-            "p2": "Las acciones que tome en los momentos posteriores a un choque son vitales. Nuestro equipo legal revisa cada detalle —desde datos de cajas negras hasta declaraciones de testigos— para hacer responsables a los conductores negligentes."
+            "p1": "Demostrar la responsabilidad en un accidente automovilístico requiere más que una simple declaración; requiere una estrategia legal integral. Ya sea que haya estado involucrado en un choque múltiple o en una colisión lateral, las compañías de seguros a menudo buscarán formas de desviar la culpa. Estamos aquí para garantizar que los hechos se presenten con claridad y que sus intereses sean defendidos.",
+            "p2": "Las acciones que usted tome en los momentos posteriores a un accidente son fundamentales. Nuestro equipo legal analiza cada detalle—desde los datos de la caja negra hasta las declaraciones de los testigos—para construir una base sólida de pruebas que haga responsables a los conductores negligentes por los daños que han causado."
           },
           "section2": {
             "title": "Pasos Críticos para Proteger su Reclamo",
