@@ -65,7 +65,7 @@ const ForkliftAccidentsContent = () => {
               </p>
             </div>
 
-            <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] hero-portrait flex items-start justify-center lg:justify-end">
+            <div className="lg:col-span-5 relative w-full h-[300px] md:h-[300px] md:w-[400px] hero-portrait flex items-start justify-center lg:justify-end ml-0 md:ml-11">
               <div className="relative w-full max-w-[450px] h-full rounded-[2rem] overflow-hidden shadow-2xl border border-white/10">
                  <Image
                    src="/assets/osbelia-castillo.jpg"

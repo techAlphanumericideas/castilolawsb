@@ -107,9 +107,6 @@ const PoliceBrutalityContent = () => {
               <div className="relative p-1 md:p-10 border border-gray-100 rounded-[3rem] bg-[#FCFCFC] transition-all duration-500 hover:bg-white hover:shadow-2xl hover:shadow-[#C5A059]/5">
                 <div className="absolute top-0 left-0 w-20 h-20 border-t-4 border-l-4 border-[#C5A059] -translate-x-2 -translate-y-2 rounded-tl-[3rem] opacity-30 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
-                <span className="text-[#C5A059] font-sans font-bold tracking-[0.4em] uppercase text-[11px] mb-6 block px-8">
-                  Civil Rights Litigation
-                </span>
                 <h2 className="text-3xl md:text-3xl font-serif font-bold text-[#0A1128] mb-10 leading-[1.15] px-8">
                   {t("content.section1.title")}
                 </h2>

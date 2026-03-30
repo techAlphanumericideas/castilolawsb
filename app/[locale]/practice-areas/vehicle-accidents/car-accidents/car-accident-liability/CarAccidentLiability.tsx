@@ -4,7 +4,16 @@ import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
-import { ShieldAlert, Scale, ClipboardCheck, Camera, FileText, ChevronDown, Plus, Minus } from "lucide-react";
+import {
+  ShieldAlert,
+  Scale,
+  ClipboardCheck,
+  Camera,
+  FileText,
+  ChevronDown,
+  Plus,
+  Minus,
+} from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 import { useTranslations } from "next-intl";
 
@@ -36,7 +45,7 @@ const CarAccidentLiabilityContent = () => {
         duration: 1,
         ease: "power3.out",
         delay: 0.2,
-        stagger: 0.1
+        stagger: 0.1,
       });
 
       gsap.from(".hero-portrait", {
@@ -44,7 +53,7 @@ const CarAccidentLiabilityContent = () => {
         opacity: 0,
         duration: 1.2,
         ease: "power4.out",
-        delay: 0.5
+        delay: 0.5,
       });
     }, contentRef);
 
@@ -74,22 +83,24 @@ const CarAccidentLiabilityContent = () => {
               </div>
               <h1 className="text-4xl md:text-7xl font-serif font-bold text-white mb-8 leading-tight hero-reveal">
                 {t("hero.title")} <br />
-                <span className="text-[#C5A059] italic">{t("hero.subtitle")}</span>
+                <span className="text-[#C5A059] italic">
+                  {t("hero.subtitle")}
+                </span>
               </h1>
               <p className="text-lg md:text-xl text-white/70 font-light leading-relaxed mb-10 hero-reveal max-w-2xl">
                 {t("hero.description")}
               </p>
             </div>
 
-            <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] hero-portrait flex items-start justify-center lg:justify-end">
+            <div className="lg:col-span-5 relative w-full h-[300px] md:h-[300px] md:w-[400px] hero-portrait flex items-start justify-center lg:justify-end ml-0 md:ml-11">
               <div className="relative w-full max-w-[450px] h-full rounded-[2rem] overflow-hidden shadow-2xl border border-white/10">
-                 <Image
-                   src="/assets/osbelia-castillo.jpg"
-                   alt={t("hero.alt")}
-                   fill
-                   className="object-cover object-top"
-                   priority
-                 />
+                <Image
+                  src="/assets/osbelia-castillo.jpg"
+                  alt={t("hero.alt")}
+                  fill
+                  className="object-cover object-top"
+                  priority
+                />
               </div>
             </div>
           </div>
@@ -100,7 +111,6 @@ const CarAccidentLiabilityContent = () => {
       <section className="py-16 md:py-24 px-6 md:px-12 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
           <div className="lg:col-span-8 space-y-16 md:space-y-24">
-            
             {/* Section 1: Introduction - Layered Pillar Design */}
             <div className="reveal-up relative overflow-hidden">
               <div className="flex flex-col md:flex-row gap-8 md:gap-16">
@@ -111,10 +121,6 @@ const CarAccidentLiabilityContent = () => {
                 </div>
 
                 <div className="flex-1 space-y-10">
-                  <div className="inline-flex items-center gap-3">
-                    <span className="w-8 h-[1px] bg-[#C5A059]"></span>
-                    <span className="text-[#C5A059] font-sans font-black tracking-[0.3em] uppercase text-[11px]">Legal Insight</span>
-                  </div>
                   <h2 className="text-3xl font-serif font-bold text-[#0A1128] leading-[1.3] max-w-4xl">
                     {t("content.section1.title")}
                   </h2>
@@ -144,16 +150,35 @@ const CarAccidentLiabilityContent = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {[
-                  { icon: ClipboardCheck, title: t("content.section2.items.item1"), text: t("content.section2.items.item2") },
-                  { icon: Camera, title: t("content.section2.items.item3"), text: t("content.section2.items.item4") },
-                  { icon: FileText, title: t("content.section2.items.item5"), text: t("content.section2.items.item6") }
+                  {
+                    icon: ClipboardCheck,
+                    title: t("content.section2.items.item1"),
+                    text: t("content.section2.items.item2"),
+                  },
+                  {
+                    icon: Camera,
+                    title: t("content.section2.items.item3"),
+                    text: t("content.section2.items.item4"),
+                  },
+                  {
+                    icon: FileText,
+                    title: t("content.section2.items.item5"),
+                    text: t("content.section2.items.item6"),
+                  },
                 ].map((item, i) => (
-                  <div key={i} className="group p-8 bg-white border border-gray-100 rounded-[2rem] hover:shadow-xl transition-all duration-500 relative overflow-hidden">
+                  <div
+                    key={i}
+                    className="group p-8 bg-white border border-gray-100 rounded-[2rem] hover:shadow-xl transition-all duration-500 relative overflow-hidden"
+                  >
                     <div className="w-12 h-12 bg-[#F9F9F9] rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#0A1128] transition-colors duration-500">
                       <item.icon className="w-6 h-6 text-[#C5A059] group-hover:text-white" />
                     </div>
-                    <h3 className="text-xl font-bold mb-3 text-[#0A1128] group-hover:text-[#C5A059] transition-colors">{item.title}</h3>
-                    <p className="text-sm text-gray-500 leading-relaxed">{item.text}</p>
+                    <h3 className="text-xl font-bold mb-3 text-[#0A1128] group-hover:text-[#C5A059] transition-colors">
+                      {item.title}
+                    </h3>
+                    <p className="text-sm text-gray-500 leading-relaxed">
+                      {item.text}
+                    </p>
                   </div>
                 ))}
               </div>
@@ -163,14 +188,18 @@ const CarAccidentLiabilityContent = () => {
             <div className="reveal-up bg-[#0A1128] rounded-[2.5rem] md:rounded-[3.5rem] p-10 md:p-20 text-center relative overflow-hidden shadow-2xl">
               <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#C5A059] to-transparent"></div>
               <div className="relative z-10">
-                <span className="text-5xl font-serif text-[#C5A059] block mb-6">“</span>
+                <span className="text-5xl font-serif text-[#C5A059] block mb-6">
+                  “
+                </span>
                 <h2 className="text-2xl md:text-3xl font-serif text-white italic leading-relaxed mb-10 max-w-3xl mx-auto">
                   {t("content.quote")}
                 </h2>
                 <div className="inline-flex items-center gap-4">
-                   <div className="h-[1px] w-8 bg-[#C5A059]"></div>
-                   <p className="text-[#C5A059] font-sans font-black tracking-[0.3em] uppercase text-[10px] md:text-[12px]">Osbelia Castillo</p>
-                   <div className="h-[1px] w-8 bg-[#C5A059]"></div>
+                  <div className="h-[1px] w-8 bg-[#C5A059]"></div>
+                  <p className="text-[#C5A059] font-sans font-black tracking-[0.3em] uppercase text-[10px] md:text-[12px]">
+                    Osbelia Castillo
+                  </p>
+                  <div className="h-[1px] w-8 bg-[#C5A059]"></div>
                 </div>
                 <p className="mt-8 text-white/40 text-sm italic font-light max-w-2xl mx-auto">
                   {t("content.section3.p1")}
@@ -186,18 +215,30 @@ const CarAccidentLiabilityContent = () => {
               <div className="grid grid-cols-1 gap-4">
                 {faqData.map((faq, index) => (
                   <div key={index} className="border-b border-gray-100">
-                    <button 
-                      onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                    <button
+                      onClick={() =>
+                        setOpenFaq(openFaq === index ? null : index)
+                      }
                       className="w-full py-6 flex items-center justify-between text-left group"
                     >
-                      <span className={`text-lg md:text-xl font-bold transition-colors duration-300 ${openFaq === index ? 'text-[#C5A059]' : 'text-[#0A1128]'}`}>
+                      <span
+                        className={`text-lg md:text-xl font-bold transition-colors duration-300 ${openFaq === index ? "text-[#C5A059]" : "text-[#0A1128]"}`}
+                      >
                         {faq.q}
                       </span>
-                      <div className={`shrink-0 ml-4 transition-transform duration-300 ${openFaq === index ? 'rotate-180 text-[#C5A059]' : 'text-gray-300'}`}>
-                        {openFaq === index ? <Minus className="w-5 h-5" /> : <Plus className="w-5 h-5" />}
+                      <div
+                        className={`shrink-0 ml-4 transition-transform duration-300 ${openFaq === index ? "rotate-180 text-[#C5A059]" : "text-gray-300"}`}
+                      >
+                        {openFaq === index ? (
+                          <Minus className="w-5 h-5" />
+                        ) : (
+                          <Plus className="w-5 h-5" />
+                        )}
                       </div>
                     </button>
-                    <div className={`overflow-hidden transition-all duration-500 ease-in-out ${openFaq === index ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}>
+                    <div
+                      className={`overflow-hidden transition-all duration-500 ease-in-out ${openFaq === index ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
+                    >
                       <div className="pb-8 text-gray-600 text-sm md:text-base leading-relaxed pr-8 border-l-2 border-[#C5A059]/20 pl-6">
                         {faq.a}
                       </div>
@@ -219,7 +260,9 @@ const CarAccidentLiabilityContent = () => {
                       <div className="w-12 h-12 bg-[#C5A059] rounded-xl flex items-center justify-center mb-6 shadow-xl shadow-[#C5A059]/20">
                         <ShieldAlert className="w-6 h-6 text-white" />
                       </div>
-                      <h4 className="text-xl md:text-2xl font-bold text-white mb-4">{commonT("insuranceExpertise")}</h4>
+                      <h4 className="text-xl md:text-2xl font-bold text-white mb-4">
+                        {commonT("insuranceExpertise")}
+                      </h4>
                       <p className="text-white/50 text-sm md:text-base leading-relaxed">
                         {commonT("insuranceExpertiseDesc")}
                       </p>
@@ -228,7 +271,9 @@ const CarAccidentLiabilityContent = () => {
                       <div className="w-12 h-12 bg-[#C5A059] rounded-xl flex items-center justify-center mb-6 shadow-xl shadow-[#C5A059]/20">
                         <Scale className="w-6 h-6 text-white" />
                       </div>
-                      <h4 className="text-xl md:text-2xl font-bold text-white mb-4">{commonT("maximumRecovery")}</h4>
+                      <h4 className="text-xl md:text-2xl font-bold text-white mb-4">
+                        {commonT("maximumRecovery")}
+                      </h4>
                       <p className="text-white/50 text-sm md:text-base leading-relaxed">
                         {commonT("maximumRecoveryDesc")}
                       </p>

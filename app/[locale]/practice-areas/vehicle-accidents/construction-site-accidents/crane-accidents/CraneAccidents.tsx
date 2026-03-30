@@ -81,7 +81,7 @@ const CraneAccidentsContent = () => {
               </p>
             </div>
 
-            <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] hero-portrait flex items-start justify-center lg:justify-end">
+            <div className="lg:col-span-5 relative w-full h-[300px] md:h-[300px] md:w-[400px] hero-portrait flex items-start justify-center lg:justify-end ml-0 md:ml-11">
               <div className="relative w-full max-w-[450px] h-full rounded-[2rem] overflow-hidden shadow-2xl border border-white/10">
                  <Image
                    src="/assets/osbelia-castillo.jpg"
@@ -112,7 +112,7 @@ const CraneAccidentsContent = () => {
                 </h2>
                 <div className="space-y-10">
                   <div className="p-8 md:p-12 bg-[#F9F9F9] border-r-4 border-[#C5A059] rounded-l-[3rem] shadow-sm">
-                    <p className="text-xl md:text-2xl font-light text-gray-600 italic leading-relaxed">
+                    <p className="text-xl md:text-xl font-light text-gray-600 italic leading-relaxed">
                       {t("content.section1.p1")}
                     </p>
                   </div>
@@ -144,7 +144,7 @@ const CraneAccidentsContent = () => {
                         <item.icon className="w-8 h-8 text-white" />
                       </div>
                       <div>
-                        <h3 className="text-2xl font-bold mb-4 text-[#0A1128]">{item.title}</h3>
+                        <h3 className="text-xl font-bold mb-4 text-[#0A1128]">{item.title}</h3>
                         <p className="text-gray-500 leading-relaxed text-base">{item.text}</p>
                       </div>
                     </div>
