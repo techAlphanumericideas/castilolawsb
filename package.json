@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@google-cloud/spanner": "^8.6.0",
+    "dotenv": "^17.4.1",
     "firebase": "^12.10.0",
     "gsap": "^3.14.2",
     "lucide-react": "^0.577.0",
